@@ -1,0 +1,11 @@
+e:\Rust\Projects\cat_extractor\target\rls\debug\deps\arrayvec-74587db8509d1c27.rmeta: C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\lib.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\maybe_uninit_nodrop.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\array.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\array_string.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\char.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\range.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\errors.rs
+
+e:\Rust\Projects\cat_extractor\target\rls\debug\deps\arrayvec-74587db8509d1c27.d: C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\lib.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\maybe_uninit_nodrop.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\array.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\array_string.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\char.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\range.rs C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\errors.rs
+
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\lib.rs:
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\maybe_uninit_nodrop.rs:
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\array.rs:
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\array_string.rs:
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\char.rs:
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\range.rs:
+C:\Users\bad\ wife\.cargo\registry\src\github.com-1ecc6299db9ec823\arrayvec-0.4.12\src\errors.rs:
