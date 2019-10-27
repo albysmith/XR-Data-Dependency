@@ -67,7 +67,7 @@ fn main() {
                         //     && (path.contains("data") || path.contains("DATA"))
                         // {
                             // create missing directory folders (will skip automatically if they exist)
-                            println!("{}", path);
+                            // println!("{}", path);
                             let filepath =
                                 outpath.join((Path::new(&path)).parent().expect("opening folder"));
                             if !filepath.exists() {

@@ -16,16 +16,16 @@ struct Config {
 
 fn main() {
     // for non-release testing ONLY
-    // let config: Config = toml::from_str(
-    //     &fs::read_to_string("E:/Rust/Projects/cat_extractor/target/release files/config.toml").expect("read config")).expect("toml parsing");
+    let config: Config = toml::from_str(
+        &fs::read_to_string("E:/Rust/Projects/cat_extractor/target/release files/config.toml").expect("read config")).expect("toml parsing");
     // let outpath = Path::new(&config.output_path);
     
     // read config.toml in current directory
-    let config: Config = toml::from_str(
-        &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
-            .expect("read config")
-    )
-    .expect("toml parsing");
+    // let config: Config = toml::from_str(
+    //     &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
+    //         .expect("read config")
+    // )
+    // .expect("toml parsing");
     let outpath = Path::new(&config.output_path).join("xr_data_dependency");
     let catpath = Path::new(&config.input_path);
     let dlc_home = &catpath.join("Extensions/ego_dlc_2");
@@ -63,9 +63,10 @@ fn main() {
                         let pattern = format!(" {} {} {}", size, modified_epoch, hash);
                         let path = line.replace(pattern.as_str(), "");
                         // only copying ship data folders and ANI files
-                        // if path.contains("assets/units/")
-                        //     && (path.contains("data") || path.contains("DATA"))
-                        // {
+                        if path.contains("assets/units/")
+                            && (path.contains("data") || path.contains("DATA"))
+                            // && path.contains("xml")
+                        {
                             // create missing directory folders (will skip automatically if they exist)
                             println!("{}", path);
                             let filepath =
@@ -85,10 +86,10 @@ fn main() {
                             let out_file_path = outpath.join(&path);
                             let mut outputfile = File::create(out_file_path).unwrap();
                             outputfile.write_all(&writer).unwrap();
-                        // } else {
-                        //     let bytes_to_read = size.parse::<u64>().expect("parsing buffer");
-                        //     datfile.seek(SeekFrom::Current(bytes_to_read as i64)).expect("seek");
-                        // }
+                        } else {
+                            let bytes_to_read = size.parse::<u64>().expect("parsing buffer");
+                            datfile.seek(SeekFrom::Current(bytes_to_read as i64)).expect("seek");
+                        }
                         // break;
                     }
                     // break;
@@ -96,25 +97,25 @@ fn main() {
             }
         }
     }
-//     let content_string = "<?xml version=\"1.0\" encoding=\"utf-8\"?>
-// <content id=\"xr_data_dependency\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" version=\"1\" date=\"2019-10-31\" save=\"0\" enabled=\"1\">
-//  <text language=\"7\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"33\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"34\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"39\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"44\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"49\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"55\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"81\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"82\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"86\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-//  <text language=\"88\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-// </content>
-// ";
-//     let mut content_file =
-//         File::create(outpath.join("content.xml")).expect("creating content file");
-//     content_file
-//         .write_all(&content_string.as_bytes())
-//         .expect("writing content file");
+    let content_string = "<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<content id=\"xr_data_dependency\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" version=\"1\" date=\"2019-10-31\" save=\"0\" enabled=\"1\">
+ <text language=\"7\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"33\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"34\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"39\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"44\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"49\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"55\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"81\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"82\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"86\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+ <text language=\"88\" name=\"XR Data Dependency\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
+</content>
+";
+    let mut content_file =
+        File::create(outpath.join("content.xml")).expect("creating content file");
+    content_file
+        .write_all(&content_string.as_bytes())
+        .expect("writing content file");
     println!("Extraction Complete");
 }
