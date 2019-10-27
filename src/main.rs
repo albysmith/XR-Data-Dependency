@@ -16,7 +16,7 @@ fn main() {
     // catpath = XR main directory
     let catpath = Path::new("E:/Games/Steam/steamapps/common/X4 Foundations");
 
-    // read the files in the catpath folder and capture the ones with .cat extensions
+    // read the files in the catpath folder and capture the ones with .cat extensions, ignoring sig files
     for entry in fs::read_dir(catpath).expect("read_dir") {
         let file = entry.expect("unwrapping entry");
         let catfile_path = file.path();
