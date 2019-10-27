@@ -16,17 +16,17 @@ struct Config {
 
 fn main() {
     // for non-release testing ONLY
-    let config: Config = toml::from_str(
-        &fs::read_to_string("E:/Rust/Projects/cat_extractor/target/release files/config.toml").expect("read config")).expect("toml parsing");
-    let outpath = Path::new(&config.output_path);
+    // let config: Config = toml::from_str(
+    //     &fs::read_to_string("E:/Rust/Projects/cat_extractor/target/release files/config.toml").expect("read config")).expect("toml parsing");
+    // let outpath = Path::new(&config.output_path);
     
     // read config.toml in current directory
-    // let config: Config = toml::from_str(
-    //     &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
-    //         .expect("read config")
-    // )
-    // .expect("toml parsing");
-    // let outpath = Path::new(&config.output_path).join("xr_data_dependency");
+    let config: Config = toml::from_str(
+        &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
+            .expect("read config")
+    )
+    .expect("toml parsing");
+    let outpath = Path::new(&config.output_path).join("xr_data_dependency");
     let catpath = Path::new(&config.input_path);
     let dlc_home = &catpath.join("Extensions/ego_dlc_2");
     let dlc_teladi = &catpath.join("Extensions/ego_dlc_teladi_outpost");
