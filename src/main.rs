@@ -3,12 +3,11 @@
 // use std::env;
 use std::fs;
 use std::fs::File;
-// use std::io;
+use std::io;
 use std::io::prelude::*;
 use std::path::Path;
 // use std::io::BufReader;
 // use rayon::prelude::*;
-
 
 fn main() {
     // outpath = place to output the extracted files
@@ -52,6 +51,12 @@ fn main() {
                 let bytes_to_read = size.parse::<u64>().expect("parsing buffer");
                 let mut buf = vec![];
                 let mut chunk = datfile.take(bytes_to_read);
+
+                let mut reader: &[u8] = &buf;
+                let mut writer: Vec<u8> = vec![];
+
+                io::copy(&mut reader, &mut writer).expect("shut up");
+
                 chunk.read_to_end(&mut buf).expect("Didn't read enough");
                 // for byte in &mut reader.bytes() {
                 //     file_string.push(byte.unwrap());
@@ -64,7 +69,7 @@ fn main() {
                 // println!("{:#?}", reader);
                 let out_path = outpath.join(&path);
                 let mut outputfile = File::create(out_path).unwrap();
-                outputfile.write_all(&buf).unwrap();
+                outputfile.write_all(&writer).unwrap();
                 // outputfile.write_all(&file_string).unwrap();
                 // break;
             }
