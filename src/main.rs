@@ -30,7 +30,7 @@ fn main() {
         {
             println!("{:#?}", catfile_path);
             let datfile_path = catfile_path.with_extension("dat");
-            let mut datfile = &File::open(datfile_path).unwrap();
+            let datfile = &File::open(datfile_path).unwrap();
             // let mut reader = BufReader::new(datfile);
 
             let catfile_string =
