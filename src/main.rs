@@ -3,8 +3,8 @@ use std::fs;
 use std::fs::File;
 use std::io;
 use std::io::prelude::*;
-use std::path::Path;
 use std::io::SeekFrom;
+use std::path::Path;
 #[macro_use]
 extern crate serde;
 
@@ -23,13 +23,15 @@ struct Folder {
 }
 
 fn main() {
-
-// Make the tool create separate mods for each dlc folder
+    // Make the tool create separate mods for each dlc folder
 
     // for non-release testing ONLY
     let config: Config = toml::from_str(
-        &fs::read_to_string("E:/Rust/Projects/cat_extractor/target/release files/config.toml").expect("read config")).expect("toml parsing");
-    
+        &fs::read_to_string("E:/Rust/Projects/cat_extractor/target/release files/config.toml")
+            .expect("read config"),
+    )
+    .expect("toml parsing");
+
     // for release version
     // read config.toml in current directory
     // let config: Config = toml::from_str(
@@ -39,15 +41,45 @@ fn main() {
     // .expect("toml parsing");
 
     // for ship mod extraction only
-    let x_rebirth: Folder = Folder {outpath: format!("{}/xr_data_dependency", &config.output_path), catpath: (&config.input_path).to_string(), mod_id: "xr_data_dependency".to_string(), mod_name: "XR Data Dependency".to_string()} ;
-    let dlc_home: Folder = Folder {outpath: format!("{}/xr_data_dependency_teladioutpost", &config.output_path), catpath: format!("{}/extensions/ego_dlc_teladi_outpost", &config.input_path), mod_id: "xr_data_dependency_teladioutpost".to_string(), mod_name: "XR Data Dependency - Teladi Outpost".to_string()} ;
-    let dlc_teladi: Folder = Folder {outpath: format!("{}/xr_data_dependency_homeoflight", &config.output_path), catpath: format!("{}/extensions/ego_dlc_2", &config.input_path), mod_id: "xr_data_dependency_homeoflight".to_string(), mod_name: "XR Data Dependency - Home of Light".to_string()} ;
+    let x_rebirth: Folder = Folder {
+        outpath: format!("{}/xr_data_dependency", &config.output_path),
+        catpath: (&config.input_path).to_string(),
+        mod_id: "xr_data_dependency".to_string(),
+        mod_name: "XR Data Dependency".to_string(),
+    };
+    let dlc_home: Folder = Folder {
+        outpath: format!("{}/xr_data_dependency_teladioutpost", &config.output_path),
+        catpath: format!("{}/extensions/ego_dlc_teladi_outpost", &config.input_path),
+        mod_id: "xr_data_dependency_teladioutpost".to_string(),
+        mod_name: "XR Data Dependency - Teladi Outpost".to_string(),
+    };
+    let dlc_teladi: Folder = Folder {
+        outpath: format!("{}/xr_data_dependency_homeoflight", &config.output_path),
+        catpath: format!("{}/extensions/ego_dlc_2", &config.input_path),
+        mod_id: "xr_data_dependency_homeoflight".to_string(),
+        mod_name: "XR Data Dependency - Home of Light".to_string(),
+    };
     // end
 
-    // for total extraction 
-    // let x_rebirth: Folder = Folder {outpath: format!("{}/xrebirth", &config.output_path), catpath: (&config.input_path).to_string(), mod_id: "xr_data_dependency".to_string(), mod_name: "XR Data Dependency".to_string()} ;
-    // let dlc_home: Folder = Folder {outpath: format!("{}/teladioutpost", &config.output_path), catpath: format!("{}/extensions/ego_dlc_teladi_outpost", &config.input_path), mod_id: "xr_data_dependency_teladioutpost".to_string(), mod_name: "XR Data Dependency - Teladi Outpost".to_string()} ;
-    // let dlc_teladi: Folder = Folder {outpath: format!("{}/homeoflight", &config.output_path), catpath: format!("{}/extensions/ego_dlc_2", &config.input_path), mod_id: "xr_data_dependency_homeoflight".to_string(), mod_name: "XR Data Dependency - Home of Light".to_string()} ;
+    // for total extraction
+    // let x_rebirth: Folder = Folder {
+    //     outpath: format!("{}/xrebirth", &config.output_path),
+    //     catpath: (&config.input_path).to_string(),
+    //     mod_id: "xr_data_dependency".to_string(),
+    //     mod_name: "XR Data Dependency".to_string(),
+    // };
+    // let dlc_home: Folder = Folder {
+    //     outpath: format!("{}/teladioutpost", &config.output_path),
+    //     catpath: format!("{}/extensions/ego_dlc_teladi_outpost", &config.input_path),
+    //     mod_id: "xr_data_dependency_teladioutpost".to_string(),
+    //     mod_name: "XR Data Dependency - Teladi Outpost".to_string(),
+    // };
+    // let dlc_teladi: Folder = Folder {
+    //     outpath: format!("{}/homeoflight", &config.output_path),
+    //     catpath: format!("{}/extensions/ego_dlc_2", &config.input_path),
+    //     mod_id: "xr_data_dependency_homeoflight".to_string(),
+    //     mod_name: "XR Data Dependency - Home of Light".to_string(),
+    // };
     // end
 
     let folder_vec = vec![x_rebirth, dlc_home, dlc_teladi];
@@ -90,7 +122,7 @@ fn main() {
                             && (path.contains("data") || path.contains("DATA"))
                         {
                             println!("{}", path);
-                        // end
+                            // end
 
                             // create missing directory folders (will skip automatically if they exist)
                             let filepath =
@@ -114,7 +146,9 @@ fn main() {
                         // for ship mod extraction only
                         } else {
                             let bytes_to_read = size.parse::<u64>().expect("parsing buffer");
-                            datfile.seek(SeekFrom::Current(bytes_to_read as i64)).expect("seek");
+                            datfile
+                                .seek(SeekFrom::Current(bytes_to_read as i64))
+                                .expect("seek");
                         }
                         // end
 
