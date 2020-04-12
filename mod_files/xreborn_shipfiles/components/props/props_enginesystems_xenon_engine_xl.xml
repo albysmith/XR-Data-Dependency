@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="props_enginesystems_xenon_engine_xl" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\props\EngineSystems\props_enginesystems_xenon_engine_xl_data" />
+		 
+		<connections>
+			<connection name="space" tags="destructible">
+				<offset />
+			</connection>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
+			<connection name="Connection17" tags="part ship_xr  ">
+				<offset>
+					<position x="113.3409" y="0" z="-5.123948E-03" />
+				</offset>
+				<parts />
+			</connection>
+			<connection name="Connection18" tags="part ship_xr  ">
+				<offset />
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_01" />
+									<material id="3" ref="generic.generic_techtrims_01" />
+									<material id="4" ref="generic.generic_engines_01" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_01" />
+									<material id="3" ref="generic.generic_techtrims_01" />
+									<material id="4" ref="generic.generic_engines_01" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_01" />
+									<material id="3" ref="generic.generic_techtrims_01" />
+									<material id="4" ref="generic.generic_engines_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="53.95047" y="53.95048" z="37.19343" />
+							<center x="0" y="-9.536743E-06" z="-37.19599" />
+						</size>
+					</part>
+				</parts>
+				<waypoints />
+			</connection>
+			<connection name="Connection16" tags="rendereffect" parent="part_main">
+				<offset>
+					<position x="2.837005" y="0" z="-9.603358E-07"/>
+				</offset>
+			</connection>
+			
+			 
+					 
+					 
+					 
+					 
+					 
+					 
+				 
+			 
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,44 @@
+<macros>
+  <macro name="units_size_m_nyanae_01_macro" class="ship_m">
+    <component ref="units_size_m_nyanae_01" />
+    <properties>
+      <identification name="{78238230,293}" basename="{78238230,295}" description="{78238230,294}" unique="0" variation="{78238230,296}" icon="ship_m_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="2003" />
+      <storage missile="102" unit="18" />
+      <hull max="40995" />
+      <people capacity="12" />
+      <ship type="transporter" />
+      <physics mass="82.42">
+        <inertia pitch="8.443" yaw="8.443" roll="6.754" />
+        <drag forward="20.968" reverse="58.71" horizontal="19.916" vertical="19.916" pitch="16.173" yaw="16.173" roll="16.173" />
+      </physics>
+      <thruster tags="medium" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      
+      <connection ref="con_cockpit">
+        <macro ref="deep_state_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_nyanae_01_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

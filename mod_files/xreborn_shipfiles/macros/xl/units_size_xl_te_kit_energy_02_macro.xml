@@ -1,0 +1,336 @@
+<macros>
+  <macro name="units_size_xl_te_kit_energy_02_macro" class="ship_xl">
+    <component ref="units_size_xl_te_kit_energy_02" />
+    <properties>
+      <identification name="{78238230,336}" basename="{78238230,338}" description="{78238230,337}" unique="0" variation="{78238230,339}" icon="ship_l_trade_01" />
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="10336" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <storage missile="34" unit="97" />
+      <hull max="109822" />
+      <people capacity="231" />
+      <ship type="freighter" />
+      <physics mass="885.723">
+        <inertia pitch="598.799" yaw="598.799" roll="479.039" />
+        <drag forward="257.145" reverse="1028.579" horizontal="467.116" vertical="467.116" pitch="877.145" yaw="877.145" roll="877.145" />
+      </physics>
+      <thruster tags="extralarge" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_defence_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_defence_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_end_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_end_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_energy_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_energy_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m09">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m10">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m11">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a_connection_storage_m12">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_energy_a1">
+        <macro>
+          <component ref="units_size_xl_te_kit_energy_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m09">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m10">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m11">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a1_connection_storage_m12">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_energy_a2">
+        <macro>
+          <component ref="units_size_xl_te_kit_energy_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m09">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m10">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m11">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a2_connection_storage_m12">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_energy_a3">
+        <macro>
+          <component ref="units_size_xl_te_kit_energy_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m09">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m10">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m11">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="energy_a3_connection_storage_m12">
+        <macro>
+          <component ref="props_sm_te_energy_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_front_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_front_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_livingsection_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_livingsection_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="connection_cockpit01">
+        <macro>
+          <component ref="cockpit_bridge_te_l_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_te_kit_energy_02_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_te_kit_energy_02_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_te_kit_energy_02_shipstorage_m_macro" connection="object" />
+      </connection>
+	<connection ref="con_dock_01">
+                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+                </connection>
+                <connection ref="con_dock_02">
+                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+                </connection>      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

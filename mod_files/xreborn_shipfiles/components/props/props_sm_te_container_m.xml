@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_sm_te_container_m" class="destructible">
+		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\props\StorageModules\props_sm_te_container_m_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset/>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="22.112" y="31.67768" z="41.38824"/>
+							<center x="-1.907349E-06" y="9.536743E-07" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="2.775726" y="0" z="110.1166"/>
+				</offset>
+				<parts/>
+			</connection>
+		</connections>
+	</component>
+</components>

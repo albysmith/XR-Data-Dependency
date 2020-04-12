@@ -1,0 +1,45 @@
+<macros>
+  <macro name="units_size_m_energy_transporter_macro" class="ship_m">
+    <component ref="units_size_m_energy_transporter" />
+    <properties>
+      <identification name="{78238230,164}" basename="{78238230,166}" description="{78238230,165}" variation="{78238230,167}" icon="ship_m_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <explosiondamage value="1055" />
+      <storage missile="17" unit="0" />
+      <hull max="7889" />
+      <secrecy level="1" />
+      <purpose primary="trade" />
+      <people capacity="17" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_02" />
+      </sounds>
+      <physics mass="63.13">
+        <inertia pitch="12.532" yaw="12.532" roll="10.025" />
+        <drag forward="11.061" reverse="44.244" horizontal="20.402" vertical="20.402" pitch="18.283" yaw="18.283" roll="18.283" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="transporter" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_energy_transporter_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

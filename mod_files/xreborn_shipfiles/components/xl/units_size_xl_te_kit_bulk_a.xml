@@ -1,0 +1,191 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="units_size_xl_te_kit_bulk_a" class="destructible">
+		<properties>
+			<hull max="0" />
+		</properties>
+		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\units\size_xl\construction_set\units_size_xl_te_kit_bulk_a_data" />
+		<layers>
+			<layer>
+				<waypoints />
+				<lights />
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
+			<connection name="space" tags="destructible">
+				<offset />
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset>
+					<position x="0.2435417" y="-0.1405602" z="4.959106E-05" />
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="75.1624" y="72.92009" z="112.5961" />
+							<center x="3.814697E-06" y="-3.814697E-06" z="-3.814697E-06" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="8.116128E-02" y="-0.1405495" z="4.957881E-05" />
+				</offset>
+				<parts>
+					<part name="detail_l_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="85.99084" y="83.83951" z="119.4596" />
+							<center x="2.235174E-07" y="8.34465E-07" z="-3.802445E-06" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr  ">
+				<offset>
+					<position x="0.0811615" y="-0.1408927" z="2.975341E-04" />
+				</offset>
+				<parts>
+					<part name="detail_s_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="90.36759" y="86.03718" z="102.9691" />
+							<center x="0" y="7.152557E-07" z="1.225271E-08" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part ship_xr nocollision  ">
+				<offset>
+					<position x="8.116913E-02" y="-0.1405494" z="2.441284E-04" />
+				</offset>
+				<parts>
+					<part name="detail_s_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_alphatrims_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="89.58528" y="85.63023" z="58.19356" />
+							<center x="0" y="7.152557E-07" z="1.225271E-08" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="3_connection_engine_l0" group="group03 " tags="engine extralarge">
+				<offset>
+					<position x="-167.5257" y="-96.78551" z="127.63039" />
+				</offset>
+			</connection>
+			<connection name="3_connection_engine_l1" group="group03 " tags="engine extralarge">
+				<offset>
+					<position x="167.5257" y="-96.78551" z="127.63039" />
+				</offset>
+			</connection>
+			<connection name="3_connection_engine_l2" group="group03 " tags="engine extralarge">
+				<offset>
+					<position x="-167.5257" y="96.78551" z="127.63039" />
+				</offset>
+			</connection>
+			<connection name="3_connection_engine_l3" group="group03 " tags="engine extralarge">
+				<offset>
+					<position x="167.5257" y="96.78551" z="127.63039" />
+				</offset>
+			</connection>
+			<connection name="Connection05" tags="part ship_xr  ">
+				<offset>
+					<position x="226.3654" y="-0.1405602" z="4.959106E-05" />
+				</offset>
+				<parts />
+			</connection>
+			<connection name="connection_storage_m01" tags="storage ">
+				<offset>
+					<position x="42.6574" y="40.05544" z="-37.88621" />
+					<quaternion qx="-0" qy="-0.7071066" qz="-0" qw="-0.7071069" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m02" tags="storage ">
+				<offset>
+					<position x="42.6574" y="40.05544" z="37.8862" />
+					<quaternion qx="-0" qy="-0.7071066" qz="-0" qw="-0.7071069" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m03" tags="storage ">
+				<offset>
+					<position x="-42.65743" y="40.05544" z="-37.88621" />
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m04" tags="storage ">
+				<offset>
+					<position x="-42.65742" y="40.05544" z="37.8862" />
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m05" tags="storage ">
+				<offset>
+					<position x="-42.65743" y="-40.0554" z="37.8862" />
+					<quaternion qx="-0.7071069" qy="5.338509E-08" qz="0.7071066" qw="-5.338507E-08" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m06" tags="storage ">
+				<offset>
+					<position x="-42.65742" y="-40.0554" z="-37.88621" />
+					<quaternion qx="-0.7071069" qy="5.338509E-08" qz="0.7071066" qw="-5.338507E-08" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m07" tags="storage ">
+				<offset>
+					<position x="42.6574" y="-40.0554" z="-37.88621" />
+					<quaternion qx="-0.7071066" qy="3.090861E-08" qz="-0.7071069" qw="3.090862E-08" />
+				</offset>
+			</connection>
+			<connection name="connection_storage_m08" tags="storage ">
+				<offset>
+					<position x="42.6574" y="-40.0554" z="37.8862" />
+					<quaternion qx="-0.7071066" qy="3.090861E-08" qz="-0.7071069" qw="3.090862E-08" />
+				</offset>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

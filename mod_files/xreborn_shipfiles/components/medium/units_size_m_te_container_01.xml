@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="units_size_m_te_container_01" class="ship_m">
+		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\units\size_m\units_size_m_te_container_01_data" />
+		<layers>
+			<layer>
+				<waypoints />
+				<lights />
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
+			<connection name="space" tags="ship ship_m">
+				<offset />
+			</connection>
+			<connection name="Connection01" tags="part  ship_xr  ">
+				<offset>
+					<position x="4.768372E-06" y="4.768372E-06" z="0" />
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="25.93737" y="26.2262" z="56.36251" />
+							<center x="-9.536743E-07" y="-9.536743E-07" z="0.1166248" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ship_xr  ">
+				<offset>
+					<position x="4.768372E-06" y="4.768372E-06" z="173.0258" />
+				</offset>
+				<parts />
+			</connection>
+			<connection name="Connection03" tags="part  ship_xr  ">
+				<offset>
+					<position x="-2.098083E-06" y="8.201599E-06" z="-6.56075" />
+				</offset>
+				<parts>
+					<part name="detail_s_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="25.75188" y="25.09843" z="59.75417" />
+							<center x="1.907347E-07" y="-5.72205E-07" z="-2.861023E-06" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="connection_shieldgen01" tags="shield medium unhittable">
+				<offset>
+					<position x="9.982405E-02" y="16.71163" z="-4.621914" />
+					<quaternion qx="0.0000001509958" qy="1" qz="0.0000000754979" qw="0.00000000000001139987" />
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen02" tags="shield medium unhittable">
+				<offset>
+					<position x="9.982405E-02" y="16.71163" z="-4.621914" />
+					<quaternion qx="0.0000001509958" qy="1" qz="0.0000000754979" qw="0.00000000000001139987" />
+				</offset>
+			</connection>
+			<connection name="conn_storage01" tags="storage">
+				<offset>
+					<position x="4.768372E-07" y="4.768372E-07" z="31.51603" />
+				</offset>
+			</connection>
+			<connection name="connection_engine01" tags="destructible">
+				<offset>
+					<position x="4.768372E-07" y="4.768372E-07" z="31.51603" />
+				</offset>
+			</connection>
+			<connection name="connection_engine11" tags="engine medium">
+				<offset>
+					<position x="4.768372E-07" y="4.768372E-07" z="31.51603" />
+				</offset>
+			</connection>
+			<connection name="connection_weaponprim01" tags="weapon medium standard missile platformcollision">
+				<offset>
+					<position x="4.768372E-07" y="-20.24779" z="47.43916" />
+				</offset>
+			</connection>
+			<connection name="connection_radar01" tags="destructible">
+				<offset>
+					<position x="4.768372E-07" y="4.768372E-07" z="31.51603" />
+				</offset>
+			</connection>
+			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="4.768372E-07" y="-10.98191" z="54.59778" />
+				</offset>
+			</connection>
+			<connection name="con_playercontrol" tags="playercontrol"></connection>
+			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="19.6312" z="0" />
+				</offset>
+			</connection>
+			<connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+					<position x="0" y="19.1312" z="-7.5" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

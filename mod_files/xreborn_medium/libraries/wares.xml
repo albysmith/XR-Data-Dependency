@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <add sel="/wares">
+    <ware id="units_size_m_crystal_transporter_ware" name="{78238230,152}" description="{78238230,153}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="147352" average="173355" max="199358" />
+      <production time="16" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="90" />
+          <ware ware="hullparts" amount="159" />
+        </primary>
+      </production>
+      <component ref="units_size_m_crystal_transporter_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+      <owner faction="antigone" />
+    </ware>
+    <ware id="units_size_m_plasma_transporter_ware" name="{78238230,40}" description="{78238230,41}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="262323" average="308615" max="354907" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="161" />
+          <ware ware="hullparts" amount="283" />
+        </primary>
+      </production>
+      <component ref="units_size_m_plasma_transporter_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_nyanae_03_ware" name="{78238230,48}" description="{78238230,49}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_nyanae_03_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_nyanae_04_ware" name="{78238230,52}" description="{78238230,53}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_nyanae_04_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_mercancias_02_ware" name="{78238230,60}" description="{78238230,61}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_mercancias_02_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_canteran_01_ware" name="{78238230,64}" description="{78238230,65}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_canteran_01_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_container_transporter_5_ware" name="{78238230,98}" description="{78238230,99}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_container_transporter_5_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_canteran_02_ware" name="{78238230,118}" description="{78238230,119}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_canteran_02_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_nyanae_02_ware" name="{78238230,156}" description="{78238230,157}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="819115" average="963665" max="1108215" />
+      <production time="31" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="172" />
+          <ware ware="hullparts" amount="909" />
+        </primary>
+      </production>
+      <component ref="units_size_m_nyanae_02_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_energy_transporter_ware" name="{78238230,164}" description="{78238230,165}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="147352" average="173355" max="199358" />
+      <production time="16" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="90" />
+          <ware ware="hullparts" amount="159" />
+        </primary>
+      </production>
+      <component ref="units_size_m_energy_transporter_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_mercancias_03_ware" name="{78238230,205}" description="{78238230,206}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_mercancias_03_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_ore_transporter_ware" name="{78238230,239}" description="{78238230,240}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="147352" average="173355" max="199358" />
+      <production time="16" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="90" />
+          <ware ware="hullparts" amount="159" />
+        </primary>
+      </production>
+      <component ref="units_size_m_ore_transporter_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_mercancias_01_ware" name="{78238230,271}" description="{78238230,272}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_mercancias_01_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_nyanae_01_ware" name="{78238230,293}" description="{78238230,294}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_nyanae_01_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_mercancias_04_ware" name="{78238230,301}" description="{78238230,302}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_mercancias_04_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_weapontech_transporter_ware" name="{78238230,313}" description="{78238230,314}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_weapontech_transporter_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_pmc_xen_02_ware" name="{78238230,319}" description="{78238230,320}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_pmc_xen_02_macro" amount="1" />
+      <restriction licence="militaryship" />
+      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+    </ware>
+    <ware id="units_size_m_te_energy_01_ware" name="{78238230,369}" description="{78238230,370}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="147352" average="173355" max="199358" />
+      <production time="16" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="90" />
+          <ware ware="hullparts" amount="159" />
+        </primary>
+      </production>
+      <component ref="units_size_m_te_energy_01_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="teladi" />
+      <owner faction="alliance" />
+      <owner faction="ministry" />
+    </ware>
+    <ware id="units_size_m_te_bulk_01_ware" name="{78238230,373}" description="{78238230,374}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="755166" average="888430" max="1021695" />
+      <production time="29" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="159" />
+          <ware ware="hullparts" amount="838" />
+        </primary>
+      </production>
+      <component ref="units_size_m_te_bulk_01_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="teladi" />
+          <owner faction="paranid" />
+      <owner faction="ministry" />
+    </ware>
+    <ware id="units_size_m_te_container_01_ware" name="{78238230,417}" description="{78238230,418}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="147352" average="173355" max="199358" />
+      <production time="16" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="90" />
+          <ware ware="hullparts" amount="159" />
+        </primary>
+      </production>
+      <component ref="units_size_m_te_container_01_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="teladi" />
+          <owner faction="trinity" />
+      <owner faction="ministry" />
+    </ware>
+    <ware id="units_size_m_xenon_fighter_01_ware" name="{78238230,285}" description="{78238230,286}" group="ships_xenon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="40" />
+        </primary>
+      </production>
+      <component ref="units_size_m_xenon_fighter_01_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="xenon" />
+    </ware>
+  </add>
+</diff>

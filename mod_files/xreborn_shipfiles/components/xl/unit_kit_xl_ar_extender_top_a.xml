@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="unit_kit_xl_ar_extender_top_a" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_extender_top_a_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights>
+					<box name="XU BoxLight01" shadow="0" r="255" g="247" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="480" y="80" z="80"></size>
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-151.457" y="54.83503" z="137.3104"></position>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071068"></quaternion>
+						</offset>
+					</box>
+					<box name="XU BoxLight02" shadow="0" r="255" g="247" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="480" y="80" z="80"></size>
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="151.4991" y="54.83503" z="137.3104"></position>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071068"></quaternion>
+						</offset>
+					</box>
+					<box name="XU BoxLight03" shadow="0" r="255" g="247" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="80" y="60" z="60"></size>
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-112.709" y="-43.08525" z="316.9192"></position>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071068"></quaternion>
+						</offset>
+					</box>
+					<box name="XU BoxLight04" shadow="0" r="255" g="247" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="80" y="60" z="60"></size>
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-112.7091" y="-43.08527" z="-240.4044"></position>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071068"></quaternion>
+						</offset>
+					</box>
+					<box name="XU BoxLight05" shadow="0" r="255" g="247" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="80" y="60" z="60"></size>
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="114.0021" y="-43.08527" z="-240.4044"></position>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071068"></quaternion>
+						</offset>
+					</box>
+					<box name="XU BoxLight06" shadow="0" r="255" g="247" b="223" lighteffect="1" trigger="1" intensity="2">
+						<size x="80" y="60" z="60"></size>
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="114.0022" y="-43.08525" z="316.9192"></position>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071068"></quaternion>
+						</offset>
+					</box>
+					<omni name="XU Omni01" shadow="0" r="255" g="73" b="31" range="40" shadowrange="40" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-62.10615" y="91.33621" z="-226.2185"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="255" g="73" b="31" range="40" shadowrange="40" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="65.7943" y="91.33621" z="-226.2185"></position>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="destructible">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset></offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<size>
+							<max x="141.7401" y="119.2777" z="376.8684"></max>
+							<center x="4.577637E-05" y="-3.051758E-05" z="6.103516E-04"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="0" z="942.1741"></position>
+				</offset>
+				<parts></parts>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

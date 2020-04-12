@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<components>
+    <component name="units_size_s_ship_pirate_03" class="ship_s">
+        <source geometry="Extensions\xr_data_dependency\assets\units\size_s\units_size_s_ship_pirate_03_data" />
+        <layers>
+            <layer>
+                <waypoints />
+                <lights />
+            </layer>
+        </layers>
+        <connections>
+            <connection name="container" tags="contents" value="0" optional="0" />
+            <connection name="position" tags="position" value="1" optional="1" />
+            <connection name="space" tags="ship ship_s">
+                <offset />
+            </connection>
+            <connection name="Connection01" tags="part ship_xr  ">
+                <offset />
+                <parts>
+                    <part name="part_main" wreck="part_main_wreck">
+                        <lods>
+                            <lod index="0">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_01" />
+                                    <material id="2" ref="argon.ar_unique_02" />
+                                    <material id="3" ref="argon.ar_unique_03" />
+                                </materials>
+                            </lod>
+                            <lod index="1">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_01" />
+                                    <material id="2" ref="argon.ar_unique_02" />
+                                </materials>
+                            </lod>
+                            <lod index="2">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_02" />
+                                </materials>
+                            </lod>
+                            <lod index="3">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_02" />
+                                </materials>
+                            </lod>
+                        </lods>
+                        <size>
+                            <max x="24.34372" y="11.22895" z="39.60023" />
+                            <center x="-9.536743E-07" y="-0.4552765" z="7.686053" />
+                        </size>
+                    </part>
+                </parts>
+            </connection>
+            <connection name="Connection02" tags="part ship_xr  ">
+                <offset>
+                    <position x="0" y="0" z="118.2157" />
+                </offset>
+                <parts />
+            </connection>
+            <connection name="connection_cockpit01" tags="cockpit ">
+                <offset>
+                    <position x="-3.122886E-07" y="4.428438" z="2.906441" />
+                </offset>
+            </connection>
+            <connection name="connection_shieldgen01" tags="shield small unhittable">
+                <offset>
+                    <position x="2.763816E-07" y="-2.951242" z="-11.57302" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_prim01" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="-14.30822" y="-5.706648" z="48.32662" />
+                </offset>
+            </connection>
+            <connection name="connection_engine_main01" tags="engine small">
+                <offset>
+                    <position x="-1.48711E-03" y="2.5555" z="-31.2142" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_sec01" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="17.71587" y="-7.310122" z="41.84455" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_prim02" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="14.29174" y="-5.706648" z="48.32661" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_sec02" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="-17.74512" y="-7.310122" z="41.84456" />
+                </offset>
+            </connection>
+            <connection name="connection_radar01" tags="destructible">
+                <offset />
+            </connection>
+            <connection name="connection_engine_side01" tags="engine small">
+                <offset>
+                    <position x="-17.5449" y="-7.02124" z="-9.4002" />
+                </offset>
+            </connection>
+            <connection name="connection_engine_side02" tags="engine small">
+                <offset>
+                    <position x="17.5449" y="-7.02124" z="-9.4002" />
+                    <quaternion qx="0" qy="0" qz="0.0000000754979" qw="1" />
+                </offset>
+            </connection>
+            <connection name="con_playercontrol" tags="playercontrol"></connection>
+            <connection name="con_dock_xs" tags="dock_xs ">
+                <offset>
+                    <position x="0" y="4" z="-15" />
+                    <rotation pitch="180" />
+                </offset>
+            </connection>
+            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+                <offset>
+                    <position x="0" y="7.51416" z="0" />
+                </offset>
+            </connection>
+            <connection name="con_dock_xs" tags="dock_xs ">
+                <offset>
+                    <position x="0" y="7.01465" z="-7.5" />
+                    <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
+                </offset>
+            </connection>
+            <connection name="conn_storage01" tags="storage" />
+        </connections>
+    </component>
+</components>

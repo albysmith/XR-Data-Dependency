@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<components>
+	<component name="units_size_xl_te_kit_defence_a" class="destructible">
+		<properties>
+			<hull max="0" integrated="1"/>
+		</properties>
+		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\units\size_xl\construction_set\units_size_xl_te_kit_defence_a_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="5.722046E-06" z="-3.05176E-05"/>
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="97.55467" y="84.48485" z="55.64073"/>
+							<center x="-1.525879E-05" y="10.84108" z="7.629397E-05"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.676132E-05" y="10.06155" z="3.410339E-03"/>
+				</offset>
+				<parts>
+					<part name="detail_l_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="effects.gradient_white"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="97.59514" y="84.60246" z="44.92998"/>
+							<center x="-2.312163E-06" y="-2.861023E-06" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr nocollision  ">
+				<offset>
+					<position x="2.92778E-04" y="-2.578754" z="-1.907349E-06"/>
+				</offset>
+				<parts>
+					<part name="detail_s_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_alphatrims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="45.1637" y="40.17413" z="49.39295"/>
+							<center x="1.049042E-05" y="1.144409E-05" z="-1.907349E-06"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="-2.042369" z="-3.051758E-05"/>
+				</offset>
+				<parts>
+					<part name="detail_s_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="49.74058" y="43.07661" z="49.09153"/>
+							<center x="0" y="-1.192093E-06" z="3.814697E-06"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.144409E-05" y="10.84109" z="139.102"/>
+				</offset>
+				<parts/>
+			</connection>
+			
+			<connection name="connection_turret_small_mg01" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="6.12687E-06" y="93.664" z="20.33248"/>
+					<quaternion qx="-1" qy="1.192093E-07" qz="1.509958E-07" qw="-1.629207E-07"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe01" group="group01 " tags="turret_medium_pe ">
+				<offset>
+					<position x="6.12687E-06" y="93.664" z="-11.15477"/>
+					<quaternion qx="-0.7071068" qy="2.837897E-07" qz="-0.7071068" qw="-1.770196E-07"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe02" group="group01 " tags="turret_medium_pe ">
+				<offset>
+					<position x="-81.1154" y="-46.832" z="-11.1548"/>
+					<quaternion qx="0.3535534" qy="0.6123723" qz="0.3535535" qw="-0.6123725"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe03" group="group01 " tags="turret_medium_pe ">
+				<offset>
+					<position x="81.1154" y="-46.832" z="-11.1548"/>
+					<quaternion qx="-0.3535535" qy="0.6123724" qz="-0.3535534" qw="-0.6123724"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg02" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="-81.1154" y="-46.832" z="20.34719"/>
+					<quaternion qx="-0.5" qy="-0.8660254" qz="3.764273E-08" qw="1.089105E-07"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg03" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="81.1154" y="-46.832" z="19.83245"/>
+					<quaternion qx="0.5" qy="-0.8660254" qz="-1.133531E-07" qw="1.526219E-07"/>
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen01" group="group01 " tags="shieldgenerator ">
+				<offset>
+					<position x="46.23494" y="3.135591" z="-1.186434"/>
+					<quaternion qx="1.576341E-07" qy="6.46808E-08" qz="-0.9978589" qw="0.0654027"/>
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen02" group="group01 " tags="shieldgenerator ">
+				<offset>
+					<position x="-46.39587" y="3.135591" z="-1.186434"/>
+					<quaternion qx="-0.9978589" qy="0.0654027" qz="1.556103E-07" qw="-8.521179E-08"/>
+				</offset>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

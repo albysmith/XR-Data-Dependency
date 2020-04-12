@@ -1,0 +1,42 @@
+<macros>
+  <macro name="units_size_s_te_03_macro" class="ship_s">
+    <component ref="units_size_s_te_03" />
+    <properties>
+      <identification name="{78238230,351}" description="{78238230,352}" unique="0" icon="ship_s_fight_01" />
+      <purpose primary="fight" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <secrecy level="1" />
+      <ship type="scout" />
+      <explosiondamage value="0" />
+      <storage missile="20" unit="0" />
+      <hull max="3671" />
+      <people capacity="2" />
+      <physics mass="8.723">
+        <inertia pitch="1.994" yaw="1.994" roll="1.595" />
+        <drag forward="4.328" reverse="15.439" horizontal="2.977" vertical="2.977" pitch="3.297" yaw="3.297" roll="3.297" />
+      </physics>
+      <thruster tags="small" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connection ref="con_shipstorage_xs_01">
+      <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+    </connection>
+    <connection ref="con_storage01">
+      <macro ref="units_size_s_te_03_storage_macro" connection="ShipConnection" />
+    </connection>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

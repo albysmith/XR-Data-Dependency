@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="unit_kit_xl_ar_extender_top_b" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_extender_top_b_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="73" b="31" range="80" shadowrange="80" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="0" y="-179.6856" z="275.9557"></position>
+							<quaternion qx="-1" qy="-0" qz="-0" qw="-7.54979E-08"></quaternion>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="destructible">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset></offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<size>
+							<max x="85.95607" y="145.1013" z="377.5054"></max>
+							<center x="3.051758E-05" y="1.525879E-05" z="1.220703E-04"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="0" z="943.764"></position>
+				</offset>
+				<parts></parts>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

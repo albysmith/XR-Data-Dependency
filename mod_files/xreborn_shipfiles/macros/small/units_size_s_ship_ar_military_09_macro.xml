@@ -1,0 +1,47 @@
+<macros>
+  <macro name="units_size_s_ship_ar_military_09_macro" class="ship_s">
+    <component ref="units_size_s_ship_ar_military_09" />
+    <properties>
+      <identification name="{78238230,257}" basename="{78238230,259}" description="{78238230,258}" variation="{78238230,260}" icon="ship_s_fight_01" />
+      <purpose primary="fight" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <secrecy level="1" />
+      <ship type="heavyfighter" />
+      <explosiondamage value="0" />
+      <storage missile="10" unit="0" />
+      <hull max="2441" />
+      <people capacity="4" />
+      <physics mass="20.155">
+        <inertia pitch="4.681" yaw="4.681" roll="3.745" />
+        <drag forward="5.698" reverse="25.405" horizontal="7.563" vertical="7.563" pitch="7.236" yaw="7.236" roll="7.236" />
+      </physics>
+
+      <physics mass="3.772">
+        <inertia pitch="0.451" yaw="0.451" roll="0.361" />
+        <drag forward="2.193" reverse="8.772" horizontal="3.381" vertical="3.381" pitch="2.585" yaw="2.585" roll="2.585" />
+      </physics>
+      <thruster tags="small" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connection ref="con_shipstorage_xs_01">
+      <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+    </connection>
+    <connection ref="con_storage01">
+      <macro ref="units_size_s_ship_ar_military_09_storage_macro" connection="ShipConnection" />
+    </connection>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

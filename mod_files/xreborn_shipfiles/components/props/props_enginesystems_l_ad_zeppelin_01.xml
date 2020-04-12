@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_enginesystems_l_ad_zeppelin_01" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\props\EngineSystems\props_enginesystems_l_ad_zeppelin_01_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="130" g="73" b="0" range="300" shadowrange="300" lighteffect="1" lenseffect="enginesystems_engine_l" trigger="1" intensity="0.125">
+						<lightanimations/>
+						<offset>
+							<position x="-130.481" y="-5.364363" z="-47.886"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni002" shadow="0" r="130" g="73" b="0" range="300" shadowrange="300" lighteffect="1" lenseffect="enginesystems_engine_l" trigger="1" intensity="0.125">
+						<lightanimations/>
+						<offset>
+							<position x="129.2197" y="-5.364363" z="-47.886"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+<connection name="space" tags="destructible">
+<offset/>
+</connection>
+
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="speeddependant_con_eng_L" tags="part ship_xr detail_xs animation nocollision  part detail_m animation nocollision  part detail_xs animation nocollision  part detail_s animation nocollision  part detail_s animation nocollision  part detail_xs animation nocollision  speeddependant">
+				<offset>
+					<position x="-130.3822" y="-5.423262" z="-56.10606"/>
+				</offset>
+				<animations>
+					<animation name="scaling_range" start="0" end="100"/>
+				</animations>
+				<parts>
+					<part name="anim_engine_exhaust_small">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_exhaust"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="112.8116" y="13.08391" z="25.226"/>
+							<center x="0.1269531" y="-0.075737" z="-26.34363"/>
+						</size>
+						<size_raw>
+							<max x="43.03135" y="8.305459" z="19.16192"/>
+							<center x="4.850769E-02" y="-4.780006E-02" z="-10.13977"/>
+						</size_raw>
+						<offset>
+							<position x="-9.873962E-02" y="0.0588994" z="55.99979"/>
+						</offset>
+					</part>
+					<part name="anim_engine_exhaust">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_exhaust"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="62.15063" y="18.46634" z="25.55267"/>
+							<center x="0" y="0" z="-5.327108"/>
+						</size>
+						<size_raw>
+							<max x="20.71688" y="6.155445" z="3.949763"/>
+							<center x="0" y="0" z="12.08766"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="4.768372E-07" z="44.45817"/>
+						</offset>
+					</part>
+					<part name="anim_engine_glow_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_glow"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="243.075" y="51.51427" z="243.075"/>
+							<center x="0" y="-1.907349E-06" z="-67.45201"/>
+						</size>
+						<size_raw>
+							<max x="20.25625" y="4.292856" z="20.25625"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+						<offset>
+							<position x="-0.1043549" y="0.0588994" z="60.55257"/>
+						</offset>
+					</part>
+					<part name="anim_engine_exhaust_distortion">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.distortion_master_geometry_anim"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="65.65939" y="18.45695" z="26.9752"/>
+							<center x="0" y="-7.629395E-06" z="-13.84029"/>
+						</size>
+						<size_raw>
+							<max x="21.88647" y="6.152318" z="2.117426"/>
+							<center x="0" y="-2.861023E-06" z="7.626167"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="4.768372E-07" z="37.71191"/>
+						</offset>
+					</part>
+					<part name="anim_engine_flame">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_fire"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="27.3275" y="12.23293" z="126.2084"/>
+							<center x="0" y="1.907349E-06" z="-126.2084"/>
+						</size>
+						<size_raw>
+							<max x="27.3275" y="12.23293" z="33.48832"/>
+							<center x="0" y="9.536743E-07" z="-16.74417"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="4.768372E-07" z="70.49667"/>
+						</offset>
+					</part>
+					<part name="anim_engine_flame_distortion">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.distortion_master_geometry_anim"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="26.47942" y="14.76932" z="119.6163"/>
+							<center x="5.950928E-04" y="-2.118111E-03" z="-119.6163"/>
+						</size>
+						<size_raw>
+							<max x="26.47883" y="14.77144" z="25.56487"/>
+							<center x="5.950928E-04" y="-2.117634E-03" z="-12.78244"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="1.430511E-06" z="70.49319"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection01" hidden="true" tags="part ship_xr triggerpart  ">
+				<offset>
+					<position x="-128.231" y="0" z="-149.6789"/>
+				</offset>
+				<parts>
+					<part name="engine_damage_L">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="36.26326" y="20.69969" z="128.1026"/>
+							<center x="0" y="-8.844833" z="1.525879E-05"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr ">
+				<offset/>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_unique_01"/>
+									<material id="2" ref="generic.generic_engines_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_unique_01"/>
+									<material id="2" ref="generic.generic_engines_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_unique_01"/>
+									<material id="2" ref="generic.generic_engines_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="160.847" y="26.74529" z="61.17314"/>
+							<center x="0" y="-5.092896" z="-26.69234"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" hidden="true" tags="part ship_xr triggerpart  ">
+				<offset>
+					<position x="128.5178" y="0" z="-149.6789"/>
+				</offset>
+				<parts>
+					<part name="engine_damage_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="36.26326" y="20.69969" z="128.1026"/>
+							<center x="0" y="-8.844833" z="1.525879E-05"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="speeddependant_con_eng_R" tags="part ship_xr detail_s animation nocollision  part detail_xs animation nocollision  part detail_m animation nocollision  part detail_xs animation nocollision  part detail_xs animation nocollision  part detail_s animation nocollision  speeddependant">
+				<offset>
+					<position x="129.3662" y="-5.423262" z="-56.10606"/>
+				</offset>
+				<animations>
+					<animation name="scaling_range" start="0" end="100"/>
+				</animations>
+				<parts>
+					<part name="anim_engine_exhaust_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_exhaust"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="62.15063" y="18.46634" z="25.55267"/>
+							<center x="0" y="0" z="-5.327108"/>
+						</size>
+						<size_raw>
+							<max x="20.71688" y="6.155445" z="3.949763"/>
+							<center x="0" y="0" z="12.08766"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="4.768372E-07" z="44.45817"/>
+						</offset>
+					</part>
+					<part name="anim_engine_exhaust_distortion_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.distortion_master_geometry_anim"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="65.65939" y="18.45695" z="26.9752"/>
+							<center x="0" y="-7.629395E-06" z="-13.84029"/>
+						</size>
+						<size_raw>
+							<max x="21.88647" y="6.152318" z="2.117426"/>
+							<center x="0" y="-2.861023E-06" z="7.626167"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="4.768372E-07" z="37.71191"/>
+						</offset>
+					</part>
+					<part name="anim_engine_exhaust_small_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_exhaust"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="109.0339" y="13.08391" z="25.226"/>
+							<center x="0.1269379" y="-0.075737" z="-26.34363"/>
+						</size>
+						<size_raw>
+							<max x="43.03135" y="8.305459" z="19.16192"/>
+							<center x="5.018616E-02" y="-4.780006E-02" z="-10.13977"/>
+						</size_raw>
+						<offset>
+							<position x="-9.873962E-02" y="0.0588994" z="55.99979"/>
+						</offset>
+					</part>
+					<part name="anim_engine_flame_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_fire"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="27.3275" y="12.23293" z="126.2084"/>
+							<center x="0" y="1.907349E-06" z="-126.2084"/>
+						</size>
+						<size_raw>
+							<max x="27.3275" y="12.23293" z="33.48832"/>
+							<center x="0" y="9.536743E-07" z="-16.74417"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="4.768372E-07" z="70.49667"/>
+						</offset>
+					</part>
+					<part name="anim_engine_flame_distortion_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.distortion_master_geometry_anim"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="26.47942" y="14.76932" z="119.6163"/>
+							<center x="5.950928E-04" y="-2.118111E-03" z="-119.6163"/>
+						</size>
+						<size_raw>
+							<max x="26.47883" y="14.77144" z="25.56487"/>
+							<center x="5.950928E-04" y="-2.117634E-03" z="-12.78244"/>
+						</size_raw>
+						<offset>
+							<position x="0" y="1.430511E-06" z="70.49319"/>
+						</offset>
+					</part>
+					<part name="anim_engine_glow_R">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.lightcone_engine_xl_glow"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="243.075" y="51.51427" z="243.075"/>
+							<center x="0" y="-1.907349E-06" z="-67.45201"/>
+						</size>
+						<size_raw>
+							<max x="20.25625" y="4.292856" z="20.25625"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+						<offset>
+							<position x="-0.1043549" y="0.0588994" z="60.55257"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="0" z="433.5745"/>
+				</offset>
+				<parts/>
+			</connection>
+			<connection name="connection_engine" tags="engine  component">
+				<offset/>
+			</connection>
+			<connection name="connection_booster01" tags="booster ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

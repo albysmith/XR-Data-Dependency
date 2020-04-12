@@ -1,0 +1,47 @@
+<macros>
+  <macro name="units_size_m_nyanae_03_macro" class="ship_m">
+    <component ref="units_size_m_nyanae_03" />
+    <properties>
+      <identification name="{78238230,48}" basename="{78238230,50}" description="{78238230,49}" unique="0" variation="{78238230,51}" icon="ship_m_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="4890" />
+      <storage missile="37" unit="0" />
+      <ship type="transporter" />
+      <hull max="15596" />
+      <people capacity="7" />
+      <physics mass="35.505">
+        <inertia pitch="6.578" yaw="6.578" roll="5.263" />
+        <drag forward="6.257" reverse="25.028" horizontal="16.62" vertical="16.62" pitch="11.376" yaw="11.376" roll="11.376" />
+      </physics>
+      <thruster tags="medium" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="connection_engine01">
+        <macro>
+          <component ref="props_enginesystems_m_nyanae_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_nyanae_03_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

@@ -1,0 +1,42 @@
+<macros>
+  <macro name="units_size_m_hydrogen_collector_macro" class="ship_m">
+    <component ref="units_size_m_hydrogen_collector" />
+    <properties>
+      <identification name="{78238230,255}" description="{78238230,256}" icon="ship_m_mine_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <secrecy level="1" />
+      <explosiondamage value="4540" />
+      <ship type="miner" />
+      <storage missile="42" unit="0" />
+      <hull max="13440" />
+      <people capacity="8" />
+      <physics mass="28.434">
+        <inertia pitch="5.34" yaw="5.34" roll="4.272" />
+        <drag forward="8.72" reverse="34.879" horizontal="14.177" vertical="14.177" pitch="9.609" yaw="9.609" roll="9.609" />
+      </physics>
+      <thruster tags="medium" />
+      <purpose primary="mine" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_hydrogen_collector_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

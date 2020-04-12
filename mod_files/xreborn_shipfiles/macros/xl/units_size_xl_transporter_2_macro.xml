@@ -1,0 +1,97 @@
+<macros>
+  <macro name="units_size_xl_transporter_2_macro" class="ship_xl">
+    <component ref="units_size_xl_transporter_2" />
+    <properties>
+      <identification name="Super-Freighter" icon="ship_l_trade_01" description="" />
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="16731" />
+      <storage missile="277" unit="19" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <hull max="242898" />
+      <ship type="freighter" />
+      <people capacity="102" />
+      <physics mass="659.043">
+        <inertia pitch="633.782" yaw="633.782" roll="507.026" />
+        <drag forward="211.809" reverse="847.234" horizontal="311.403" vertical="311.403" pitch="831.809" yaw="831.809" roll="831.809" />
+      </physics>
+      <thruster tags="extralarge" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_center_module_bridge">
+        <macro>
+          <component ref="unit_kit_xl_ar_center_module_bridge" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_connector_left">
+        <macro>
+          <component ref="unit_kit_xl_ar_connector_left" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_connector_right">
+        <macro>
+          <component ref="unit_kit_xl_ar_connector_right" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_docking_module">
+        <macro>
+          <component ref="unit_kit_xl_ar_docking_module" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_docking_module1">
+        <macro>
+          <component ref="unit_kit_xl_ar_docking_module" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_extender_top_b">
+        <macro>
+          <component ref="unit_kit_xl_ar_extender_top_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_extender_wing_top">
+        <macro>
+          <component ref="unit_kit_xl_ar_extender_wing_top" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_extender_wing_top1">
+        <macro>
+          <component ref="unit_kit_xl_ar_extender_wing_top" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_frontwing_left_top">
+        <macro>
+          <component ref="unit_kit_xl_ar_frontwing_left_top" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_unit_kit_xl_ar_frontwing_right_top">
+        <macro>
+          <component ref="unit_kit_xl_ar_frontwing_right_top" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_transporter_2_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_transporter_2_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_transporter_2_shipstorage_m_macro" connection="object" />
+      </connection>
+      
+          <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

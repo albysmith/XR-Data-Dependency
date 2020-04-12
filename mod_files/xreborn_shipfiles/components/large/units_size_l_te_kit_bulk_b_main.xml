@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<components>
+	<component name="units_size_l_te_kit_bulk_b_main" class="destructible">
+		<properties>
+			<hull max="0" integrated="1"/>
+		</properties>
+		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\units\size_l\construction_set\units_size_l_te_kit_bulk_b_main_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="0" b="0" range="35" shadowrange="35" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="-9.886974" z="44.71689"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni002" shadow="0" r="255" g="0" b="0" range="35" shadowrange="35" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="-9.886974" z="-42.19863"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset/>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="114.2367" y="106.0601" z="70.83641"/>
+							<center x="5.340576E-05" y="6.12516" z="-7.884598E-02"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset/>
+				<parts>
+					<part name="detail_xs_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_alphatrims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="109.5105" y="95.37996" z="71.06525"/>
+							<center x="7.629395E-06" y="-1.76931" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="0" z="177.6631"/>
+				</offset>
+				<parts/>
+			</connection>
+			<connection name="connection_turret_small_mg01" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="-47.61985" y="102.767" z="33.18519"/>
+					<quaternion qx="-0.6938055" qy="-0.1365061" qz="-0.6938055" qw="0.136506"/>
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen01" group="group01 " tags="shieldgenerator ">
+				<offset>
+					<position x="-4.049475E-08" y="106.5313" z="-0.1704102"/>
+					<quaternion qx="-1" qy="7.54979E-08" qz="-4.371139E-08" qw="3.300118E-15"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg003" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="-47.61985" y="102.767" z="-34.16132"/>
+					<quaternion qx="-0.6938055" qy="-0.1365061" qz="-0.6938055" qw="0.136506"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg004" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="47.3966" y="102.767" z="33.18519"/>
+					<quaternion qx="-0.6938056" qy="0.136506" qz="0.6938054" qw="0.1365061"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg005" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="47.39659" y="102.767" z="-34.16132"/>
+					<quaternion qx="-0.6938056" qy="0.136506" qz="0.6938054" qw="0.1365061"/>
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen002" group="group02" tags="shieldgenerator ">
+				<offset>
+					<position x="-4.049475E-08" y="-83.23541" z="-0.6786562"/>
+					<quaternion qx="-2.247646E-08" qy="0.7071068" qz="8.42937E-08" qw="-0.7071068"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg006" group="group02 " tags="turret_small_mg ">
+				<offset>
+					<position x="-64.48938" y="-92.95793" z="33.31225"/>
+					<quaternion qx="-0.2258981" qy="-0.6700523" qz="0.2258979" qw="-0.6700523"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg007" group="group02 " tags="turret_small_mg ">
+				<offset>
+					<position x="65.03332" y="-92.73659" z="-34.03426"/>
+					<quaternion qx="-0.225898" qy="0.6700524" qz="-0.225898" qw="-0.6700521"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg008" group="group02 " tags="turret_small_mg ">
+				<offset>
+					<position x="65.03331" y="-92.7366" z="33.31225"/>
+					<quaternion qx="-0.225898" qy="0.6700524" qz="-0.225898" qw="-0.6700521"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg009" group="group02 " tags="turret_small_mg ">
+				<offset>
+					<position x="-64.48937" y="-92.95792" z="-34.03426"/>
+					<quaternion qx="-0.2258981" qy="-0.6700523" qz="0.2258979" qw="-0.6700523"/>
+				</offset>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

@@ -1,0 +1,42 @@
+<macros>
+  <macro name="units_size_m_nividium_collector_macro" class="ship_m" alias="units_size_m_crystal_collector_macro">
+    <component ref="units_size_m_nvidium_collector" />
+    <properties>
+      <identification name="{78238230,74}" description="{78238230,75}" icon="ship_m_mine_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <secrecy level="1" />
+      <explosiondamage value="1051" />
+      <storage missile="17" unit="0" />
+      <ship type="miner" />
+      <hull max="3631" />
+      <people capacity="9" />
+      <purpose primary="mine" />
+      <physics mass="32.438">
+        <inertia pitch="10.839" yaw="10.839" roll="8.671" />
+        <drag forward="4.085" reverse="23.341" horizontal="22.934" vertical="22.934" pitch="17.097" yaw="17.097" roll="17.097" />
+      </physics>
+      <thruster tags="medium" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_nividium_collector_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

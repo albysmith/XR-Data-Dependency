@@ -1,0 +1,42 @@
+<macros>
+  <macro name="units_size_m_ufo_01_macro" class="ship_m">
+    <component ref="units_size_m_ufo_01" />
+    <properties>
+      <identification name="{78238230,173}" description="{78238230,174}" unique="0" icon="ship_xs_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <purpose primary="fight" />
+      <secrecy level="1" />
+      <explosiondamage value="1750" />
+      <storage missile="111" unit="7" />
+      <ship type="scavenger" />
+      <hull max="24166" />
+      <people capacity="14" />
+      <physics mass="48.014">
+        <inertia pitch="5.557" yaw="5.557" roll="4.446" />
+        <drag forward="11.965" reverse="33.503" horizontal="9.249" vertical="9.249" pitch="10.152" yaw="10.152" roll="10.152" />
+      </physics>
+      <thruster tags="medium" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_ufo_01_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

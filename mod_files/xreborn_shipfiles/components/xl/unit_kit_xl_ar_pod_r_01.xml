@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="unit_kit_xl_ar_pod_r_01" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_pod_r_01_data" />
+		<layers>
+			<layer>
+				<waypoints />
+				<lights />
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
+			<connection name="space" tags="destructible">
+				<offset />
+			</connection>
+			<connection name="Connection01" tags="part ship_xr animation  ">
+				<offset>
+					<position x="0" y="-50.4798" z="0" />
+				</offset>
+				<animations>
+					<animation name="pods_inactive" start="1" end="1" />
+					<animation name="pods_activating" start="1" end="500" />
+					<animation name="pods_active" start="500" end="500" />
+					<animation name="pods_deactivating" start="500" end="1000" />
+				</animations>
+				<parts>
+					<part name="part_animation_dummy" wreck="part_animation_dummy_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.2447467" y="0.2623716" z="0.2327893" />
+							<center x="0" y="0.2623711" z="0" />
+						</size>
+						<size_raw>
+							<max x="0.2447467" y="0" z="0.2327893" />
+							<center x="0" y="0.2623711" z="0" />
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints />
+			</connection>
+			<connection name="Connection02" tags="part ship_xr iklink  " parent="part_animation_dummy">
+				<offset>
+					<position x="-91.67253" y="116.8876" z="7.562279" />
+				</offset>
+				<parts>
+					<part name="part_beam_right" wreck="part_beam_right_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="argon.ar_trims_01" />
+									<material id="4" ref="generic.generic_tech_01" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="argon.ar_trims_01" />
+									<material id="4" ref="generic.generic_tech_01" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="argon.ar_trims_01" />
+									<material id="4" ref="generic.generic_tech_01" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="115.9996" y="140.5789" z="465.1271" />
+							<center x="29.83784" y="-39.18664" z="6.818771E-05" />
+						</size>
+						<size_raw>
+							<max x="86.16179" y="101.3924" z="465.127" />
+							<center x="0" y="-2.288818E-05" z="6.818771E-05" />
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr iklink  " parent="part_beam_right">
+				<offset>
+					<position x="76.95685" y="-77.68923" z="-7.562154" />
+				</offset>
+				<parts>
+					<part name="part_jumpdrive_right" wreck="part_jumpdrive_right_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="argon.ar_trims_01" />
+									<material id="4" ref="generic.generic_tech_01" />
+									<material id="5" ref="argon.ar_hullpattern_01" />
+									<material id="6" ref="generic.generic_fx_lowtech_01" />
+									<material id="7" ref="generic.generic_techtrims_01" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="argon.ar_trims_01" />
+									<material id="4" ref="generic.generic_tech_01" />
+									<material id="5" ref="argon.ar_hullpattern_01" />
+									<material id="6" ref="generic.generic_fx_lowtech_01" />
+									<material id="7" ref="generic.generic_techtrims_01" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="argon.ar_trims_01" />
+									<material id="4" ref="generic.generic_tech_01" />
+									<material id="5" ref="argon.ar_hullpattern_01" />
+									<material id="6" ref="generic.generic_fx_lowtech_01" />
+									<material id="7" ref="generic.generic_techtrims_01" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="131.9652" y="171.8039" z="883.61" />
+							<center x="60.58481" y="-118.6366" z="-8.106232E-05" />
+						</size>
+						<size_raw>
+							<max x="71.3804" y="156.5184" z="883.61" />
+							<center x="60.58481" y="-51.67558" z="-8.106232E-05" />
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="connection_turret_small_mg02" tags="turret_small_mg " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="53.80109" y="52.93961" z="-366.2248" />
+					<quaternion qx="-0.7071068" qy="9.27259E-08" qz="0.7071067" qw="-3.231305E-07" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg01" tags="turret_small_mg " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="53.80109" y="53.18883" z="-434.6017" />
+					<quaternion qx="-0.7071068" qy="9.27259E-08" qz="0.7071067" qw="-3.231305E-07" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe02" tags="turret_medium_pe " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="69.51662" y="43.97261" z="-235.8265" />
+					<quaternion qx="-0.707107" qy="7.024946E-08" qz="0.7071065" qw="-1.770196E-07" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe01" tags="turret_medium_pe " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="69.51662" y="44.0842" z="-287.9166" />
+					<quaternion qx="-0.707107" qy="7.024946E-08" qz="0.7071065" qw="-1.770196E-07" />
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen01" tags="shieldgenerator " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="147.1025" y="-32.13828" z="-380.246" />
+					<quaternion qx="-3.486804E-02" qy="-2.557871E-02" qz="-0.8748339" qw="-0.4824889" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg03" tags="turret_small_mg " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="53.80109" y="53.14727" z="-400.7356" />
+					<quaternion qx="-0.7071068" qy="9.27259E-08" qz="0.7071067" qw="-3.231305E-07" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg04" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="121.3075" y="24.87444" z="485.8168" />
+					<quaternion qx="-0.6496681" qy="0.2791621" qz="0.639657" qw="0.3013949" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg05" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="122.695" y="24.87443" z="450.3694" />
+					<quaternion qx="-0.6500375" qy="0.2783008" qz="0.6419618" qw="0.296454" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg06" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="123.8147" y="24.87442" z="415.2277" />
+					<quaternion qx="-0.6497454" qy="0.2789818" qz="0.6422722" qw="0.2957813" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg07" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="124.8847" y="24.8744" z="379.8732" />
+					<quaternion qx="-0.6502493" qy="0.2778054" qz="0.643571" qw="0.2929443" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg08" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="125.744" y="24.87439" z="344.896" />
+					<quaternion qx="-0.6498528" qy="0.2787307" qz="0.6455142" qw="0.288638" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg09" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="126.4662" y="24.87438" z="309.6022" />
+					<quaternion qx="-0.6498528" qy="0.2787307" qz="0.6455142" qw="0.288638" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg10" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="127.0618" y="24.87437" z="274.4632" />
+					<quaternion qx="-0.6499674" qy="0.2785136" qz="0.6469024" qw="0.2854643" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg11" tags="turret_small_mg " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="127.5424" y="24.87436" z="239.2137" />
+					<quaternion qx="-0.6499674" qy="0.2785136" qz="0.6469024" qw="0.2854643" />
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen02" tags="shieldgenerator " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="145.2016" y="-57.96848" z="360.97" />
+					<quaternion qx="4.68324E-03" qy="1.041985E-02" qz="-0.9120494" qw="-0.4099211" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe03" tags="turret_medium_pe " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="146.9944" y="-109.9997" z="421.7767" />
+					<quaternion qx="0.2194709" qy="-0.6721853" qz="0.2395343" qw="0.665299" />
+				</offset>
+			</connection>
+			<connection name="connection_turret_medium_pe04" tags="turret_medium_pe " group="group02 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="149.0557" y="-109.9998" z="301.9256" />
+					<quaternion qx="0.2264879" qy="-0.6698534" qz="0.246553" qw="0.6627302" />
+				</offset>
+			</connection>
+			<connection name="connection_engine01" tags="engine " group="group01 " parent="part_jumpdrive_right">
+				<offset>
+					<position x="17.16575" y="-53.09126" z="-764.5123" />
+				</offset>
+			</connection>
+			<connection name="Connection04" tags="part ship_xr  ">
+				<offset>
+					<position x="0" y="-50.4798" z="2209.025" />
+				</offset>
+				<parts />
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

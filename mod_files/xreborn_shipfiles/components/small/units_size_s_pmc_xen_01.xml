@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<components>
+    <component name="units_size_s_pmc_xen_01" class="ship_s">
+        <source geometry="Extensions\xr_data_dependency\assets\units\size_s\units_size_s_pmc_xen_01_data" />
+        <layers>
+            <layer>
+                <waypoints />
+                <lights>
+                    <omni name="XU Omni05" shadow="0" r="255" g="24" b="0" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="0.7">
+                        <lightanimations />
+                        <offset>
+                            <position x="-23.11123" y="7.973995" z="-9.3224" />
+                        </offset>
+                    </omni>
+                    <omni name="XU Omni06" shadow="0" r="255" g="24" b="0" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="0.7">
+                        <lightanimations />
+                        <offset>
+                            <position x="-23.11123" y="-2.491305" z="-9.3224" />
+                        </offset>
+                    </omni>
+                    <omni name="XU Omni08" shadow="0" r="255" g="96" b="0" range="15" shadowrange="15" lighteffect="1" trigger="1" intensity="2">
+                        <lightanimations />
+                        <offset>
+                            <position x="-22.70588" y="2.962335" z="53.05088" />
+                        </offset>
+                    </omni>
+                    <omni name="XU Omni09" shadow="0" r="255" g="24" b="0" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+                        <lightanimations />
+                        <offset>
+                            <position x="0" y="11.55735" z="27.51133" />
+                        </offset>
+                    </omni>
+                    <omni name="XU Omni10" shadow="0" r="255" g="24" b="0" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+                        <lightanimations />
+                        <offset>
+                            <position x="0" y="-9.151166" z="27.51133" />
+                        </offset>
+                    </omni>
+                </lights>
+            </layer>
+        </layers>
+        <connections>
+            <connection name="container" tags="contents" value="0" optional="0" />
+            <connection name="position" tags="position" value="1" optional="1" />
+            <connection name="space" tags="ship ship_s">
+                <offset />
+            </connection>
+            <connection name="conn_storage01" tags="storage" />
+            <connection name="Connection01" tags="part ship_xr  ">
+                <offset />
+                <parts>
+                    <part name="part_main" wreck="part_main_wreck">
+                        <lods>
+                            <lod index="0">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_01" />
+                                    <material id="2" ref="argon.ar_unique_02" />
+                                    <material id="3" ref="generic.generic_engines_01" />
+                                    <material id="4" ref="argon.ar_unique_04" />
+                                </materials>
+                            </lod>
+                            <lod index="1">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_01" />
+                                    <material id="2" ref="argon.ar_unique_02" />
+                                    <material id="3" ref="generic.generic_engines_01" />
+                                    <material id="4" ref="argon.ar_unique_04" />
+                                </materials>
+                            </lod>
+                            <lod index="2">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_01" />
+                                </materials>
+                            </lod>
+                            <lod index="3">
+                                <materials>
+                                    <material id="1" ref="argon.ar_unique_01" />
+                                </materials>
+                            </lod>
+                        </lods>
+                        <size>
+                            <max x="27.1367" y="16.10825" z="38.96421" />
+                            <center x="-2.719139" y="-9.209354" z="14.18657" />
+                        </size>
+                    </part>
+                </parts>
+            </connection>
+            <connection name="Connection02" tags="part ship_xr  ">
+                <offset>
+                    <position x="0" y="0" z="132.8769" />
+                </offset>
+                <parts />
+            </connection>
+            <connection name="connection_shieldgen01" tags="shield small unhittable">
+                <offset>
+                    <position x="-22.66909" y="0.5551939" z="10.82679" />
+                    <rotation pitch="180" />
+                </offset>
+            </connection>
+            <connection name="connection_shieldgen02" tags="shield small unhittable">
+                <offset>
+                    <position x="-4.23986" y="0" z="0" />
+                    <rotation yaw="90" pitch="25" />
+                </offset>
+            </connection>
+            <connection name="connection_engine01" tags="engine small">
+                <offset>
+                    <position x="0" y="0" z="-13.0551" />
+                </offset>
+            </connection>
+            <connection name="connection_engine02" tags="engine small">
+                <offset>
+                    <position x="0" y="3" z="-13.0551" />
+                </offset>
+            </connection>
+            <connection name="connection_engine03" tags="engine small">
+                <offset>
+                    <position x="0" y="-3" z="-13.0551" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_prim01" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="-7.635924" y="0.2342585" z="46.00338" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_prim02" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="7.747185" y="0.2342585" z="46.00396" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_prim03" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="3.863851" y="3.187621" z="14.11144" />
+                </offset>
+            </connection>
+            <connection name="connection_weapon_prim04" tags="weapon small standard missile platformcollision ">
+                <offset>
+                    <position x="-3.806194" y="3.187621" z="14.09204" />
+                </offset>
+            </connection>
+            <connection name="connection_radar01" tags="destructible">
+                <offset />
+            </connection>
+            <connection name="con_playercontrol" tags="playercontrol"></connection>
+            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+                <offset>
+                    <position x="0" y="7.20219" z="0" />
+                </offset>
+            </connection>
+            <connection name="con_dock_xs" tags="dock_xs ">
+                <offset>
+                    <position x="0" y="6.70215" z="-7.5" />
+                    <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
+                </offset>
+            </connection>
+        </connections>
+    </component>
+</components>

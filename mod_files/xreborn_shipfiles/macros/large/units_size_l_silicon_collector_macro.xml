@@ -1,0 +1,63 @@
+<macros>
+  <macro name="units_size_l_silicon_collector_macro" class="ship_l" alias="units_size_l_ore_collector_macro">
+    <component ref="units_size_l_silicon_collector" />
+    <properties>
+      <identification name="{78238230,80}" description="{78238230,81}" icon="ship_l_mine_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <secrecy level="1" />
+      <explosiondamage value="8742" />
+      <storage missile="32" unit="9" />
+      <purpose primary="mine" />
+      <ship type="largeminer" />
+      <hull max="27960" />
+      <people capacity="46" />
+      <physics mass="204.245">
+        <inertia pitch="132.733" yaw="132.733" roll="106.186" />
+        <drag forward="56.594" reverse="323.396" horizontal="127.239" vertical="127.239" pitch="140.528" yaw="140.528" roll="140.528" />
+      </physics>
+      <thruster tags="large" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_l_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="conn_engine_bottom01">
+        <macro>
+          <component ref="props_enginesystems_l_liquid_freighter_bottom" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="conn_engine_top01">
+        <macro>
+          <component ref="props_enginesystems_l_liquid_freighter_top" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="conn_engine_top02">
+        <macro>
+          <component ref="props_enginesystems_l_liquid_freighter_top" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_l_silicon_collector_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_l_silicon_collector_shipstorage_s_macro" connection="object" />
+      </connection>
+	<connection ref="con_dock_01">
+                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+                </connection>
+                <connection ref="con_dock_02">
+                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+                </connection>      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

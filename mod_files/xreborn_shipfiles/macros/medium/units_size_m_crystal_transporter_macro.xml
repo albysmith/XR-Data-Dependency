@@ -1,0 +1,45 @@
+<macros>
+  <macro name="units_size_m_crystal_transporter_macro" class="ship_m" alias="units_size_m_ore_transporter_macro">
+    <component ref="units_size_m_crystal_transporter" />
+    <properties>
+      <identification name="{78238230,152}" basename="{78238230,154}" description="{78238230,153}" variation="{78238230,155}" icon="ship_m_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <explosiondamage value="1028" />
+      <storage missile="19" unit="0" />
+      <hull max="6103" />
+      <secrecy level="1" />
+      <purpose primary="trade" />
+      <people capacity="20" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_m_02" />
+      </sounds>
+      <physics mass="56.817">
+        <inertia pitch="11.45" yaw="11.45" roll="9.16" />
+        <drag forward="10.106" reverse="40.424" horizontal="18.361" vertical="18.361" pitch="16.704" yaw="16.704" roll="16.704" />
+      </physics>
+      <thruster tags="medium" />
+      <ship type="transporter" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_crystal_transporter_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

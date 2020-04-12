@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="units_size_xl_cs_omicron_cargo_b" class="destructible">
+		<properties>
+			<hull max="0" integrated="1" />
+		</properties>
+		<source geometry="Extensions\xr_data_dependency\assets\units\size_xl\construction_set\units_size_xl_cs_omicron_cargo_b_data" />
+		<layers>
+			<layer>
+				<waypoints />
+				<lights />
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
+			<connection name="space" tags="destructible">
+				<offset />
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.546757" y="49.72174" z="1.895325" />
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
+									<material id="3" ref="argon.ar_unique_03" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
+									<material id="3" ref="argon.ar_unique_03" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
+									<material id="3" ref="argon.ar_unique_03" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hullpattern_05b" />
+									<material id="2" ref="Material #11334" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="150.2037" y="106.7988" z="121.1489" />
+							<center x="-0.5186349" y="-49.72172" z="-0.5376397" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.546996" y="52.38755" z="1.87518" />
+				</offset>
+				<parts>
+					<part name="detail_xs_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_alphatrims_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="34.51611" y="42.15102" z="114.7648" />
+							<center x="-1.549721E-06" y="-3.814697E-06" z="3.457069E-06" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.546757" y="49.72174" z="1.895325" />
+				</offset>
+				<parts>
+					<part name="detail_s_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
+									<material id="3" ref="argon.ar_unique_03" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="42.75443" y="35.55824" z="120.6113" />
+							<center x="-2.026558E-06" y="-9.870693" z="-3.933907E-06" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.546757" y="49.72174" z="308.1618" />
+				</offset>
+				<parts />
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

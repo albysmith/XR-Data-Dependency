@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+
+
+<!-- UNUSED - LIQUID  -->
+
+<!-- units_size_m_liquid_transporter_macro
+units_size_l_dv_kit_new_bulk_liquid_01_macro
+units_size_l_dv_kit_new_liquid_01_macro
+units_size_l_dv_kit_old_bulk_liquid_01_macro
+units_size_l_dv_kit_old_liquid_01_macro
+units_size_l_kit_liquid_01_macro
+units_size_l_liquid_freighter_macro
+units_size_m_te_liquid_01_macro
+units_size_l_te_kit_liquid_03_macro
+units_size_xl_te_kit_liquid_01_macro
+units_size_xl_te_kit_liquid_02_macro
+units_size_xl_te_kit_liquid_03_macro -->
+
+
+
+ 
+  
+    <!-- <add sel="/groups/group[@id='xen_fighter_light_s']">
+        <select macro="units_size_s_xenon_swarm_attack_drone_01_macro" />
+        <select macro="units_size_s_xenon_swarm_attack_drone_02_macro" />
+    </add> -->
+
+</diff>

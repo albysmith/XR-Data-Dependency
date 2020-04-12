@@ -1,0 +1,116 @@
+<macros>
+  <macro name="units_size_xl_te_kit_liquid_03_macro" class="ship_xl">
+    <component ref="units_size_xl_te_kit_liquid_03" />
+    <properties>
+      <identification name="{78238230,377}" basename="{78238230,379}" description="{78238230,378}" unique="0" variation="{78238230,380}" icon="ship_l_trade_01" />
+      <purpose primary="trade" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <secrecy level="1" />
+      <explosiondamage value="0" />
+      <storage missile="40" unit="111" />
+      <hull max="110191" />
+      <ship type="freighter" />
+      <people capacity="218" />
+      <physics mass="896.85">
+        <inertia pitch="547.074" yaw="547.074" roll="437.659" />
+        <drag forward="324.213" reverse="1296.85" horizontal="510.578" vertical="510.578" pitch="879.37" yaw="879.37" roll="879.37" />
+      </physics>
+      <thruster tags="extralarge" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_defence_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_defence_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_end_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_end_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_front_b">
+        <macro>
+          <component ref="units_size_xl_te_kit_front_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_liquid_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_liquid_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="liquid_a_connection_storage_l01">
+        <macro>
+          <component ref="props_sm_te_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="liquid_a_connection_storage_l02">
+        <macro>
+          <component ref="props_sm_te_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="liquid_a_connection_storage_l03">
+        <macro>
+          <component ref="props_sm_te_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_liquid_a1">
+        <macro>
+          <component ref="units_size_xl_te_kit_liquid_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="liquid_a1_connection_storage_l01">
+        <macro>
+          <component ref="props_sm_te_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="liquid_a1_connection_storage_l02">
+        <macro>
+          <component ref="props_sm_te_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="liquid_a1_connection_storage_l03">
+        <macro>
+          <component ref="props_sm_te_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_livingsection_b">
+        <macro>
+          <component ref="units_size_xl_te_kit_livingsection_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="connection_cockpit01">
+        <macro>
+          <component ref="cockpit_bridge_te_l_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_te_kit_liquid_03_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_te_kit_liquid_03_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_te_kit_liquid_03_shipstorage_m_macro" connection="object" />
+      </connection>
+	<connection ref="con_dock_01">
+                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+                </connection>
+                <connection ref="con_dock_02">
+                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+                </connection>      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

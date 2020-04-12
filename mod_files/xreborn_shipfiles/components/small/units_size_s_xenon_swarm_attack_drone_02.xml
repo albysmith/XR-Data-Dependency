@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<components>
+    <component name="units_size_s_xenon_swarm_attack_drone_02" class="ship_s">
+        <source geometry="Extensions\xr_data_dependency\assets\units\size_s\units_size_s_xenon_swarm_attack_drone_02_data" />
+        <layers>
+            <layer>
+                <waypoints />
+                <lights>
+                    <omni name="XU Omni10" shadow="0" r="255" g="0" b="0" range="5" shadowrange="5" lighteffect="1" trigger="1" intensity="0.75">
+                        <lightanimations />
+                        <offset>
+                            <position x="-5.840796" y="-0.17945" z="-22.22812" />
+                        </offset>
+                    </omni>
+                    <omni name="XU Omni11" shadow="0" r="255" g="33" b="0" range="7.1" shadowrange="7.1" lighteffect="1" trigger="1" intensity="0.75">
+                        <lightanimations />
+                        <offset>
+                            <position x="5.901167" y="-0.1801011" z="-22.22707" />
+                        </offset>
+                    </omni>
+                </lights>
+            </layer>
+        </layers>
+        <connections>
+            <connection name="container" tags="contents" value="0" optional="0" />
+            <connection name="position" tags="position" value="1" optional="1" />
+            <connection name="space" tags="ship ship_s">
+                <offset />
+            </connection>
+            <connection name="Connection02" tags="part ship_xr  ">
+                <offset>
+                    <position x="0" y="0" z="2.384186E-07" />
+                </offset>
+                <parts>
+                    <part name="part_main" wreck="part_main_wreck">
+                        <lods>
+                            <lod index="0">
+                                <materials>
+                                    <material id="1" ref="xenon.xenon_unique_01" />
+                                </materials>
+                            </lod>
+                            <lod index="1">
+                                <materials>
+                                    <material id="1" ref="xenon.xenon_unique_01" />
+                                </materials>
+                            </lod>
+                            <lod index="2">
+                                <materials>
+                                    <material id="1" ref="xenon.xenon_unique_01" />
+                                </materials>
+                            </lod>
+                            <lod index="3">
+                                <materials>
+                                    <material id="1" ref="xenon.xenon_unique_01" />
+                                </materials>
+                            </lod>
+                        </lods>
+                        <size>
+                            <max x="11.45903" y="15.43494" z="29.84614" />
+                            <center x="0" y="0" z="1.46934" />
+                        </size>
+                    </part>
+                </parts>
+            </connection>
+            <connection name="Connection03" tags="part ship_xr  ">
+                <offset>
+                    <position x="0" y="0" z="78.28871" />
+                </offset>
+                <parts />
+            </connection>
+            <connection name="Connection01" tags="cockpit ">
+                <offset>
+                    <position x="-0.2413635" y="0.9340627" z="3.919638" />
+                </offset>
+            </connection>
+            <connection name="weapon_primary_l" tags="weapon_small primary_slot ">
+                <offset>
+                    <position x="-1.724281" y="9.583134" z="5.915527" />
+                </offset>
+            </connection>
+            <connection name="weapon_secondary_01" tags="weapon_small secondary_slot ">
+                <offset>
+                    <position x="-0.0316211" y="-8.530447" z="5.240009" />
+                </offset>
+            </connection>
+            <connection name="weapon_primary_r" tags="weapon_small primary_slot ">
+                <offset>
+                    <position x="1.440055" y="9.583" z="5.916" />
+                </offset>
+            </connection>
+            <connection name="Connection_engine" tags="engine small">
+                <offset>
+                    <position x="-2.030373E-02" y="2.053433" z="-23.78919" />
+                </offset>
+            </connection>
+            <connection name="connection_shieldgen01" tags="shield small unhittable">
+                <offset />
+            </connection>
+            <connection name="connection_radar01" tags="destructible">
+                <offset />
+            </connection>
+            <connection name="conn_engine_side01" tags="engine small">
+                <offset>
+                    <position x="-10.28508" y="10.45459" z="-25.18508" />
+                    <quaternion qx="-0.00000008002453" qy="-0.00000005804607" qz="-0.9063078" qw="0.4226184" />
+                </offset>
+            </connection>
+            <connection name="conn_engine_side02" tags="engine small">
+                <offset>
+                    <position x="10.2851" y="10.45459" z="-25.18508" />
+                    <quaternion qx="-0.000000374072" qy="-0.0000001434309" qz="-0.9063078" qw="-0.4226183" />
+                </offset>
+            </connection>
+            <connection name="conn_engine_side03" tags="engine small">
+                <offset>
+                    <position x="-10.28508" y="-10.74986" z="-25.18508" />
+                    <quaternion qx="0.00000003651756" qy="0.00000003651756" qz="-0.4226182" qw="0.9063078" />
+                </offset>
+            </connection>
+            <connection name="conn_engine_side04" tags="engine small">
+                <offset>
+                    <position x="10.2851" y="-10.74986" z="-25.18508" />
+                    <quaternion qx="-0.0000003686206" qy="-0.0000003686206" qz="0.3826834" qw="0.9238796" />
+                </offset>
+            </connection>
+            <connection name="con_playercontrol" tags="playercontrol"></connection>
+            <connection name="con_dock_xs" tags="dock_xs ">
+                <offset>
+                    <position x="0" y="4" z="-15" />
+                    <rotation pitch="180" />
+                </offset>
+            </connection>
+            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+                <offset>
+                    <position x="0" y="15.2053" z="0" />
+                </offset>
+            </connection>
+            <connection name="con_dock_xs" tags="dock_xs ">
+                <offset>
+                    <position x="0" y="14.7051" z="-7.5" />
+                    <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
+                </offset>
+            </connection>
+            <connection name="conn_storage01" tags="storage" />
+        </connections>
+    </component>
+</components>

@@ -1,0 +1,1102 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="units_size_xl_transporter_2" class="ship_xl">
+		<source geometry="Extensions\xr_data_dependency\assets\units\size_xl\\units_size_xl_transporter_2_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights></lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="ship ship_xl">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset>
+					<position x="0.4898853" y="41.87032" z="-396.8427"></position>
+				</offset>
+				<parts>
+					<part name="part_main">
+						<size>
+							<max x="40.10194" y="116.4981" z="518.3431"></max>
+							<center x="-1.907349E-06" y="7.629395E-06" z="3.051758E-05"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="conn_storage01" tags="storage" />
+			<connection name="connection_cockpit01" tags="destructible">
+				<offset>
+					<position x="0" y="170.1879" z="295.6315"></position>
+				</offset>
+			</connection>
+			<connection name="connection_engine_large01" tags="engine large">
+				<offset>
+					<position x="239.8459" y="31.88807" z="-243.9208"></position>
+				</offset>
+			</connection>
+			<connection name="connection_engine_large02" tags="engine large">
+				<offset>
+					<position x="127.8306" y="-26.83492" z="-244.8417"></position>
+				</offset>
+			</connection>
+			<connection name="connection_engine_large03" tags="engine large">
+				<offset>
+					<position x="-127.3498" y="-26.83492" z="-244.8417"></position>
+				</offset>
+			</connection>
+			<connection name="connection_engine_large04" tags="engine large">
+				<offset>
+					<position x="-238.8086" y="33.04906" z="-242.7779"></position>
+				</offset>
+			</connection>
+			<connection name="connection_engine_medium01" tags="engine large">
+				<offset>
+					<position x="0" y="111.3969" z="-1050.944"></position>
+				</offset>
+			</connection>
+			<connection name="connection_engine_medium02" tags="engine large">
+				<offset>
+					<position x="0" y="6.14563" z="-1050.944"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_center_module_bridge" tags="destructible">
+				<offset>
+					<position x="0" y="0" z="14.97201"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_connector_left" tags="destructible">
+				<offset>
+					<position x="-495.7202" y="0" z="17.40744"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_connector_right" tags="destructible">
+				<offset>
+					<position x="493.7662" y="0" z="17.51396"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_extender_wing_top" tags="destructible">
+				<offset>
+					<position x="-496.0896" y="-1.210616" z="767.6973"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_extender_wing_top1" tags="destructible">
+				<offset>
+					<position x="493.7801" y="-1.210616" z="767.6973"></position>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_extender_top_b" tags="destructible">
+				<offset>
+					<position x="0" y="9.074707" z="-683.6206"></position>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_docking_module" tags="destructible">
+				<offset>
+					<position x="-495.9407" y="-1.565808" z="1891.866"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_docking_module1" tags="destructible">
+				<offset>
+					<position x="493.6125" y="-1.565808" z="1891.866"></position>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_frontwing_left_top" tags="destructible">
+				<offset>
+					<position x="-495.5025" y="-1.712408" z="3019.809"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_unit_kit_xl_ar_frontwing_right_top" tags="destructible">
+				<offset>
+					<position x="493.7869" y="-1.716637" z="3019.766"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_props_surf_ar_radar_01" tags="destructible">
+				<offset>
+					<position x="-247.7461" y="108.1796" z="-143.7082"></position>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_props_surf_ar_radar_011" tags="destructible">
+				<offset>
+					<position x="248.4306" y="108.1796" z="-143.7082"></position>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="con_playercontrol" tags="playercontrol"></connection>
+ 
+			<connection name="center_module_bridge_connection_turret_medium01" group="" tags="turret medium standard hittable ">
+				<offset>
+					<position x="-48.1243" y="-247.9307" z="-129.96089" />
+					<quaternion qx="-0.000000000000001507788" qy="0.000000000000001507788" qz="0.7071068" qw="0.7071068" />
+				</offset>
+			</connection>
+			<connection name="center_module_bridge_connection_turret_medium02" group="" tags="turret medium standard hittable ">
+				<offset>
+					<position x="47.48645" y="-247.9307" z="-129.96098" />
+					<quaternion qx="-0.0000002528811" qy="0.0000002528811" qz="0.7071067" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="center_module_bridge_connection_turret_small01" group="" tags="turret medium standard hittable ">
+				<offset>
+					<position x="-69.76226" y="140.7226" z="279.4945" />
+					<quaternion qx="0.29895213" qy="-0.95426816" qz="-0.00000018580292" qw="0.000000058208123" />
+				</offset>
+			</connection>
+			<connection name="center_module_bridge_connection_turret_small02" group="" tags="turret medium standard hittable ">
+				<offset>
+					<position x="69.50939" y="141.2151" z="279.4945" />
+					<quaternion qx="-0.3024584" qy="-0.9531626" qz="-0.0000001855876" qw="-0.00000005889084" />
+				</offset>
+			</connection>
+			<connection name="center_module_bridge_connection_shieldgen02" group="" tags="shield large ">
+				<offset>
+					<position x="0.03489876" y="-248.5562" z="-235.76979" />
+					<quaternion qx="0.70710933" qy="-0.000000053384895" qz="-0.000000053385275" qw="-0.70710427" />
+				</offset>
+			</connection>
+			<connection name="center_module_bridge_connection_shieldgen01" group="" tags="shield large ">
+				<offset>
+					<position x="0.5775919" y="151.5406" z="208.58801" />
+					<quaternion qx="0" qy="0" qz="0.0000000754979" qw="-1" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="connector_left_connection_turret_small01" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-745.8325" y="-72.56298" z="-223.81386" />
+					<quaternion qx="0.7071068" qy="0.0000000842937" qz="0.7071067" qw="-0.00000002247646" />
+				</offset>
+			</connection>
+			<connection name="connector_left_connection_turret_small02" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-736.8285" y="-72.56298" z="-105.84336" />
+					<quaternion qx="0.7071068" qy="0.0000000842937" qz="0.7071067" qw="-0.00000002247646" />
+				</offset>
+			</connection>
+			<connection name="connector_left_connection_turret_small03" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-736.8285" y="-72.56298" z="-34.13735" />
+					<quaternion qx="0.7071068" qy="0.0000000842937" qz="0.7071067" qw="-0.00000002247646" />
+				</offset>
+			</connection>
+			<connection name="connector_left_connection_turret_small04" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-745.8325" y="-72.56298" z="87.00308" />
+					<quaternion qx="0.7071068" qy="0.0000000842937" qz="0.7071067" qw="-0.00000002247646" />
+				</offset>
+			</connection>
+			<connection name="connector_left_connection_turret_small05" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-344.46393" y="-72.56293" z="161.58434" />
+					<quaternion qx="-0.7071068" qy="0.00000002247646" qz="0.7071068" qw="0.0000000842937" />
+				</offset>
+			</connection>
+			<connection name="connector_left_connection_turret_small06" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-344.46393" y="-72.56291" z="289.54733" />
+					<quaternion qx="-0.7071068" qy="0.00000002247646" qz="0.7071068" qw="0.0000000842937" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+			<connection name="connector_left_connection_shieldgen01" group="capship_outside " tags="shield large ">
+				<offset>
+					<position x="-736.0244" y="-71.756" z="-68.78017" />
+					<quaternion qx="0" qy="0" qz="-1" qw="0" />
+				</offset>
+			</connection>
+			<connection name="connector_left_connection_shieldgen02" group="capship_inside " tags="shield large ">
+				<offset>
+					<position x="-420.87558" y="-110.4359" z="37.93031" />
+					<quaternion qx="0" qy="0" qz="-1" qw="0" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_turret_small01" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="743.8866" y="-72.56299" z="-223.70734" />
+					<quaternion qx="-0.70710665" qy="-0.000000111510104" qz="0.70710695" qw="0.000000111510104" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_turret_small02" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="734.88257" y="-72.56299" z="-105.73684" />
+					<quaternion qx="-0.70710665" qy="-0.000000111510104" qz="0.70710695" qw="0.000000111510104" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_turret_small03" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="734.88257" y="-72.56299" z="-34.030838" />
+					<quaternion qx="-0.70710665" qy="-0.000000111510104" qz="0.70710695" qw="0.000000111510104" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_turret_small04" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="743.8866" y="-72.56299" z="87.109604" />
+					<quaternion qx="-0.70710665" qy="-0.000000111510104" qz="0.70710695" qw="0.000000111510104" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_turret_small05" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="342.518" y="-72.56294" z="161.69086" />
+					<quaternion qx="0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_turret_small06" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="342.518" y="-72.56291" z="289.65384" />
+					<quaternion qx="0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="con_internal_xl_shield" tags="shield extralarge">
+				<offset>
+					<position />
+					<quaternion  />
+				</offset>
+			</connection>
+ 
+			<connection name="connector_right_connection_shieldgen01" group="capship_outside " tags="shield large ">
+				<offset>
+					<position x="734.0785" y="-71.756" z="-68.67366" />
+					<quaternion qx="0" qy="0" qz="-1" qw="0" />
+				</offset>
+			</connection>
+			<connection name="connector_right_connection_shieldgen02" group="capship_inside " tags="shield large ">
+				<offset>
+					<position x="418.92966" y="-110.4359" z="38.036827" />
+					<quaternion qx="0" qy="0" qz="-1" qw="0" />
+				</offset>
+			</connection>
+ 
+			<connection name="extender_wing_top_connection_turret_small01" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.6807" y="83.24162" z="1115.3711" />
+					<quaternion qx="-0.00000005338509" qy="-0.7071068" qz="-0.00000005338508" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small02" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.6807" y="83.24162" z="1046.2991" />
+					<quaternion qx="-0.00000005338509" qy="-0.7071068" qz="-0.00000005338508" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small03" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.6807" y="83.24162" z="975.22144" />
+					<quaternion qx="-0.00000005338509" qy="-0.7071068" qz="-0.00000005338508" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small04" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.6807" y="83.24162" z="491.55283" />
+					<quaternion qx="-0.00000005338509" qy="-0.7071068" qz="-0.00000005338508" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small05" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.6807" y="83.24162" z="560.6248" />
+					<quaternion qx="-0.00000005338509" qy="-0.7071068" qz="-0.00000005338508" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small06" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.6807" y="83.24162" z="420.47522" />
+					<quaternion qx="-0.00000005338509" qy="-0.7071068" qz="-0.00000005338508" qw="-0.7071067" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small07" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-745.5676" y="-72.167755" z="595.4655" />
+					<quaternion qx="0.70710665" qy="-0.00000010677011" qz="0.70710695" qw="-0.00000010677021" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small08" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-737.7371" y="-72.16779" z="731.7147" />
+					<quaternion qx="0.70710665" qy="-0.00000010677011" qz="0.70710695" qw="-0.00000010677021" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small09" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-737.7371" y="-72.16782" z="803.721" />
+					<quaternion qx="0.70710665" qy="-0.00000010677011" qz="0.70710695" qw="-0.00000010677021" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small10" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-745.5676" y="-72.167854" z="938.82184" />
+					<quaternion qx="0.70710665" qy="-0.00000010677011" qz="0.70710695" qw="-0.00000010677021" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small11" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.1161" y="-78.87416" z="1046.2991" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071068" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small12" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.1161" y="-78.87416" z="975.22144" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071068" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small13" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.1162" y="-78.87416" z="491.55273" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071068" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small14" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.1162" y="-78.87416" z="560.62476" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071068" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small15" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.1161" y="-78.87416" z="420.47522" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071068" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_turret_small16" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-240.1161" y="-78.87416" z="1115.3711" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071068" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_shieldgen01" group="capship_top " tags="shield large ">
+				<offset>
+					<position x="-241.87129" y="82.68214" z="768.2903" />
+					<quaternion qx="0" qy="0" qz="-0.0000000754979" qw="-1" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_shieldgen02" group="capship_outside " tags="shield large ">
+				<offset>
+					<position x="-737.0257" y="-70.8069" z="768.2903" />
+					<quaternion qx="0" qy="0" qz="-1" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top_connection_shieldgen03" group="capship_inside " tags="shield large ">
+				<offset>
+					<position x="-300.55438" y="-69.42754" z="767.25934" />
+					<quaternion qx="0" qy="0" qz="-1" qw="0" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="extender_wing_top1_connection_turret_small01" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="238.37125" y="83.24162" z="420.02356" />
+					<quaternion qx="0.000000053385087" qy="0.7071068" qz="-0.00000005338509" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small02" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="238.37122" y="83.24162" z="489.09555" />
+					<quaternion qx="0.000000053385087" qy="0.7071068" qz="-0.00000005338509" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small03" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="238.37122" y="83.24162" z="560.1732" />
+					<quaternion qx="0.000000053385087" qy="0.7071068" qz="-0.00000005338509" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small04" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="238.37115" y="83.24162" z="1043.8418" />
+					<quaternion qx="0.000000053385087" qy="0.7071068" qz="-0.00000005338509" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small05" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="238.37115" y="83.24162" z="974.7698" />
+					<quaternion qx="0.000000053385087" qy="0.7071068" qz="-0.00000005338509" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small06" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="238.37112" y="83.24162" z="1114.9194" />
+					<quaternion qx="0.000000053385087" qy="0.7071068" qz="-0.00000005338509" qw="-0.7071068" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small07" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="743.25806" y="-72.167755" z="939.92914" />
+					<quaternion qx="-0.707107" qy="0.000000106770216" qz="0.7071066" qw="-0.0000001067701" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small08" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="735.4276" y="-72.16779" z="803.67993" />
+					<quaternion qx="-0.707107" qy="0.000000106770216" qz="0.7071066" qw="-0.0000001067701" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small09" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="735.4276" y="-72.16782" z="731.67365" />
+					<quaternion qx="-0.707107" qy="0.000000106770216" qz="0.7071066" qw="-0.0000001067701" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small10" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="743.2581" y="-72.167854" z="596.5729" />
+					<quaternion qx="-0.707107" qy="0.000000106770216" qz="0.7071066" qw="-0.0000001067701" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small11" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="237.80663" y="-78.87416" z="489.09555" />
+					<quaternion qx="-0.70710677" qy="0" qz="-0.7071069" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small12" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="237.80663" y="-78.87416" z="560.1732" />
+					<quaternion qx="-0.70710677" qy="0" qz="-0.7071069" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small13" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="237.80666" y="-78.87416" z="1043.8418" />
+					<quaternion qx="-0.70710677" qy="0" qz="-0.7071069" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small14" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="237.80666" y="-78.87416" z="974.7699" />
+					<quaternion qx="-0.70710677" qy="0" qz="-0.7071069" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small15" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="237.80653" y="-78.87416" z="1114.9194" />
+					<quaternion qx="-0.70710677" qy="0" qz="-0.7071069" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_turret_small16" group="capship_inside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="237.80666" y="-78.87416" z="420.02356" />
+					<quaternion qx="-0.70710677" qy="0" qz="-0.7071069" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_shieldgen01" group="capship_top " tags="shield large ">
+				<offset>
+					<position x="239.56178" y="82.68214" z="767.1043" />
+					<quaternion qx="0.0000000754979" qy="1" qz="0.0000000000000056999333" qw="0.0000000754979" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_shieldgen02" group="capship_outside " tags="shield large ">
+				<offset>
+					<position x="734.7162" y="-70.8069" z="767.10443" />
+					<quaternion qx="1" qy="0" qz="0.0000000754979" qw="0" />
+				</offset>
+			</connection>
+			<connection name="extender_wing_top1_connection_shieldgen03" group="capship_inside " tags="shield large ">
+				<offset>
+					<position x="298.24487" y="-69.42754" z="768.1353" />
+					<quaternion qx="1" qy="0" qz="0.0000000754979" qw="0" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="docking_module_connection_turret_medium01" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-724.2633" y="-98.920364" z="2044.9294" />
+					<quaternion qx="0.7071068" qy="0.0000001685874" qz="0.7071067" qw="0.0000001067702" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_medium02" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-724.2633" y="-98.920364" z="1727.3007" />
+					<quaternion qx="0.7071068" qy="0.0000001685874" qz="0.7071067" qw="0.0000001067702" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small15" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-752.7882" y="-73.322044" z="2471.3198" />
+					<quaternion qx="0.70710665" qy="-0.000000022476451" qz="0.70710695" qw="-0.000000039340783" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small02" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="2408.8145" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small03" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="2315.983" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small04" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="2221.204" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small05" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="2127.9646" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small06" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="2033.329" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small07" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1941.2119" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small08" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1842.3464" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small09" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1750.4968" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small10" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1655.8953" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small11" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1562.7021" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small12" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1468.1563" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small13" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1375.9431" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small14" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="1281.2188" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small01" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-503.48923" y="31.656654" z="2503.2793" />
+					<quaternion qx="-0.000000092725855" qy="-0.70710665" qz="-0.00000007586155" qw="-0.70710695" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small16" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-752.7882" y="-73.322044" z="2248.4802" />
+					<quaternion qx="0.70710665" qy="-0.000000022476451" qz="0.70710695" qw="-0.000000039340783" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small17" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-752.7882" y="-73.322044" z="1520.7087" />
+					<quaternion qx="0.70710665" qy="-0.000000022476451" qz="0.70710695" qw="-0.000000039340783" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_turret_small18" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-752.7882" y="-73.322044" z="1328.8232" />
+					<quaternion qx="0.70710665" qy="-0.000000022476451" qz="0.70710695" qw="-0.000000039340783" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_shieldgen01" group="capship_top " tags="shield large ">
+				<offset>
+					<position x="-242.5592" y="89.16908" z="1894.6149" />
+					<quaternion qx="0" qy="-1" qz="0.0000000754979" qw="0" />
+				</offset>
+			</connection>
+			<connection name="docking_module_connection_shieldgen02" group="capship_bottom " tags="shield large ">
+				<offset>
+					<position x="-717.7091" y="-97.37475" z="1889.8135" />
+					<quaternion qx="1" qy="0.00000004371139" qz="-0.000000000000003300118" qw="-0.0000000754979" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="docking_module1_connection_turret_medium01" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="721.9351" y="-98.920364" z="1738.8025" />
+					<quaternion qx="-0.7071068" qy="-0.00000010677022" qz="0.7071068" qw="0.0000001685874" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_medium02" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="721.93506" y="-98.920364" z="2056.4314" />
+					<quaternion qx="-0.7071068" qy="-0.00000010677022" qz="0.7071068" qw="0.0000001685874" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small15" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="750.4601" y="-73.322044" z="1312.4121" />
+					<quaternion qx="-0.707107" qy="0.000000039340783" qz="0.7071066" qw="-0.000000022476447" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small02" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.1611" y="31.656654" z="1374.9175" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small03" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16107" y="31.656654" z="1467.749" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small04" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16107" y="31.656654" z="1562.5278" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small05" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16104" y="31.656654" z="1655.7673" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small06" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16104" y="31.656654" z="1750.403" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small07" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.161" y="31.656654" z="1842.52" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small08" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.161" y="31.656654" z="1941.3855" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small09" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.161" y="31.656654" z="2033.2351" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small10" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16098" y="31.656654" z="2127.8367" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small11" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16098" y="31.656654" z="2221.0298" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small12" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16095" y="31.656654" z="2315.5757" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small13" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16095" y="31.656654" z="2407.7888" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small14" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.16092" y="31.656654" z="2502.5132" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small01" group="capship_top " tags="turret medium standard hittable ">
+				<offset>
+					<position x="501.1611" y="31.656654" z="1280.4528" />
+					<quaternion qx="0.00000007586156" qy="0.707107" qz="-0.00000009272585" qw="-0.7071066" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small16" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="750.4601" y="-73.322044" z="1535.2517" />
+					<quaternion qx="-0.707107" qy="0.000000039340783" qz="0.7071066" qw="-0.000000022476447" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small17" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="750.45996" y="-73.322044" z="2263.0234" />
+					<quaternion qx="-0.707107" qy="0.000000039340783" qz="0.7071066" qw="-0.000000022476447" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_turret_small18" group="capship_bottom " tags="turret medium standard hittable ">
+				<offset>
+					<position x="750.45996" y="-73.322044" z="2454.9087" />
+					<quaternion qx="-0.707107" qy="0.000000039340783" qz="0.7071066" qw="-0.000000022476447" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_shieldgen01" group="capship_top " tags="shield large ">
+				<offset>
+					<position x="240.23099" y="89.16908" z="1889.1171" />
+					<quaternion qx="-0.0000000754979" qy="0.0000000754979" qz="-0.0000000000000056999333" qw="-1" />
+				</offset>
+			</connection>
+			<connection name="docking_module1_connection_shieldgen02" group="capship_bottom " tags="shield large ">
+				<offset>
+					<position x="715.38086" y="-97.37475" z="1893.9185" />
+					<quaternion qx="-0.0000000754979" qy="0.0000000754979" qz="1" qw="0.000000043711395" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="frontwing_left_top_connection_turret_medium01" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-364.0953" y="-83.47999" z="3135.7068" />
+					<quaternion qx="1" qy="0.00000004371138" qz="-0.0000001509958" qw="-0.0000000437114" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_medium02" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-364.0953" y="-83.48" z="2970.0474" />
+					<quaternion qx="1" qy="0.00000004371138" qz="-0.0000001509958" qw="-0.0000000437114" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small01" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-420.14087" y="-112.36121" z="2765.821" />
+					<quaternion qx="-0.7071068" qy="-0.0000001067702" qz="0.7071067" qw="0.0000001067702" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small02" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-420.14087" y="-112.36121" z="2728.9922" />
+					<quaternion qx="-0.7071068" qy="-0.0000001067702" qz="0.7071067" qw="0.0000001067702" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small03" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-421.25708" y="-111.53871" z="3161.4524" />
+					<quaternion qx="1" qy="-0.0000002384186" qz="-0.0000000754979" qw="0.0000000000000180001" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small04" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-551.00006" y="-111.53871" z="3161.4524" />
+					<quaternion qx="1" qy="-0.0000002384186" qz="-0.0000000754979" qw="0.0000000000000180001" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small05" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-551.00006" y="-111.53871" z="2950.9321" />
+					<quaternion qx="1" qy="-0.0000002384186" qz="-0.0000000754979" qw="0.0000000000000180001" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small06" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-421.25708" y="-111.53871" z="2950.9321" />
+					<quaternion qx="1" qy="-0.0000002384186" qz="-0.0000000754979" qw="0.0000000000000180001" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_shieldgen01" group="capship_front " tags="shield large ">
+				<offset>
+					<position x="-363.6714" y="-83.33797" z="3041.8723" />
+					<quaternion qx="-0.7071068" qy="-0.0001543643" qz="0.7071068" qw="0.0001540271" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_shieldgen02" group="capship_front " tags="shield large ">
+				<offset>
+					<position x="-363.6714" y="-83.34924" z="3067.7058" />
+					<quaternion qx="-0.7071068" qy="-0.0001543643" qz="0.7071068" qw="0.0001540271" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small07" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-746.2724" y="-72.84145" z="3215.57" />
+					<quaternion qx="0.7071068" qy="-0.0000001685874" qz="0.7071068" qw="-0.0000001685874" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small08" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-736.3876" y="-72.84142" z="3090.582" />
+					<quaternion qx="0.7071068" qy="-0.0000001685874" qz="0.7071068" qw="-0.0000001685874" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small09" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-736.3876" y="-72.84141" z="3018.2268" />
+					<quaternion qx="0.7071068" qy="-0.0000001685874" qz="0.7071068" qw="-0.0000001685874" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small10" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-746.2724" y="-72.84138" z="2894.3787" />
+					<quaternion qx="0.7071068" qy="-0.0000001685874" qz="0.7071068" qw="-0.0000001685874" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_shieldgen03" group="capship_outside " tags="shield large ">
+				<offset>
+					<position x="-735.861" y="-72.20811" z="3055.3335" />
+					<quaternion qx="1" qy="0.0002180656" qz="0.0000001629727" qw="0.0000002384542" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="frontwing_left_top_connection_turret_small11" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-317.2683" y="70.9837" z="3239.8489" />
+					<quaternion qx="-0.70710665" qy="-0.70710695" qz="-0.00000014926951" qw="-0.00000014926951" />
+				</offset>
+			</connection>
+			<connection name="frontwing_left_top_connection_turret_small12" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="-317.2682" y="-56.346725" z="3239.8584" />
+					<quaternion qx="-0.70710665" qy="-0.70710695" qz="-0.00000014926951" qw="-0.00000014926951" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small01" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="418.6967" y="-112.36544" z="2728.9492" />
+					<quaternion qx="0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small02" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="418.6967" y="-112.36544" z="2765.778" />
+					<quaternion qx="0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small04" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="549.55585" y="-111.54294" z="2950.8892" />
+					<quaternion qx="1" qy="0" qz="0.0000001947072" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small03" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="419.81287" y="-111.54294" z="2950.8892" />
+					<quaternion qx="1" qy="0" qz="0.0000001947072" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small05" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="419.81287" y="-111.54294" z="3161.4094" />
+					<quaternion qx="1" qy="0" qz="0.0000001947072" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small06" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="549.55585" y="-111.54294" z="3161.4094" />
+					<quaternion qx="1" qy="0" qz="0.0000001947072" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small07" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="744.8282" y="-72.845604" z="2894.3357" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small08" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="734.94336" y="-72.845634" z="3018.1838" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small09" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="734.9435" y="-72.84565" z="3090.539" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small10" group="capship_outside " tags="turret medium standard hittable ">
+				<offset>
+					<position x="744.8282" y="-72.84568" z="3215.527" />
+					<quaternion qx="-0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small11" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="315.8241" y="-56.350956" z="3239.8154" />
+					<quaternion qx="0.7071068" qy="-0.7071068" qz="-0.0000005015461" qw="-0.00000005760116" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_small12" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="315.8241" y="70.97948" z="3239.806" />
+					<quaternion qx="0.7071068" qy="-0.7071068" qz="-0.0000005015461" qw="-0.00000005760116" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_medium01" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="362.6511" y="-83.484215" z="3135.6638" />
+					<quaternion qx="1" qy="0" qz="0.0000003139165" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_turret_medium02" group="capship_front " tags="turret medium standard hittable ">
+				<offset>
+					<position x="362.6511" y="-83.48423" z="2970.0044" />
+					<quaternion qx="1" qy="0" qz="0.0000003139165" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_shieldgen01" group="capship_front " tags="shield large ">
+				<offset>
+					<position x="362.2272" y="-83.35348" z="3067.6628" />
+					<quaternion qx="0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_shieldgen02" group="capship_front " tags="shield large ">
+				<offset>
+					<position x="362.2272" y="-83.34219" z="3041.8293" />
+					<quaternion qx="0.7071068" qy="0" qz="0.7071067" qw="0" />
+				</offset>
+			</connection>
+			<connection name="frontwing_right_top_connection_shieldgen03" group="capship_outside " tags="shield large ">
+				<offset>
+					<position x="734.4168" y="-72.21233" z="3055.2905" />
+					<quaternion qx="1" qy="0" qz="-0.0000001947072" qw="0" />
+				</offset>
+			</connection>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="72.907" z="0" />
+				</offset>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

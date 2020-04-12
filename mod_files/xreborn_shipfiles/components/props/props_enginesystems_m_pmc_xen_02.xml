@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_enginesystems_m_pmc_xen_02" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\props\EngineSystems\props_enginesystems_m_pmc_xen_02_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni12" shadow="0" r="255" g="96" b="0" range="30" shadowrange="30" lighteffect="1" lenseffect="xenon_01" trigger="1" intensity="2">
+						<lightanimations/>
+						<offset>
+							<position x="-30.37208" y="11.0512" z="-41.7794"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni13" shadow="0" r="255" g="96" b="0" range="30" shadowrange="30" lighteffect="1" lenseffect="xenon_01" trigger="1" intensity="2">
+						<lightanimations/>
+						<offset>
+							<position x="30.35472" y="11.0512" z="-41.7794"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni014" shadow="0" r="255" g="96" b="0" range="30" shadowrange="30" lighteffect="1" lenseffect="xenon_01" trigger="1" intensity="2">
+						<lightanimations/>
+						<offset>
+							<position x="0.2815762" y="-0.1144981" z="-34.24725"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr ">
+				<offset/>
+				<parts>
+					<part name="detail_m_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_unique_01"/>
+									<material id="2" ref="argon.ar_unique_02"/>
+									<material id="3" ref="generic.generic_engines_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="40.63404" y="13.50293" z="71.81065"/>
+							<center x="3.814697E-06" y="2.974001" z="29.67635"/>
+						</size>
+						<trailemitters>
+							<emitter name="trail_xenon_01" type="trail_xenon_01">
+								<offset>
+									<position x="-27.82929" y="10.92937" z="-29.70916"/>
+								</offset>
+							</emitter>
+							<emitter name="trail_xenon_01" type="trail_xenon_01">
+								<offset>
+									<position x="27.81946" y="10.92937" z="-29.70915"/>
+								</offset>
+							</emitter>
+						</trailemitters>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="speedscaleConnection01" tags="part ship_xr  animation nocollision speeddependant ">
+				<offset>
+					<position x="9.990812E-02" y="0.907406" z="-14.2133"/>
+				</offset>
+				<animations>
+					<animation name="scaling_range" start="0" end="100"/>
+				</animations>
+				<parts>
+					 
+					 
+				</parts>
+			</connection>
+			 
+			 
+		</connections>
+	</component>
+</components>

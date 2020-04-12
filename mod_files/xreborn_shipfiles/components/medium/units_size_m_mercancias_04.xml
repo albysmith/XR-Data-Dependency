@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="units_size_m_mercancias_04" class="ship_m">
+		<source geometry="Extensions\xr_data_dependency\assets\units\size_m\units_size_m_mercancias_04_data" />
+		<layers>
+			<layer>
+				<waypoints />
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="230" b="208" range="15" shadowrange="15" lighteffect="1" trigger="1" intensity="0.5999999">
+						<lightanimations />
+						<offset>
+							<position x="-14.47123" y="-2.164616" z="66.95577" />
+						</offset>
+					</omni>
+					<omni name="XU Omni002" shadow="0" r="255" g="230" b="208" range="15" shadowrange="15" lighteffect="1" trigger="1" intensity="0.5999999">
+						<lightanimations />
+						<offset>
+							<position x="14.39621" y="-2.164616" z="66.95577" />
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
+			<connection name="space" tags="ship ship_m">
+				<offset />
+			</connection>
+			<connection name="Connection01" tags="part  ship_xr  ">
+				<offset />
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_fx" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="20.65475" y="20.87422" z="68.56815" />
+							<center x="0" y="-4.329523" z="-1.050762" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ship_xr nocollision  ">
+				<offset />
+				<parts>
+					<part name="detail_xs_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture" />
+									<material id="2" ref="generic.generic_p1_alphatexture" />
+									<material id="3" ref="effects.decoflares" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="39.97024" y="26.23174" z="128.3056" />
+							<center x="3.133739" y="-3.65621" z="61.56247" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ship_xr nocollision animation textureanimation  ">
+				<offset />
+				<animations>
+					<animation name="loop" start="1" end="100" />
+				</animations>
+				<parts>
+					<part name="anim_poslight">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.gradient_red" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="25.75206" y="20.63498" z="67.81805" />
+							<center x="0" y="-4.544384" z="1.077744" />
+						</size>
+						<size_raw>
+							<max x="25.75206" y="25.17937" z="66.74031" />
+							<center x="0" y="-4.544385" z="1.07774" />
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="1" in_tangent_type="auto" out_tangent_type="auto" />
+									<key frame="10" value="0" in_tangent_type="auto" out_tangent_type="auto" />
+									<key frame="20" value="1" in_tangent_type="auto" out_tangent_type="auto" />
+									<key frame="100" value="1" in_tangent_type="auto" out_tangent_type="auto" />
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ship_xr  ">
+				<offset>
+					<position x="97.63603" y="0" z="0" />
+				</offset>
+				<parts />
+			</connection>
+			<connection name="connection_shieldgen01" tags="shield medium unhittable">
+				<offset>
+					<position x="0.1109139" y="12.83356" z="-41.38046" />
+					<quaternion qx="0.0000001509958" qy="1" qz="-0.0000000754979" qw="-0.00000000000001139987" />
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen02" tags="shield medium unhittable">
+				<offset>
+					<position x="0.1109139" y="12.83356" z="-41.38046" />
+					<quaternion qx="0.0000001509958" qy="1" qz="-0.0000000754979" qw="-0.00000000000001139987" />
+				</offset>
+			</connection>
+			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="4.768372E-07" y="14.0094" z="-19.64283" />
+				</offset>
+			</connection>
+			<connection name="con_storage01" tags="storage"></connection>
+			<connection name="connection_radar01" tags="destructible">
+				<offset>
+					<position x="0" y="0" z="34.48494" />
+				</offset>
+			</connection>
+			<connection name="connection_engine01" tags="destructible">
+				<offset>
+					<position x="0" y="-3.865325" z="-65.67971" />
+				</offset>
+			</connection>
+			<connection name="connection_engine11" tags="engine medium">
+				<offset>
+					<position x="0" y="0" z="-61.67971" />
+				</offset>
+			</connection>
+			<connection name="connection_engine12" tags="engine medium">
+				<offset>
+					<position x="0" y="-6" z="-61.67971" />
+				</offset>
+			</connection>
+			<connection name="con_playercontrol" tags="playercontrol"></connection>
+			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="14.7393" z="0" />
+				</offset>
+			</connection>
+			<connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+					<position x="0" y="14.2393" z="-7.5" />
+					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,42 @@
+<macros>
+  <macro name="units_size_m_canteran_02_macro" class="ship_m">
+    <component ref="units_size_m_canteran_02" />
+    <properties>
+      <identification name="{78238230,118}" description="{78238230,119}" icon="ship_m_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <ship type="corvette" />
+      <purpose primary="fight" />
+      <secrecy level="1" />
+      <explosiondamage value="956" />
+      <storage missile="19" unit="0" />
+      <hull max="3488" />
+      <people capacity="8" />
+      <physics mass="32.961">
+        <inertia pitch="11.165" yaw="11.165" roll="8.932" />
+        <drag forward="3.101" reverse="17.721" horizontal="22.484" vertical="22.484" pitch="17.332" yaw="17.332" roll="17.332" />
+      </physics>
+      <thruster tags="medium" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_canteran_02_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

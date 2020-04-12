@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <add sel="/wares">
+    <!-- BUILDERS - UNUSED
+    
+    <ware id="units_size_xl_builder_ship_ware" name="{78238230,78}" description="{78238230,79}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="257" />
+          <ware ware="hullparts" amount="467" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_builder_ship_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="argon" />
+    </ware>
+<ware id="units_size_xl_builder_ship_dv_ware" name="{78238230,96}" description="{78238230,97}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="257" />
+          <ware ware="hullparts" amount="467" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_builder_ship_dv_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="argon" />
+    </ware>
+<ware id="units_size_xl_builder_ship_ol_ware" name="{78238230,177}" description="{78238230,178}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="257" />
+          <ware ware="hullparts" amount="467" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_builder_ship_ol_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="argon" />
+    </ware>
+<ware id="units_size_xl_builder_ship_plot_01_ware" name="{78238230,199}" description="{78238230,200}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="257" />
+          <ware ware="hullparts" amount="467" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_builder_ship_plot_01_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="argon" />
+    </ware>
+<ware id="units_size_xl_builder_ship_hol_ware" name="{78238230,437}" description="{78238230,438}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="257" />
+          <ware ware="hullparts" amount="467" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_builder_ship_hol_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="argon" />
+    </ware>
+    
+     -->
+    <ware id="units_size_xl_transporter_1_ware" name="Super-Freighter" description="" group="ships_xenon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_transporter_1_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="xenon" />
+    </ware>
+    <ware id="units_size_xl_transporter_2_ware" name="Super-Freighter" description="" group="ships_xenon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_transporter_2_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="xenon" />
+    </ware>
+    <ware id="units_size_xl_transporter_3_ware" name="Super-Freighter" description="" group="ships_xenon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="units_size_xl_transporter_3_macro" amount="1" />
+      <restriction licence="capitalship" />
+      <owner faction="xenon" />
+    </ware>
+    <ware id="units_size_m_ufo_01_ware" name="{78238230,173}" description="{78238230,174}" group="ships_xenon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="units_size_m_ufo_01_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="xenon" />
+    </ware>
+    <ware id="units_size_l_ad_zeppelin_01_ware" name="{78238230,13}" description="{78238230,14}" group="ships_xenon" transport="ship" volume="1" tags="ship">
+      <price min="219" average="885" max="598" />
+      <production time="598" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="units_size_l_ad_zeppelin_01_macro" amount="1" />
+      <restriction licence="generaluseship" />
+      <owner faction="xenon" />
+    </ware>
+ 
+  </add>
+</diff>

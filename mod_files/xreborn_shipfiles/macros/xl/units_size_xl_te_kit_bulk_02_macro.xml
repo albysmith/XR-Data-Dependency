@@ -1,0 +1,261 @@
+<macros>
+  <macro name="units_size_xl_te_kit_bulk_02_macro" class="ship_xl">
+    <component ref="units_size_xl_te_kit_bulk_02" />
+    <properties>
+      <identification name="{78238230,425}" basename="{78238230,427}" description="{78238230,426}" unique="0" variation="{78238230,428}" icon="ship_l_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="15863" />
+      <storage missile="271" unit="17" />
+      <hull max="308361" />
+      <ship type="freighter" />
+      <people capacity="154" />
+      <physics mass="714.616">
+        <inertia pitch="835.69" yaw="835.69" roll="668.552" />
+        <drag forward="208.991" reverse="835.962" horizontal="224.128" vertical="224.128" pitch="842.923" yaw="842.923" roll="842.923" />
+      </physics>
+      <thruster tags="extralarge" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_bulk_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_bulk_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_bulk_a1">
+        <macro>
+          <component ref="units_size_xl_te_kit_bulk_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a1_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_bulk_a2">
+        <macro>
+          <component ref="units_size_xl_te_kit_bulk_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a2_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_bulk_a3">
+        <macro>
+          <component ref="units_size_xl_te_kit_bulk_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="bulk_a3_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_te_bulk_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_defence_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_defence_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_end_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_end_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_front_a">
+        <macro>
+          <component ref="units_size_xl_te_kit_front_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_livingsection_b">
+        <macro>
+          <component ref="units_size_xl_te_kit_livingsection_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_xl_te_kit_livingsection_b1">
+        <macro>
+          <component ref="units_size_xl_te_kit_livingsection_b" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="connection_cockpit01">
+        <macro>
+          <component ref="cockpit_bridge_te_l_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_xl_te_kit_bulk_02_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_xl_te_kit_bulk_02_shipstorage_s_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_m01">
+        <macro ref="units_size_xl_te_kit_bulk_02_shipstorage_m_macro" connection="object" />
+      </connection>
+	<connection ref="con_dock_01">
+                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+                </connection>
+                <connection ref="con_dock_02">
+                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+                </connection>      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

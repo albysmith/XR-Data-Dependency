@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<components>
+	<component name="units_size_l_dv_carrier_kit_new_front_a" class="destructible">
+		<properties>
+			<hull max="0" integrated="1"/>
+		</properties>
+		<source geometry="Extensions\xr_data_dependency\assets\units\size_l\construction_set\units_size_l_dv_carrier_kit_new_front_a_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<box name="XU BoxLight08" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="100" y="60" z="60"/>
+						<lightanimations/>
+						<offset>
+							<position x="3.960504" y="-32.13193" z="268.77"/>
+							<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight07" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="100" y="60" z="60"/>
+						<lightanimations/>
+						<offset>
+							<position x="3.960511" y="77.4961" z="221.78"/>
+							<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight06" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="100" y="60" z="60"/>
+						<lightanimations/>
+						<offset>
+							<position x="45.05478" y="77.4961" z="183.931"/>
+							<quaternion qx="-0" qy="-0.7071069" qz="-0" qw="-0.7071066"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight05" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="100" y="60" z="60"/>
+						<lightanimations/>
+						<offset>
+							<position x="-45.05484" y="77.4961" z="183.931"/>
+							<quaternion qx="-0" qy="-0.7071069" qz="-0" qw="-0.7071066"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight04" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="100" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="21.16857" y="95.32832" z="159.4808"/>
+							<quaternion qx="-0" qy="-0.7071069" qz="-0" qw="-0.7071066"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight03" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="100" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="-21.16868" y="95.32832" z="159.4808"/>
+							<quaternion qx="-0" qy="-0.7071069" qz="-0" qw="-0.7071066"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight02" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="150" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="115.568" y="58.43203" z="193.8191"/>
+							<quaternion qx="0.3575325" qy="0.6255062" qz="0.3900141" qw="-0.5734121"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight01" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.25">
+						<size x="150" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="-115.5676" y="58.43203" z="193.819"/>
+							<quaternion qx="0.3575312" qy="-0.6255082" qz="-0.3900153" qw="-0.5734099"/>
+						</offset>
+					</box>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset/>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="2" ref="argon.ar_hulls_01"/>
+									<material id="3" ref="argon.ar_hulls_02"/>
+									<material id="4" ref="argon.ar_windows_01"/>
+									<material id="5" ref="generic.generic_tech_01"/>
+									<material id="6" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="2" ref="argon.ar_hulls_01"/>
+									<material id="3" ref="argon.ar_hulls_02"/>
+									<material id="4" ref="argon.ar_windows_01"/>
+									<material id="5" ref="generic.generic_tech_01"/>
+									<material id="6" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="2" ref="argon.ar_hulls_01"/>
+									<material id="3" ref="argon.ar_hulls_02"/>
+									<material id="4" ref="argon.ar_windows_01"/>
+									<material id="5" ref="generic.generic_tech_01"/>
+									<material id="6" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="153.4555" y="88.74749" z="192.6482"/>
+							<center x="-1.525879E-05" y="6.881813" z="185.2702"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="-1.169714E-04" y="0" z="490.6137"/>
+				</offset>
+				<parts/>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr  ">
+				<offset>
+					<position x="0.5354478" y="1.751328" z="185.0986"/>
+				</offset>
+				<parts>
+					<part name="detail_l_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+									<material id="2" ref="argon.ar_hulls_01"/>
+									<material id="3" ref="argon.ar_hulls_02"/>
+									<material id="4" ref="generic.generic_tech_01"/>
+									<material id="5" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="132.2224" y="89.29012" z="176.2503"/>
+							<center x="2.884865E-05" y="0" z="-1.525879E-05"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="connection_shieldgen01" group="group01 " tags="shieldgenerator ">
+				<offset>
+					<position x="0.5490713" y="-16.39758" z="287.2658"/>
+					<quaternion qx="0.2565417" qy="3.873672E-08" qz="-1.459425E-07" qw="-0.9665332"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg01" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="93.28513" y="-27.61893" z="208.3795"/>
+					<quaternion qx="0.3007029" qy="-0.9537085" qz="4.018337E-03" qw="-1.267041E-03"/>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small_mg02" group="group01 " tags="turret_small_mg ">
+				<offset>
+					<position x="-92.2533" y="-27.61893" z="208.3795"/>
+					<quaternion qx="-0.3007035" qy="-0.9537084" qz="4.018292E-03" qw="0.0012669"/>
+				</offset>
+			</connection>
+			<connection name="connection_radar_external01" group="group01 " tags="destructible external ">
+				<offset>
+					<position x="0" y="85.68" z="50.09101"/>
+				</offset>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

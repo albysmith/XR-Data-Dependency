@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<components>
+	<component name="unit_kit_xl_ar_extender_bottom" class="destructible">
+		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_extender_bottom_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="57" b="11" range="80" shadowrange="80" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-219.2505" y="54.63293" z="104.9095"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="255" g="57" b="11" range="80" shadowrange="80" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-219.2505" y="54.63293" z="-104.52"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni03" shadow="0" r="255" g="57" b="11" range="80" shadowrange="80" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="218.0575" y="54.63293" z="-104.52"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni04" shadow="0" r="255" g="57" b="11" range="80" shadowrange="80" lighteffect="1" trigger="1" intensity="2">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="218.0575" y="54.63293" z="104.9095"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni05" shadow="0" r="255" g="57" b="11" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="4">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-174.4223" y="-91.19981" z="-104.52"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni06" shadow="0" r="255" g="57" b="11" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="4">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="-174.4223" y="-91.19981" z="104.9095"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni07" shadow="0" r="255" g="57" b="11" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="4">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="169.3571" y="-91.19981" z="104.9095"></position>
+						</offset>
+					</omni>
+					<omni name="XU Omni08" shadow="0" r="255" g="57" b="11" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="4">
+						<lightanimations></lightanimations>
+						<offset>
+							<position x="169.3571" y="-91.19981" z="-104.52"></position>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="destructible">
+				<offset></offset>
+			</connection>
+			<connection name="Connection01" tags="part ship_xr  ">
+				<offset>
+					<position x="3.753662E-02" y="-9.003197" z="1.153427"></position>
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<size>
+							<max x="289.3413" y="85.9043" z="193.0524"></max>
+							<center x="0" y="0" z="0"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part ship_xr  ">
+				<offset>
+					<position x="0.0911755" y="-15.06123" z="0.2466507"></position>
+				</offset>
+				<parts>
+					<part name="detail_l" wreck="detail_l_wreck">
+						<size>
+							<max x="287.6677" y="78.4311" z="140.8116"></max>
+							<center x="-4.23193E-06" y="-3.814697E-06" z="-2.288818E-05"></center>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part ship_xr  ">
+				<offset>
+					<position x="3.753662E-02" y="-9.003197" z="486.6681"></position>
+				</offset>
+				<parts></parts>
+			</connection>
+			<connection name="Connection04" tags="part ship_xr  ">
+				<offset>
+					<position x="0.0911755" y="-15.06123" z="485.7613"></position>
+				</offset>
+				<parts></parts>
+			</connection>
+			<connection name="connection_turret_small01" group="capship_top " tags="turret_small ">
+				<offset>
+					<position x="135.1276" y="76.0839" z="42.61994"></position>
+					<quaternion qx="0.7071067" qy="-3.905598E-07" qz="-0.7071068" qw="5.338509E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small02" group="capship_top " tags="turret_small ">
+				<offset>
+					<position x="135.1276" y="76.08385" z="-42.19178"></position>
+					<quaternion qx="0.7071067" qy="-3.905598E-07" qz="-0.7071068" qw="5.338509E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small03" group="capship_top " tags="turret_small ">
+				<offset>
+					<position x="-134.5021" y="76.08398" z="-42.1918"></position>
+					<quaternion qx="-0.7071066" qy="5.3385E-08" qz="-0.7071069" qw="3.905598E-07"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small04" group="capship_top " tags="turret_small ">
+				<offset>
+					<position x="-134.5021" y="76.08403" z="42.61993"></position>
+					<quaternion qx="-0.7071066" qy="5.3385E-08" qz="-0.7071069" qw="3.905598E-07"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small05" group="capship_bottom " tags="turret_small ">
+				<offset>
+					<position x="-106.3432" y="-90.83887" z="-0.1719698"></position>
+					<quaternion qx="-4.43945E-07" qy="-0.7071066" qz="-1.067702E-07" qw="-0.7071069"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_turret_small06" group="capship_bottom " tags="turret_small ">
+				<offset>
+					<position x="107.7097" y="-90.83897" z="-0.1719284"></position>
+					<quaternion qx="1.067702E-07" qy="0.7071068" qz="-4.439449E-07" qw="-0.7071067"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen01" group="capship_top " tags="shieldgenerator ">
+				<offset>
+					<position x="0.65254" y="61.87109" z="0.2639021"></position>
+					<quaternion qx="-0.7071068" qy="5.338509E-08" qz="-0.7071067" qw="5.338508E-08"></quaternion>
+				</offset>
+			</connection>
+			<connection name="connection_shieldgen02" group="capship_bottom " tags="shieldgenerator ">
+				<offset>
+					<position x="0.65254" y="-82.8592" z="0.2639021"></position>
+					<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067"></quaternion>
+				</offset>
+			</connection>
+					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+			</connection></connections>	</component>
+</components>

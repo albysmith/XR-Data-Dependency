@@ -1,0 +1,193 @@
+<macros>
+  <macro name="units_size_l_dv_kit_old_bulk_liquid_01_macro" class="ship_l">
+    <component ref="units_size_l_dv_kit_old_bulk_liquid_01" />
+    <properties>
+      <identification name="{78238230,219}" basename="{78238230,221}" description="{78238230,220}" unique="0" variation="{78238230,222}" icon="ship_l_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="8589" />
+      <storage missile="30" unit="8" />
+      <hull max="109822" />
+      <ship type="freighter" />
+      <people capacity="182" />
+      <physics mass="780.498">
+        <inertia pitch="372.804" yaw="372.804" roll="298.243" />
+        <drag forward="196.1" reverse="784.399" horizontal="111.722" vertical="111.722" pitch="223.1" yaw="223.1" roll="223.1" />
+      </physics>
+      <thruster tags="large" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="bridge_arg_l_01_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_dv_carrier_kit_old_bulk_a">
+        <macro>
+          <component ref="units_size_l_dv_carrier_kit_old_bulk_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_bulk_a_connection_storage01">
+        <macro>
+          <component ref="props_sm_dv_old_bulk_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_bulk_a_connection_storage02">
+        <macro>
+          <component ref="props_sm_dv_old_bulk_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_bulk_a_connection_storage03">
+        <macro>
+          <component ref="props_sm_dv_old_bulk_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_bulk_a_connection_storage04">
+        <macro>
+          <component ref="props_sm_dv_old_bulk_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_bulk_a_connection_storage05">
+        <macro>
+          <component ref="props_sm_dv_old_bulk_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_bulk_a_connection_storage06">
+        <macro>
+          <component ref="props_sm_dv_old_bulk_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_dv_carrier_kit_old_end_a">
+        <macro>
+          <component ref="units_size_l_dv_carrier_kit_old_end_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_dv_carrier_kit_old_extender_a">
+        <macro>
+          <component ref="units_size_l_dv_carrier_kit_old_extender_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_dv_carrier_kit_old_front_a">
+        <macro>
+          <component ref="units_size_l_dv_carrier_kit_old_front_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="ConnectionFor_units_size_l_dv_carrier_kit_old_liquid_a">
+        <macro>
+          <component ref="units_size_l_dv_carrier_kit_old_liquid_a" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_l01">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_l02">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_l03">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_l04">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_l05">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_l06">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_l" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m01">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m02">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m03">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m04">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m05">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m06">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m07">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m08">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m09">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m10">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m11">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="old_liquid_a_connection_storage_m12">
+        <macro>
+          <component ref="props_sm_dv_old_liquid_m" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_l_dv_kit_old_bulk_liquid_01_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_shipstorage_s01">
+        <macro ref="units_size_l_dv_kit_old_bulk_liquid_01_shipstorage_s_macro" connection="object" />
+      </connection>
+	<connection ref="con_dock_01">
+                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+                </connection>
+                <connection ref="con_dock_02">
+                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+                </connection>      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection></connections>  </macro>
+</macros>

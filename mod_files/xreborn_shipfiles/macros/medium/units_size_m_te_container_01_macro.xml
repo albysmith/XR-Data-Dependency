@@ -1,0 +1,47 @@
+<macros>
+  <macro name="units_size_m_te_container_01_macro" class="ship_m">
+    <component ref="units_size_m_te_container_01" />
+    <properties>
+      <identification name="{78238230,417}" basename="{78238230,419}" description="{78238230,418}" unique="0" variation="{78238230,420}" icon="ship_m_trade_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <purpose primary="trade" />
+      <secrecy level="1" />
+      <explosiondamage value="5407" />
+      <storage missile="40" unit="0" />
+      <ship type="transporter" />
+      <hull max="8783" />
+      <people capacity="8" />
+      <physics mass="24.394">
+        <inertia pitch="3.214" yaw="3.214" roll="2.572" />
+        <drag forward="3.547" reverse="14.188" horizontal="13.02" vertical="13.02" pitch="7.739" yaw="7.739" roll="7.739" />
+      </physics>
+      <thruster tags="medium" />
+      <sound_occlusion inside="0.4" />
+    </properties>
+    <connections>
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
+      </connection>
+      <connection ref="connection_engine01">
+        <macro>
+          <component ref="props_enginesystems_m_te_01" connection="space" />
+        </macro>
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="units_size_m_te_container_01_storage_macro" connection="ShipConnection" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>
