@@ -2,3 +2,5 @@
 **/*.rs.bk
 Cargo.lock
 .gitignore
+/release files
+/old_files

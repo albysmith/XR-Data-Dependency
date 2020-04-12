@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="xreborn_shipfiles" name="XReborn Ship Files"  description="Required for use of XReborn Ship Mods" author="albysmith" version="1" date="2020-04-12" save="0" >
+ <text language="7" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="33" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="34" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="39" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="44" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="49" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="55" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="81" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="82" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="86" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+ <text language="88" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
+</content>
