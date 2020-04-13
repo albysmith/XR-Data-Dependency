@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="xreborn_shipfiles" name="XReborn Ship Files"  description="Required for use of XReborn Ship Mods" author="albysmith" version="0.1" date="2020-04-12" save="0" >
+<content id="xreborn_shipfiles" name="XReborn Ship Files"  description="Required for use of XReborn Ship Mods" author="albysmith" version="1" date="2020-04-12" save="0" >
  <text language="7" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
  <text language="33" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
  <text language="34" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
@@ -11,7 +11,7 @@
  <text language="82" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
  <text language="86" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
  <text language="88" name="XReborn Ship Files" description="Required for use of XReborn Ship Mods" author="albysmith" />
- <dependency id="xr_data_dependency" optional="false"/>
- <dependency id="xr_data_dependency_homeoflight" optional="false"/>
- <dependency id="xr_data_dependency_teladioutpost" optional="false"/>
+ <dependency id="xr_data_dependency" version="1" optional="true"/>
+ <dependency id="xr_data_dependency_homeoflight" version="1" optional="true"/>
+ <dependency id="xr_data_dependency_teladioutpost" version="1" optional="true"/>
 </content>

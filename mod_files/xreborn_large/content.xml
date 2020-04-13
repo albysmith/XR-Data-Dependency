@@ -11,5 +11,5 @@
     <text language="82" name="XReborn Large" description="XReborn Large" author="albysmith" />
     <text language="86" name="XReborn Large" description="XReborn Large" author="albysmith" />
     <text language="88" name="XReborn Large" description="XReborn Large" author="albysmith" />
-    <dependency id="xreborn_shipfiles" optional="false"/>
+    <dependency id="xreborn_shipfiles" version="1" optional="true"/>
 </content>

@@ -18,7 +18,7 @@ units_size_l_ad_zeppelin_01_macro -->
 
 
    
-    <!-- <add sel="/groups/group[@id='arg_fighter_s']">
+    <!-- <add sel="/groups/group[@name='arg_fighter_s']">
         <select macro="units_size_s_pmc_xen_01_macro" />
         <select macro="units_size_s_canteran_fighter_01_macro" />
         <select macro="units_size_s_ship_01_macro" />

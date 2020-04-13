@@ -139,26 +139,6 @@ fn main() {
                         }
                     }
                 }
-                let content_string = format!("<?xml version=\"1.0\" encoding=\"utf-8\"?>
-<content id=\"{}\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" version=\"1\" date=\"2019-10-31\" save=\"0\" enabled=\"1\">
- <text language=\"7\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"33\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"34\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"39\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"44\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"49\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"55\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"81\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"82\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"86\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
- <text language=\"88\" name=\"{}\" description=\"This mod will provide no in-game content without the use of other mods\" author=\"albysmith\" />
-</content>
-", &folder.mod_id, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name, &folder.mod_name);
-                let mut content_file =
-                    File::create(outpath.join("content.xml")).expect("creating content file");
-                content_file
-                    .write_all(&content_string.as_bytes())
-                    .expect("writing content file");
                 println!("Extraction Complete");
             }
         }

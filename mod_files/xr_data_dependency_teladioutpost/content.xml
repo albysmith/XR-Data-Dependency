@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="xr_data_dependency_teladioutpost" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" version="1" date="2019-10-31" save="0" enabled="1">
+ <text language="7" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="33" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="34" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="39" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="44" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="49" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="55" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="81" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="82" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="86" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+ <text language="88" name="XR Data Dependency - Teladi Outpost" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
+</content>

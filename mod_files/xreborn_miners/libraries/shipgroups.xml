@@ -28,7 +28,7 @@ units_size_l_canteran_miner_01_macro
 units_size_l_canteran_miner_02_macro -->
 
 
-    <!-- <add sel="/groups/group[@id='xen_fighter_light_s']">
+    <!-- <add sel="/groups/group[@name='xen_fighter_light_s']">
         <select macro="units_size_s_xenon_swarm_attack_drone_01_macro" />
         <select macro="units_size_s_xenon_swarm_attack_drone_02_macro" />
     </add> -->
