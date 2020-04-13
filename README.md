@@ -2,11 +2,17 @@
 ## A port of all the XR ships!
     
 ## Installation Instructions
-    Egosoft will not let us distribute XR assets en mass for fear that someone will come along and remake XR. 
+    Egosoft will not let us distribute XR assets en mass for
+    fear that someone will come along and remake XR. 
     
-    So, with permission, we are distributing a program to move the XR assets already on your computer into your extensions. We also include xml to define and balance each ship.
+    So, with permission, we are distributing a program to move
+    the XR assets already on your computer into your extensions. 
+    We also include xml to define and balance each ship.
 
-    Included is a configuration file called config.toml which includes 3 variables. You may need to edit their values to fit your setup
+    Included is a configuration file called config.toml which 
+    includes 3 variables. You may need to edit their values to 
+    fit your setup.
+    
 Your Root Mod Folder:
 ##### output_path = "C:/Program Files/Steam/steamapps/common/X4 Foundations/Extensions"
 Your XR Install:
@@ -14,12 +20,12 @@ Your XR Install:
 Set False When Updating The Mod to Avoid Extracting Again:
 ##### extract = true 
     
-[ship](https://imgur.com/rVVk1vF)  
-[ship](https://imgur.com/GsUeOWs)  
-[ship](https://imgur.com/jKwpQnW)  
-[ship](https://imgur.com/OWGtlUh)  
-[ship](https://imgur.com/c62uqVw)  
-[ship](https://imgur.com/kGjz1UO)  
+![ship](https://imgur.com/rVVk1vF)  
+![ship](https://imgur.com/GsUeOWs)  
+![ship](https://imgur.com/jKwpQnW)  
+![ship](https://imgur.com/OWGtlUh)  
+![ship](https://imgur.com/c62uqVw)  
+![ship](https://imgur.com/kGjz1UO)  
     
 - You can find the source [here](https://github.com/albysmith/XReborn-Ships)
 
