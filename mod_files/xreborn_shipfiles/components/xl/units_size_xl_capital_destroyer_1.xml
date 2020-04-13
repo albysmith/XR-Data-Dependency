@@ -1874,7 +1874,6 @@
 					<quaternion qx="0.00000009949554" qy="0.9979204" qz="0.06445819" qw="0.0000003090476" />
 				</offset>
 			</connection>-->
-			
 			<connection name="connection_shieldgen03" group="group03 " tags="shield large">
 				<offset>
 					<position x="-207.175" y="139.0349" z="1369.554" />
@@ -1923,7 +1922,6 @@
 					<quaternion qx="0.00000009949554" qy="0.9979204" qz="0.06445819" qw="0.0000003090476" />
 				</offset>
 			</connection>-->
-			
 			<connection name="connection_shieldgen04" group="group04 " tags="shield large">
 				<offset>
 					<position x="207.1754" y="139.0349" z="1369.554" />
@@ -2097,10 +2095,9 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
-
 			<!-- 
 			<connection name="connection_turret_medium_pe04" group="group08 " tags="turret medium standard hittable ">
 				<offset>
@@ -2207,8 +2204,7 @@
 					<position x="240.6072" y="228.2518" z="-897.8412" />
 					<quaternion qx="-0.07418479" qy="-0.7032045" qz="-0.07418461" qw="0.7032046" />
 				</offset>
-			</connection> 
-			
+			</connection>
 			<connection name="connection_shieldgen09" group="group09 " tags="shield large">
 				<offset>
 					<position x="-280.0591" y="88.46278" z="-914.5034" />
@@ -2253,8 +2249,7 @@
 					<position x="305.031" y="116.888" z="-930.0204" />
 					<quaternion qx="0.5732024" qy="0.41405204" qz="-0.57320243" qw="0.41405192" />
 				</offset>
-			</connection> 
-			
+			</connection>
 			<connection name="connection_shieldgen10" group="group10 " tags="shield large">
 				<offset>
 					<position x="280.059" y="88.46278" z="-914.5034" />
@@ -2321,14 +2316,12 @@
 					<quaternion qx="-0.0000004267208" qy="0.2660643" qz="-0.9639553" qw="-0.00000041046" />
 				</offset>
 			</connection>-->
-			
 			<connection name="connection_shieldgen11" group="group11 " tags="shield large">
 				<offset>
 					<position x="-96.8634" y="102.7016" z="-1128.848" />
 					<quaternion qx="-0.0008802932" qy="0.0002121222" qz="-0.9721831" qw="0.2342205" />
 				</offset>
 			</connection>
-			
 			<connection name="connection_shieldgen12" group="group11 " tags="shield large">
 				<offset>
 					<position x="97.01958" y="102.7016" z="-1128.848" />
@@ -2639,15 +2632,13 @@
 				<offset>
 					<position x="149.5922" y="-180.6061" z="957.1589" />
 				</offset>
-			</connection> 
-			
+			</connection>
 			<connection name="connection_shieldgen_external03" tags="shield large">
 				<offset>
 					<position x="-22.93406" y="188.7037" z="-1213.623" />
 					<quaternion qx="0" qy="0.9999996" qz="-0.0009197433" qw="0" />
 				</offset>
 			</connection>
-			
 			<connection name="connection_shieldgen_external04" tags="shield large">
 				<offset>
 					<position x="23.03025" y="188.7037" z="-1213.623" />
@@ -2681,7 +2672,7 @@
 					<position x="-456.2118" y="-94.472305" z="-62.30931" />
 					<quaternion qx="0.010419741" qy="0.0046833945" qz="0.40992153" qw="0.91204923" />
 				</offset>
-			</connection> 
+			</connection>
 			<!-- 
 			<connection name="2_connection_turret_medium_pe01" tags="turret_medium_pe " group="group01 ">
 				<offset>
@@ -4143,6 +4134,7 @@
 					<position x="0" y="203.097" z="0" />
 				</offset>
 			</connection>
-			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

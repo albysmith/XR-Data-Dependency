@@ -935,17 +935,17 @@
 					<position x="0" y="148.714" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="187.214" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="187.214" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="56.36" y="139.44" z="-342.56" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="-56.36" y="139.44" z="-342.56" />
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

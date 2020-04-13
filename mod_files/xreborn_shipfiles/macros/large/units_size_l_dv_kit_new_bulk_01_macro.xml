@@ -1,6 +1,5 @@
 <macros>
   <macro name="units_size_l_dv_kit_new_bulk_01_macro" class="ship_l">
-    
     <component ref="units_size_l_dv_kit_new_bulk_01" />
     <properties>
       <identification name="{78238230,88}" basename="{78238230,90}" description="{78238230,89}" unique="0" variation="{78238230,91}" icon="ship_l_trade_01" />
@@ -88,12 +87,15 @@
       <connection ref="con_shipstorage_s01">
         <macro ref="units_size_l_dv_kit_new_bulk_01_shipstorage_s_macro" connection="object" />
       </connection>
-	<connection ref="con_dock_01">
-                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
-                </connection>
-                <connection ref="con_dock_02">
-                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
-                </connection>      <connection ref="con_shipstorage_xs_01">
+      <!-- <connection ref="con_dock_01">
+        <macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+      </connection> -->
+      <connection ref="con_dock_02">
+        <macro ref="dockarea_tel_l_transporter_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
         <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
-      </connection></connections>  </macro>
+      </connection>
+    </connections>
+  </macro>
 </macros>

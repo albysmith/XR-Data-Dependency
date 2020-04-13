@@ -58,7 +58,7 @@
 					<quaternion qx="-0.00000007549792" qy="-1" qz="0.0000003258414" qw="-0.00000004371136" />
 				</offset>
 			</connection>
-			<connection name="front_a_connection_shieldgen01"  tags="shield large ">
+			<connection name="front_a_connection_shieldgen01" tags="shield large ">
 				<offset>
 					<position x="-0.000027263355" y="27.039461" z="833.88245" />
 					<quaternion qx="-0.0000000754979" qy="-1" qz="-0.000000000000003300118" qw="-0.00000004371139" />
@@ -237,17 +237,20 @@
 					<position x="0" y="40.1831" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="78.6831" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="78.6831" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="0" y="38" z="-250" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="38" z="150" />
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_m_01" tags="dockingbay ">
+				<offset/>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

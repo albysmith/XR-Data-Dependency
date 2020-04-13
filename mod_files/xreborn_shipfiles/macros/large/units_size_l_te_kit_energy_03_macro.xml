@@ -62,12 +62,15 @@
       <connection ref="con_shipstorage_s01">
         <macro ref="units_size_l_te_kit_energy_03_shipstorage_s_macro" connection="object" />
       </connection>
-	<connection ref="con_dock_01">
-                	<macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
-                </connection>
-                <connection ref="con_dock_02">
-                	<macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
-                </connection>      <connection ref="con_shipstorage_xs_01">
+      <!-- <connection ref="con_dock_01">
+        <macro ref="dockarea_gen_m_inv_01_macro" connection="Connection01" />
+      </connection> -->
+      <connection ref="con_dock_02">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
         <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
-      </connection></connections>  </macro>
+      </connection>
+    </connections>
+  </macro>
 </macros>

@@ -621,19 +621,20 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
-					<position x="0" y="62.3772" z="0" />
+					<position x="0" y="92.3772" z="0" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">
 				<offset>
-					<position x="0" y="100.8772" z="0" />
+					<position x="20" y="65" z="27" />
 				</offset>
 			</connection>
 			<connection name="con_dock_01" tags="dockarea">
 				<offset>
-					<position x="0" y="100.8772" z="-60" />
+					<position x="20" y="65" z="27" />
 				</offset>
 			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

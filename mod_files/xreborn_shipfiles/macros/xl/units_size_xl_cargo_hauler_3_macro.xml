@@ -44,7 +44,7 @@
         <macro ref="dockarea_arg_xl_resupplier_01_macro" connection="Connection01" />
       </connection>
       <connection ref="con_dock_02">
-        <macro ref="dockarea_gen_s_inv_01_macro" connection="Connection01" />
+        <macro ref="dockarea_arg_xl_resupplier_01_macro" connection="Connection01" />
       </connection>
       <connection ref="con_shipstorage_xs_01">
         <macro ref="shipstorage_gen_xs_01_macro" connection="object" />

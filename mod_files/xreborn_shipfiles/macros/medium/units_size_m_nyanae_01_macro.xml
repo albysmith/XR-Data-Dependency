@@ -28,11 +28,9 @@
       <sound_occlusion inside="0.4" />
     </properties>
     <connections>
-      
-      <connection ref="con_cockpit">
-        <macro ref="deep_state_cockpit_macro" connection="con_cockpit" />
+      <connection ref="cockpit_connection">
+        <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
       </connection>
-      
       <connection ref="con_storage01">
         <macro ref="units_size_m_nyanae_01_storage_macro" connection="ShipConnection" />
       </connection>

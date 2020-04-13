@@ -48,6 +48,9 @@
       <connection ref="shot_dock_3">
         <macro ref="dockarea_arg_s_ship_02_macro" connection="Connection01" />
       </connection>
+      <connection ref="shot_dock_4">
+        <macro ref="dockarea_arg_s_ship_02_macro" connection="Connection01" />
+      </connection>
       <connection ref="con_shipstorage_xs_01">
         <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
       </connection>

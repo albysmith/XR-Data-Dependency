@@ -483,7 +483,7 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
 			<connection name="front_a_connection_turret_medium_pe03" group="group02 " tags="turret medium standard hittable ">
@@ -589,17 +589,17 @@
 					<position x="0" y="86.6841" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="125.1841" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="125.1841" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="0" y="125.1841" z="0" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="125.1841" z="-60" />
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

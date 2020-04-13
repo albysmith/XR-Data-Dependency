@@ -500,17 +500,18 @@
 					<position x="0" y="101.688" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="140.188" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="140.188" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="0" y="45" z="647.4345" />
+					<rotation pitch="-8" />
+				</offset>
+			</connection>
+			<!-- <connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="140.188" z="-60" />
+				</offset>
+			</connection> -->
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

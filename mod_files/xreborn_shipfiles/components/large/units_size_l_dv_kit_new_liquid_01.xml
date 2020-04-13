@@ -392,17 +392,18 @@
 					<position x="0" y="103.396" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="141.89600000000002" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="141.89600000000002" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="0" y="45" z="677.0249" />
+					<rotation pitch="-8" />
+				</offset>
+			</connection>
+			<!-- <connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="141.89600000000002" z="-60" />
+				</offset>
+			</connection> -->
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

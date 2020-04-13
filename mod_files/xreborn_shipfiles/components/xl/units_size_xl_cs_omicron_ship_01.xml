@@ -171,7 +171,7 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
 			<connection name="connection_engine02" group="group01 " tags="engine large">
@@ -262,7 +262,7 @@
 					<quaternion qx="-1.629207E-07" qy="-1.629207E-07" qz="-1" qw="2.654315E-14" />
 				</offset>
 			</connection>
-			<connection name="con_playercontrol" tags="playercontrol"></connection> 
+			<connection name="con_playercontrol" tags="playercontrol"></connection>
 			<!-- 
 			
 			<connection name="center_b_connection_turret_small_mg01" group="group01 " tags="turret medium standard hittable ">
@@ -276,7 +276,7 @@
 					<position x="-0.53213435" y="51.031532" z="-834.5095" />
 					<quaternion qx="0.00000011833778" qy="-0.7071066" qz="-0.00000022510788" qw="-0.707107" />
 				</offset>
-			</connection> 
+			</connection>
 			<!-- 
 				<connection name="center_b_connection_turret_small_mg02" group="group01 " tags="turret medium standard hittable ">
 				<offset>
@@ -339,7 +339,7 @@
 					<position x="-58.337387" y="-124.40598" z="159.5751" />
 					<quaternion qx="0.92763615" qy="-0.37348032" qz="0.001655952" qw="0.0009544832" />
 				</offset>
-			</connection> 
+			</connection>
 			<!-- 
 				<connection name="side_b_connection_turret_small_mg01" group="group01 " tags="turret medium standard hittable ">
 				<offset>
@@ -358,7 +358,7 @@
 					<position x="58.269623" y="-124.40598" z="159.5751" />
 					<quaternion qx="-0.0016558273" qy="-0.000954696" qz="0.92763615" qw="-0.37348032" />
 				</offset>
-			</connection> 
+			</connection>
 			<!-- 
 				<connection name="side_b_connection_turret_small_mg03" group="group02 " tags="turret medium standard hittable ">
 				<offset>
@@ -390,7 +390,7 @@
 					<quaternion qx="0.00000007549791" qy="0.00000007549791" qz="-0.00000005960464" qw="-1" />
 				</offset>
 			</connection>  -->
-				<!-- <connection name="engine_a_connection_engine03" group="group01 " tags="engine large ">
+			<!-- <connection name="engine_a_connection_engine03" group="group01 " tags="engine large ">
 				<offset>
 				<position x="188.55267" y="-43.98996" z="639.658" />
 				<quaternion qx="0.00000007549791" qy="0.00000007549791" qz="-0.00000005960464" qw="-1" />
@@ -606,20 +606,37 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
-					<position x="0" y="54.9944" z="0" />
+					<position x="0" y="64.9944" z="100" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="93.4944" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="93.4944" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_04" tags="dockarea">
+				<offset>
+					<position x="120" y="64" z="-885"  />
+				</offset>
+			</connection>
+			<connection name="con_dock_05" tags="dockarea">
+				<offset>
+					<position x="-120" y="64" z="-885" />
+				</offset>
+			</connection>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="0" y="52" z="27" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="64" z="-1000" />
+					<rotation yaw="90"/>
+				</offset>
+			</connection>
+			<connection name="con_dock_03" tags="dockarea">
+				<offset>
+					<position x="0" y="64" z="-885" />
+					<rotation yaw="90"/>
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

@@ -1,0 +1,28 @@
+# XReborn Ship Mods
+# This is a configuration file to ensure the xreborn_ship_extractor.exe file works properly.
+# Follow instructions below; it will extract data from your XR game files and create new mods in your X4 Extensions folder.
+
+# HOW TO USE:
+#   1.  Enter the correct paths below
+#   2.  Run the xreborn_ship_extractor.exe file
+#   You will see each file listed in the command prompt as it is moved; that window will close upon completion
+
+# ENTER PATHS HERE:
+# X4 extensions folder
+output_path = "E:/Rust/Projects/OutPut Files/Cat_Extractions"
+# XR main folder
+input_path = "E:/Games/Steam/steamapps/common/X Rebirth"
+# Mark true if you want to extract XR files, false if you just want the updated mod files
+extract = true
+
+
+# EXAMPLE:
+# output_path = "C:/Program Files/Steam/steamapps/common/X4 Foundations/Extensions"
+# input_path = "C:/Program Files/Steam/steamapps/common/X Rebirth"
+# extract = true
+
+# Why didn't it work?
+#  1.  Standard Steam folders are included as an example, but must be updated to your exact game folders
+#  2.  Make sure slashes in the paths are all /////// otherwise we cannot guarantee the program will work
+#  3.  Did you remove any ###s in this file?  Every line except for output_path, input_path, and extract should start with one
+#  4.  Is "extract" set to true?  That value doesn't need quotes around it, either.

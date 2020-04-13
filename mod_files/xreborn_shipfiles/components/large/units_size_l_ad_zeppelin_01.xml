@@ -252,6 +252,7 @@
 					<position x="0" y="41.8105" z="0" />
 				</offset>
 			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

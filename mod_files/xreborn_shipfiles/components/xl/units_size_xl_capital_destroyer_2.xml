@@ -476,10 +476,9 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
-
 			<connection name="connection_shieldgen03" group="group02 " tags="shield large">
 				<offset>
 					<position x="156.9478" y="6.845575" z="-167.5589" />
@@ -838,8 +837,14 @@
 			</connection>
 			<connection name="shot_dock_3" group="group01 " tags="dockarea ">
 				<offset>
-					<position x="-67.601" y="77.2778" z="-654.94" />
-					<rotation pitch="0" yaw="0" roll="2" />
+					<position x="-70" y="80" z="-655" />
+					<rotation pitch="2" yaw="0" roll="-2" />
+				</offset>
+			</connection>
+			<connection name="shot_dock_4" group="group01 " tags="dockarea ">
+				<offset>
+					<position x="70" y="80" z="-655" />
+					<rotation pitch="2" yaw="0" roll="2" />
 				</offset>
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">
@@ -853,6 +858,7 @@
 					<position x="0" y="98.4033" z="0" />
 				</offset>
 			</connection>
-						<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

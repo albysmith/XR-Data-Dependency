@@ -454,13 +454,13 @@
 					<quaternion qx="-0.06147126" qy="0.7684646" qz="0.1092076" qw="0.6275007" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_medium_sp08" group="group01 " tags="turret medium standard hittable ">
+			<connection name="connection_turret_medium_sp08" group="group01 " tags="turret large standard missile ">
 				<offset>
 					<position x="-145.8834" y="113.9183" z="-140.9055" />
 					<quaternion qx="-0.06147126" qy="0.7684646" qz="0.1092076" qw="0.6275007" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_medium_sp09" group="group01 " tags="turret medium standard hittable ">
+			<connection name="connection_turret_medium_sp09" group="group01 " tags="turret large standard missile ">
 				<offset>
 					<position x="145.7754" y="113.9183" z="-140.9055" />
 					<quaternion qx="0.06147368" qy="0.7684638" qz="0.1092057" qw="-0.6275018" />
@@ -510,7 +510,7 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
 			<connection name="connection_shieldgen_external02" tags="shield large">
@@ -537,17 +537,19 @@
 					<position x="0" y="253.495" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="291.995" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="291.995" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="-102.68" y="77" z="-357.16" />
+					<rotation roll="-5" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="102.68" y="77" z="-357.16" />
+					<rotation roll="5" />
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

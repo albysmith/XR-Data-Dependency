@@ -336,7 +336,7 @@
  <t id="333"> Phönix</t>
  <t id="334">Als Reaktion auf massive Xenon-Vorstöße in Grenzsektoren der Teladi, darunter Profitabler Handel und Heimat des Profits, entschied sich das Teladi Unternehmen dazu, seine Flotte von Grund auf neu zu entwerfen und den Fokus auf Manövierbarkeit und verbesserte Schilde zu legen. Die Phönix stand im Fokus der Umbauanstrengungen. Nach zahlreichen Experimenten entschieden sich die Ingenieure für eine Kuppelstruktur für die Hülle, um so wichtige Schiffssysteme besser schützen zu können und das Wende- und Rotationsverhalten entscheidend zu verbessern. Nachdem sichergestellt werden konnte, dass dieses Design bei der Phönix den Erwartungen entsprechend funktionierte, wurde es rasch auf die gesamte Flotte übertragen.</t>
  <t id="335">Phönix</t>
- <t id="336"> Albatros {20106, 3601} {20106, 3201}</t>
+ <t id="336"> Albatros XL \(Energie\)</t>
  <t id="337"> Ganz der Natur der Teladi folgend stand bei der Umrüstung der Handelsflotte des Teladi Unternehmens natürlich die Verbesserung des Ladevolumens im Vordergrund. Neben einer neu entworfenen Kuppelstruktur der Hülle, um die Flugeigenschaften im Falle einer Flucht vor einem Angriff zu verbessern, wurden vor allem die Beladungsmechanismen komplett umgekrempelt, um Waren effizienter in den Frachthangars verstauen zu können. So soll mehr Ladung schneller in das Schiff gelangen. Die Frachthangars wurden etwas verlängert und schmaler gemacht, sodass die Schildgeneratoren nun das gesamte Schiff umschließen können.</t>
  <t id="338"> Albatros</t>
  <t id="339">\(Energie\)</t>
@@ -353,7 +353,7 @@
  <t id="350">\(Flüssigkeit\)</t>
  <t id="351"> Harrier</t>
  <t id="352">Im Zuge der Umstrukturierungsanstrengungen des Teladi-Militärs wurde die Bussard außer Dienst gestellt. Einige Eigenschaften des Jägers wurden aber in das neue Design der Harrier integriert, um das Kampfschiff abzurunden. Die Harrier kann sowohl als Aufklärer als auch als Nahkampfplattform eingesetzt werden und ist absolut in der Lage, es auch mit größeren und mit besseren Schilden ausgestatteten Kampfschiffen aufzunehmen.</t>
- <t id="353"> Albatros {20106, 3601} {20106, 3101}</t>
+ <t id="353"> Albatros XL \(Container\)</t>
  <t id="354"> Ganz der Natur der Teladi folgend stand bei der Umrüstung der Handelsflotte des Teladi Unternehmens natürlich die Verbesserung des Ladevolumens im Vordergrund. Neben einer neu entworfenen Kuppelstruktur der Hülle, um die Flugeigenschaften im Falle einer Flucht vor einem Angriff zu verbessern, wurden vor allem die Beladungsmechanismen komplett umgekrempelt, um Waren effizienter in den Frachthangars verstauen zu können. So soll mehr Ladung schneller in das Schiff gelangen. Die Frachthangars wurden etwas verlängert und schmaler gemacht, sodass die Schildgeneratoren nun das gesamte Schiff umschließen können.</t>
  <t id="355"> Albatros</t>
  <t id="356">\(Container\)</t>
@@ -385,7 +385,7 @@
  <t id="382"> Die Geier ist das beliebteste Transportschiff für die Beförderung allgemeiner Waren. Im Zuge der Umrüstungsanstrengungen der Teladi-Flotte erhielt die Geier Schildgeneratoren, die nicht nur wichtige Schiffssysteme, sondern auch die Frachthangars umfassen. Dank seiner Kuppelstruktur bietet das Schiff zudem weniger Angriffsfläche für Feinde und eine enorm verbesserte Manövrierbarkeit. Wenig überraschend erhielt die Geier dieselben Verbesserungen der Beladungsmechanismen, die schon in der Albatros verbaut wurden, wodurch die Frachtkapazität beträchtlich gesteigert werden konnte.</t>
  <t id="383"> Geier</t>
  <t id="384">\(Flüssigkeit\)</t>
- <t id="385"> Albatros {20106, 3601} {20106, 3301}</t>
+ <t id="385"> Albatros XL \(Flüssigkeit\)</t>
  <t id="386"> Ganz der Natur der Teladi folgend stand bei der Umrüstung der Handelsflotte des Teladi Unternehmens natürlich die Verbesserung des Ladevolumens im Vordergrund. Neben einer neu entworfenen Kuppelstruktur der Hülle, um die Flugeigenschaften im Falle einer Flucht vor einem Angriff zu verbessern, wurden vor allem die Beladungsmechanismen komplett umgekrempelt, um Waren effizienter in den Frachthangars verstauen zu können. So soll mehr Ladung schneller in das Schiff gelangen. Die Frachthangars wurden etwas verlängert und schmaler gemacht, sodass die Schildgeneratoren nun das gesamte Schiff umschließen können.</t>
  <t id="387"> Albatros</t>
  <t id="388">\(Flüssigkeit\)</t>
@@ -425,7 +425,7 @@
  <t id="422"> Die Geier ist das beliebteste Transportschiff für die Beförderung allgemeiner Waren. Im Zuge der Umrüstungsanstrengungen der Teladi-Flotte erhielt die Geier Schildgeneratoren, die nicht nur wichtige Schiffssysteme, sondern auch die Frachthangars umfassen. Dank seiner Kuppelstruktur bietet das Schiff zudem weniger Angriffsfläche für Feinde und eine enorm verbesserte Manövrierbarkeit. Wenig überraschend erhielt die Geier dieselben Verbesserungen der Beladungsmechanismen, die schon in der Albatros verbaut wurden, wodurch die Frachtkapazität beträchtlich gesteigert werden konnte.</t>
  <t id="423"> Geier</t>
  <t id="424">\(Container\)</t>
- <t id="425"> Albatros {20106, 3601} {20106, 3001}</t>
+ <t id="425"> Albatros XL \(Schüttgut\)</t>
  <t id="426"> Ganz der Natur der Teladi folgend stand bei der Umrüstung der Handelsflotte des Teladi Unternehmens natürlich die Verbesserung des Ladevolumens im Vordergrund. Neben einer neu entworfenen Kuppelstruktur der Hülle, um die Flugeigenschaften im Falle einer Flucht vor einem Angriff zu verbessern, wurden vor allem die Beladungsmechanismen komplett umgekrempelt, um Waren effizienter in den Frachthangars verstauen zu können. So soll mehr Ladung schneller in das Schiff gelangen. Die Frachthangars wurden etwas verlängert und schmaler gemacht, sodass die Schildgeneratoren nun das gesamte Schiff umschließen können.</t>
  <t id="427"> Albatros</t>
  <t id="428">\(Schüttgut\)</t>

@@ -336,7 +336,7 @@
  <t id="333"> Phénix</t>
  <t id="334">Après de incursions Xénons plus intenses dans des systèmes de bordure comme Grand Echange et Champs d'Opportunité, la Compagnie Teladi a décidé de repenser de fond en comble la flotte Teladi en se concentrant sur la manœuvrabilité et une protection plus efficace. Le Phénix est au centre de ce chamboulement. Après de nombreuses expérimentations, un design bombé a été adopté pour la coque, qui protège mieux les systèmes vitaux du vaisseau tout en améliorant les vitesses de tangage et de roulis. Après que ce design ait été confirmé pour le Phénix, il a été appliqué au reste de la flotte.</t>
  <t id="335">Phénix</t>
- <t id="336"> Albatros {20106, 3601} {20106, 3201}</t>
+ <t id="336"> Albatros XL (Energie\)</t>
  <t id="337"> Lorsqu'il a fallu repenser les vaisseaux de commerce de la Compagnie Teladi, l'attention s'est naturellement portée sur la capacité de stockage. Tout en donnant à l'Albatros une nouvelle coque bombée pour mieux échapper aux attaques, son processus de chargement a été revu pour stocker les marchandises plus efficacement ce qui permet d'accroître l'espace disponible pour d'autres cargaisons. La soute a été également allongée et resserrée afin que les boucliers de l'Albatros la protègent complétement.</t>
  <t id="338"> Albatros</t>
  <t id="339">\(Energie\)</t>
@@ -353,7 +353,7 @@
  <t id="350">\(Liquide\)</t>
  <t id="351"> Harrier</t>
  <t id="352">La chamboulement de la flotte Teladi a abouti à l'abandon de la Buse, mais certains aspects de ce chasseur ont été intégrés dans une nouvelle version du Harrier afin d'en faire un véritable vaisseau militaire. Tout en pouvant servir d'explorateur, le nouveau Harrier peut aussi fonctionner comme un chasseur rapproché, harcelant les chasseurs lourds plus gros et mieux protégés.</t>
- <t id="353"> Albatros {20106, 3601} {20106, 3101}</t>
+ <t id="353"> Albatros XL \(Conteneur\)</t>
  <t id="354"> Lorsqu'il a fallu repenser les vaisseaux de commerce de la Compagnie Teladi, l'attention s'est naturellement portée sur la capacité de stockage. Tout en donnant à l'Albatros une nouvelle coque bombée pour mieux échapper aux attaques, son processus de chargement a été revu pour stocker les marchandises plus efficacement ce qui permet d'accroître l'espace disponible pour d'autres cargaisons. La soute a été également allongée et resserrée afin que les boucliers de l'Albatros la protègent complétement.</t>
  <t id="355"> Albatros</t>
  <t id="356">\(Conteneur\)</t>
@@ -385,7 +385,7 @@
  <t id="382"> Le vaisseau préféré pour le commerce général, le Vautour a été redessiné durant le chamboulement de la la flotte Teladi, afin de protéger non seulement les systèmes vitaux mais aussi la soute. Son design bombé lui permet de faire une cible plus petite pour les vaisseaux ennemis, tout en améliorant grandement sa manœuvrabilité. Bien entendu, les améliorations apportées à la soute et au processus de chargement de l'Albatros sont aussi présentes sur le Vautour, ce qui a accru sa déjà impressionnante capacité de chargement.</t>
  <t id="383"> Vautour</t>
  <t id="384">\(Liquide\)</t>
- <t id="385"> Albatros {20106, 3601} {20106, 3301}</t>
+ <t id="385"> Albatros XL \(Liquide\)</t>
  <t id="386"> Lorsqu'il a fallu repenser les vaisseaux de commerce de la Compagnie Teladi, l'attention s'est naturellement portée sur la capacité de stockage. Tout en donnant à l'Albatros une nouvelle coque bombée pour mieux échapper aux attaques, son processus de chargement a été revu pour stocker les marchandises plus efficacement ce qui permet d'accroître l'espace disponible pour d'autres cargaisons. La soute a été également allongée et resserrée afin que les boucliers de l'Albatros la protègent complétement.</t>
  <t id="387"> Albatros</t>
  <t id="388">\(Liquide\)</t>
@@ -425,7 +425,7 @@
  <t id="422"> Le vaisseau préféré pour le commerce général, le Vautour a été redessiné durant le chamboulement de la la flotte Teladi, afin de protéger non seulement les systèmes vitaux mais aussi la soute. Son design bombé lui permet de faire une cible plus petite pour les vaisseaux ennemis, tout en améliorant grandement sa manœuvrabilité. Bien entendu, les améliorations apportées à la soute et au processus de chargement de l'Albatros sont aussi présentes sur le Vautour, ce qui a accru sa déjà impressionnante capacité de chargement.</t>
  <t id="423"> Vautour</t>
  <t id="424">\(Conteneur\)</t>
- <t id="425"> Albatros {20106, 3601} {20106, 3001}</t>
+ <t id="425"> Albatros XL \(Vrac\)</t>
  <t id="426"> Lorsqu'il a fallu repenser les vaisseaux de commerce de la Compagnie Teladi, l'attention s'est naturellement portée sur la capacité de stockage. Tout en donnant à l'Albatros une nouvelle coque bombée pour mieux échapper aux attaques, son processus de chargement a été revu pour stocker les marchandises plus efficacement ce qui permet d'accroître l'espace disponible pour d'autres cargaisons. La soute a été également allongée et resserrée afin que les boucliers de l'Albatros la protègent complétement.</t>
  <t id="427"> Albatros</t>
  <t id="428">\(Vrac\)</t>

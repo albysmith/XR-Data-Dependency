@@ -1234,7 +1234,7 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
 			<connection name="ConnectionFor_props_tradeoffer_buy_buildership" tags="tradeofferdock">
@@ -1264,7 +1264,7 @@
 					<position x="0" y="62.6787" z="0" />
 				</offset>
 			</connection>
-
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

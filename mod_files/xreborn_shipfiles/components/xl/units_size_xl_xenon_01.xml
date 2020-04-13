@@ -2056,7 +2056,7 @@
 					<position x="-306.8633" y="417.2135" z="-524.1345" />
 					<quaternion qx="0.26207852" qy="-0.65190625" qz="0.27754664" qw="0.6552107" />
 				</offset>
-			</connection> 
+			</connection>
 			<connection name="connection_shieldgen17" group="group14 " tags="shield large">
 				<offset>
 					<position x="-224.3889" y="253.419" z="1624.456" />
@@ -2264,7 +2264,7 @@
 					<position x="-210.89" y="300.5482" z="1490.027" />
 					<quaternion qx="-0.42961514" qy="0.61493903" qz="-0.33729893" qw="-0.56877965" />
 				</offset>
-			</connection> 
+			</connection>
 			<connection name="connection_shieldgen20" group="group14 " tags="shield large">
 				<offset>
 					<position x="-229.6911" y="266.4662" z="1506.949" />
@@ -2274,7 +2274,7 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
 			<!-- 
@@ -2310,7 +2310,7 @@
 					<position x="-230.2357" y="269.8617" z="1478.955" />
 					<quaternion qx="0.06365216" qy="-0.0115514" qz="0.3506107" qw="0.9342843" />
 				</offset>
-			</connection> 
+			</connection>
 			<connection name="connection_shieldgen21" group="group17 " tags="shield large">
 				<offset>
 					<position x="225.0463" y="252.6341" z="1624.011" />
@@ -2378,7 +2378,7 @@
 					<position x="211.8659" y="300.5482" z="1490.485" />
 					<quaternion qx="0.4238411" qy="0.6048028" qz="-0.3406014" qw="0.5818617" />
 				</offset>
-			</connection> 
+			</connection>
 			<connection name="connection_shieldgen22" group="group17 " tags="shield large">
 				<offset>
 					<position x="230.0234" y="266.4716" z="1506.388" />
@@ -2481,20 +2481,20 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
-					<position x="0" y="536.984" z="0" />
+					<position x="0" y="546.984" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="575.484" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="575.484" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<position x="0" y="575.484" z="0" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="575.484" z="-60" />
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

@@ -908,10 +908,9 @@
 			<connection name="con_internal_xl_shield" tags="shield extralarge">
 				<offset>
 					<position />
-					<quaternion  />
+					<quaternion />
 				</offset>
 			</connection>
-
 			<connection name="connection_shieldgen_external01" tags="shield large">
 				<offset>
 					<position x="-43.08845" y="119.3615" z="-206.1382" />
@@ -954,6 +953,7 @@
 					<position x="0" y="132.05" z="0" />
 				</offset>
 			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>

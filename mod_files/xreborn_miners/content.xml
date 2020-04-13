@@ -11,4 +11,5 @@
     <text language="82" name="XReborn-Miners" description="XReborn-Miners - DISABLE" author="albysmith" />
     <text language="86" name="XReborn-Miners" description="XReborn-Miners - DISABLE" author="albysmith" />
     <text language="88" name="XReborn-Miners" description="XReborn-Miners - DISABLE" author="albysmith" />
+    <dependency id="xreborn_shipfiles" optional="false"/>
 </content>

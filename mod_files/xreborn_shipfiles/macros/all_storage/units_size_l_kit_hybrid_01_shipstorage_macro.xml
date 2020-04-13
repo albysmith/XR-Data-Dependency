@@ -4,7 +4,7 @@
 <component ref="generic_dockingbay" />
 <properties>
 <identification unique="0" />
-<dock capacity="40" external="0" storage="1" />
+<dock capacity="5" external="0" storage="1" />
 <room walkable="0" />
 <docksize tags="dock_s" />
 </properties>

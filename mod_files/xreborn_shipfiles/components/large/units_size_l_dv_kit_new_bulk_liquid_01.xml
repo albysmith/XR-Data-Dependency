@@ -155,6 +155,7 @@
 			</connection>
 			<connection name="ConnectionFor_units_size_l_dv_carrier_kit_new_front_a" tags="destructible">
 				<offset>
+					<!-- +50 y and +25z -->
 					<position x="4.304422E-06" y="7.808077" z="526.4554" />
 				</offset>
 			</connection>
@@ -436,17 +437,19 @@
 					<position x="0" y="94.9731" z="0" />
 				</offset>
 			</connection>
-
-		
-	<connection name="con_dock_02" tags="dockarea">
-                	<offset>
-                		<position x="0" y="133.4731" z="0"/>
-                	</offset>
-                </connection>
-                <connection name="con_dock_01" tags="dockarea">
-                	<offset>
-                		<position x="0" y="133.4731" z="-60"/>
-                	</offset>
-                </connection>			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection></connections>	</component>
+			<connection name="con_dock_02" tags="dockarea">
+				<offset>
+					<!-- +50 y and +300z -->
+					<position x="0" y="53" z="850" />
+					<rotation pitch="-8" />
+				</offset>
+			</connection>
+			<connection name="con_dock_01" tags="dockarea">
+				<offset>
+					<position x="0" y="133.4731" z="-60" />
+				</offset>
+			</connection>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
+		</connections>
+	</component>
 </components>
