@@ -19,6 +19,8 @@ Your XR Install:
 ##### input_path = "C:/Program Files/Steam/steamapps/common/X   Rebirth"
 Set False When Updating The Mod to Avoid Extracting Again:
 ##### extract = true 
+
+**Note: this mod does require you to own X:Rebirth and both DLCs**
     
 [img]https://user-images.githubusercontent.com/48844001/79088367-01b3ea80-7d08-11ea-8c50-c21ecaacf654.png[/img]
 [img]https://user-images.githubusercontent.com/48844001/79088380-09738f00-7d08-11ea-927f-d6bf39ce290c.png[/img]
