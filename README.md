@@ -20,12 +20,15 @@ Your XR Install:
 Set False When Updating The Mod to Avoid Extracting Again:
 ##### extract = true 
     
-![ship](https://imgur.com/rVVk1vF)  
-![ship](https://imgur.com/GsUeOWs)  
-![ship](https://imgur.com/jKwpQnW)  
-![ship](https://imgur.com/OWGtlUh)  
-![ship](https://imgur.com/c62uqVw)  
-![ship](https://imgur.com/kGjz1UO)  
+![X4  Foundations Screenshot 2020 04 12 - 20 51 15 13](https://user-images.githubusercontent.com/48844001/79088367-01b3ea80-7d08-11ea-8c50-c21ecaacf654.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 38 57 91](https://user-images.githubusercontent.com/48844001/79088380-09738f00-7d08-11ea-927f-d6bf39ce290c.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 44 07 54](https://user-images.githubusercontent.com/48844001/79088385-0c6e7f80-7d08-11ea-81b3-ae4b6a923ea4.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 37 56 93](https://user-images.githubusercontent.com/48844001/79088390-0e384300-7d08-11ea-820c-3e64a3dfc277.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 35 00 56](https://user-images.githubusercontent.com/48844001/79088392-11333380-7d08-11ea-9d76-f0871d8cf69f.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 36 00 37](https://user-images.githubusercontent.com/48844001/79088398-16907e00-7d08-11ea-9b23-081a94a78f9e.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 18 02 68](https://user-images.githubusercontent.com/48844001/79088405-1ee8b900-7d08-11ea-9bc1-479624d75788.png)
+![X4  Foundations Screenshot 2020 04 12 - 20 34 45 26](https://user-images.githubusercontent.com/48844001/79088412-25773080-7d08-11ea-914c-055f2fe249b3.png)
+
     
 - You can find the source [here](https://github.com/albysmith/XReborn-Ships)
 
