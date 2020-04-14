@@ -428,7 +428,7 @@
 			<connection name="connection_storage02" tags="destructible">
 				<offset />
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_shieldgen01" group="group03 " tags="shield large">

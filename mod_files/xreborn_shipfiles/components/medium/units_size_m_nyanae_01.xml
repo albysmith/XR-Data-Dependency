@@ -140,6 +140,19 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		</connections>
+		<connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="-7.70092e-05" y="-11.1363" z="50.1128"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="-0.00013113" y="0.0676823" z="67.7551"/>
+     </offset>
+    </connection>
+
+
+</connections>
 	</component>
 </components>

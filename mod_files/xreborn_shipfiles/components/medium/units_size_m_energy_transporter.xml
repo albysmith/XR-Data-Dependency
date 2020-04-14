@@ -264,7 +264,6 @@
 				<offset />
 			</connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
-			<connection name="con_storage01" tags="storage"></connection>
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
 					<position x="0" y="7.45105" z="0" />
@@ -276,6 +275,19 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		</connections>
+		<connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="-4.57764e-05" y="-15.2299" z="68.5351"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="9.15527e-05" y="0.0433578" z="43.457"/>
+     </offset>
+    </connection>
+
+
+</connections>
 	</component>
 </components>

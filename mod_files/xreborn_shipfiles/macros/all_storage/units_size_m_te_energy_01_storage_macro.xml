@@ -3,7 +3,7 @@
   <macro name="units_size_m_te_energy_01_storage_macro" class="storage">
     <component ref="generic_storage" />
     <properties>
-      <identification makerrace="argon" />
+      <identification makerrace="teladi" />
       <cargo max="12000" tags="container" />
       <hull integrated="1" />
     </properties>

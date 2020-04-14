@@ -889,7 +889,7 @@
 					<quaternion qx="-0.0000001629207" qy="-0.00000028213" qz="0.0000002384185" qw="1" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_storage02" tags="destructible">

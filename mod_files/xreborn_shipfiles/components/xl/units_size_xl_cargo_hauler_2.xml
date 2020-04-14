@@ -561,7 +561,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_engine11" group="group04 " tags="engine large ">

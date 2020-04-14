@@ -132,7 +132,20 @@
                     <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
                 </offset>
             </connection>
-            <connection name="conn_storage01" tags="storage" />
-        </connections>
+            <connection name="con_storage01" tags="storage" />
+        <connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="3.91006e-05" y="-1.01244" z="4.55583"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="3.92199e-05" y="0.00445974" z="4.54904"/>
+     </offset>
+    </connection>
+
+
+</connections>
     </component>
 </components>

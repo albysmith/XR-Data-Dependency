@@ -102,7 +102,7 @@
 					<position x="4.768372E-07" y="8.37889" z="67.46348" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset>
 					<position x="0" y="0" z="23.94314" />
 				</offset>
@@ -139,6 +139,19 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		</connections>
+		<connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="0" y="-11.1362" z="50.1128"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="0" y="0.0678711" z="67.7551"/>
+     </offset>
+    </connection>
+
+
+</connections>
 	</component>
 </components>

@@ -92,7 +92,7 @@
 				<offset />
 				<parts />
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_radar_fallback01" tags="destructible">

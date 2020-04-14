@@ -101,7 +101,7 @@
 				<offset />
 				<parts />
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset>
 					<position x="-2.655659E-07" y="-2.655659E-07" z="-6.075439" />
 				</offset>

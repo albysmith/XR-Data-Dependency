@@ -147,7 +147,7 @@
 				<offset />
 				<parts />
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_engine_xl_01" group="group03 " tags="engine extralarge">
@@ -1854,7 +1854,7 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
-					<position x="0" y="76.5876" z="0" />
+					<position x="0" y="80" z="30" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

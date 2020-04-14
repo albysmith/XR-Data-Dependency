@@ -1450,7 +1450,7 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
-					<position x="0" y="175.32" z="0" />
+					<position x="0" y="200" z="0" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

@@ -27,7 +27,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="conn_storage01" tags="storage" />
+			<connection name="con_storage01" tags="storage" />
 			<connection name="connection_engine_large01" tags="engine large">
 				<offset>
 					<position x="344.8771" y="-490.9538" z="-593.1465"></position>

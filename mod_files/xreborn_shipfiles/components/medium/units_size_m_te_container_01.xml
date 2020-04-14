@@ -87,9 +87,9 @@
 					<quaternion qx="0.0000001509958" qy="1" qz="0.0000000754979" qw="0.00000000000001139987" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset>
-					<position x="4.768372E-07" y="4.768372E-07" z="31.51603" />
+					<position x="0" y="0" z="0" />
 				</offset>
 			</connection>
 			<connection name="connection_engine01" tags="destructible">
@@ -129,6 +129,19 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		</connections>
+		<connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="6.38962e-05" y="-12.5509" z="56.4792"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="0.000125885" y="0.0446719" z="44.672"/>
+     </offset>
+    </connection>
+
+
+</connections>
 	</component>
 </components>

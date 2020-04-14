@@ -197,7 +197,7 @@
 					<position x="-184.7339" y="-4.419952" z="69.2663" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_shieldgen01" group="group01 " tags="shield large">

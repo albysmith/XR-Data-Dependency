@@ -282,10 +282,10 @@
       <component ref="units_size_m_te_bulk_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="teladi" />
-          <owner faction="paranid" />
+      <owner faction="paranid" />
       <owner faction="ministry" />
     </ware>
-    <ware id="units_size_m_te_container_01_ware" name="{78238230,417}" description="{78238230,418}" group="ships_argon" transport="ship" volume="1" tags="ship">
+    <ware id="units_size_m_te_container_01_ware" name="{78238230,417}" description="{78238230,418}" group="ships_teladi" transport="ship" volume="1" tags="ship">
       <price min="147352" average="173355" max="199358" />
       <production time="16" amount="1" method="default" name="{20206,101}">
         <primary>
@@ -296,7 +296,7 @@
       <component ref="units_size_m_te_container_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="teladi" />
-          <owner faction="trinity" />
+      <owner faction="trinity" />
       <owner faction="ministry" />
     </ware>
     <ware id="units_size_m_xenon_fighter_01_ware" name="{78238230,285}" description="{78238230,286}" group="ships_xenon" transport="ship" volume="1" tags="ship">

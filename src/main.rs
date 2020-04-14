@@ -27,18 +27,18 @@ struct Folder {
 
 fn main() {
     // for non-release testing ONLY
-    let config: Config = toml::from_str(
-        &fs::read_to_string("E:/Rust/Projects/cat_extractor/src/config.toml").expect("read config"),
-    )
-    .expect("toml parsing");
+    // let config: Config = toml::from_str(
+    //     &fs::read_to_string("E:/Rust/Projects/cat_extractor/src/config.toml").expect("read config"),
+    // )
+    // .expect("toml parsing");
 
     // for release version
     // read config.toml in current directory
-    // let config: Config = toml::from_str(
-    //     &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
-    //         .expect("read config"),
-    // )
-    // .expect("toml parsing");
+    let config: Config = toml::from_str(
+        &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
+            .expect("read config"),
+    )
+    .expect("toml parsing");
 
     const MODS_DIR: Dir = include_dir!("mod_files");
     let extract_flag = &config.extract;

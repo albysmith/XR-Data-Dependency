@@ -265,6 +265,19 @@
 			</connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
 			<connection name="con_storage01" tags="storage"></connection>
-		</connections>
+		<connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="0" y="-6.36768" z="28.655"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="0" y="0.0703125" z="70.0981"/>
+     </offset>
+    </connection>
+
+
+</connections>
 	</component>
 </components>

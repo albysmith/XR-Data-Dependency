@@ -887,7 +887,7 @@
 					<position x="-102.5494" y="-53.51479" z="-546.0909" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_turret_mining02" group="group02 " tags="turret medium standard missile hittable ">

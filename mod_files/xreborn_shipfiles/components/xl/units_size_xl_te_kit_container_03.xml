@@ -96,7 +96,7 @@
 				</offset>
 				<parts />
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_shieldgen_external01" tags="shield large">

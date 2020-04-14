@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="invisible_cockpit" class="cockpit">
-		<source geometry="Extensions\deep_state\invisible_cockpit\invisible_cockpit_data"/>
+		<source geometry="Extensions\xreborn_shipfiles\invisible_cockpit\invisible_cockpit_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

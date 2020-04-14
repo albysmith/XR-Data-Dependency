@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="invisible_xs_dock" class="dockingbay">
-		<source geometry="Extensions\deep_state\invisible_cockpit\invisible_xs_dock_data"/>
+		<source geometry="Extensions\xreborn_shipfiles\invisible_cockpit\invisible_xs_dock_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

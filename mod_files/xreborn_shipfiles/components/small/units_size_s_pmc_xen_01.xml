@@ -45,7 +45,7 @@
             <connection name="space" tags="ship ship_s">
                 <offset />
             </connection>
-            <connection name="conn_storage01" tags="storage" />
+            <connection name="con_storage01" tags="storage" />
             <connection name="Connection01" tags="part ship_xr  ">
                 <offset />
                 <parts>
@@ -153,6 +153,19 @@
                     <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
                 </offset>
             </connection>
-        </connections>
+        <connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="0" y="-2.58252" z="11.6221"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="0" y="0.0256348" z="25.6807"/>
+     </offset>
+    </connection>
+
+
+</connections>
     </component>
 </components>

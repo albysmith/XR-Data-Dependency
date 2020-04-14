@@ -376,7 +376,7 @@
 					<position x="0" y="0" z="-600.0798" />
 				</offset>
 			</connection> -->
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_turret_small_mg25" group="group01 " tags="turret medium standard hittable ">

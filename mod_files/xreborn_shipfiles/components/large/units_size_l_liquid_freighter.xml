@@ -272,7 +272,7 @@
 					<position x="0" y="-3.28688" z="-447.7704" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_storage02" tags="destructible">

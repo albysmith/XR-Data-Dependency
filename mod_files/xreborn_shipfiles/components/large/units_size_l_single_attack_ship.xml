@@ -294,7 +294,7 @@
 					<quaternion qx="0" qy="1" qz="0.0000000754979" qw="0" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_turret_small_mg02" group="group01 " tags="turret medium standard hittable ">

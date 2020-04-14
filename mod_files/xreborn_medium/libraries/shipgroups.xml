@@ -40,7 +40,6 @@
     <add sel="/groups/group[@name='tel_trader_container_m']">
         <select macro="units_size_m_te_container_01_macro" weight="10" />
         <select macro="units_size_m_te_bulk_01_macro" weight="10" />
-        <select macro="units_size_m_plasma_transporter_macro" weight="10" />
         <select macro="units_size_m_te_energy_01_macro" weight="10" />
         <select macro="units_size_m_pmc_xen_02_macro" weight="10" />
         <select macro="units_size_m_weapontech_transporter_macro" weight="10" />
@@ -48,7 +47,6 @@
     <add sel="/groups/group[@name='hol_trader_container_m']">
         <select macro="units_size_m_te_container_01_macro" weight="10" />
         <select macro="units_size_m_te_bulk_01_macro" weight="10" />
-        <select macro="units_size_m_plasma_transporter_macro" weight="10" />
         <select macro="units_size_m_te_energy_01_macro" weight="10" />
         <select macro="units_size_m_pmc_xen_02_macro" weight="10" />
         <select macro="units_size_m_weapontech_transporter_macro" weight="10" />
@@ -56,7 +54,6 @@
     <add sel="/groups/group[@name='par_trader_container_m']">
         <select macro="units_size_m_te_container_01_macro" weight="10" />
         <select macro="units_size_m_te_bulk_01_macro" weight="10" />
-        <select macro="units_size_m_plasma_transporter_macro" weight="10" />
         <select macro="units_size_m_te_energy_01_macro" weight="10" />
         <select macro="units_size_m_pmc_xen_02_macro" weight="10" />
         <select macro="units_size_m_weapontech_transporter_macro" weight="10" />
@@ -65,7 +62,6 @@
     <add sel="/groups/group[@name='arg_trader_container_m']">
         <select macro="units_size_m_te_container_01_macro" weight="10" />
         <select macro="units_size_m_te_bulk_01_macro" weight="10" />
-        <select macro="units_size_m_plasma_transporter_macro" weight="10" />
         <select macro="units_size_m_te_energy_01_macro" weight="10" />
         <select macro="units_size_m_pmc_xen_02_macro" weight="10" />
         <select macro="units_size_m_weapontech_transporter_macro" weight="10" />

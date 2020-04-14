@@ -239,7 +239,7 @@
 					<position x="4.768372E-07" y="4.670658" z="-45.15628" />
 				</offset>
 			</connection>
-			<connection name="conn_storage01" tags="storage">
+			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
 			<connection name="connection_engine01" tags="engine medium">
@@ -267,6 +267,19 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		</connections>
+		<connection name="con_dockpos" tags="dockpos ">
+     <offset>
+      <position x="-1.71661e-05" y="-14.6687" z="66.009"/>
+     </offset>
+    </connection>
+
+<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="4.95911e-05" y="0.0660791" z="66.009"/>
+     </offset>
+    </connection>
+
+
+</connections>
 	</component>
 </components>
