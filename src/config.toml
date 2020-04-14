@@ -9,7 +9,7 @@
 
 # ENTER PATHS HERE:
 # X4 extensions folder
-output_path = "E:/Rust/Projects/OutPut Files/Cat_Extractions"
+output_path = "E:/Games/Steam/steamapps/common/X4 Foundations/Extensions"
 # XR main folder
 input_path = "E:/Games/Steam/steamapps/common/X Rebirth"
 # Mark true if you want to extract XR files, false if you just want the updated mod files
@@ -26,3 +26,5 @@ extract = true
 #  2.  Make sure slashes in the paths are all /////// otherwise we cannot guarantee the program will work
 #  3.  Did you remove any ###s in this file?  Every line except for output_path, input_path, and extract should start with one
 #  4.  Is "extract" set to true?  That value doesn't need quotes around it, either.
+
+

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
 	<component name="units_size_xl_red_destroyer" class="ship_xl">
-		<source geometry="Extensions\xr_data_dependency\assets\units\size_xl\units_size_xl_red_destroyer_data" />
+		<source geometry="Extensions\xre\assets\units\size_xl\units_size_xl_red_destroyer_data" />
 		<layers>
 			<layer>
 				<waypoints>

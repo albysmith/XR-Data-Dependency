@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="props_enginesystems_xenon_engine_xl_2" class="destructible">
-		<source geometry="Extensions\xr_data_dependency\assets\props\EngineSystems\props_enginesystems_xenon_engine_xl_2_data"/>
+		<source geometry="Extensions\xre\assets\props\EngineSystems\props_enginesystems_xenon_engine_xl_2_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

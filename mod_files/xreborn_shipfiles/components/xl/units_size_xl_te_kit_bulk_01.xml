@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
 	<component name="units_size_xl_te_kit_bulk_01" class="ship_xl">
-		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\units\size_xl\\units_size_xl_te_kit_bulk_01_data" />
+		<source geometry="Extensions\xrt\assets\units\size_xl\\units_size_xl_te_kit_bulk_01_data" />
 		<layers>
 			<layer>
 				<waypoints>

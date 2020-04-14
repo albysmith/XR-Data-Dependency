@@ -7,7 +7,7 @@
 				<explosion ref="explosion_station_01"></explosion>
 			</effects>
 		</properties>
-		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_front_module_bottom_data"></source>
+		<source geometry="Extensions\xre\assets\units\kit\XL\unit_kit_xl_ar_front_module_bottom_data"></source>
 		<layers>
 			<layer>
 				<waypoints></waypoints>

@@ -4,7 +4,7 @@
 		<properties>
 			<hull max="0" integrated="1"/>
 		</properties>
-		<source geometry="Extensions\xr_data_dependency\assets\units\size_xl\construction_set\units_size_xl_cs_omicron_side_b_data"/>
+		<source geometry="Extensions\xre\assets\units\size_xl\construction_set\units_size_xl_cs_omicron_side_b_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

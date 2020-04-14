@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
 	<component name="unit_kit_xl_ar_center_module_front" class="destructible">
-		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_center_module_front_data"></source>
+		<source geometry="Extensions\xre\assets\units\kit\XL\unit_kit_xl_ar_center_module_front_data"></source>
 		<layers>
 			<layer>
 				<waypoints></waypoints>

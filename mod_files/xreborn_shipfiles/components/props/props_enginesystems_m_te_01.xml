@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="props_enginesystems_m_te_01" class="destructible">
-		<source geometry="Extensions\xr_data_dependency_teladioutpost\assets\props\EngineSystems\props_enginesystems_m_te_01_data"/>
+		<source geometry="Extensions\xrt\assets\props\EngineSystems\props_enginesystems_m_te_01_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
     <component name="units_size_s_ship_07" class="ship_s">
-        <source geometry="Extensions\xr_data_dependency\assets\units\size_s\units_size_s_ship_07_data" />
+        <source geometry="Extensions\xre\assets\units\size_s\units_size_s_ship_07_data" />
         <layers>
             <layer>
                 <waypoints />

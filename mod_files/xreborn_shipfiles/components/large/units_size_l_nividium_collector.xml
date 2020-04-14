@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
 	<component name="units_size_l_nividium_collector" class="ship_l">
-		<source geometry="Extensions\xr_data_dependency\assets\units\size_l\units_size_l_nividium_collector_data" />
+		<source geometry="Extensions\xre\assets\units\size_l\units_size_l_nividium_collector_data" />
 		<layers>
 			<layer>
 				<waypoints>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
 	<component name="unit_kit_xl_ar_pod_r_01" class="destructible">
-		<source geometry="Extensions\xr_data_dependency\assets\units\kit\XL\unit_kit_xl_ar_pod_r_01_data" />
+		<source geometry="Extensions\xre\assets\units\kit\XL\unit_kit_xl_ar_pod_r_01_data" />
 		<layers>
 			<layer>
 				<waypoints />

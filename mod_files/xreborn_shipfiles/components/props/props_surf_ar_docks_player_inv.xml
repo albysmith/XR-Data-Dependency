@@ -4,7 +4,7 @@
 		<properties>
 			<hull max="0"/>
 		</properties>
-		<source geometry="Extensions\xr_data_dependency_homeoflight\assets\props\SurfaceElements\props_surf_ar_docks_player_inv_data"/>
+		<source geometry="Extensions\xrh\assets\props\SurfaceElements\props_surf_ar_docks_player_inv_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

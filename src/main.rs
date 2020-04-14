@@ -1,4 +1,5 @@
 use include_dir::{include_dir, Dir};
+use std::io::{stdin, stdout, Read, Write};
 use std::env;
 use std::fs;
 use std::fs::File;
@@ -26,41 +27,42 @@ struct Folder {
 
 fn main() {
     // for non-release testing ONLY
-    // let config: Config = toml::from_str(
-    //     &fs::read_to_string("E:/Rust/Projects/cat_extractor/src/config.toml").expect("read config"),
-    // )
-    // .expect("toml parsing");
+    let config: Config = toml::from_str(
+        &fs::read_to_string("E:/Rust/Projects/cat_extractor/src/config.toml").expect("read config"),
+    )
+    .expect("toml parsing");
 
     // for release version
     // read config.toml in current directory
-    let config: Config = toml::from_str(
-        &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
-            .expect("read config"),
-    )
-    .expect("toml parsing");
+    // let config: Config = toml::from_str(
+    //     &fs::read_to_string(&env::current_dir().expect("current dir").join("config.toml"))
+    //         .expect("read config"),
+    // )
+    // .expect("toml parsing");
 
     const MODS_DIR: Dir = include_dir!("mod_files");
     let extract_flag = &config.extract;
 
     for folder in MODS_DIR.dirs() {
+        println!("Writing module files: {:?}", folder.path());
         comp_mod_files(folder, Path::new(&config.output_path));
     }
 
     if extract_flag == &true {
         let x_rebirth: Folder = Folder {
-            outpath: format!("{}/xr_data_dependency", &config.output_path),
+            outpath: format!("{}/xre", &config.output_path),
             catpath: (&config.input_path).to_string(),
             mod_id: "xr_data_dependency".to_string(),
             mod_name: "XR Data Dependency".to_string(),
         };
         let dlc_home: Folder = Folder {
-            outpath: format!("{}/xr_data_dependency_teladioutpost", &config.output_path),
+            outpath: format!("{}/xrt", &config.output_path),
             catpath: format!("{}/extensions/ego_dlc_teladi_outpost", &config.input_path),
             mod_id: "xr_data_dependency_teladioutpost".to_string(),
             mod_name: "XR Data Dependency - Teladi Outpost".to_string(),
         };
         let dlc_teladi: Folder = Folder {
-            outpath: format!("{}/xr_data_dependency_homeoflight", &config.output_path),
+            outpath: format!("{}/xrh", &config.output_path),
             catpath: format!("{}/extensions/ego_dlc_2", &config.input_path),
             mod_id: "xr_data_dependency_homeoflight".to_string(),
             mod_name: "XR Data Dependency - Home of Light".to_string(),
@@ -109,7 +111,7 @@ fn main() {
                                 || (path.contains("StorageModules")
                                     && (path.contains("data") || path.contains("DATA")))
                             {
-                                println!("{}", path);
+                                // println!("{}", path);
                                 // create missing directory folders (will skip automatically if they exist)
                                 let filepath = outpath
                                     .join((Path::new(&path)).parent().expect("opening folder"));
@@ -126,8 +128,8 @@ fn main() {
                                 io::copy(&mut reader, &mut writer).expect("shut up");
                                 // write the new files
                                 let out_file_path = outpath.join(&path);
-                                let mut outputfile = File::create(out_file_path).unwrap();
-                                outputfile.write_all(&writer).unwrap();
+                                let mut outputfile = File::create(out_file_path).expect("something");
+                                outputfile.write_all(&writer).expect("else");
 
                             // for ship mod extraction only
                             } else {
@@ -139,9 +141,14 @@ fn main() {
                         }
                     }
                 }
-                println!("Extraction Complete");
+            }
+            else {
+                println!("Missing DLC for {}", &folder.mod_name);
+                pause();
             }
         }
+        println!("Extraction Complete!");
+        pause();
     }
 }
 
@@ -162,4 +169,11 @@ fn comp_mod_files(folder: &Dir, out_path: &Path) {
             comp_mod_files(dir, out_path)
         }
     }
+}
+
+fn pause() {
+    let mut stdout = stdout();
+    stdout.write(b"Press Enter to continue...").unwrap();
+    stdout.flush().unwrap();
+    stdin().read(&mut [0]).unwrap();
 }

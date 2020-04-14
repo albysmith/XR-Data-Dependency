@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <components>
 	<component name="units_size_m_ore_collector" class="ship_m">
-		<source geometry="Extensions\xr_data_dependency\assets\units\size_m\units_size_m_ore_collector_data" />
+		<source geometry="Extensions\xre\assets\units\size_m\units_size_m_ore_collector_data" />
 		<layers>
 			<layer>
 				<waypoints />

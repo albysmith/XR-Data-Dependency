@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="props_tradeoffer_buy_buildership" class="destructible">
-		<source geometry="Extensions\xr_data_dependency_homeoflight\assets\props\TradeOffers\props_tradeoffer_buy_buildership_data"/>
+		<source geometry="Extensions\xrh\assets\props\TradeOffers\props_tradeoffer_buy_buildership_data"/>
 		<layers>
 			<layer>
 				<waypoints>
