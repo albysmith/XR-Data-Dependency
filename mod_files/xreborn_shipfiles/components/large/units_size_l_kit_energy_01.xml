@@ -341,6 +341,10 @@
 				<offset/>
 			</connection>
 			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
-		</connections>
+		<connection name="con_countermeasures_01" tags="countermeasures ">
+     <offset>
+      <position x="0" y="-150" z="0"/>
+     </offset>
+    </connection></connections>
 	</component>
 </components>
