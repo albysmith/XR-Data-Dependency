@@ -66,12 +66,12 @@ Set False When Updating The Mod to Avoid Extracting Again:
 #### Teladi Docks
     Teladi XL have invisible placeholder docks. We have a cool plan for them but wanted to get the ships out faster.
 #### Some ships are Temporarily Disabled
-    Miners, Builders, Resuppliers, and a few unsuitable for player control ships are disabled. They will be enabled shortly. 
+   Builders and a few ships unsuitable for player control ships are disabled. They will be enabled shortly. 
 #### Some Cockpits/Bridges are Buried
     Yeah, it is hard to check them all ourselves. Make an issue on github or nexusmods if you find one!
 
 ## Contribute to The Project
-If you want provide your own vision for balance, add a ship or ship variant, change some art assets to improve immersion, reallocate ships among the factions, or really anything else, we welcome it!  See the contribution guide [here](https://github.com/albysmith/XReborn-Ships/wiki/Contribution-Guide)
+If you want provide your own vision for balance, add a ship or ship variant, change some art assets to improve immersion, reallocate ships among the factions, or really anything else, see the contribution guide [here](https://github.com/albysmith/XReborn-Ships/wiki/Contribution-Guide)
 <!-- #### Kit-bashing 
     Having the XR assets neatly packages for you and a large body of examples allows for some very easy ship creation. If you create a kit-bash we would love to include it! 
 #### Art Changes
