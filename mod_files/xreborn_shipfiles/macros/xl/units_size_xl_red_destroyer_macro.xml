@@ -36,9 +36,9 @@
       <connection ref="con_shipstorage_s01">
         <macro ref="units_size_xl_red_destroyer_shipstorage_s_macro" connection="object" />
       </connection>
-      <connection ref="con_shipstorage_m01">
+      <!-- <connection ref="con_shipstorage_m01">
         <macro ref="units_size_xl_red_destroyer_shipstorage_m_macro" connection="object" />
-      </connection>
+      </connection> -->
       <connection ref="con_dockarea_01">
         <macro ref="dockarea_arg_s_ship_03_macro" connection="Connection01" />
       </connection>

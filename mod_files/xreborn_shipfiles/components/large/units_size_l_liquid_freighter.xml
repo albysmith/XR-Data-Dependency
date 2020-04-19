@@ -282,13 +282,13 @@
 					<position x="-67.01752" y="-22.51343" z="-409.2502" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="145.6479" y="47.92028" z="-411.2967" />
 					<quaternion qx="0" qy="0" qz="-0.95371693" qw="0.30070594" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-145.6194" y="47.92028" z="-411.2967" />
 					<quaternion qx="0" qy="0" qz="-0.95371693" qw="-0.30070582" />
@@ -299,13 +299,13 @@
 					<position x="65.12086" y="-22.51343" z="-409.2502" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="78.61582" y="-128.8245" z="529.6507" />
 					<quaternion qx="-0.9981349" qy="-0.06104829" qz="-0.0000001626168" qw="-0.000000009946028" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg04" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg04" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-79.26774" y="-128.8956" z="529.6507" />
 					<quaternion qx="-0.9981348" qy="0.06104859" qz="-0.0000001626168" qw="0.000000009946077" />
@@ -402,7 +402,8 @@
 					<position x="0" y="150" z="0" />
 				</offset>
 			</connection>
-		<connection name="con_shipstorage_s01" tags="dockingbay " />			<connection name="con_shipstorage_m01" tags="dockingbay " />
-			</connections>
+			<connection name="con_shipstorage_s01" tags="dockingbay " />
+			<connection name="con_shipstorage_m01" tags="dockingbay " />
+		</connections>
 	</component>
 </components>

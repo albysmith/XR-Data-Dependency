@@ -1,100 +1,100 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="props_sm_dv_old_liquid_l" class="destructible">
 		<properties>
-			<hull max="200000"/>
+			<hull max="200000" />
 		</properties>
-		<source geometry="Extensions\xre\assets\props\StorageModules\props_sm_dv_old_liquid_l_data"/>
+		<source geometry="Extensions\xre\assets\props\StorageModules\props_sm_dv_old_liquid_l_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection001" tags="part ship_xr   ">
-				<offset/>
+				<offset />
 				<parts>
 					<part name="detail_s_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01"/>
-									<material id="2" ref="generic.generic_alphatrims_01"/>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="generic.generic_alphatrims_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="67.6897" y="67.91579" z="65.06777"/>
-							<center x="2.69566" y="2.9217" z="3.326836"/>
+							<max x="67.6897" y="67.91579" z="65.06777" />
+							<center x="2.69566" y="2.9217" z="3.326836" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection002" tags="part ship_xr  ">
-				<offset/>
+				<offset />
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="61.99098" y="61.99099" z="58.06903"/>
-							<center x="-7.629395E-06" y="-1.144409E-05" z="4.083601"/>
+							<max x="61.99098" y="61.99099" z="58.06903" />
+							<center x="-7.629395E-06" y="-1.144409E-05" z="4.083601" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection003" tags="part ship_xr   ">
-				<offset/>
+				<offset />
 				<parts>
 					<part name="detail_m_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="63.49098" y="63.49099" z="23.14475"/>
-							<center x="-7.629395E-06" y="-1.144409E-05" z="4.083592"/>
+							<max x="63.49098" y="63.49099" z="23.14475" />
+							<center x="-7.629395E-06" y="-1.144409E-05" z="4.083592" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection004" tags="part ship_xr  ">
 				<offset>
-					<position x="0" y="0" z="170.9865"/>
+					<position x="0" y="0" z="170.9865" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
 			<connection name="connection_component01" tags="component storage ">
 				<offset>
-					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"/>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08" />
 				</offset>
 			</connection>
 			<connection name="connection_cargobay01" tags="cargobay">
-				<offset/>
+				<offset />
 			</connection>
 		</connections>
 	</component>

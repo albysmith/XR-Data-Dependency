@@ -2,7 +2,6 @@
 <components>
 	<component name="props_enginesystems_xenon_engine_xl" class="destructible">
 		<source geometry="Extensions\xre\assets\props\EngineSystems\props_enginesystems_xenon_engine_xl_data" />
-		 
 		<connections>
 			<connection name="space" tags="destructible">
 				<offset />
@@ -55,19 +54,9 @@
 			</connection>
 			<connection name="Connection16" tags="rendereffect" parent="part_main">
 				<offset>
-					<position x="2.837005" y="0" z="-9.603358E-07"/>
+					<position x="2.837005" y="0" z="-9.603358E-07" />
 				</offset>
 			</connection>
-			
-			 
-					 
-					 
-					 
-					 
-					 
-					 
-				 
-			 
 		</connections>
 	</component>
 </components>

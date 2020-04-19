@@ -9,7 +9,7 @@
 <docksize tags="dock_s" />
 </properties>
 </macro>
-<!-- <macro name="units_size_xl_te_kit_bulk_01_shipstorage_m_macro" class="dockingbay">
+<macro name="units_size_xl_te_kit_bulk_01_shipstorage_m_macro" class="dockingbay">
 <component ref="generic_dockingbay" />
 <properties>
 <identification unique="0" />
@@ -17,5 +17,5 @@
 <room walkable="0" />
 <docksize tags="dock_m" />
 </properties>
-</macro> -->
+</macro>
 </macros>

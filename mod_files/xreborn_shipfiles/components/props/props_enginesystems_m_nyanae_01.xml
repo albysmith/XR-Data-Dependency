@@ -12,7 +12,6 @@
 			<connection name="space" tags="destructible">
 				<offset />
 			</connection>
-
 			<connection name="container" tags="contents" value="0" optional="0" />
 			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="Connection01" tags="part ship_xr detail_xs   ">
@@ -73,9 +72,7 @@
 				<offset>
 					<position x="0" y="0" z="-7.151479" />
 				</offset>
-				<parts>
-					 
-				</parts>
+				<parts></parts>
 				<animations>
 					<animation name="scaling_range" start="0" end="100" />
 				</animations>

@@ -31,7 +31,8 @@
                         <find_station name="$Stations" space="player.galaxy" multiple="true" tradestation="true" />
                         <do_for_each in="$Stations">
                             <do_all exact="$Liquids.count" counter="$i">
-                                <do_if value="loop.element.tradewares.{$Liquids.{$i}}.count lt 3000">
+                                <!-- <do_if value="loop.element.tradewares.{$Liquids.{$i}}.count lt 3000"> -->
+                                <do_if value="loop.element.cargo.{$Liquids.{$i}}.count lt 3000">
                                     <add_cargo object="loop.element" ware="$Liquids.{$i}" exact="3000" />
                                 </do_if>
                             </do_all>
@@ -41,7 +42,7 @@
                         </do_if>
                         <get_ship_definition macro="$Macro" multiple="true" reference="$Ref" tags="[tag.xreborn_liquid]" />
                         <find_sector name="$Sectors" multiple="true" owner="[faction.argon, faction.antigone, faction.hatikvah, faction.teladi, faction.holyorder, faction.split, faction.paranid]" space="player.galaxy"></find_sector>
-                        <do_while value="$LiquidShips.count lt 15">
+                        <do_while value="$LiquidShips.count lt 10">
                             <set_value name="$RandomSector" exact="$Sectors.random" />
                             <create_ship groupname="$LiquidShips" name="$Ship" sector="$RandomSector" macro="$Macro.random">
                                 <pilot macro="character_boron_generic_01_macro">

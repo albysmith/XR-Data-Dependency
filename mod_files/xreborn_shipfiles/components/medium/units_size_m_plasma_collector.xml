@@ -216,12 +216,12 @@
 					<position x="0" y="-15.24133" z="-28.63426" />
 				</offset>
 			</connection>
-			<connection name="connection_turret01" tags="turret medium mining unhittable">
+			<connection name="connection_turret01" tags="turret medium standard missile unhittable">
 				<offset>
 					<position x="0" y="-15.24133" z="-18.63426" />
 				</offset>
 			</connection>
-			<connection name="connection_turret02" tags="turret medium mining unhittable">
+			<connection name="connection_turret02" tags="turret medium standard missile unhittable">
 				<offset>
 					<position x="0" y="-15.24133" z="-38.63426" />
 				</offset>

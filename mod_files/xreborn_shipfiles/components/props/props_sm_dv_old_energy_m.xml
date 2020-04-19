@@ -1,90 +1,90 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="props_sm_dv_old_energy_m" class="destructible">
 		<properties>
-			<hull max="200000"/>
+			<hull max="200000" />
 		</properties>
-		<source geometry="Extensions\xre\assets\props\StorageModules\props_sm_dv_old_energy_m_data"/>
+		<source geometry="Extensions\xre\assets\props\StorageModules\props_sm_dv_old_energy_m_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection01" tags="part ship_xr  ">
 				<offset>
-					<position x="-3.051758E-04" y="9.155273E-05" z="0"/>
+					<position x="-3.051758E-04" y="9.155273E-05" z="0" />
 				</offset>
 				<parts>
 					<part name="part_storage_energy" wreck="part_storage_energy_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
-									<material id="2" ref="argon.ar_unique_03"/>
+									<material id="1" ref="argon.ar_hulls_02" />
+									<material id="2" ref="argon.ar_unique_03" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
-									<material id="2" ref="argon.ar_unique_03"/>
+									<material id="1" ref="argon.ar_hulls_02" />
+									<material id="2" ref="argon.ar_unique_03" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
-									<material id="2" ref="argon.ar_unique_03"/>
+									<material id="1" ref="argon.ar_hulls_02" />
+									<material id="2" ref="argon.ar_unique_03" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="25.30021" y="25.35907" z="40.10971"/>
-							<center x="6.67572E-06" y="1.716614E-05" z="-7.289658"/>
+							<max x="25.30021" y="25.35907" z="40.10971" />
+							<center x="6.67572E-06" y="1.716614E-05" z="-7.289658" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection02" tags="part ship_xr   ">
 				<offset>
-					<position x="-0.1053925" y="5.917358E-02" z="-10.7027"/>
+					<position x="-0.1053925" y="5.917358E-02" z="-10.7027" />
 				</offset>
 				<parts>
 					<part name="detail_xs_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
-									<material id="2" ref="argon.ar_hulls_02"/>
-									<material id="3" ref="generic.generic_alphatrims_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="generic.generic_alphatrims_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="26.669" y="26.60595" z="43.0836"/>
-							<center x="0" y="0" z="-1.907349E-06"/>
+							<max x="26.669" y="26.60595" z="43.0836" />
+							<center x="0" y="0" z="-1.907349E-06" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection03" tags="part ship_xr  ">
 				<offset>
-					<position x="-3.051758E-04" y="9.155273E-05" z="95.75368"/>
+					<position x="-3.051758E-04" y="9.155273E-05" z="95.75368" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
 			<connection name="connection_component01" tags="component storage ">
 				<offset>
-					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08"/>
+					<quaternion qx="-0" qy="-1" qz="-0" qw="-7.54979E-08" />
 				</offset>
 			</connection>
 			<connection name="connection_cargobay01" tags="cargobay">
-				<offset/>
+				<offset />
 			</connection>
 		</connections>
 	</component>

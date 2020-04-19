@@ -153,18 +153,17 @@
                 </offset>
             </connection>
             <connection name="connection_turret01" tags="turret medium standard mining missile unhittable">
-				<offset>
+                <offset>
                     <position x="-0.5345396" y="-11.80527" z="64.5777" />
                     <quaternion qx="0.7071067" qy="0.000000008432149" qz="0.0000001152023" qw="0.7071068" />
-				</offset>
-			</connection>
-			<connection name="connection_turret02" tags="turret medium standard mining missile unhittable">
-				<offset>
+                </offset>
+            </connection>
+            <connection name="connection_turret02" tags="turret medium standard mining missile unhittable">
+                <offset>
                     <position x="-0.5345396" y="-11.80527" z="84.5777" />
                     <quaternion qx="0.7071067" qy="0.000000008432149" qz="0.0000001152023" qw="0.7071068" />
-				</offset>
-			</connection>
-
+                </offset>
+            </connection>
             <connection name="con_storage01" tags="storage"></connection>
             <connection name="connection_weaponprim01" tags="weapon medium standard missile mining platformcollision">
                 <offset>
@@ -180,6 +179,11 @@
                 <offset>
                     <position x="0" y="12.3828" z="-7.5" />
                     <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
+                </offset>
+            </connection>
+            <connection name="con_countermeasures_01" tags="countermeasures ">
+                <offset>
+                    <position x="-5.14984e-05" y="0.0668931" z="66.7908" />
                 </offset>
             </connection>
             <connection name="con_playercontrol" tags="playercontrol"></connection>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <macros>
   <macro name="units_size_l_dv_kit_old_liquid_01_storage_macro" class="storage">
     <component ref="generic_storage" />

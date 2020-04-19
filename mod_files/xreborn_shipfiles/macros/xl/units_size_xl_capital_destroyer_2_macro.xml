@@ -39,12 +39,12 @@
       <connection ref="con_shipstorage_m01">
         <macro ref="units_size_xl_capital_destroyer_2_shipstorage_m_macro" connection="object" />
       </connection>
-      <connection ref="shot_dock_2">
+      <!-- <connection ref="shot_dock_2">
         <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
       </connection>
       <connection ref="shot_dock_1">
         <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
-      </connection>
+      </connection> -->
       <connection ref="shot_dock_3">
         <macro ref="dockarea_arg_s_ship_02_macro" connection="Connection01" />
       </connection>

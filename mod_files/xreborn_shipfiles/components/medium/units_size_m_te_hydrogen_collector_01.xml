@@ -96,12 +96,12 @@
 					<position x="0" y="0" z="33.91105" />
 				</offset>
 			</connection>
-			<connection name="connection_weaponprim01" tags="weapon medium standard mining platformcollision">
+			<connection name="connection_weaponprim01" tags="weapon medium standard missile platformcollision">
 				<offset>
 					<position x="0" y="-20.24779" z="49.83418" />
 				</offset>
 			</connection>
-			<connection name="connection_weaponprim02" tags="weapon medium standard mining platformcollision">
+			<connection name="connection_weaponprim02" tags="weapon medium standard missile platformcollision">
 				<offset>
 					<position x="0" y="-20.24779" z="49.83418" />
 				</offset>

@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="E:\Mod Stuff\X4 Extracted\3.0final\libraries\libraries.xsd">
-    <!-- E:\Mod Stuff\X4 Extracted\3.0final\libraries\libraries.xsd
 <diff>
-    <add sel="/jobs"> -->
-    <job id="ministry_liquidtrader" startactive="true">
+    <add sel="/jobs">
+    <!-- <job id="ministry_liquidtrader" startactive="true">
         <modifiers rebuild="true" commandeerable="false" />
         <orders>
             <order order="TradeRoutine" default="true">
@@ -18,8 +15,6 @@
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="member" comparison="ge" />
         <environment buildatshipyard="true" />
         <ship ref="teladi_trader_liquid" group="liquid_transporter_all">
-
-            <select faction="ministry" tags="[xreborn_liquid]" />
             <loadout>
                 <level min="0" max="0.6" />
             </loadout>
@@ -41,7 +36,6 @@
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="member" comparison="ge" />
         <environment buildatshipyard="true" />
         <ship ref="teladi_trader_liquid" group="liquid_transporter_all">
-            <!-- <select faction="teladi" tags="[xreborn_liquid]" /> -->
             <loadout>
                 <level min="0" max="0.6" />
             </loadout>
@@ -62,8 +56,7 @@
         <quota galaxy="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="member" comparison="ge" />
         <environment buildatshipyard="true" />
-        <ship  group="liquid_transporter_all">
-
+        <ship group="liquid_transporter_all">
             <loadout>
                 <level min="0" max="0.6" />
             </loadout>
@@ -160,21 +153,6 @@
             </loadout>
             <owner exact="split" overridenpc="true" />
         </ship>
-    </job>
-    <!-- <job id="scout_sovsyn_873751" startactive="true">
-            <modifiers rebuild="true" commandeerable="true" />
-            <quotas>
-              <quota galaxy="3" />
-            </quotas>
-            <location class="galaxy" macro="xu_ep2_universe_macro" faction="sovsyn" relation="member" comparison="ge" />
-            <environment buildatshipyard="true" />
-            <ship>
-              <select faction="sovsyn" tags="[]" />
-              <loadout>
-                <level exact="1.0" />
-              </loadout>
-            </ship>
-          </job> -->
-    <!-- </add>
-</diff> -->
-</jobs>
+    </job> -->
+    </add>
+</diff>

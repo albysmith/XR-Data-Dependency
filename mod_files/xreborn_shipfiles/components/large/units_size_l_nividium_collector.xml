@@ -420,18 +420,18 @@
 					<position x="-67.01752" y="0.2286472" z="-423.0526" />
 				</offset>
 			</connection>
-			<connection name="connection_shieldgen201" group="" tags="shield medium unhittable">
+			<!-- <connection name="connection_shieldgen201" group="" tags="shield medium unhittable">
 				<offset>
 					<position x="-67.01752" y="0.2286472" z="-423.0526" />
 				</offset>
-			</connection>
-			<connection name="connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard hittable ">
+			</connection> -->
+			<connection name="connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="145.6479" y="70.66235" z="-425.0991" />
 					<quaternion qx="0" qy="0" qz="-0.95371693" qw="0.30070594" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-145.6194" y="70.66235" z="-425.0991" />
 					<quaternion qx="0" qy="0" qz="-0.95371693" qw="-0.30070582" />
@@ -442,13 +442,13 @@
 					<position x="65.12086" y="0.2286472" z="-423.0526" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="74.78413" y="-102.9915" z="266.7094" />
 					<quaternion qx="0.7057881" qy="0.04316764" qz="-0.7057877" qw="0.04316754" />
 				</offset>
 			</connection>
-			<connection name="connection_turret_small_mg04" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="connection_turret_small_mg04" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-76.07593" y="-103.0068" z="266.7094" />
 					<quaternion qx="-0.70578784" qy="0.043167874" qz="-0.70578796" qw="-0.043167993" />
@@ -545,7 +545,20 @@
 					<position x="0" y="150" z="0" />
 				</offset>
 			</connection>
-		<connection name="con_shipstorage_s01" tags="dockingbay " />			<connection name="con_shipstorage_m01" tags="dockingbay " />
-			</connections>
+			<connection name="con_shipstorage_s01" tags="dockingbay " />
+			<connection name="con_shipstorage_m01" tags="dockingbay " />
+			<connection name="connection_turret_large_mining" group="group_l_turret" tags="turret large mining ">
+				<offset>
+					<position x="0" y="84" z="517" />
+				</offset>
+			</connection>
+			<connection name="connection_shield_turret" group="group_l_turret" tags="shield medium unhittable">
+				<offset>
+					<position x="0" y="84" z="547" />
+					<rotation yaw="90" />
+				</offset>
+			</connection>
+
+		</connections>
 	</component>
 </components>

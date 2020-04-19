@@ -181,11 +181,11 @@
           <component ref="units_size_xl_te_kit_livingsection_b" connection="space" />
         </macro>
       </connection>
-      <connection ref="connection_cockpit01">
+      <!-- <connection ref="connection_cockpit01">
         <macro>
           <component ref="cockpit_bridge_te_l_01" connection="space" />
         </macro>
-      </connection>
+      </connection> -->
       <connection ref="con_storage01">
         <macro ref="units_size_xl_te_kit_energy_03_storage_macro" connection="ShipConnection" />
       </connection>

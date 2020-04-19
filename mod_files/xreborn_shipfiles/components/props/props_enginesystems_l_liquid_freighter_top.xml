@@ -5,7 +5,6 @@
 		<layers>
 			<layer>
 				<waypoints />
-				 
 			</layer>
 		</layers>
 		<connections>
@@ -63,14 +62,7 @@
 				<animations>
 					<animation name="scaling_range" start="0" end="100" />
 				</animations>
-				<parts>
-					 
-					 
-					 
-					 
-					 
-					 
-				</parts>
+				<parts></parts>
 			</connection>
 			<connection name="Connection03" hidden="true" tags="part ship_xr triggerpart  ">
 				<offset>
@@ -92,8 +84,6 @@
 					</part>
 				</parts>
 			</connection>
-			 
-			 
 		</connections>
 	</component>
 </components>

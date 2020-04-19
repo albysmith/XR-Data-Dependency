@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <content id="XReborn-Miners" name="XReborn Miners" description="XReborn Miners" author="albysmith" version="1.01" date="2018-01-09" save="0">
-    <text language="7" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="33" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="34" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="39" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="44" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="49" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="55" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="81" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="82" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="86" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
-    <text language="88" name="XReborn Miners" description="XReborn Miners - DISABLE" author="albysmith" />
+    <text language="7" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="33" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="34" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="39" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="44" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="49" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="55" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="81" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="82" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="86" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
+    <text language="88" name="XReborn Miners" description="XReborn Miners" author="albysmith" />
     <dependency id="xreborn_shipfiles" optional="false"/>
 </content>

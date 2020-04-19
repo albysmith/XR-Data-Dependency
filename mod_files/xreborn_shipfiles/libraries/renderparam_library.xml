@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- maximum render range (LOD's will be distributed over this given range) in meters for a 1280:720 mainscene (19-22" LCD computer screen), size contribution in percent, fadespeed in seconds 0.5 is allowed -->
 <diff>
-	<add sel="/renderparameters/lodrules">
-    
-    <!-- Ship render rules --> 
-    <rule name="dbglodrule_ship_xr" range="30000.0" sizecontrib="50" speed="2.0" >
+  <add sel="/renderparameters/lodrules">
+    <!-- Ship render rules -->
+    <rule name="dbglodrule_ship_xr" range="30000.0" sizecontrib="50" speed="2.0">
       <connections>
         <tag name="ship_xr" />
       </connections>
     </rule>
-      
-</add>
-</diff>
-
-<!-- priority="0" lodradius0="0" lodradius1="0" lodradius2="0" lodradius3="0" -->
+  </add>
+</diff><!-- priority="0" lodradius0="0" lodradius1="0" lodradius2="0" lodradius3="0" -->

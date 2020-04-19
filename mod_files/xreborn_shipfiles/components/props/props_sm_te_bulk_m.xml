@@ -1,57 +1,57 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="props_sm_te_bulk_m" class="destructible">
-		<source geometry="Extensions\xrt\assets\props\StorageModules\props_sm_te_bulk_m_data"/>
+		<source geometry="Extensions\xrt\assets\props\StorageModules\props_sm_te_bulk_m_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection01" tags="part ship_xr  ">
-				<offset/>
+				<offset />
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 							<lod index="3">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="33.62963" y="36.47777" z="30.59157"/>
-							<center x="7.629395E-06" y="-1.907349E-06" z="6.67572E-06"/>
+							<max x="33.62963" y="36.47777" z="30.59157" />
+							<center x="7.629395E-06" y="-1.907349E-06" z="6.67572E-06" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection02" tags="part ship_xr  ">
 				<offset>
-					<position x="-0.7601395" y="0" z="88.40521"/>
+					<position x="-0.7601395" y="0" z="88.40521" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
 		</connections>
 	</component>

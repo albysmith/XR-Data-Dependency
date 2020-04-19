@@ -1,104 +1,95 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="props_enginesystems_xenon_engine_xl_2" class="destructible">
-		<source geometry="Extensions\xre\assets\props\EngineSystems\props_enginesystems_xenon_engine_xl_2_data"/>
+		<source geometry="Extensions\xre\assets\props\EngineSystems\props_enginesystems_xenon_engine_xl_2_data" />
 		<layers>
 			<layer>
-				<waypoints/>
+				<waypoints />
 				<lights>
 					<omni name="XU Omni01" shadow="0" r="255" g="108" b="52" range="300" shadowrange="300" lighteffect="1" lenseffect="enginesystems_xenon_engine_xl_02" trigger="1" intensity="1.5">
-						<lightanimations/>
+						<lightanimations />
 						<offset>
-							<position x="0" y="0" z="-19.49298"/>
+							<position x="0" y="0" z="-19.49298" />
 						</offset>
 					</omni>
 				</lights>
 			</layer>
 		</layers>
 		<connections>
-<connection name="space" tags="destructible">
-<offset/>
-</connection>
-
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset />
+			</connection>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="Connection01" tags="part ship_xr  ">
-				<offset/>
+				<offset />
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="generic.generic_alphatrims_01"/>
-									<material id="2" ref="generic.generic_tech_01"/>
-									<material id="3" ref="generic.generic_engines_01"/>
+									<material id="1" ref="generic.generic_alphatrims_01" />
+									<material id="2" ref="generic.generic_tech_01" />
+									<material id="3" ref="generic.generic_engines_01" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="generic.generic_alphatrims_01"/>
-									<material id="2" ref="generic.generic_tech_01"/>
-									<material id="3" ref="generic.generic_engines_01"/>
+									<material id="1" ref="generic.generic_alphatrims_01" />
+									<material id="2" ref="generic.generic_tech_01" />
+									<material id="3" ref="generic.generic_engines_01" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="generic.generic_alphatrims_01"/>
-									<material id="2" ref="generic.generic_tech_01"/>
-									<material id="3" ref="generic.generic_engines_01"/>
+									<material id="1" ref="generic.generic_alphatrims_01" />
+									<material id="2" ref="generic.generic_tech_01" />
+									<material id="3" ref="generic.generic_engines_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="92.34697" y="92.09784" z="54.3453"/>
-							<center x="-3.625107E-02" y="7.171631E-04" z="6.171526"/>
+							<max x="92.34697" y="92.09784" z="54.3453" />
+							<center x="-3.625107E-02" y="7.171631E-04" z="6.171526" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="speeddependant_con_outer_eng" tags="part ship_xr  animation nocollision speeddependant">
 				<offset>
-					<position x="9.873867E-02" y="-5.889952E-02" z="-4.818954"/>
+					<position x="9.873867E-02" y="-5.889952E-02" z="-4.818954" />
 				</offset>
 				<animations>
-					<animation name="scaling_range" start="0" end="100"/>
+					<animation name="scaling_range" start="0" end="100" />
 				</animations>
-				<parts>
-					 
-					 
-					 
-					 
-					 
-				</parts>
+				<parts></parts>
 			</connection>
 			<connection name="Connection02" tags="part ship_xr  ">
 				<offset>
-					<position x="482.1357" y="0" z="0"/>
+					<position x="482.1357" y="0" z="0" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
 			<connection name="Connection03" hidden="true" tags="part ship_xr triggerpart ">
 				<offset>
-					<position x="0" y="0" z="-489.6346"/>
+					<position x="0" y="0" z="-489.6346" />
 				</offset>
 				<parts>
 					<part name="engine_damage">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="86.8644" y="86.8644" z="534.0461"/>
-							<center x="0" y="0" z="0"/>
+							<max x="86.8644" y="86.8644" z="534.0461" />
+							<center x="0" y="0" z="0" />
 						</size>
 					</part>
 				</parts>
 			</connection>
-			 
-			 
 		</connections>
 	</component>
 </components>

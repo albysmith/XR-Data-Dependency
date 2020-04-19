@@ -4,7 +4,6 @@
 		<entry name="invisible_cockpit_macro" value="Extensions/xreborn_shipfiles/invisible_cockpit/invisible_cockpit_macro" />
 		<entry name="invisible_xs_dock_macro" value="Extensions/xreborn_shipfiles/invisible_cockpit/invisible_xs_dock_macro" />
 		<entry name="shipstorage_placeholder_m_01_macro" value="Extensions/xreborn_shipfiles/macros/all_storage/shipstorage_placeholder_m_01_macro" />
-
 		<entry name="units_size_xl_cs_omicron_ship_01_macro" value="Extensions/xreborn_shipfiles/macros/xl/units_size_xl_cs_omicron_ship_01_macro" />
 		<entry name="units_size_xl_capital_destroyer_1_macro" value="Extensions/xreborn_shipfiles/macros/xl/units_size_xl_capital_destroyer_1_macro" />
 		<entry name="units_size_xl_cs_omicron_ship_04_macro" value="Extensions/xreborn_shipfiles/macros/xl/units_size_xl_cs_omicron_ship_04_macro" />

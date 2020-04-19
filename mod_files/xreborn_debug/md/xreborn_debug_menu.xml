@@ -330,7 +330,7 @@ faction.sonraenergy,
                     <set_known object="@$Stations.{$i}.cluster" known="true" />
                     <set_known object="@$Stations.{$i}.sector" known="true" />
                     <set_known object="@$Stations.{$i}.zone" known="true" />
-                    <set_known object="@$Stations.{$i}" known="true" />
+                    <!-- <set_known object="@$Stations.{$i}" known="true" /> -->
                 </do_all>
             </actions>
         </cue>
@@ -765,8 +765,7 @@ faction.sonraenergy,
                                 <include_actions ref="Label" />
                                 <set_value name="$ReturnCue" exact="$ObjectTable.{$i}.$Return" />
                                 <include_actions ref="Button" />
-                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"   />
-                                <!-- <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"  param="table[$bgColor='Helper.color.brightyellow', $borderBelow = true]"  /> -->
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"  param="table[$bgColor='Helper.color.brightyellow', $borderBelow = true]"  />
                                 <set_value name="$Text" exact="$ObjectTable.{$i}.$Description" />
                                 <include_actions ref="Label" />
 

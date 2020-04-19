@@ -159,25 +159,25 @@
 					<quaternion qx="0.00000005338508" qy="0.7071067" qz="-0.00000005338508" qw="-0.7071068" />
 				</offset>
 			</connection>
-			<connection name="main_b_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="main_b_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-39.835705" y="34.888866" z="-651.9009" />
 					<quaternion qx="0.0000004748536" qy="-0.7071068" qz="-0.0000002613133" qw="-0.7071068" />
 				</offset>
 			</connection>
-			<connection name="main_b_connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="main_b_connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="41.160717" y="34.888935" z="-651.9009" />
 					<quaternion qx="-0.0000002613132" qy="-0.7071068" qz="-0.0000004748536" qw="0.7071067" />
 				</offset>
 			</connection>
-			<connection name="front_b_connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="front_b_connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-33.892067" y="-53.83255" z="687.4539" />
 					<quaternion qx="1" qy="-0.0000000437114" qz="-0.0000001509958" qw="-0.00000004371138" />
 				</offset>
 			</connection>
-			<connection name="front_b_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="front_b_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="33.808933" y="-53.83256" z="687.45386" />
 					<quaternion qx="1" qy="-0.0000000437114" qz="-0.0000001509958" qw="-0.00000004371138" />
@@ -195,13 +195,13 @@
 					<quaternion qx="-0.0000000754979" qy="-1" qz="-0.000000000000003300118" qw="-0.00000004371139" />
 				</offset>
 			</connection>
-			<connection name="extender2_g_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="extender2_g_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-33.013195" y="36.70014" z="-241.39969" />
 					<quaternion qx="0.000000643441" qy="-0.7071068" qz="-0.0000004299007" qw="-0.7071068" />
 				</offset>
 			</connection>
-			<connection name="extender2_g_connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="extender2_g_connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="32.992496" y="36.700203" z="-241.39973" />
 					<quaternion qx="-0.0000004299006" qy="-0.7071068" qz="-0.000000643441" qw="0.7071067" />
@@ -213,25 +213,25 @@
 					<quaternion qx="-0.0000000754979" qy="-1" qz="-0.000000000000003300118" qw="-0.00000004371139" />
 				</offset>
 			</connection>
-			<connection name="extender2_c_connection_turret_small_mg04" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="extender2_c_connection_turret_small_mg04" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-33.7782" y="36.566566" z="305.41672" />
 					<quaternion qx="0.0000004748536" qy="-0.7071068" qz="-0.0000002613133" qw="-0.7071068" />
 				</offset>
 			</connection>
-			<connection name="extender2_c_connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="extender2_c_connection_turret_small_mg03" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="-33.7782" y="36.566544" z="279.16714" />
 					<quaternion qx="0.0000004748536" qy="-0.7071068" qz="-0.0000002613133" qw="-0.7071068" />
 				</offset>
 			</connection>
-			<connection name="extender2_c_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="extender2_c_connection_turret_small_mg02" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="34.33627" y="36.566628" z="305.4167" />
 					<quaternion qx="-0.0000002613132" qy="-0.7071068" qz="-0.0000004748536" qw="0.7071067" />
 				</offset>
 			</connection>
-			<connection name="extender2_c_connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard hittable ">
+			<connection name="extender2_c_connection_turret_small_mg01" group="group_m_turret" tags="turret medium standard missile hittable ">
 				<offset>
 					<position x="34.33628" y="36.566628" z="279.1671" />
 					<quaternion qx="-0.0000002613132" qy="-0.7071068" qz="-0.0000004748536" qw="0.7071067" />
@@ -267,7 +267,8 @@
 					<position x="0" y="150" z="0" />
 				</offset>
 			</connection>
-		<connection name="con_shipstorage_s01" tags="dockingbay " />			<connection name="con_shipstorage_m01" tags="dockingbay " />
-			</connections>
+			<connection name="con_shipstorage_s01" tags="dockingbay " />
+			<connection name="con_shipstorage_m01" tags="dockingbay " />
+		</connections>
 	</component>
 </components>

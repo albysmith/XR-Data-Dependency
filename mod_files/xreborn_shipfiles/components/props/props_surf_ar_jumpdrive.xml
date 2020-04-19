@@ -1,126 +1,126 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="props_surf_ar_jumpdrive" class="destructible">
-		<source geometry="Extensions\xrh\assets\props\SurfaceElements\props_surf_ar_jumpdrive_data"/>
+		<source geometry="Extensions\xrh\assets\props\SurfaceElements\props_surf_ar_jumpdrive_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection02" tags="part ship_xr animation  ">
-				<offset/>
+				<offset />
 				<animations>
-					<animation name="mode_inactive" start="900" end="910"/>
-					<animation name="mode_activating" start="1" end="690"/>
-					<animation name="mode_active" start="690" end="750"/>
-					<animation name="mode_deactivating" start="750" end="900"/>
+					<animation name="mode_inactive" start="900" end="910" />
+					<animation name="mode_activating" start="1" end="690" />
+					<animation name="mode_active" start="690" end="750" />
+					<animation name="mode_deactivating" start="750" end="900" />
 				</animations>
 				<parts>
 					<part name="anim_main" wreck="anim_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_unique_01"/>
-									<material id="2" ref="argon.ar_unique_03"/>
-									<material id="3" ref="argon.ar_unique_04"/>
+									<material id="1" ref="argon.ar_unique_01" />
+									<material id="2" ref="argon.ar_unique_03" />
+									<material id="3" ref="argon.ar_unique_04" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_unique_01"/>
-									<material id="2" ref="argon.ar_unique_03"/>
-									<material id="3" ref="argon.ar_unique_04"/>
+									<material id="1" ref="argon.ar_unique_01" />
+									<material id="2" ref="argon.ar_unique_03" />
+									<material id="3" ref="argon.ar_unique_04" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_unique_01"/>
-									<material id="2" ref="argon.ar_unique_03"/>
-									<material id="3" ref="argon.ar_unique_04"/>
+									<material id="1" ref="argon.ar_unique_01" />
+									<material id="2" ref="argon.ar_unique_03" />
+									<material id="3" ref="argon.ar_unique_04" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="27.20475" y="6.847305" z="65.22337"/>
-							<center x="-3.814697E-06" y="4.694915" z="5.358124E-02"/>
+							<max x="27.20475" y="6.847305" z="65.22337" />
+							<center x="-3.814697E-06" y="4.694915" z="5.358124E-02" />
 						</size>
 						<size_raw>
-							<max x="27.20475" y="2.15239" z="65.16978"/>
-							<center x="-2.861023E-06" y="4.694915" z="5.358124E-02"/>
+							<max x="27.20475" y="2.15239" z="65.16978" />
+							<center x="-2.861023E-06" y="4.694915" z="5.358124E-02" />
 						</size_raw>
 						<lights>
 							<omni name="XU Omni01" shadow="0" r="63" g="253" b="255" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="9.999999E-02">
 								<lightanimations>
 									<lightanimation name="intensity" controller="linear_float">
-										<key frame="1" value="9.999999E-02"/>
-										<key frame="30" value="9.999999E-02"/>
-										<key frame="350" value="0.75"/>
-										<key frame="690" value="0.75"/>
-										<key frame="750" value="0.75"/>
-										<key frame="900" value="9.999999E-02"/>
-										<key frame="910" value="9.999999E-02"/>
+										<key frame="1" value="9.999999E-02" />
+										<key frame="30" value="9.999999E-02" />
+										<key frame="350" value="0.75" />
+										<key frame="690" value="0.75" />
+										<key frame="750" value="0.75" />
+										<key frame="900" value="9.999999E-02" />
+										<key frame="910" value="9.999999E-02" />
 									</lightanimation>
 								</lightanimations>
 								<offset>
-									<position x="0" y="40" z="0"/>
+									<position x="0" y="40" z="0" />
 								</offset>
 							</omni>
 						</lights>
 					</part>
 				</parts>
-				<waypoints/>
+				<waypoints />
 			</connection>
 			<connection name="Connection03" tags="part ship_xr animation textureanimation iklink  " parent="anim_main">
 				<offset>
-					<position x="-7.201575E-03" y="5.608379" z="3.561363E-06"/>
+					<position x="-7.201575E-03" y="5.608379" z="3.561363E-06" />
 				</offset>
-				<animations/>
+				<animations />
 				<parts>
 					<part name="anim_plasma">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_unique_01"/>
-									<material id="2" ref="argon.ar_unique_03"/>
-									<material id="3" ref="effects.gradient_bluenoise"/>
+									<material id="1" ref="argon.ar_unique_01" />
+									<material id="2" ref="argon.ar_unique_03" />
+									<material id="3" ref="effects.gradient_bluenoise" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="25.26525" y="5.533843" z="42.92305"/>
-							<center x="1.333654E-06" y="0" z="2.533343E-07"/>
+							<max x="25.26525" y="5.533843" z="42.92305" />
+							<center x="1.333654E-06" y="0" z="2.533343E-07" />
 						</size>
 						<size_raw>
-							<max x="25.26525" y="5.533843" z="42.92305"/>
-							<center x="1.333654E-06" y="0" z="2.533343E-07"/>
+							<max x="25.26525" y="5.533843" z="42.92305" />
+							<center x="1.333654E-06" y="0" z="2.533343E-07" />
 						</size_raw>
 						<uv_animations>
 							<uv_animation mapchannel="1">
 								<uv_property name="u_offset" controller="linear_float">
-									<key frame="0" value="0"/>
-									<key frame="51" value="0"/>
-									<key frame="550" value="-13"/>
-									<key frame="640" value="-22"/>
-									<key frame="720" value="-50"/>
-									<key frame="749" value="-65.5"/>
-									<key frame="750" value="-50"/>
-									<key frame="800" value="-7.048964"/>
-									<key frame="900" value="0"/>
+									<key frame="0" value="0" />
+									<key frame="51" value="0" />
+									<key frame="550" value="-13" />
+									<key frame="640" value="-22" />
+									<key frame="720" value="-50" />
+									<key frame="749" value="-65.5" />
+									<key frame="750" value="-50" />
+									<key frame="800" value="-7.048964" />
+									<key frame="900" value="0" />
 								</uv_property>
 								<uv_property name="v_offset" controller="linear_float">
-									<key frame="0" value="-0"/>
-									<key frame="51" value="-0"/>
-									<key frame="690" value="-50"/>
-									<key frame="750" value="-51"/>
-									<key frame="800" value="-0"/>
-									<key frame="900" value="-0"/>
+									<key frame="0" value="-0" />
+									<key frame="51" value="-0" />
+									<key frame="690" value="-50" />
+									<key frame="750" value="-51" />
+									<key frame="800" value="-0" />
+									<key frame="900" value="-0" />
 								</uv_property>
 							</uv_animation>
 						</uv_animations>
@@ -129,12 +129,12 @@
 			</connection>
 			<connection name="Connection04" tags="part ship_xr  ">
 				<offset>
-					<position x="0" y="0" z="163"/>
+					<position x="0" y="0" z="163" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
 			<connection name="Connection01" tags="jumpdrive  component">
-				<offset/>
+				<offset />
 			</connection>
 		</connections>
 	</component>
