@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="XReborn_Debug_Menu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="E:/Mod Stuff/X4 Extracted/3.0final/libraries/md.xsd">
+    <cues>
+        <cue name="Checklog" instantiate="true" checkinterval="3s">
+            <actions>
+                <debug_text text="player.age" />
+            </actions>
+        </cue>
+        <cue name="Register_Options_Menu" instantiate="true" namespace="this">
+            <conditions>
+                <event_cue_signalled cue="md.Simple_Menu_API.Reloaded" />
+            </conditions>
+            <actions>
+                <signal_cue_instantly cue="md.Simple_Menu_API.Register_Options_Menu" param="table[
+                             $id = 'xreborn_debug_menu',
+                             $columns = 2, 
+                             $title = 'XReborn',
+                             $onOpen = Main_Menu
+                             ]" />
+            </actions>
+        </cue>
+      
+        <cue name="Build_Options_Menu" instantiate="true" namespace="this">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                     $col = 1, 
+                     $text = 'Button test1', 
+                     $mouseOverText = 'Mouseover test',
+                     $cellBGColor = 'Helper.color.transparent60',
+                     ]" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                     $col = 1, 
+                     $text = 'Button test2', 
+                     $mouseOverText = 'Mouseover test',
+                     $cellBGColor = 'Helper.color.transparent60',
+                     ]" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
+                     $col = 2, 
+                     $id = 'count_button',
+                     $text = table[
+                       $text   = 'BUTTON', 
+                       $color  = 'Helper.color.brightyellow',
+                       $halign = 'center',
+                       ],
+                     $onClick = Main_Menu,
+                     $onRightClick = Main_Menu,
+                
+                     ]" />
+            </actions>
+        </cue>
+       
+
+        <cue name="Main_Menu" instantiate="true">
+            <conditions>
+                <check_any>
+                    <event_cue_signalled />
+                    <!-- <event_player_activated_weapongroup weapongroup="2" /> -->
+                </check_any>
+            </conditions>
+            <actions>
+                <set_value name="$ObjectTable" exact="table[
+                            {1} = table [
+                                $Return = Debug_Warp,
+                                $Name = 'Debug Warp',
+                                $Description = 'warp to any sector, sector lookup is dynamic',
+                                ],
+                            {2} = table [
+                                $Return = DFA_Create_Menu,
+                                $Name = 'Create Ship',
+                                $Description = 'create any ship, ship lookup is dynamic',
+                                ],
+                             {3} = table [
+                                $Return = Add_Research,
+                                $Name = 'Add Research',
+                                $Description = 'add all research, research lookup is dynamic',
+                                ],  
+                            {4} = table [
+                                $Return = Add_Blueprints,
+                                $Name = 'Add Blueprints',
+                                $Description = 'add all blueprints, blueprints lookup is dynamic',
+                                ],    
+                            {5} = table [
+                                $Return = Add_Inventory,
+                                $Name = 'Add Inventory',
+                                $Description = 'add one of every inventory item lookup is dynamic',
+                                ],   
+                            {6} = table [
+                                $Return = Player_Position,
+                                $Name = 'Player Position',
+                                $Description = 'submenu to help visualize placement of objects in the cluster',
+                                ], 
+                            {7} = table [
+                                $Return = Create_Object_Menu,
+                                $Name = 'Create Object',
+                                $Description = 'runs create_object on anything with a ware and a macro NOTE: create_object cannot actually create many of the objects in the game fitting this criteria',
+                                ], 
+                            {8} = table [
+                                $Return = Display_Galaxy_State,
+                                $Name = 'Display Galaxy',
+                                $Description = 'display the owners and amounts of ships, stations and sectors throughout the galaxy',
+                                ],
+                            {9} = table [
+                                $Return = Add_Faction_Rep,
+                                $Name = 'Add Faction Rep And License',
+                                $Description = 'adds maximum faction rep and all licences, faction lookup is dynamic',
+                                ], 
+                            {10} = table [
+                                $Return = Add_Money,
+                                $Name = 'Add Money',
+                                $Description = 'adds 5000000000Cr to the player from the argon account',
+                                ], 
+                            {11} = table [
+                                $Return = DropDownTest,
+                                $Name = 'Dropdown',
+                                $Description = ' ',
+                                ],
+                            {12} = table [
+                                $Return = Reveal_Map,
+                                $Name = 'Reveal Map',
+                                $Description = 'dynamic reveal of sectors',
+                                ],
+                            {13} = table [
+                                $Return = Bad_Sector_Art,
+                                $Name = 'Bad_Sector_Art',
+                                $Description = 'print sector and position',
+                                ],
+                            {14} = table [
+                                $Return = Calc_Pos_Good,
+                                $Name = 'Calc_Pos_Good',
+                                $Description = 'print sector and position',
+                                ],
+                            {15} = table [
+                                $Return = Print_Stuff,
+                                $Name = 'Print_Stuff',
+                                $Description = 'print stuff is actually a good descriptor',
+                                ],
+                            {16} = table [
+                                $Return = Find_Thing,
+                                $Name = 'Find_Thing',
+                                $Description = 'edit code in xreborn_debug/md/xreborn_debug_menu.xml to find something and warp to it',
+                                ],
+                       
+                        ]" />
+                            <!-- {17} = table [
+                                $Return = CheckSupers,
+                                $Name = 'Check_Supers',
+                                ],
+                            {18} = table [
+                                $Return = CheckHiveLoop,
+                                $Name = 'Check_Hive_Loop', -->
+            </actions>
+            <cues>
+                <cue name="Main_Menu_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Debug For All'" />
+                    <param name="MenuType" value="'main'" />
+                    <param name="ObjectTable" value="$ObjectTable" />
+                    <param name="ButtonText" value="'Open Menu'" />
+                </cue>
+            </cues>
+        </cue>
+        <cue name="CheckHiveLoop" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Hive" exact="md.$Hives.random" />
+                <warp object="player.ship" sector="$Hive.sector">
+                    <safepos object="$Hive" min="1km" max="2km" />
+                </warp>
+            </actions>
+        </cue>
+        <cue name="CheckSupers" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Super" exact="md.$Supers.random" />
+                <warp object="player.ship" sector="$Super.sector">
+                    <safepos object="$Super" min="1km" max="2km" />
+                </warp>
+            </actions>
+        </cue>
+        <cue name="Debug_Log" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <remove_help all="true" />
+                <set_value name="$Count" exact="0" />
+                <find_ship name="$Ships" space="player.galaxy" multiple="true" />
+                <do_for_each in="$Ships" name="$Ship">
+                    <!-- recursive="true" might need -->
+                    <find_object_component name="$Weapons" object="$Ship" multiple="true">
+                        <match_any>
+                            <match class="[class.turret, class.weapon]" negate="true" />
+                            <match integrated="true" />
+                            <match integrated="false" />
+                        </match_any>
+                    </find_object_component>
+                    <do_for_each in="$Weapons" name="$Weapon">
+                        <do_if value="$Weapon.macro == macro.INSERTMACROHERE">
+                            <set_value name="$Count" exact="1" operation="add" />
+                        </do_if>
+                    </do_for_each>
+                </do_for_each>
+                <show_help custom="'MacroCount: ' + $Count" />
+            </actions>
+        </cue>
+        <cue name="Find_Thing" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <!-- <do_if value="not $FindIt?"> -->
+                    <set_value name="$Jobs" exact="[
+                    'ministry_liquidtrader',
+                    'teladi_liquidtrader',
+                    'paranid_liquidtrader',
+                    'holyorder_liquidtrader',
+                    'argon_liquidtrader',
+                    'antigone_liquidtrader',
+                    'split_liquidtrader'
+                    ]" />
+                    <!-- <set_value name="$FindIt" exact="0" />
+                    <set_value name="$Faction" exact="[
+faction.yaki,
+faction.usc,
+faction.heartofalbion,
+faction.sonraenergy,
+                ]" />
+                    <get_suitable_job result="$Jobs" faction="$Faction" multiple="true" /> -->
+                    <find_ship groupname="$Found" space="player.galaxy" multiple="true" job="$Jobs" />
+                    <add_to_group groupname="$Found" group="md.$LiquidShips" />
+                <!-- </do_if> -->
+                <!-- <set_value name="$FindIt" exact="1" operation="add" />
+                <do_if value="$FindIt gt $Found.count">
+                    <remove_value name="$FindIt" />
+                </do_if>
+                <remove_help all="true" /> -->
+                <set_value name="$FoundRandom" exact="$Found.random" />
+                <show_help custom="'%s | %s | %s'.[$FoundRandom.job, $FoundRandom.knownname, $FoundRandom.sector.knownname]" duration="30s" />
+                <warp object="player.ship" sector="$FoundRandom.sector">
+                    <safepos object="$FoundRandom" min="1km" max="2km" />
+                </warp>
+            </actions>
+        </cue>
+        <cue name="Print_Stuff" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <debug_to_file text="'start'" name="'printlog.log'" directory="'printlog'" append="false" />
+                <set_value name="$ShipMacros" exact="lookup.macro.list" />
+                <do_all exact="$ShipMacros.count" counter="$i" reverse="true">
+                    <do_if value="@$ShipMacros.{$i}.isclass.ship == false and @$ShipMacros.{$i}.class != class.ship_xs">
+                        <remove_from_list name="$ShipMacros" exact="@$ShipMacros.{$i}" />
+                    </do_if>
+                </do_all>
+                <do_for_each in="$ShipMacros">
+                    <debug_to_file text="loop.element.id" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <do_for_each in="$ShipMacros">
+                    <debug_to_file text="loop.element.name" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <find_sector name="$Sectors" multiple="true" space="player.galaxy"></find_sector>
+                <do_for_each in="$Sectors">
+                    <debug_to_file text="loop.element.knownname" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <set_value name="$Factions" exact="lookup.faction.list" />
+                <do_for_each in="$Factions">
+                    <debug_to_file text="loop.element.knownname" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <set_value name="$EntityRole" exact="lookup.entityrole.list" />
+                <do_for_each in="$EntityRole">
+                    <debug_to_file text="loop.element.name" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <set_value name="$ControlPost" exact="lookup.controlpost.list" />
+                <do_for_each in="$ControlPost">
+                    <debug_to_file text="loop.element.name" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <set_value name="$Assignmnet" exact="lookup.assignment.list" />
+                <do_for_each in="$Assignmnet">
+                    <debug_to_file text="loop.element.name" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+                <set_value name="$Race" exact="lookup.race.list" />
+                <do_for_each in="$Race">
+                    <debug_to_file text="loop.element.name" name="'printlog.log'" directory="'printlog'" />
+                </do_for_each>
+            </actions>
+        </cue>
+        <cue name="Calc_Pos_Good" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <debug_to_file text="' GOOD sector: %s sector macro: %s\n (player.zone + player.sector): %s\n '.[
+                                player.sector.knownname,              
+                                player.sector.macro,              
+                                player.zone.position + player.sector.position, 
+
+                        ]" name="'position_calced.log'" directory="'position_tool'" />
+            </actions>
+        </cue>
+        <cue name="Bad_Sector_Art" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <debug_to_file text="' BAD SECTOR ART sector: %s sector macro: %s\n (player.zone + player.sector): %s\n '.[
+                                player.sector.knownname,              
+                                player.sector.macro,              
+                                player.zone.position + player.sector.position, 
+
+                        ]" name="'position_calced.log'" directory="'position_tool'" />
+            </actions>
+        </cue>
+        <cue name="Reveal_Map">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <find_sector name="$Stations" space="player.galaxy" multiple="true" />
+                <do_all exact="$Stations.count" counter="$i">
+                    <set_faction_known faction="$Stations.{$i}.owner" known="true" />
+                    <set_known object="@$Stations.{$i}.cluster" known="true" />
+                    <set_known object="@$Stations.{$i}.sector" known="true" />
+                    <set_known object="@$Stations.{$i}.zone" known="true" />
+                    <set_known object="@$Stations.{$i}" known="true" />
+                </do_all>
+            </actions>
+        </cue>
+        <cue name="Display_Galaxy_State" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$ObjectTable" exact="table[]" />
+                <set_value name="$Visitors" exact="[faction.visitor001,faction.visitor002,faction.visitor003,faction.visitor004,faction.visitor005,faction.visitor006,faction.visitor007,faction.visitor008,faction.visitor009,faction.visitor010,faction.visitor011,faction.visitor012,faction.visitor013,faction.visitor014,faction.visitor015,faction.visitor016,faction.visitor017,faction.visitor018,faction.visitor019,faction.visitor020,faction.visitor021,faction.visitor022,faction.visitor023,faction.visitor024,faction.visitor025,faction.visitor026,faction.visitor027,faction.visitor028,faction.visitor029,faction.visitor030,faction.visitor031,faction.visitor032,faction.visitor033,faction.visitor034,faction.visitor035,faction.visitor036,faction.visitor037,faction.visitor038,faction.visitor039,faction.visitor040,faction.visitor041,faction.visitor042,faction.visitor043,faction.visitor044,faction.visitor045,faction.visitor046,faction.visitor047,faction.visitor048,faction.visitor049,faction.visitor050,faction.visitor051,faction.visitor052,faction.visitor053,faction.visitor054,faction.visitor055,faction.visitor056,faction.visitor057,faction.visitor058,faction.visitor059,faction.visitor060,faction.visitor061,faction.visitor062,faction.visitor063,faction.visitor064,faction.visitor065,faction.visitor066,faction.visitor067,faction.visitor068,faction.visitor069,faction.visitor070,faction.visitor071,faction.visitor072,faction.visitor073,faction.visitor074,faction.visitor075,faction.visitor076,faction.visitor077,faction.visitor078,faction.visitor079,faction.visitor080,faction.visitor081,faction.visitor082,faction.visitor083,faction.visitor084,faction.visitor085,faction.visitor086,faction.visitor087,faction.visitor088,faction.visitor089,faction.visitor090,faction.visitor091,faction.visitor092,faction.visitor093,faction.visitor094,faction.visitor095,faction.visitor096,faction.visitor097,faction.visitor098,faction.visitor099,faction.visitor100]" />
+                <create_list name="$Object" />
+                <find_ship name="$Ship" space="player.galaxy" multiple="true"></find_ship>
+                <do_all exact="$Ship.count" counter="$i">
+                    <do_if value="$Visitors.indexof.{$Ship.{$i}.owner} == 0">
+                        <do_if value="not $ObjectTable.{$Ship.{$i}.owner}.$Ships?">
+                            <set_value name="$ObjectTable.{$Ship.{$i}.owner}" exact="table[]" />
+                            <set_value name="$ObjectTable.{$Ship.{$i}.owner}.$Ships" exact="[]" />
+                        </do_if>
+                        <append_to_list name="$ObjectTable.{$Ship.{$i}.owner}.$Ships" exact="$Ship.{$i}" />
+                    </do_if>
+                </do_all>
+                <find_station name="$Stations" space="player.galaxy" multiple="true"></find_station>
+                <do_all exact="$Stations.count" counter="$i">
+                    <do_if value="$Visitors.indexof.{$Stations.{$i}.owner} == 0">
+                        <do_if value="not $ObjectTable.{$Stations.{$i}.owner}.$Stations?">
+                            <set_value name="$ObjectTable.{$Stations.{$i}.owner}.$Stations" exact="[]" />
+                        </do_if>
+                        <append_to_list name="$ObjectTable.{$Stations.{$i}.owner}.$Stations" exact="$Stations.{$i}" />
+                    </do_if>
+                </do_all>
+                <find_sector name="$Sector" space="player.galaxy" multiple="true"></find_sector>
+                <do_all exact="$Sector.count" counter="$i">
+                    <do_if value="$Visitors.indexof.{$Sector.{$i}.owner} == 0">
+                        <do_if value="not $ObjectTable.{$Sector.{$i}.owner}.$Sectors?">
+                            <set_value name="$ObjectTable.{$Sector.{$i}.owner}.$Sectors" exact="[]" />
+                        </do_if>
+                        <append_to_list name="$ObjectTable.{$Sector.{$i}.owner}.$Sectors" exact="$Sector.{$i}" />
+                    </do_if>
+                </do_all>
+            </actions>
+            <cues>
+                <cue name="Display_Galaxy_State_Menu_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Display Galaxy State'" />
+                    <param name="ObjectTable" value="$ObjectTable" />
+                    <param name="MenuType" value="'table2'" />
+                    <param name="ButtonText" value="'Create Object'" />
+                </cue>
+            </cues>
+        </cue>
+        <cue name="Create_Object_Menu" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$ObjectTable" exact="table[]" />
+                <set_value name="$Object" exact="lookup.ware.list" />
+                <do_all exact="$Object.count" counter="$i">
+                    <do_if value="$Object.{$i}.objectmacro.class?">
+                        <do_if value="not $ObjectTable.{$Object.{$i}.objectmacro.class}.$Objects?">
+                            <set_value name="$ObjectTable.{$Object.{$i}.objectmacro.class}" exact="table[]" />
+                            <set_value name="$ObjectTable.{$Object.{$i}.objectmacro.class}.$Objects" exact="[]" />
+                        </do_if>
+                        <append_to_list name="$ObjectTable.{$Object.{$i}.objectmacro.class}.$Objects" exact="$Object.{$i}" />
+                    </do_if>
+                </do_all>
+            </actions>
+            <cues>
+                <cue name="Create_Object_Menu_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Create Object'" />
+                    <param name="ReturnCue" value="Create_Object" />
+                    <param name="ObjectTable" value="$ObjectTable" />
+                    <param name="MenuType" value="'table3'" />
+                    <param name="ButtonText" value="'Create Object'" />
+                </cue>
+            </cues>
+        </cue>
+        <cue name="Create_Object" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <create_object macro="event.param.$echo.objectmacro" owner="faction.player" sector="player.sector">
+                    <safepos object="player.ship" z="1000" />
+                </create_object>
+            </actions>
+        </cue>
+        <cue name="TransformPosition5" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Distance" exact="300000km" />
+                <include_actions ref="PlayerPOS" />
+            </actions>
+        </cue>
+        <cue name="TransformPosition6" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Distance" exact="20000km" />
+                <include_actions ref="PlayerPOS" />
+            </actions>
+        </cue>
+        <cue name="TransformPosition7" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Distance" exact="10000km" />
+                <include_actions ref="PlayerPOS" />
+            </actions>
+        </cue>
+        <cue name="TransformPosition8" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Distance" exact="1000km" />
+                <include_actions ref="PlayerPOS" />
+            </actions>
+        </cue>
+        <cue name="Calc_Position" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <!-- player.zone.position + player.sector.position + player.cluster.position cluster galaxy -->
+                <debug_to_file text="' sector: %s sector macro: %s\n (player.zone + player.sector): %s\n '.[
+                                player.sector.knownname,              
+                                player.sector.macro,              
+                                player.zone.position + player.sector.position, 
+
+                        ]" name="'position_calced.log'" directory="'position_tool'" />
+            </actions>
+        </cue>
+        <library name="PlayerPOS">
+            <actions>
+                <set_value name="$Rot" exact="player.ship.rotation" />
+                <transform_position name="$position" refposition="position.[0,0,0]" refrotation="player.ship.rotation">
+                    <position x="0m" y="0m" z="$Distance" />
+                </transform_position>
+                <transform_position name="$position" refposition="player.zone.position" refrotation="player.zone.rotation">
+                    <position value="$position" />
+                </transform_position>
+                <warp object="player.ship" sector="player.sector">
+                    <position value="$position" />
+                    <rotation value="$Rot" />
+                </warp>
+                <!-- <do_if value="not player.enitiy.$POSLOG?">
+                    <set_value name="player.enitiy.$POSLOG" exact="true" />
+                    <debug_to_file text="'start'" name="'position.log'" directory="'position_tool'" append="false" />
+                </do_if> -->
+                <debug_to_file text="'time: %s sector: %s Positions - player: %s zone: %s sector: %s cluster: %s'.[
+                    player.age,  player.sector.knownname, player.ship.position, player.zone.position, player.sector.position, player.cluster.positon
+                    ]" name="'position.log'" directory="'position_tool'" />
+            </actions>
+        </library>
+        <cue name="Player_Position" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$ObjectTable" exact="table[
+                            {1} = table [
+                                $Name = 'player.ship.position',
+                                $Position = player.ship.position,
+                                ],
+                            {2} = table [
+                                $Name = 'player.ship.zone.position',
+                                $Position = player.ship.zone.position,
+                                ],
+                            {3} = table [
+                                $Name = 'player.ship.sector.position',
+                                $Position = player.ship.sector.position,
+                                ],
+                            {4} = table [
+                                $Name = 'player.ship.cluster.position',
+                                $Position = player.ship.cluster.position,
+                                ],
+                            {5} = table [
+                                $Name = 'TransformPosition 30000km',
+                                $Return = TransformPosition5,
+                                ],
+                            {6} = table [
+                                $Name = 'TransformPosition 20000km',
+                                $Return = TransformPosition6,
+                                ],
+                            {7} = table [
+                                $Name = 'TransformPosition 10000km',
+                                $Return = TransformPosition7,
+                                ],
+                            {8} = table [
+                                $Name = 'TransformPosition 1000km',
+                                $Return = TransformPosition8,
+                                ],
+                            {9} = table [
+                                $Name = 'Calc Position',
+                                $Return = Calc_Position,
+                                ],                             
+                        ]" />
+            </actions>
+            <cues>
+                <cue name="Player_Position_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Position'" />
+                    <param name="ObjectTable" value="$ObjectTable" />
+                    <param name="MenuType" value="'position'" />
+                    <param name="ButtonText" value="'Warp'" />
+                    <param name="Height" value="600" />
+                    <param name="Width" value="1200" />
+                </cue>
+            </cues>
+        </cue>
+        <cue name="Add_Faction_Rep" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Faction" exact="lookup.faction.list" />
+                <do_all exact="$Faction.count" counter="$i" reverse="true">
+                    <add_faction_relation faction="$Faction.{$i}" reason="relationchangereason.scanningdiscovered" otherfaction="faction.player" value="1.0" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="ceremonyfriend" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="ceremonyally" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="subgroupfriend" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="capitalequipment" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="capitalship" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="generaluseequipment" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="generaluseship" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="intelligence" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="militaryequipment" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="militaryship" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="police" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_gen_basic" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_gen_intermediate" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_gen_advanced" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_equip_sm" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_equip_lxl" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_illegal" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_race_basic" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_race_intermediate" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_race_advanced" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="station_venture" />
+                    <add_licence faction="faction.player" licencefaction="$Faction.{$i}" type="tradesubscription" />
+                </do_all>
+            </actions>
+        </cue>
+        <cue name="Add_Money" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <transfer_money from="faction.argon" to="faction.player" amount="5000000000Cr" />
+            </actions>
+        </cue>
+        <cue name="Add_Inventory" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Inventory" exact="lookup.ware.list" />
+                <do_all exact="$Inventory.count" counter="$i" reverse="true">
+                    <do_if value="@$Inventory.{$i}.isinventory == true">
+                        <add_inventory ware="$Inventory.{$i}" />
+                    </do_if>
+                </do_all>
+            </actions>
+        </cue>
+        <cue name="Add_Research" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="player.entity.$x4ep1_hq_research_unlocked" />
+                <set_value name="$Research" exact="lookup.ware.list" />
+                <do_all exact="$Research.count" counter="$i" reverse="true">
+                    <do_if value="@$Research.{$i}.isresearchable == true">
+                        <add_research ware="$Research.{$i}" />
+                    </do_if>
+                </do_all>
+            </actions>
+        </cue>
+        <cue name="Add_Blueprints" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Blueprints" exact="lookup.ware.list" />
+                <do_all exact="$Blueprints.count" counter="$i" reverse="true">
+                    <do_if value="$Blueprints.{$i}.objectmacro?">
+                        <add_blueprints wares="$Blueprints.{$i}" />
+                    </do_if>
+                </do_all>
+            </actions>
+        </cue>
+        <cue name="Debug_WarpTo" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <remove_help all="true" />
+                <do_if value="not $WarpLog?">
+                    <set_value name="$WarpLog" exact="true" />
+                    <debug_to_file text="'start'" name="'sector.log'" directory="'warptool'" append="false" />
+                </do_if>
+                <debug_to_file text="'Macro: %s Name: %s'.[player.sector.macro, player.sector.knownname]" name="'sector.log'" directory="'warptool'" />
+                <set_value name="$Object" exact="event.param.$echo" />
+                <warp object="player.ship" sector="$Object">
+                    <position object="$Object" exact="2km" />
+                </warp>
+                <show_help custom="$Object.knownname" duration="20s" force="true" />
+                <remove_value name="$Object" />
+            </actions>
+        </cue>
+        <cue name="Debug_Warp" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$Keys" exact="event.param.$echo.keys.list" />
+                <set_faction_relation faction="event.param.$echo.{$Keys.{1}}" otherfaction="event.param.$echo.{$Keys.{2}}" value="event.param.$echo.{$Keys.{3}}" />
+                <set_value name="$ObjectTable" exact="table[]" />
+                <find_sector name="$Sectors" space="player.galaxy" multiple="true" />
+                <do_all exact="$Sectors.count" counter="$i">
+                    <do_if value="not $ObjectTable.{$Sectors.{$i}.owner}.$Objects?">
+                        <set_value name="$ObjectTable.{$Sectors.{$i}.owner}" exact="table[]" />
+                        <set_value name="$ObjectTable.{$Sectors.{$i}.owner}.$Objects" exact="[]" />
+                    </do_if>
+                    <append_to_list name="$ObjectTable.{$Sectors.{$i}.owner}.$Objects" exact="$Sectors.{$i}" />
+                </do_all>
+            </actions>
+            <cues>
+                <cue name="Debug_Warp_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Debug Warp'" />
+                    <param name="ReturnCue" value="Debug_WarpTo" />
+                    <param name="ObjectTable" value="$ObjectTable" />
+                    <param name="MenuType" value="'table1'" />
+                    <param name="ButtonText" value="'Warp'" />
+                </cue>
+            </cues>
+        </cue>
+        <cue name="DFA_Create_Menu" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <set_value name="$ShipMacros" exact="lookup.macro.list" />
+                <do_all exact="$ShipMacros.count" counter="$i" reverse="true">
+                    <do_if value="@$ShipMacros.{$i}.isclass.ship == false">
+                        <remove_from_list name="$ShipMacros" exact="@$ShipMacros.{$i}" />
+                    </do_if>
+                </do_all>
+            </actions>
+            <cues>
+                <cue name="DFA_Main_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Create Ship'" />
+                    <param name="List" value="$ShipMacros" />
+                    <param name="MenuType" value="'list'" />
+                    <param name="ButtonText" value="'CreateShip'" />
+                    <param name="ReturnCue" value="DFA_Create_Ship" />
+                </cue>
+            </cues>
+        </cue>
+        <cue name="DFA_Create_Ship" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <create_ship macro="event.param.$echo" zone="player.zone">
+                    <owner exact="faction.player" overridenpc="true"></owner>
+                    <pilot macro="character_boron_generic_01_macro">
+                        <skills>
+                            <skill type="boarding" exact="15" />
+                            <skill type="engineering" exact="15" />
+                            <skill type="management" exact="15" />
+                            <skill type="morale" exact="15" />
+                        </skills>
+                    </pilot>
+                    <loadout>
+                        <level exact="1" />
+                        <variation exact="0.0" />
+                    </loadout>
+                    <safepos object="player.ship" y="1000" />
+                </create_ship>
+            </actions>
+        </cue>
+        <cue name="DropDownTest" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions></actions>
+            <cues>
+                <cue name="DropDownTest_Main_Call_Menu_LIB" ref="md.XReborn_Debug_Menu.Menu_LIB">
+                    <param name="Title" value="'Drop'" />
+                    <!-- <param name="List" value="$ShipMacros" /> -->
+                    <param name="MenuType" value="'dropdown'" />
+                    <!-- <param name="ButtonText" value="'CreateShip'" /> -->
+                    <!-- <param name="ReturnCue" value="DFA_Create_Ship" /> -->
+                </cue>
+            </cues>
+        </cue>
+        <cue name="DropDownReturn" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <debug_text text="'DropDownReturn' +  event.param" />
+            </actions>
+        </cue>
+        <library name="Menu_LIB">
+            <params>
+                <param name="Title" default="'Menu'" />
+                <param name="List" default="'none'" />
+                <param name="Text" default="'Default'" />
+                <param name="ObjectTable" default="'none'" />
+                <param name="MenuType" default="'none'" />
+                <param name="ReturnCue" default="Main_Menu" />
+                <param name="ButtonText" default="'button'" />
+                <param name="Object" default="'none'" />
+                <param name="Col" default="2" />
+                <param name="Height" default="800" />
+                <param name="Width" default="1000" />
+            </params>
+            <cues>
+                <cue name="DrawMenu">
+                    <actions>
+                        <debug_text text="'player: %s cuetime %s'.[player.age, this.time]" />
+                        <include_actions ref="StartMenu" />
+                        <do_if value="$MenuType == 'main'">
+                            <do_all exact="$ObjectTable.keys.count" counter="$i">
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <set_value name="$Text" exact="$ObjectTable.{$i}.$Name" />
+                                <include_actions ref="Label" />
+                                <set_value name="$ReturnCue" exact="$ObjectTable.{$i}.$Return" />
+                                <include_actions ref="Button" />
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"   />
+                                <!-- <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"  param="table[$bgColor='Helper.color.brightyellow', $borderBelow = true]"  /> -->
+                                <set_value name="$Text" exact="$ObjectTable.{$i}.$Description" />
+                                <include_actions ref="Label" />
+
+                                
+                            </do_all>
+                        </do_if>
+                        <do_if value="$MenuType == 'list'">
+                            <do_all exact="$List.count" counter="$i">
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <set_value name="$Text" exact="' Macro: %s\n Name: %s'.[$List.{$i},$List.{$i}.name]" />
+                                <set_value name="$Object" exact="$List.{$i}" />
+                                <include_actions ref="Label" />
+                                <include_actions ref="Button" />
+                            </do_all>
+                        </do_if>
+                        <do_if value="$MenuType == 'table1'">
+                            <set_value name="$Keys" exact="$ObjectTable.keys.list" />
+                            <do_all exact="$Keys.count" counter="$i">
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <set_value name="$Text" exact="if @$Keys.{$i}.knownname then @$Keys.{$i}.knownname else @$Keys.{$i}.name" />
+                                <include_actions ref="TitleLabel" />
+                                <set_value name="$Print" exact="$ObjectTable.{$Keys.{$i}}.$Objects" />
+                                <do_all exact="$Print.count" counter="$j">
+                                    <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                    <set_value name="$Text" exact="if $Print.{$j}.knownname then $Print.{$j}.knownname else $Print" />
+                                    <set_value name="$Object" exact="$Print.{$j}" />
+                                    <include_actions ref="Label" />
+                                    <include_actions ref="Button" />
+                                </do_all>
+                            </do_all>
+                        </do_if>
+                        <do_if value="$MenuType == 'table2'">
+                            <set_value name="$Keys" exact="$ObjectTable.keys.list" />
+                            <do_all exact="$Keys.count" counter="$i">
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <set_value name="$Text" exact="if @$Keys.{$i}.knownname then @$Keys.{$i}.knownname else @$Keys.{$i}.name" />
+                                <include_actions ref="TitleLabel" />
+                                <set_value name="$Ships" exact="$ObjectTable.{$Keys.{$i}}.$Ships.count" />
+                                <set_value name="$Stations" exact="$ObjectTable.{$Keys.{$i}}.$Stations.count" />
+                                <set_value name="$Sectors" exact="$ObjectTable.{$Keys.{$i}}.$Sectors.count" />
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <set_value name="$Text" exact="'Ships: %s Stations: %s Sectors: %s'.[$Ships  + ' ',$Stations + ' ',$Sectors + ' ']" />
+                                <include_actions ref="Label" />
+                                <remove_value name="$ShipCount" />
+                                <remove_value name="$StationCount" />
+                                <remove_value name="$SectorOwned" />
+                            </do_all>
+                        </do_if>
+                        <do_if value="$MenuType == 'table3'">
+                            <set_value name="$Keys" exact="$ObjectTable.keys.list" />
+                            <do_all exact="$Keys.count" counter="$i">
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <set_value name="$Text" exact="@$Keys.{$i} + ' '" />
+                                <include_actions ref="Label" />
+                                <set_value name="$Print" exact="$ObjectTable.{$Keys.{$i}}.$Objects" />
+                                <do_all exact="$Print.count" counter="$j">
+                                    <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                    <set_value name="$Text" exact="$Print.{$j} + ' '" />
+                                    <set_value name="$Object" exact="$Print.{$j}" />
+                                    <include_actions ref="Label" />
+                                    <include_actions ref="Button" />
+                                </do_all>
+                            </do_all>
+                        </do_if>
+                        <do_if value="$MenuType == 'position'">
+                            <do_all exact="$ObjectTable.keys.count" counter="$i">
+                                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                                <do_if value="not $ObjectTable.{$i}.$Return?">
+                                    <set_value name="$Text" exact="' Sector: %s\n Name: %s\n Position: %s'.[player.sector.knownname,$ObjectTable.{$i}.$Name,$ObjectTable.{$i}.$Position]" />
+                                    <include_actions ref="Label" />
+                                </do_if>
+                                <do_else>
+                                    <set_value name="$Text" exact="$ObjectTable.{$i}.$Name" />
+                                    <set_value name="$ReturnCue" exact="$ObjectTable.{$i}.$Return" />
+                                    <include_actions ref="Label" />
+                                    <include_actions ref="Button" />
+                                </do_else>
+                            </do_all>
+                        </do_if>
+                        <do_if value="$MenuType == 'dropdown'">
+                            <set_value name="$Factions" exact="lookup.faction.list" />
+                            <set_value name="$ObjectTable" exact="[]" />
+                            <do_all exact="$Factions.count" counter="$i">
+                                <append_to_list name="$ObjectTable" exact="table[
+                                $text=$Factions.{$i} + ' ',
+                                $option_id = $i,
+                                ]" />
+                            </do_all>
+                            <set_value name="$Text" exact="'TO'" />
+                            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                            <include_actions ref="Label" />
+                            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                            <set_value name="$Col" exact="1" />
+                            <include_actions ref="Dropdown" />
+                            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                            <set_value name="$Col" exact="2" />
+                            <set_value name="$Text" exact="'From'" />
+                            <include_actions ref="Label" />
+                            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                            <include_actions ref="Dropdown" />
+                            <!-- <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" /> -->
+                        </do_if>
+                    </actions>
+                </cue>
+            </cues>
+        </library>
+        <library name="StartMenu">
+            <actions>
+                <signal_cue_instantly cue="md.Simple_Menu_API.Create_Menu" param="table[
+                                        $columns = $Col, 
+                                        $title = $Title,
+                                        $height = $Height,
+                                        $width = $Width,
+                                        ]" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                                        $col=1, 
+                                        $text = 'Return To Main Menu',
+                                        ]" />
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
+                                        $col=2, 
+                                        $text=table[$text='Select', $color='Helper.color.brightyellow'], 
+                                        $onClick= md.XReborn_Debug_Menu.Main_Menu,
+                                        ]" />
+            </actions>
+        </library>
+        <library name="Button">
+            <actions>
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
+                                        $col=2,
+                                        $text=table[$text=$ButtonText, $color='Helper.color.brightyellow'], 
+                                        $onClick= $ReturnCue,
+                                        $echo = $Object,
+                                        ]" />
+            </actions>
+        </library>
+        <library name="Label">
+            <actions>
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                                        $col=1,                                        
+                                        $text = $Text,
+                                         $color=table[ $r = 200, $g = 200, $b = 200, $a = 100 ],
+                                        ]" />
+            </actions>
+        </library>
+        <library name="TitleLabel">
+            <actions>
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                                        $col=1,                                         
+                                        $text = $Text,
+                                        $titleColor = 'Helper.color.brightyellow',
+                                         $color=table[ $r = 200, $g = 200, $b = 200, $a = 100 ],
+                                        ]" />
+            </actions>
+        </library>
+        <library name="Dropdown">
+            <actions>
+                <!-- takes a list of tables
+                [
+                          table[$text='white'], 
+                          table[$text='red'], 
+                          table[$text='green'], 
+                          table[$text='blue'],
+                          ]
+                
+                 -->
+                <signal_cue_instantly cue="md.Simple_Menu_API.Make_Dropdown" param="table[
+                        $col = $Col, 
+                        $options = $ObjectTable,
+                        $startOption = 1,
+                        $height = 12,
+                        $onDropDownConfirmed = md.XReborn_Debug_Menu.DropDownReturn
+                        ]" />
+            </actions>
+        </library>
+    </cues>
+</mdscript>

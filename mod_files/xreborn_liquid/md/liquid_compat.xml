@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <mdscript name="Liquid_Compat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="E:/Mod Stuff/X4 Extracted/3.0final/libraries/md.xsd">
     <cues>
-        <cue name="Penis" instantiate="true">
+        <cue name="Init" instantiate="true">
             <conditions>
                 <event_cue_signalled cue="md.Setup.Start" />
             </conditions>
@@ -16,10 +16,10 @@
                         <add_cargo object="loop.element" ware="ware.methane" exact="3000" />
                         <add_cargo object="loop.element" ware="ware.hydrogen" exact="3000" />
                         <assert value="loop.element.tradewares.{ware.helium}.exists" text="loop.element.knownname + 'does not have any liquid offers'" />
-                        <set_known object="loop.element.cluster" known="true" />
+                        <!-- <set_known object="loop.element.cluster" known="true" />
                         <set_known object="loop.element.sector" known="true" />
                         <set_known object="loop.element.zone" known="true" />
-                        <set_known object="loop.element" known="true" updatesnapshot="true" />
+                        <set_known object="loop.element" known="true" updatesnapshot="true" /> -->
                     </do_if>
                 </do_for_each>
                 <remove_value name="$Stations" />
