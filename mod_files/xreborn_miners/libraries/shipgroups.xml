@@ -3,7 +3,6 @@
 
 
 <!-- UNUSED - XENON
-units_size_m_xenon_miner_01_macro
 
 UNUSED - MINERS
 units_size_m_crystal_collector_macro
@@ -24,13 +23,200 @@ units_size_l_nividium_collector_macro
 units_size_l_ore_collector_macro
 units_size_l_plasma_collector_macro
 units_size_l_silicon_collector_macro
+
 units_size_l_canteran_miner_01_macro
 units_size_l_canteran_miner_02_macro -->
 
 
-    <!-- <add sel="/groups/group[@name='xen_fighter_light_s']">
-        <select macro="units_size_s_xenon_swarm_attack_drone_01_macro" />
-        <select macro="units_size_s_xenon_swarm_attack_drone_02_macro" />
-    </add> -->
+    <add sel="/groups/group[@name='xen_miner_m']">
+        <select macro="units_size_m_xenon_miner_01_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='arg_miner_solid_m']">
+        <select macro="units_size_m_crystal_collector_macro" />
+        <select macro="units_size_m_nividium_collector_macro" />
+        <select macro="units_size_m_silicon_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_miner_liquid_m']">
+        <select macro="units_size_m_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_miner_solid_l']">
+        <select macro="units_size_l_crystal_collector_macro" />
+        <select macro="units_size_l_ore_collector_macro" />
+        <select macro="units_size_l_silicon_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_miner_liquid_l']">
+        <select macro="units_size_l_hydrogen_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_miner_solid_mixed']">
+        <select macro="units_size_m_crystal_collector_macro" />
+        <select macro="units_size_m_nividium_collector_macro" />
+        <select macro="units_size_m_silicon_collector_macro" />
+        <select macro="units_size_l_crystal_collector_macro" />
+        <select macro="units_size_l_ore_collector_macro" />
+        <select macro="units_size_l_silicon_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_miner_liquid_mixed']">
+        <select macro="units_size_m_plasma_collector_macro" />
+        <select macro="units_size_l_hydrogen_collector_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='ant_miner_solid_m']">
+        <select macro="units_size_m_crystal_collector_macro" />
+        <select macro="units_size_m_ore_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_miner_solid_l']">
+        <select macro="units_size_l_canteran_miner_01_macro" />
+        <select macro="units_size_l_nividium_collector_macro" />
+        <select macro="units_size_l_silicon_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_miner_liquid_m']">
+        <select macro="units_size_m_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_miner_liquid_l']">
+        <select macro="units_size_l_canteran_miner_02_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_miner_solid_mixed']">
+        <select macro="units_size_l_canteran_miner_01_macro" />
+        <select macro="units_size_l_silicon_collector_macro" />
+        <select macro="units_size_m_crystal_collector_macro" />
+        <select macro="units_size_m_ore_collector_macro" />
+        <select macro="units_size_l_nividium_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_miner_liquid_mixed']">
+        <select macro="units_size_m_plasma_collector_macro" />
+        <select macro="units_size_l_canteran_miner_02_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='par_miner_solid_m']">
+        <select macro="units_size_m_nividium_collector_macro" />
+        <select macro="units_size_m_silicon_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='par_miner_solid_l']">
+        <select macro="units_size_l_crystal_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='par_miner_liquid_m']">
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='par_miner_liquid_l']">
+        <select macro="units_size_l_hydrogen_collector_macro" />
+        <select macro="units_size_l_ions_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='par_miner_solid_mixed']">
+        <select macro="units_size_m_nividium_collector_macro" />
+        <select macro="units_size_m_silicon_collector_macro" />
+        <select macro="units_size_l_crystal_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='par_miner_liquid_mixed']">
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_plasma_collector_macro" />
+        <select macro="units_size_l_hydrogen_collector_macro" />
+        <select macro="units_size_l_ions_collector_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='hol_miner_solid_m']">
+        <select macro="units_size_m_ore_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_miner_solid_l']">
+        <select macro="units_size_l_nividium_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_miner_liquid_m']">
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_hydrogen_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_miner_liquid_l']">
+        <select macro="units_size_l_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_miner_solid_mixed']">
+        <select macro="units_size_m_ore_collector_macro" />
+        <select macro="units_size_l_nividium_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_miner_liquid_mixed']">
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_hydrogen_collector_macro" />
+        <select macro="units_size_l_plasma_collector_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='tri_miner_solid_m']">
+        <select macro="units_size_m_ice_collector_macro" />
+        <select macro="units_size_m_ore_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_miner_solid_l']">
+        <select macro="units_size_l_crystal_collector_macro" />
+        <select macro="units_size_l_ore_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_miner_liquid_m']">
+        <select macro="units_size_m_hydrogen_collector_macro" />
+        <select macro="units_size_m_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_miner_liquid_l']">
+        <select macro="units_size_l_ions_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_miner_solid_mixed']">
+        <select macro="units_size_m_ice_collector_macro" />
+        <select macro="units_size_m_ore_collector_macro" />
+        <select macro="units_size_l_crystal_collector_macro" />
+        <select macro="units_size_l_ore_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_miner_liquid_mixed']">
+        <select macro="units_size_m_hydrogen_collector_macro" />
+        <select macro="units_size_m_plasma_collector_macro" />
+        <select macro="units_size_l_ions_collector_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='tel_miner_solid_m']">
+        <select macro="units_size_m_te_mineral_collector_01_macro" />
+    </add>
+    <add sel="/groups/group[@name='tel_miner_solid_l']">
+        <select macro="units_size_l_ice_collector_macro" />
+        <select macro="units_size_l_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tel_miner_liquid_m']">
+        <select macro="units_size_m_te_hydrogen_collector_01_macro" />
+        <select macro="units_size_m_ions_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tel_miner_solid_mixed']">
+        <select macro="units_size_m_te_mineral_collector_01_macro" />
+        <select macro="units_size_l_ice_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='tel_miner_liquid_mixed']">
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_te_hydrogen_collector_01_macro" />
+        <select macro="units_size_l_plasma_collector_macro" />
+    </add>
+
+    <add sel="/groups/group[@name='mixed_miner_solid_m']">
+        <select macro="units_size_m_ice_collector_macro" />
+        <select macro="units_size_m_ore_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='mixed_miner_liquid_m']">
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='mixed_miner_solid_l']">
+        <select macro="units_size_l_canteran_miner_01_macro" />
+        <select macro="units_size_l_crystal_collector_macro" />
+        <select macro="units_size_l_nividium_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='mixed_miner_liquid_l']">
+        <select macro="units_size_l_canteran_miner_02_macro" />
+        <select macro="units_size_l_ions_collector_macro" />
+        <select macro="units_size_l_plasma_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='mixed_miner_solid_mixed']">
+        <select macro="units_size_m_ice_collector_macro" />
+        <select macro="units_size_m_ore_collector_macro" />
+        <select macro="units_size_l_canteran_miner_01_macro" />
+        <select macro="units_size_l_crystal_collector_macro" />
+        <select macro="units_size_l_nividium_collector_macro" />
+    </add>
+    <add sel="/groups/group[@name='mixed_miner_liquid_mixed']">
+        <select macro="units_size_l_canteran_miner_02_macro" />
+        <select macro="units_size_l_ions_collector_macro" />
+        <select macro="units_size_l_plasma_collector_macro" />
+        <select macro="units_size_m_ions_collector_macro" />
+        <select macro="units_size_m_plasma_collector_macro" />
+    </add>
 
 </diff>

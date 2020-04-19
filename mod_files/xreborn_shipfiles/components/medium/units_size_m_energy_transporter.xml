@@ -250,6 +250,16 @@
 					<position x="0.1109139" y="-7.98641" z="-55.50878" />
 				</offset>
 			</connection>
+			<connection name="connection_turret01" tags="turret medium standard missile hittable">
+				<offset>
+					<position x="0.1109139" y="-7.98641" z="-45.50878" />
+				</offset>
+			</connection>
+			<connection name="connection_turret02" tags="turret medium standard missile hittable">
+				<offset>
+					<position x="0.1109139" y="-7.98641" z="-65.50878" />
+				</offset>
+			</connection>
 			<connection name="connection_engine01" tags="engine medium">
 				<offset>
 					<position x="13.79203" y="3.848878" z="-63.23021" />

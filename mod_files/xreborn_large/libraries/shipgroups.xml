@@ -11,11 +11,13 @@
     <add sel="/groups/group[@name='arg_destroyer_l']">
         <select macro="units_size_l_kit_carrier_01_macro" />
         <select macro="units_size_l_kit_carrier_02_macro" />
+        <select macro="units_size_l_liquid_freighter_macro" />
         <select macro="units_size_l_single_attack_ship_macro" />
     </add>
     <add sel="/groups/group[@name='ant_destroyer_l']">
         <select macro="units_size_l_kit_carrier_01_macro" />
-        <select macro="units_size_l_kit_carrier_02_macro" />
+        <select macro="units_size_l_kit_carrier_01_macro" />
+        <select macro="units_size_l_liquid_freighter_macro" />
         <select macro="units_size_l_single_attack_ship_macro" />
     </add>
     <add sel="/groups/group[@name='ant_trader_container_l']">
@@ -35,34 +37,37 @@
         <select macro="units_size_l_kit_container_03_macro" weight="10" />
         <select macro="units_size_l_kit_hybrid_01_macro" weight="10" />
         <select macro="units_size_l_kit_hybrid_02_macro" weight="10" />
+        <select macro="units_size_l_liquid_freighter_macro" weight="10" />
         <select macro="units_size_l_dv_kit_old_container_01_macro" weight="10" />
         <select macro="units_size_l_dv_kit_old_energy_container_01_macro" weight="10" />
         <select macro="units_size_l_dv_kit_new_container_01_macro" weight="10" />
         <select macro="units_size_l_dv_kit_new_energy_container_01_macro" weight="10" />
-        <select macro="units_size_l_te_kit_bulk_03_macro" weight="10" />
+        <!-- <select macro="units_size_l_te_kit_bulk_03_macro" weight="10" />
         <select macro="units_size_l_te_kit_container_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_energy_03_macro" weight="10" />
+        <select macro="units_size_l_te_kit_energy_03_macro" weight="10" /> -->
     </add>
 
         <!-- TELADI -->
     <add sel="/groups/group[@name='tel_trader_container_l']">
+        <select macro="units_size_l_te_kit_bulk_03_macro" weight="10" />
         <select macro="units_size_l_te_kit_container_03_macro" weight="10" />
+        <select macro="units_size_l_te_kit_energy_03_macro" weight="10" />
     </add>
     <!-- ALLish -->
 
       <add sel="/groups/group[@name='par_trader_container_l']">
-        <select macro="units_size_l_te_kit_bulk_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_container_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_energy_03_macro" weight="10" />
+        <select macro="units_size_l_dv_kit_old_container_01_macro" weight="10" />
+        <select macro="units_size_l_dv_kit_new_container_01_macro" weight="10" />
+        <select macro="units_size_l_liquid_freighter_macro" weight="10" />
     </add>
     <add sel="/groups/group[@name='hol_trader_container_l']">
-        <select macro="units_size_l_te_kit_bulk_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_container_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_energy_03_macro" weight="10" />
+        <select macro="units_size_l_dv_kit_old_energy_container_01_macro" weight="10" />
+        <select macro="units_size_l_liquid_freighter_macro" weight="10" />
+        <select macro="units_size_l_dv_kit_new_energy_container_01_macro" weight="10" />
     </add>
     <add sel="/groups/group[@name='spl_trader_container_l']">
-        <select macro="units_size_l_te_kit_bulk_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_container_03_macro" weight="10" />
-        <select macro="units_size_l_te_kit_energy_03_macro" weight="10" />
+        <select macro="units_size_l_liquid_freighter_macro" weight="10" />
+        <select macro="units_size_l_kit_hybrid_01_macro" weight="10" />
+        <select macro="units_size_l_kit_hybrid_02_macro" weight="10" />
     </add>
 </diff>

@@ -24,7 +24,6 @@
         <inertia pitch="4.681" yaw="4.681" roll="3.745" />
         <drag forward="5.698" reverse="25.405" horizontal="7.563" vertical="7.563" pitch="7.236" yaw="7.236" roll="7.236" />
       </physics>
-
       <physics mass="3.772">
         <inertia pitch="0.451" yaw="0.451" roll="0.361" />
         <drag forward="2.193" reverse="8.772" horizontal="3.381" vertical="3.381" pitch="2.585" yaw="2.585" roll="2.585" />

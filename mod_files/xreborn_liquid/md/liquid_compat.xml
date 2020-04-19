@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Liquid_Compat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="E:/Mod Stuff/X4 Extracted/3.0final/libraries/md.xsd">
+    <cues>
+        <cue name="Penis" instantiate="true">
+            <conditions>
+                <event_cue_signalled cue="md.Setup.Start" />
+            </conditions>
+            <actions>
+                <find_station name="$Stations" space="player.galaxy" multiple="true" tradestation="true" />
+                <do_for_each in="$Stations">
+                    <do_if value="loop.element.istradestation">
+                        <add_tradeware object="loop.element" allowbuy="true" allowsell="true" ware="ware.helium" />
+                        <add_tradeware object="loop.element" allowbuy="true" allowsell="true" ware="ware.methane" />
+                        <add_tradeware object="loop.element" allowbuy="true" allowsell="true" ware="ware.hydrogen" />
+                        <add_cargo object="loop.element" ware="ware.helium" exact="3000" />
+                        <add_cargo object="loop.element" ware="ware.methane" exact="3000" />
+                        <add_cargo object="loop.element" ware="ware.hydrogen" exact="3000" />
+                        <assert value="loop.element.tradewares.{ware.helium}.exists" text="loop.element.knownname + 'does not have any liquid offers'" />
+                        <set_known object="loop.element.cluster" known="true" />
+                        <set_known object="loop.element.sector" known="true" />
+                        <set_known object="loop.element.zone" known="true" />
+                        <set_known object="loop.element" known="true" updatesnapshot="true" />
+                    </do_if>
+                </do_for_each>
+                <remove_value name="$Stations" />
+            </actions>
+            <cues>
+                <cue name="MaintainSupply" instantiate="true" checkinterval="60min" checktime="30s">
+                    <actions>
+                        <set_value name="$Liquids" exact="[ware.helium,ware.methane,ware.hydrogen]" />
+                        <find_station name="$Stations" space="player.galaxy" multiple="true" tradestation="true" />
+                        <do_for_each in="$Stations">
+                            <do_all exact="$Liquids.count" counter="$i">
+                                <do_if value="loop.element.tradewares.{$Liquids.{$i}}.count lt 3000">
+                                    <add_cargo object="loop.element" ware="$Liquids.{$i}" exact="3000" />
+                                </do_if>
+                            </do_all>
+                        </do_for_each>
+                        <do_if value="not $LiquidShips?">
+                            <create_group groupname="$LiquidShips" />
+                        </do_if>
+                        <get_ship_definition macro="$Macro" multiple="true" reference="$Ref" tags="[tag.xreborn_liquid]" />
+                        <find_sector name="$Sectors" multiple="true" owner="[faction.argon, faction.antigone, faction.hatikvah, faction.teladi, faction.holyorder, faction.split, faction.paranid]" space="player.galaxy"></find_sector>
+                        <do_while value="$LiquidShips.count lt 15">
+                            <set_value name="$RandomSector" exact="$Sectors.random" />
+                            <create_ship groupname="$LiquidShips" name="$Ship" sector="$RandomSector" macro="$Macro.random">
+                                <pilot macro="character_boron_generic_01_macro">
+                                    <skills>
+                                        <skill type="boarding" exact="15" />
+                                        <skill type="engineering" exact="15" />
+                                        <skill type="management" exact="15" />
+                                        <skill type="morale" exact="15" />
+                                        <skill type="piloting" exact="15" />
+                                    </skills>
+                                </pilot>
+                                <loadout>
+                                    <level exact="1.0" />
+                                </loadout>
+                                <owner exact="$RandomSector.owner" overridenpc="true"></owner>
+                                <safepos />
+                            </create_ship>
+                            <create_order object="$Ship" id="'TradeRoutine'" default="true">
+                                <param name="warebasket" value="[ware.methane, ware.helium, ware.hydrogen]" />
+                                <param name="maxbuy" value="5" />
+                                <param name="maxsell" value="5" />
+                            </create_order>
+                        </do_while>
+                    </actions>
+                </cue>
+            </cues>
+        </cue>
+    </cues>
+</mdscript>

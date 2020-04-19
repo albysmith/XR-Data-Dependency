@@ -117,26 +117,22 @@
 					<position x="0" y="0" z="0" />
 				</offset>
 			</connection>
-
 			<connection name="con_dock_xs" tags="dock_xs ">
 				<offset>
 					<position x="0" y="19.1311" z="-7.5" />
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="-0.000198364" y="-13.2073" z="59.4329"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="-1.71661e-05" y="0.0478745" z="47.9114"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="-0.000198364" y="-13.2073" z="59.4329" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="-1.71661e-05" y="0.0478745" z="47.9114" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

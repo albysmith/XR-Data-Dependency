@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<content id="XReborn Liquid" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" version="1.01" date="2018-01-09" save="0">
-    <text language="7" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="33" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="34" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="39" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="44" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="49" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="55" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="81" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="82" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="86" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <text language="88" name="XReborn Liquid" description="XReborn Liquid - DISABLE" author="albysmith" />
-    <!-- <dependency id="xreborn_shipfiles" version="1" optional="true"/> -->
+<content id="XReborn Liquid" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" version="1.01" date="2018-01-09" save="0">
+    <text language="7" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="33" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="34" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="39" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="44" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="49" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="55" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="81" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="82" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="86" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <text language="88" name="XReborn Liquid" description="XReborn Liquid" author="albysmith" />
+    <dependency id="xreborn_shipfiles" optional="false"/>
 </content>

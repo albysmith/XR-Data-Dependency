@@ -26,6 +26,10 @@ struct Folder {
     error: String,
 }
 
+// TODO
+// error handling for path length (get path length and make sure it's not too long)
+// 
+
 fn main() {
     const MODS_DIR: Dir = include_dir!("mod_files");
 
@@ -36,6 +40,12 @@ fn main() {
         if let Ok(j) = test {
             let config: Config = j;
             let extract_flag = &config.extract;
+
+            if &config.output_path.chars().count() > &75 {
+                println!("Error: X4 Extensions path too long; must be less than 75 characters.  Path: {}", &config.output_path);
+                pause();
+                panic!();
+            }
 
             if Path::new(&config.output_path).exists() {
                 for folder in MODS_DIR.dirs() {
@@ -197,3 +207,4 @@ fn xr_data_values(config: &Config) -> Vec<Folder> {
     let folder_vec = vec![x_rebirth, dlc_home, dlc_teladi];
     folder_vec
 }
+

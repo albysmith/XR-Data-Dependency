@@ -79,7 +79,7 @@
             <connection name="connection_engine01" tags="engine small">
                 <offset>
                     <position x="-5.99833" y="-5.54773E-03" z="-8.90523" />
-                    <rotation roll="90"/>
+                    <rotation roll="90" />
                 </offset>
             </connection>
             <connection name="connection_weapon_prim02" tags="weapon small standard missile platformcollision ">
@@ -103,7 +103,7 @@
             <connection name="connection_engine02" tags="engine small">
                 <offset>
                     <position x="5.99833" y="-5.54773E-03" z="-8.90523" />
-                    <rotation roll="90"/>
+                    <rotation roll="90" />
                 </offset>
             </connection>
             <connection name="con_playercontrol" tags="playercontrol"></connection>
@@ -125,19 +125,16 @@
                 </offset>
             </connection>
             <connection name="con_storage01" tags="storage" />
-        <connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="-2.21729e-05" y="-4.51203" z="20.3042"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="2.86102e-05" y="0.023314" z="23.3828"/>
-     </offset>
-    </connection>
-
-
-</connections>
+            <connection name="con_dockpos" tags="dockpos ">
+                <offset>
+                    <position x="-2.21729e-05" y="-4.51203" z="20.3042" />
+                </offset>
+            </connection>
+            <connection name="con_countermeasures_01" tags="countermeasures ">
+                <offset>
+                    <position x="2.86102e-05" y="0.023314" z="23.3828" />
+                </offset>
+            </connection>
+        </connections>
     </component>
 </components>

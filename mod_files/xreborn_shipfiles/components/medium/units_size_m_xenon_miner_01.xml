@@ -184,7 +184,12 @@
 					<position x="-2.425313E-02" y="18.37514" z="58.87402" />
 				</offset>
 			</connection>
-			<connection name="connection_weaponprim01" tags="weapon medium standard missile platformcollision">
+			<connection name="connection_weaponprim01" tags="weapon medium standard missile mining">
+				<offset>
+					<position x="0" y="3.38575" z="70.72794" />
+				</offset>
+			</connection>
+			<connection name="connection_weaponprim02" tags="weapon medium standard missile mining">
 				<offset>
 					<position x="0" y="3.38575" z="70.72794" />
 				</offset>
@@ -205,19 +210,16 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="-0.000175476" y="-11.3498" z="51.0746"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="2.28882e-05" y="0.0653095" z="65.3172"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="-0.000175476" y="-11.3498" z="51.0746" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="2.28882e-05" y="0.0653095" z="65.3172" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

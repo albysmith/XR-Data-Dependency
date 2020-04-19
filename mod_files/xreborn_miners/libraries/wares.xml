@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <diff>
   <add sel="/wares">
-   
-    <!-- 
-      MINERS - UNUSED
-      <ware id="units_size_l_canteran_miner_02_ware" name="{78238230,22}" description="{78238230,23}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <!-- MINERS - UNUSED -->
+    <ware id="units_size_l_canteran_miner_02_ware" name="{78238230,22}" description="{78238230,23}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1108727" average="1304385" max="1500043" />
+      <production time="83" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="460" />
+          <ware ware="hullparts" amount="1213" />
         </primary>
       </production>
       <component ref="units_size_l_canteran_miner_02_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-          <ware id="units_size_l_canteran_miner_01_ware" name="{78238230,36}" description="{78238230,37}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_canteran_miner_01_ware" name="{78238230,36}" description="{78238230,37}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1111460" average="1307600" max="1503740" />
+      <production time="83" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="461" />
+          <ware ware="hullparts" amount="1216" />
         </primary>
       </production>
       <component ref="units_size_l_canteran_miner_01_macro" amount="1" />
@@ -29,152 +27,151 @@
       <owner faction="argon" />
     </ware>
     <ware id="units_size_m_xenon_miner_01_ware" name="{78238230,429}" description="{78238230,430}" group="ships_xenon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+      <price min="60648" average="71350" max="82053" />
+      <production time="15" amount="1" method="default" name="{20206,601}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="85" />
+          <ware ware="ore" amount="71" />
+          <ware ware="silicon" amount="72" />
         </primary>
       </production>
       <component ref="units_size_m_xenon_miner_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="xenon" />
     </ware>
-      
-      
-      <ware id="units_size_m_ore_collector_ware" name="{78238230,1}" description="{78238230,2}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_ore_collector_ware" name="{78238230,1}" description="{78238230,2}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="112170" average="131965" max="151760" />
+      <production time="12" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="69" />
+          <ware ware="hullparts" amount="121" />
         </primary>
       </production>
       <component ref="units_size_m_ore_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_silicon_collector_ware" name="{78238230,32}" description="{78238230,33}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_silicon_collector_ware" name="{78238230,32}" description="{78238230,33}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="112170" average="131965" max="151760" />
+      <production time="12" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="69" />
+          <ware ware="hullparts" amount="121" />
         </primary>
       </production>
       <component ref="units_size_m_silicon_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_ions_collector_ware" name="{78238230,46}" description="{78238230,47}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_ions_collector_ware" name="{78238230,46}" description="{78238230,47}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="108413" average="127545" max="146677" />
+      <production time="12" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="66" />
+          <ware ware="hullparts" amount="117" />
         </primary>
       </production>
       <component ref="units_size_m_ions_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_nividium_collector_ware" name="{78238230,74}" description="{78238230,75}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_nividium_collector_ware" name="{78238230,74}" description="{78238230,75}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="132528" average="155915" max="179302" />
+      <production time="15" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="81" />
+          <ware ware="hullparts" amount="143" />
         </primary>
       </production>
       <component ref="units_size_m_nividium_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_crystal_collector_ware" name="{78238230,76}" description="{78238230,77}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_crystal_collector_ware" name="{78238230,76}" description="{78238230,77}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="132528" average="155915" max="179302" />
+      <production time="15" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="81" />
+          <ware ware="hullparts" amount="143" />
         </primary>
       </production>
       <component ref="units_size_m_crystal_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_silicon_collector_ware" name="{78238230,80}" description="{78238230,81}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_silicon_collector_ware" name="{78238230,80}" description="{78238230,81}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="981657" average="1154890" max="1328124" />
+      <production time="74" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="407" />
+          <ware ware="hullparts" amount="1074" />
         </primary>
       </production>
       <component ref="units_size_l_silicon_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_hydrogen_collector_ware" name="{78238230,102}" description="{78238230,103}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_hydrogen_collector_ware" name="{78238230,102}" description="{78238230,103}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1186405" average="1395770" max="1605136" />
+      <production time="89" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="492" />
+          <ware ware="hullparts" amount="1298" />
         </primary>
       </production>
       <component ref="units_size_l_hydrogen_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_plasma_collector_ware" name="{78238230,120}" description="{78238230,121}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_plasma_collector_ware" name="{78238230,120}" description="{78238230,121}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="113059" average="133010" max="152962" />
+      <production time="12" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="69" />
+          <ware ware="hullparts" amount="122" />
         </primary>
       </production>
       <component ref="units_size_m_plasma_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_ice_collector_ware" name="{78238230,201}" description="{78238230,202}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_ice_collector_ware" name="{78238230,201}" description="{78238230,202}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="113059" average="133010" max="152962" />
+      <production time="12" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="69" />
+          <ware ware="hullparts" amount="122" />
         </primary>
       </production>
       <component ref="units_size_m_ice_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_crystal_collector_ware" name="{78238230,203}" description="{78238230,204}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_crystal_collector_ware" name="{78238230,203}" description="{78238230,204}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1186405" average="1395770" max="1605136" />
+      <production time="89" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="492" />
+          <ware ware="hullparts" amount="1298" />
         </primary>
       </production>
       <component ref="units_size_l_crystal_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_nividium_collector_ware" name="{78238230,215}" description="{78238230,216}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_nividium_collector_ware" name="{78238230,215}" description="{78238230,216}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1186405" average="1395770" max="1605136" />
+      <production time="89" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="492" />
+          <ware ware="hullparts" amount="1298" />
         </primary>
       </production>
       <component ref="units_size_l_nividium_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_ore_collector_ware" name="{78238230,229}" description="{78238230,230}" group="ships_argon" transport="ship" volume="1" tags="ship">
+    <ware id="units_size_l_ore_collector_ware" name="{78238230,229}" description="{78238230,230}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="219" average="885" max="598" />
       <production time="598" amount="1" method="default" name="{20206,101}">
         <primary>
@@ -186,19 +183,19 @@
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_hydrogen_collector_ware" name="{78238230,255}" description="{78238230,256}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_hydrogen_collector_ware" name="{78238230,255}" description="{78238230,256}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="122349" average="143940" max="165531" />
+      <production time="14" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="75" />
+          <ware ware="hullparts" amount="132" />
         </primary>
       </production>
       <component ref="units_size_m_hydrogen_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_ions_collector_ware" name="{78238230,297}" description="{78238230,298}" group="ships_argon" transport="ship" volume="1" tags="ship">
+    <ware id="units_size_l_ions_collector_ware" name="{78238230,297}" description="{78238230,298}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="219" average="885" max="598" />
       <production time="598" amount="1" method="default" name="{20206,101}">
         <primary>
@@ -210,55 +207,55 @@
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_plasma_collector_ware" name="{78238230,299}" description="{78238230,300}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_plasma_collector_ware" name="{78238230,299}" description="{78238230,300}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1533732" average="1804390" max="2075049" />
+      <production time="115" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="636" />
+          <ware ware="hullparts" amount="1678" />
         </primary>
       </production>
       <component ref="units_size_l_plasma_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_l_ice_collector_ware" name="{78238230,317}" description="{78238230,318}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_ice_collector_ware" name="{78238230,317}" description="{78238230,318}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1277814" average="1503310" max="1728807" />
+      <production time="96" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="530" />
+          <ware ware="hullparts" amount="1398" />
         </primary>
       </production>
       <component ref="units_size_l_ice_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
     </ware>
-<ware id="units_size_m_te_hydrogen_collector_01_ware" name="{78238230,340}" description="{78238230,341}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_te_hydrogen_collector_01_ware" name="{78238230,340}" description="{78238230,341}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="122349" average="143940" max="165531" />
+      <production time="14" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="75" />
+          <ware ware="hullparts" amount="132" />
         </primary>
       </production>
       <component ref="units_size_m_te_hydrogen_collector_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="teladi" />
       <owner faction="ministry" />
-<ware id="units_size_m_te_mineral_collector_01_ware" name="{78238230,401}" description="{78238230,402}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    </ware>
+    <ware id="units_size_m_te_mineral_collector_01_ware" name="{78238230,401}" description="{78238230,402}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="101035" average="118865" max="136695" />
+      <production time="11" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="62" />
+          <ware ware="hullparts" amount="109" />
         </primary>
       </production>
       <component ref="units_size_m_te_mineral_collector_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="teladi" />
       <owner faction="ministry" />
-    </ware> -->
-
+    </ware>
   </add>
 </diff>

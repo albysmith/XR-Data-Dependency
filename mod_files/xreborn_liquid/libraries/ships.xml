@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+    <add sel="/ships">
+        <ship id="argon_trader_liquid" group="liquid_transporter_large">
+            <category tags="[xreborn_liquid]" faction="[argon, antigone, hatikvah]" />
+            <owner exact="argon" overridenpc="true"/>
+            <pilot>
+                <select faction="argon" tags="traderpilot" />
+            </pilot>
+            <basket basket="gases" />
+            <drop ref="ship_large_civilian" />
+            <people ref="argon_freighter_crew" />
+        </ship>
+        <ship id="paranid_trader_liquid" group="liquid_transporter_all">
+            <category tags="[xreborn_liquid]" faction="[paranid, holyorder, alliance]" />
+            <owner exact="paranid" overridenpc="true"/>
+            <pilot>
+                <select faction="paranid" tags="traderpilot" />
+            </pilot>
+            <basket basket="gases" />
+            <drop ref="ship_large_civilian" />
+            <people ref="paranid_freighter_crew" />
+        </ship>
+        <ship id="teladi_trader_liquid" group="liquid_transporter_all">
+            <category tags="[xreborn_liquid]" faction="[teladi, ministry, scaleplate]" />
+            <owner exact="teladi" overridenpc="true"/>
+            <pilot>
+                <select faction="teladi" tags="traderpilot" />
+            </pilot>
+            <basket basket="gases" />
+            <drop ref="ship_large_civilian" />
+            <people ref="teladi_freighter_crew" />
+        </ship>
+        <ship id="split_trader_liquid" group="liquid_transporter_all">
+            <category tags="[xreborn_liquid]" faction="[split, court, fallensplit, freesplit]" />
+            <owner exact="split" overridenpc="true"/>
+            <pilot>
+                <select faction="split" tags="traderpilot" />
+            </pilot>
+            <basket basket="gases" />
+            <drop ref="ship_large_civilian" />
+            <people ref="split_freighter_crew" />
+        </ship>
+    </add>
+</diff>

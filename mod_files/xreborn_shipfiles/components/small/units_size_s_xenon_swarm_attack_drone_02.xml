@@ -73,7 +73,7 @@
                     <position x="-0.2413635" y="0.9340627" z="3.919638" />
                 </offset>
             </connection>
-            <connection name="weapon_primary_l" tags="weapon_small primary_slot ">
+            <connection name="weapon_primary_l" tags="weapon small standard missile platformcollision ">
                 <offset>
                     <position x="-1.724281" y="9.583134" z="5.915527" />
                 </offset>
@@ -83,7 +83,7 @@
                     <position x="-0.0316211" y="-8.530447" z="5.240009" />
                 </offset>
             </connection>
-            <connection name="weapon_primary_r" tags="weapon_small primary_slot ">
+            <connection name="weapon_primary_r" tags="weapon small standard missile platformcollision ">
                 <offset>
                     <position x="1.440055" y="9.583" z="5.916" />
                 </offset>
@@ -142,19 +142,16 @@
                 </offset>
             </connection>
             <connection name="con_storage01" tags="storage" />
-        <connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0" y="-3.03711" z="13.667"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="0.00292969" z="2.92896"/>
-     </offset>
-    </connection>
-
-
-</connections>
+            <connection name="con_dockpos" tags="dockpos ">
+                <offset>
+                    <position x="0" y="-3.03711" z="13.667" />
+                </offset>
+            </connection>
+            <connection name="con_countermeasures_01" tags="countermeasures ">
+                <offset>
+                    <position x="0" y="0.00292969" z="2.92896" />
+                </offset>
+            </connection>
+        </connections>
     </component>
 </components>

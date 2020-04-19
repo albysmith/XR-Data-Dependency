@@ -225,6 +225,16 @@
 					<position x="0" y="-15.24133" z="-28.63426" />
 				</offset>
 			</connection>
+			<connection name="connection_turret01" tags="turret medium mining standard missile unhittable">
+				<offset>
+					<position x="0" y="-15.24133" z="-18.63426" />
+				</offset>
+			</connection>
+			<connection name="connection_turret02" tags="turret medium missile standard mining unhittable">
+				<offset>
+					<position x="0" y="-15.24133" z="-38.63426" />
+				</offset>
+			</connection>
 			<connection name="connection_radar01" tags="destructible">
 				<offset />
 			</connection>
@@ -240,19 +250,16 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0.00018692" y="-10.0699" z="45.3142"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="-0.00034523" y="0.0573535" z="57.3194"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0.00018692" y="-10.0699" z="45.3142" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="-0.00034523" y="0.0573535" z="57.3194" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

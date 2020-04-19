@@ -166,46 +166,6 @@
 				</offset>
 				<parts></parts>
 			</connection>
-			<connection name="connection_turret_medium01" tags="turret_medium ">
-				<offset>
-					<position x="-48.1243" y="-247.9307" z="-144.9329"></position>
-					<quaternion qx="1.507788E-15" qy="1.507788E-15" qz="0.7071068" qw="-0.7071068"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_medium02" tags="turret_medium ">
-				<offset>
-					<position x="47.48645" y="-247.9307" z="-144.933"></position>
-					<quaternion qx="2.528811E-07" qy="2.528811E-07" qz="-0.7071068" qw="-0.7071067"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small01" tags="turret_small ">
-				<offset>
-					<position x="-69.76226" y="140.7226" z="264.5225"></position>
-					<quaternion qx="-0.9542681" qy="-0.2989521" qz="5.820812E-08" qw="1.858029E-07"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small02" tags="turret_small ">
-				<offset>
-					<position x="69.50939" y="141.2151" z="264.5225"></position>
-					<quaternion qx="-0.9531626" qy="0.3024584" qz="-5.889084E-08" qw="1.855876E-07"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_shieldgen02" tags="shieldgenerator ">
-				<offset>
-					<position x="3.489876E-02" y="-248.5562" z="-250.7418"></position>
-					<quaternion qx="-5.338489E-08" qy="-0.7071093" qz="-0.7071042" qw="5.338527E-08"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_shieldgen01" tags="shieldgenerator ">
-				<offset>
-					<position x="0.5775919" y="151.5406" z="193.616"></position>
-					<quaternion qx="-0" qy="-0" qz="-1" qw="-7.54979E-08"></quaternion>
-				</offset>
-			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection><connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="-200" z="0"/>
-     </offset>
-    </connection></connections>	</component>
+		</connections>
+	</component>
 </components>

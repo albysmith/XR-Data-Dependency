@@ -129,6 +129,18 @@
 					<quaternion qx="0.0000001509958" qy="1" qz="-0.0000000754979" qw="-0.00000000000001139987" />
 				</offset>
 			</connection>
+			<connection name="connection_turret01" tags="turret medium standard missile unhittable">
+				<offset>
+					<position x="0.1109139" y="12.83356" z="-31.38046" />
+					<quaternion qx="0.0000001509958" qy="1" qz="-0.0000000754979" qw="-0.00000000000001139987" />
+				</offset>
+			</connection>
+			<connection name="connection_turret02" tags="turret medium standard missile unhittable">
+				<offset>
+					<position x="0.1109139" y="12.83356" z="-51.38046" />
+					<quaternion qx="0.0000001509958" qy="1" qz="-0.0000000754979" qw="-0.00000000000001139987" />
+				</offset>
+			</connection>
 			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
 				<offset>
 					<position x="4.768372E-07" y="14.0094" z="-19.64283" />
@@ -167,19 +179,16 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0" y="-9.99072" z="44.9583"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="0.0664063" z="66.7905"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-9.99072" z="44.9583" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="0" y="0.0664063" z="66.7905" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

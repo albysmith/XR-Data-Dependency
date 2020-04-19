@@ -152,6 +152,18 @@
 					<quaternion qx="0.7071067" qy="0.000000008432149" qz="0.0000001152023" qw="0.7071068" />
 				</offset>
 			</connection>
+			<connection name="connection_turret01" tags="turret medium mining unhittable">
+				<offset>
+					<position x="-0.5345396" y="-12.63875" z="84.61198" />
+					<quaternion qx="0.7071067" qy="0.000000008432149" qz="0.0000001152023" qw="0.7071068" />
+				</offset>
+			</connection>
+			<connection name="connection_turret02" tags="turret medium mining unhittable">
+				<offset>
+					<position x="-0.5345396" y="-12.63875" z="64.61198" />
+					<quaternion qx="0.7071067" qy="0.000000008432149" qz="0.0000001152023" qw="0.7071068" />
+				</offset>
+			</connection>
 			<connection name="connection_cockpit01" tags="cockpit ">
 				<offset>
 					<position x="-2.425313E-02" y="19.00791" z="-59.06734" />
@@ -160,7 +172,7 @@
 			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
-			<connection name="connection_weaponprim01" tags="weapon medium standard missile platformcollision">
+			<connection name="connection_weaponprim01" tags="weapon medium mining standard missile platformcollision">
 				<offset>
 					<position x="0" y="13.95089" z="80.64028" />
 				</offset>
@@ -180,19 +192,16 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0" y="-16.6289" z="74.8301"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="0.0748291" z="74.8301"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-16.6289" z="74.8301" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="0" y="0.0748291" z="74.8301" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

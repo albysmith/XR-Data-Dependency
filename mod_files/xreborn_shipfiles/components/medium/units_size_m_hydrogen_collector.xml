@@ -186,6 +186,16 @@
 					<position x="0" y="-10.20516" z="-42.51697" />
 				</offset>
 			</connection>
+			<connection name="connection_turret01" tags="turret medium mining standard mining unhittable">
+				<offset>
+					<position x="0" y="-10.20516" z="-52.51697" />
+				</offset>
+			</connection>
+			<connection name="connection_turret02" tags="turret medium mining standard mining unhittable">
+				<offset>
+					<position x="0" y="-10.20516" z="-32.51697" />
+				</offset>
+			</connection>
 			<connection name="connection_cockpit01" tags="destructible">
 				<offset>
 					<position x="0" y="4.825" z="-5.35952" />
@@ -207,19 +217,16 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0" y="-15.614" z="70.2635"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="0.0612793" z="61.1772"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="0" y="-15.614" z="70.2635" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="0" y="0.0612793" z="61.1772" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

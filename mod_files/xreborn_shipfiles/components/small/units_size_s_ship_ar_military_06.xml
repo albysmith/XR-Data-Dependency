@@ -185,19 +185,16 @@
                 </offset>
             </connection>
             <connection name="con_storage01" tags="storage" />
-        <connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="-2.38419e-06" y="-8.91314" z="40.1085"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="-2.38419e-05" y="0.0132902" z="13.676"/>
-     </offset>
-    </connection>
-
-
-</connections>
+            <connection name="con_dockpos" tags="dockpos ">
+                <offset>
+                    <position x="-2.38419e-06" y="-8.91314" z="40.1085" />
+                </offset>
+            </connection>
+            <connection name="con_countermeasures_01" tags="countermeasures ">
+                <offset>
+                    <position x="-2.38419e-05" y="0.0132902" z="13.676" />
+                </offset>
+            </connection>
+        </connections>
     </component>
 </components>

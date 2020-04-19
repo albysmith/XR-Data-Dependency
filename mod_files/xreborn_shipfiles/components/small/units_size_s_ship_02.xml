@@ -100,19 +100,16 @@
                     <position x="0" y="5.21147" z="0" />
                 </offset>
             </connection>
-        <connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0" y="-2.63867" z="11.8728"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="0.0117188" z="12.0974"/>
-     </offset>
-    </connection>
-
-
-</connections>
+            <connection name="con_dockpos" tags="dockpos ">
+                <offset>
+                    <position x="0" y="-2.63867" z="11.8728" />
+                </offset>
+            </connection>
+            <connection name="con_countermeasures_01" tags="countermeasures ">
+                <offset>
+                    <position x="0" y="0.0117188" z="12.0974" />
+                </offset>
+            </connection>
+        </connections>
     </component>
 </components>

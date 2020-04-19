@@ -203,13 +203,13 @@
                     </part>
                 </parts>
             </connection>
-            <connection name="weaponconnection05" tags="weapon_small  secondary_slot" parent="hand01">
+            <connection name="weaponconnection05" tags="weapon small standard missile platformcollision" parent="hand01">
                 <offset>
                     <position x="-8.883476E-02" y="-5.497893" z="0.4806348" />
                     <quaternion qx="-0.2588191" qy="0.00000003085364" qz="0.9659258" qw="0.0000001151473" />
                 </offset>
             </connection>
-            <!-- <connection name="weaponconnection06" tags="weapon_small  secondary_slot" parent="hand01">
+            <!-- <connection name="weaponconnection06" tags="weapon small standard missile platformcollision" parent="hand01">
                 <offset>
                     <position x="0.7519717" y="-1.960588" z="0.965883" />
                     <quaternion qx="-0.2588191" qy="0.00000003085364" qz="0.9659258" qw="0.0000001151473" />
@@ -335,13 +335,13 @@
                     </part>
                 </parts>
             </connection>
-            <!-- <connection name="weaponconnection03" tags="weapon_small  secondary_slot" parent="hand02">
+            <!-- <connection name="weaponconnection03" tags="weapon small standard missile platformcollision" parent="hand02">
                 <offset>
                     <position x="-8.883476E-02" y="-5.497894" z="0.4806337" />
                     <quaternion qx="-0.2588191" qy="0.00000002314024" qz="0.9659258" qw="0.00000008636051" />
                 </offset>
             </connection> -->
-            <connection name="weaponconnection04" tags="weapon_small  secondary_slot" parent="hand02">
+            <connection name="weaponconnection04" tags="weapon small standard missile platformcollision" parent="hand02">
                 <offset>
                     <position x="0.7516456" y="-1.960588" z="0.9658861" />
                     <quaternion qx="-0.2588191" qy="0.00000002314024" qz="0.9659258" qw="0.00000008636051" />
@@ -467,13 +467,13 @@
                     </part>
                 </parts>
             </connection>
-            <connection name="weaponconnection01" tags="weapon_small  secondary_slot" parent="hand03">
+            <connection name="weaponconnection01" tags="weapon small standard missile platformcollision" parent="hand03">
                 <offset>
                     <position x="0.7516522" y="-1.960588" z="0.9658794" />
                     <quaternion qx="-0.2588191" qy="0" qz="0.9659258" qw="0" />
                 </offset>
             </connection>
-            <!-- <connection name="weaponconnection02" tags="weapon_small  secondary_slot" parent="hand03">
+            <!-- <connection name="weaponconnection02" tags="weapon small standard missile platformcollision" parent="hand03">
                 <offset>
                     <position x="-8.883333E-02" y="-5.497895" z="0.4806309" />
                     <quaternion qx="-0.2588191" qy="0" qz="0.9659258" qw="0" />
@@ -599,13 +599,13 @@
                     </part>
                 </parts>
             </connection>
-            <!-- <connection name="weaponconnection07" tags="weapon_small  secondary_slot" parent="hand04">
+            <!-- <connection name="weaponconnection07" tags="weapon small standard missile platformcollision" parent="hand04">
                 <offset>
                     <position x="-0.7752881" y="-1.962657" z="0.9615031" />
                     <quaternion qx="0.25881904" qy="-0.000000061707254" qz="0.9659259" qw="-0.00000023029472" />
                 </offset>
             </connection> -->
-            <connection name="weaponconnection10" tags="weapon_small  secondary_slot" parent="hand04">
+            <connection name="weaponconnection10" tags="weapon small standard missile platformcollision" parent="hand04">
                 <offset>
                     <position x="6.519747E-02" y="-5.499963" z="0.4762542" />
                     <quaternion qx="0.25881904" qy="-0.000000061707254" qz="0.9659259" qw="-0.00000023029472" />
@@ -731,13 +731,13 @@
                     </part>
                 </parts>
             </connection>
-            <connection name="weaponconnection09" tags="weapon_small  secondary_slot" parent="hand05">
+            <connection name="weaponconnection09" tags="weapon small standard missile platformcollision" parent="hand05">
                 <offset>
                     <position x="-0.7752852" y="-1.962656" z="0.9615078" />
                     <quaternion qx="0.25881904" qy="0" qz="0.9659259" qw="0" />
                 </offset>
             </connection>
-            <!-- <connection name="weaponconnection08" tags="weapon_small  secondary_slot" parent="hand05">
+            <!-- <connection name="weaponconnection08" tags="weapon small standard missile platformcollision" parent="hand05">
                 <offset>
                     <position x="6.519365E-02" y="-5.499962" z="0.4762535" />
                     <quaternion qx="0.25881904" qy="0" qz="0.9659259" qw="0" />
@@ -863,13 +863,13 @@
                     </part>
                 </parts>
             </connection>
-            <!-- <connection name="weaponconnection11" tags="weapon_small  secondary_slot" parent="hand06">
+            <!-- <connection name="weaponconnection11" tags="weapon small standard missile platformcollision" parent="hand06">
                 <offset>
                     <position x="-0.7752919" y="-1.962656" z="0.9615021" />
                     <quaternion qx="0.25881904" qy="0" qz="0.9659259" qw="0" />
                 </offset>
             </connection> -->
-            <connection name="weaponconnection12" tags="weapon_small  secondary_slot" parent="hand06">
+            <connection name="weaponconnection12" tags="weapon small standard missile platformcollision" parent="hand06">
                 <offset>
                     <position x="0.0651927" y="-5.499963" z="0.4762497" />
                     <quaternion qx="0.25881904" qy="0" qz="0.9659259" qw="0" />
@@ -1032,19 +1032,16 @@
                     <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
                 </offset>
             </connection>
-        <connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="0" y="-7.1142" z="32.0137"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="0.0320129" z="32.0142"/>
-     </offset>
-    </connection>
-
-
-</connections>
+            <connection name="con_dockpos" tags="dockpos ">
+                <offset>
+                    <position x="0" y="-7.1142" z="32.0137" />
+                </offset>
+            </connection>
+            <connection name="con_countermeasures_01" tags="countermeasures ">
+                <offset>
+                    <position x="0" y="0.0320129" z="32.0142" />
+                </offset>
+            </connection>
+        </connections>
     </component>
 </components>

@@ -34,38 +34,38 @@
         <select macro="units_size_xl_te_kit_energy_01_macro" weight="10" />
         <select macro="units_size_xl_te_kit_energy_02_macro" weight="10" />
         <select macro="units_size_xl_te_kit_energy_03_macro" weight="10" />
-        <select macro="units_size_xl_cargo_hauler_2_macro" weight="10" />
-        <select macro="units_size_xl_cargo_hauler_3_macro" weight="10" />
+        <!-- <select macro="units_size_xl_cargo_hauler_2_macro" weight="10" />
+        <select macro="units_size_xl_cargo_hauler_3_macro" weight="10" /> -->
         <select macro="units_size_xl_te_kit_bulk_01_macro" weight="10" />
         <select macro="units_size_xl_te_kit_bulk_02_macro" weight="10" />
         <select macro="units_size_xl_te_kit_bulk_03_macro" weight="10" />
     </add>
     <!-- PAR -->
     <add sel="/groups/group[@name='par_trader_container_l']">
-        <select macro="units_size_xl_te_kit_container_01_macro" weight="10" />
+        <!-- <select macro="units_size_xl_te_kit_container_01_macro" weight="10" />
         <select macro="units_size_xl_te_kit_container_02_macro" weight="10" />
         <select macro="units_size_xl_te_kit_container_03_macro" weight="10" />
         <select macro="units_size_xl_te_kit_energy_01_macro" weight="10" />
         <select macro="units_size_xl_te_kit_energy_02_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_energy_03_macro" weight="10" />
+        <select macro="units_size_xl_te_kit_energy_03_macro" weight="10" /> -->
         <select macro="units_size_xl_cargo_hauler_2_macro" weight="10" />
         <select macro="units_size_xl_cargo_hauler_3_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_bulk_01_macro" weight="10" />
+        <!-- <select macro="units_size_xl_te_kit_bulk_01_macro" weight="10" />
         <select macro="units_size_xl_te_kit_bulk_02_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_bulk_03_macro" weight="10" />
+        <select macro="units_size_xl_te_kit_bulk_03_macro" weight="10" /> -->
     </add>
     <add sel="/groups/group[@name='spl_trader_container_l']">
-        <select macro="units_size_xl_te_kit_container_01_macro" weight="10" />
+        <!-- <select macro="units_size_xl_te_kit_container_01_macro" weight="10" /> -->
         <select macro="units_size_xl_te_kit_container_02_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_container_03_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_energy_01_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_energy_02_macro" weight="10" />
+        <!-- <select macro="units_size_xl_te_kit_container_03_macro" weight="10" /> -->
+        <!-- <select macro="units_size_xl_te_kit_energy_01_macro" weight="10" /> -->
+        <!-- <select macro="units_size_xl_te_kit_energy_02_macro" weight="10" /> -->
         <select macro="units_size_xl_te_kit_energy_03_macro" weight="10" />
         <select macro="units_size_xl_cargo_hauler_2_macro" weight="10" />
         <select macro="units_size_xl_cargo_hauler_3_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_bulk_01_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_bulk_02_macro" weight="10" />
-        <select macro="units_size_xl_te_kit_bulk_03_macro" weight="10" />
+        <!-- <select macro="units_size_xl_te_kit_bulk_01_macro" weight="10" /> -->
+        <!-- <select macro="units_size_xl_te_kit_bulk_02_macro" weight="10" /> -->
+        <!-- <select macro="units_size_xl_te_kit_bulk_03_macro" weight="10" /> -->
     </add>
     <!-- XEN -->
     <add sel="/groups/group[@name='xen_destroyer_xl']">

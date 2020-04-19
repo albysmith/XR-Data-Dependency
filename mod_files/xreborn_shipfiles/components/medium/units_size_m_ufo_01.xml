@@ -162,19 +162,16 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-		<connection name="con_dockpos" tags="dockpos ">
-     <offset>
-      <position x="-1.90735e-06" y="-10.9092" z="49.0913"/>
-     </offset>
-    </connection>
-
-<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="-8.01086e-05" y="0.0484076" z="48.3083"/>
-     </offset>
-    </connection>
-
-
-</connections>
+			<connection name="con_dockpos" tags="dockpos ">
+				<offset>
+					<position x="-1.90735e-06" y="-10.9092" z="49.0913" />
+				</offset>
+			</connection>
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="-8.01086e-05" y="0.0484076" z="48.3083" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

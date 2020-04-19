@@ -1,349 +1,131 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="units_size_l_dv_carrier_kit_new_energy_a" class="destructible">
 		<properties>
-			<hull max="0" integrated="1"/>
+			<hull max="0" integrated="1" />
 		</properties>
-		<source geometry="Extensions\xre\assets\units\size_l\construction_set\units_size_l_dv_carrier_kit_new_energy_a_data"/>
+		<source geometry="Extensions\xre\assets\units\size_l\construction_set\units_size_l_dv_carrier_kit_new_energy_a_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection01" tags="part ship_xr  ">
-				<offset/>
+				<offset />
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01"/>
-									<material id="2" ref="argon.ar_hulls_01"/>
-									<material id="3" ref="argon.ar_hulls_02"/>
-									<material id="4" ref="generic.generic_techtrims_01"/>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_01" />
+									<material id="3" ref="argon.ar_hulls_02" />
+									<material id="4" ref="generic.generic_techtrims_01" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01"/>
-									<material id="2" ref="argon.ar_hulls_01"/>
-									<material id="3" ref="argon.ar_hulls_02"/>
-									<material id="4" ref="generic.generic_techtrims_01"/>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_01" />
+									<material id="3" ref="argon.ar_hulls_02" />
+									<material id="4" ref="generic.generic_techtrims_01" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 							<lod index="3">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="167.708" y="83.59415" z="224.9377"/>
-							<center x="0" y="6.090126" z="-214.8526"/>
+							<max x="167.708" y="83.59415" z="224.9377" />
+							<center x="0" y="6.090126" z="-214.8526" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection02" tags="part ship_xr  ">
 				<offset>
-					<position x="-1.491026E-04" y="0" z="493.7308"/>
+					<position x="-1.491026E-04" y="0" z="493.7308" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
 			<connection name="Connection03" tags="part ship_xr  ">
 				<offset>
-					<position x="6.365012E-05" y="-0.262291" z="-210.7679"/>
+					<position x="6.365012E-05" y="-0.262291" z="-210.7679" />
 				</offset>
 				<parts>
 					<part name="detail_m_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01"/>
-									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="161.1759" y="99.15803" z="228.5483"/>
-							<center x="-2.614965E-06" y="0" z="0"/>
+							<max x="161.1759" y="99.15803" z="228.5483" />
+							<center x="-2.614965E-06" y="0" z="0" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection04" tags="part ship_xr  ">
 				<offset>
-					<position x="-1.735249" y="15.00601" z="-221.5034"/>
+					<position x="-1.735249" y="15.00601" z="-221.5034" />
 				</offset>
 				<parts>
 					<part name="detail_xs_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_02"/>
-									<material id="2" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_02" />
+									<material id="2" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="166.8873" y="63.56543" z="171.3118"/>
-							<center x="-2.670288E-05" y="-1.907349E-06" z="0"/>
+							<max x="166.8873" y="63.56543" z="171.3118" />
+							<center x="-2.670288E-05" y="-1.907349E-06" z="0" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection05" tags="part ship_xr  ">
 				<offset>
-					<position x="6.335312E-05" y="-0.0783844" z="-209.7843"/>
+					<position x="6.335312E-05" y="-0.0783844" z="-209.7843" />
 				</offset>
 				<parts>
 					<part name="detail_s_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01"/>
-									<material id="2" ref="argon.ar_hulls_02"/>
-									<material id="3" ref="generic.generic_alphatrims_01"/>
+									<material id="1" ref="argon.ar_trims_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="generic.generic_alphatrims_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="173.3668" y="102.2941" z="228.8933"/>
-							<center x="-3.283554E-05" y="0" z="1.525879E-05"/>
+							<max x="173.3668" y="102.2941" z="228.8933" />
+							<center x="-3.283554E-05" y="0" z="1.525879E-05" />
 						</size>
 					</part>
 				</parts>
 			</connection>
-			<connection name="connection_storage32" group="group01 " tags="storage ">
-				<offset>
-					<position x="128.4335" y="14.79678" z="-387.4013"/>
-					<quaternion qx="0.270598" qy="-0.6532815" qz="-0.270598" qw="-0.6532814"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage36" group="group01 " tags="storage ">
-				<offset>
-					<position x="84.41925" y="65.71848" z="-352.6096"/>
-					<quaternion qx="-0" qy="-0.7071067" qz="-0" qw="-0.7071068"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage35" group="group01 " tags="storage ">
-				<offset>
-					<position x="84.41922" y="65.71848" z="-282.8236"/>
-					<quaternion qx="-0" qy="-0.7071067" qz="-0" qw="-0.7071068"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage34" group="group01 " tags="storage ">
-				<offset>
-					<position x="84.41919" y="65.71848" z="-157.4142"/>
-					<quaternion qx="-0" qy="-0.7071067" qz="-0" qw="-0.7071068"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage33" group="group01 " tags="storage ">
-				<offset>
-					<position x="84.41916" y="65.71848" z="-87.62808"/>
-					<quaternion qx="-0" qy="-0.7071067" qz="-0" qw="-0.7071068"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage31" group="group01 " tags="storage ">
-				<offset>
-					<position x="128.4335" y="14.79678" z="-317.6154"/>
-					<quaternion qx="0.270598" qy="-0.6532815" qz="-0.270598" qw="-0.6532814"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage30" group="group01 " tags="storage ">
-				<offset>
-					<position x="128.4335" y="14.79678" z="-255.2906"/>
-					<quaternion qx="0.270598" qy="-0.6532815" qz="-0.270598" qw="-0.6532814"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage29" group="group01 " tags="storage ">
-				<offset>
-					<position x="128.4335" y="14.79678" z="-185.5046"/>
-					<quaternion qx="0.270598" qy="-0.6532815" qz="-0.270598" qw="-0.6532814"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage28" group="group01 " tags="storage ">
-				<offset>
-					<position x="128.4334" y="14.79678" z="-122.4204"/>
-					<quaternion qx="0.270598" qy="-0.6532815" qz="-0.270598" qw="-0.6532814"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage27" group="group01 " tags="storage ">
-				<offset>
-					<position x="128.4334" y="14.79678" z="-52.63409"/>
-					<quaternion qx="0.270598" qy="-0.6532815" qz="-0.270598" qw="-0.6532814"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage26" group="group01 " tags="storage ">
-				<offset>
-					<position x="99.06738" y="-70.32967" z="-378.0468"/>
-					<quaternion qx="1.164153E-09" qy="-1" qz="-7.450581E-09" qw="4.887621E-07"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage25" group="group01 " tags="storage ">
-				<offset>
-					<position x="99.06726" y="-70.32967" z="-261.2935"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage24" group="group01 " tags="storage ">
-				<offset>
-					<position x="99.06732" y="-70.32968" z="-182.938"/>
-					<quaternion qx="-1.182933E-23" qy="-1" qz="-1.591705E-12" qw="1.192488E-08"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage23" group="group01 " tags="storage ">
-				<offset>
-					<position x="99.06726" y="-70.3297" z="-63.42236"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage22" group="group01 " tags="storage ">
-				<offset>
-					<position x="28.9684" y="-70.32967" z="-261.2935"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage21" group="group01 " tags="storage ">
-				<offset>
-					<position x="28.96838" y="-70.32968" z="-182.938"/>
-					<quaternion qx="-1.182933E-23" qy="-1" qz="-1.591705E-12" qw="1.192488E-08"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage20" group="group01 " tags="storage ">
-				<offset>
-					<position x="28.96834" y="-70.3297" z="-63.42239"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage19" group="group01 " tags="storage ">
-				<offset>
-					<position x="28.96844" y="-70.32967" z="-378.0468"/>
-					<quaternion qx="1.164153E-09" qy="-1" qz="-7.450581E-09" qw="4.887621E-07"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage18" group="group01 " tags="storage ">
-				<offset>
-					<position x="-128.4334" y="14.79678" z="-52.6342"/>
-					<quaternion qx="0.270598" qy="0.6532815" qz="0.270598" qw="-0.6532815"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage17" group="group01 " tags="storage ">
-				<offset>
-					<position x="-84.41913" y="65.71848" z="-87.42595"/>
-					<quaternion qx="-0" qy="0.7071069" qz="-0" qw="-0.7071066"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage16" group="group01 " tags="storage ">
-				<offset>
-					<position x="-84.41907" y="65.71848" z="-157.212"/>
-					<quaternion qx="-0" qy="0.7071069" qz="-0" qw="-0.7071066"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage15" group="group01 " tags="storage ">
-				<offset>
-					<position x="-84.41904" y="65.71848" z="-282.6213"/>
-					<quaternion qx="-0" qy="0.7071069" qz="-0" qw="-0.7071066"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage14" group="group01 " tags="storage ">
-				<offset>
-					<position x="-84.41898" y="65.71848" z="-352.4074"/>
-					<quaternion qx="-0" qy="0.7071069" qz="-0" qw="-0.7071066"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage13" group="group01 " tags="storage ">
-				<offset>
-					<position x="-128.4334" y="14.79678" z="-122.4202"/>
-					<quaternion qx="0.270598" qy="0.6532815" qz="0.270598" qw="-0.6532815"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage12" group="group01 " tags="storage ">
-				<offset>
-					<position x="-128.4333" y="14.79678" z="-184.745"/>
-					<quaternion qx="0.270598" qy="0.6532815" qz="0.270598" qw="-0.6532815"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage11" group="group01 " tags="storage ">
-				<offset>
-					<position x="-128.4333" y="14.79678" z="-254.5309"/>
-					<quaternion qx="0.270598" qy="0.6532815" qz="0.270598" qw="-0.6532815"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage10" group="group01 " tags="storage ">
-				<offset>
-					<position x="-128.4333" y="14.79678" z="-317.6151"/>
-					<quaternion qx="0.270598" qy="0.6532815" qz="0.270598" qw="-0.6532815"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage09" group="group01 " tags="storage ">
-				<offset>
-					<position x="-128.4333" y="14.79678" z="-387.4015"/>
-					<quaternion qx="0.270598" qy="0.6532815" qz="0.270598" qw="-0.6532815"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage08" group="group01 " tags="storage ">
-				<offset>
-					<position x="-99.06729" y="-70.32967" z="-61.98875"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage07" group="group01 " tags="storage ">
-				<offset>
-					<position x="-99.06714" y="-70.32967" z="-178.7421"/>
-					<quaternion qx="3.166497E-08" qy="-1" qz="-1.547664E-14" qw="4.887621E-07"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage06" group="group01 " tags="storage ">
-				<offset>
-					<position x="-99.0672" y="-70.32968" z="-257.0975"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage05" group="group01 " tags="storage ">
-				<offset>
-					<position x="-99.06711" y="-70.3297" z="-376.6131"/>
-					<quaternion qx="2.478191E-08" qy="-1" qz="-1.490122E-08" qw="4.887621E-07"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage04" group="group01 " tags="storage ">
-				<offset>
-					<position x="-28.96828" y="-70.32967" z="-178.742"/>
-					<quaternion qx="3.166497E-08" qy="-1" qz="-1.547664E-14" qw="4.887621E-07"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage03" group="group01 " tags="storage ">
-				<offset>
-					<position x="-28.96824" y="-70.32968" z="-257.0975"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage02" group="group01 " tags="storage ">
-				<offset>
-					<position x="-28.96819" y="-70.3297" z="-376.6131"/>
-					<quaternion qx="2.478191E-08" qy="-1" qz="-1.490122E-08" qw="4.887621E-07"/>
-				</offset>
-			</connection>
-			<connection name="connection_storage01" group="group01 " tags="storage ">
-				<offset>
-					<position x="-28.96833" y="-70.32967" z="-61.98871"/>
-				</offset>
-			</connection>
-			<connection name="connection_shieldgen01" group="group01 " tags="shieldgenerator ">
-				<offset>
-					<position x="0" y="-89.71063" z="-8.643866E-03"/>
-					<quaternion qx="-0" qy="0.7071068" qz="1.067702E-07" qw="-0.7071068"/>
-				</offset>
-			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection><connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="-150" z="0"/>
-     </offset>
-    </connection></connections>	</component>
+		</connections>
+	</component>
 </components>

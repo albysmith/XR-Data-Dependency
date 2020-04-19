@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="E:\Mod Stuff\X4 Extracted\3.0final\libraries\libraries.xsd">
+    <!-- E:\Mod Stuff\X4 Extracted\3.0final\libraries\libraries.xsd
+<diff>
+    <add sel="/jobs"> -->
+    <job id="ministry_liquidtrader" startactive="true">
+        <modifiers rebuild="true" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="warebasket" value="[ware.methane, ware.helium, ware.hydrogen]" />
+                <param name="maxbuy" value="5" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="ministry" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="member" comparison="ge" />
+        <environment buildatshipyard="true" />
+        <ship ref="teladi_trader_liquid" group="liquid_transporter_all">
+
+            <select faction="ministry" tags="[xreborn_liquid]" />
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="ministry" overridenpc="true" />
+        </ship>
+    </job>
+    <job id="teladi_liquidtrader" startactive="true">
+        <modifiers rebuild="true" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="warebasket" value="[ware.methane, ware.helium, ware.hydrogen]" />
+                <param name="maxbuy" value="5" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="teladi" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="member" comparison="ge" />
+        <environment buildatshipyard="true" />
+        <ship ref="teladi_trader_liquid" group="liquid_transporter_all">
+            <!-- <select faction="teladi" tags="[xreborn_liquid]" /> -->
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="teladi" overridenpc="true" />
+        </ship>
+    </job>
+    <job id="paranid_liquidtrader" startactive="true">
+        <modifiers rebuild="true" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="warebasket" value="[ware.methane, ware.helium, ware.hydrogen]" />
+                <param name="maxbuy" value="5" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="paranid" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="member" comparison="ge" />
+        <environment buildatshipyard="true" />
+        <ship  group="liquid_transporter_all">
+
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="paranid" overridenpc="true" />
+        </ship>
+    </job>
+    <job id="holyorder_liquidtrader" startactive="true">
+        <modifiers rebuild="true" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="warebasket" value="[ware.methane, ware.helium, ware.hydrogen]" />
+                <param name="maxbuy" value="5" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="holyorder" size="ship_l" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="holyorder" relation="member" comparison="ge" />
+        <environment buildatshipyard="false" gate="true" />
+        <ship>
+            <select faction="holyorder" tags="[xreborn_liquid]" size="ship_l" />
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="holyorder" overridenpc="true" />
+        </ship>
+    </job>
+    <job id="argon_liquidtrader" startactive="true">
+        <modifiers rebuild="false" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="minbuy" value="0" />
+                <param name="maxbuy" value="5" />
+                <param name="minsell" value="0" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="argon" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="member" comparison="ge" />
+        <environment buildatshipyard="false" gate="true" />
+        <ship>
+            <select faction="argon" tags="[xreborn_liquid]" />
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="argon" overridenpc="true" />
+        </ship>
+    </job>
+    <job id="antigone_liquidtrader" startactive="true">
+        <modifiers rebuild="true" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="minbuy" value="0" />
+                <param name="maxbuy" value="5" />
+                <param name="minsell" value="0" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="antigone" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="member" comparison="ge" />
+        <environment buildatshipyard="false" gate="true" />
+        <ship>
+            <select faction="antigone" tags="[xreborn_liquid]" />
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="antigone" overridenpc="true" />
+        </ship>
+    </job>
+    <job id="split_liquidtrader" startactive="true">
+        <modifiers rebuild="true" commandeerable="false" />
+        <orders>
+            <order order="TradeRoutine" default="true">
+                <param name="minbuy" value="0" />
+                <param name="maxbuy" value="5" />
+                <param name="minsell" value="0" />
+                <param name="maxsell" value="5" />
+            </order>
+        </orders>
+        <basket basket="gases" />
+        <category faction="split" size="ship_m" />
+        <quota galaxy="1" />
+        <location class="galaxy" macro="xu_ep2_universe_macro" faction="split" relation="member" comparison="ge" />
+        <environment buildatshipyard="true" />
+        <ship>
+            <select faction="split" tags="[xreborn_liquid]" size="ship_m" />
+            <loadout>
+                <level min="0" max="0.6" />
+            </loadout>
+            <owner exact="split" overridenpc="true" />
+        </ship>
+    </job>
+    <!-- <job id="scout_sovsyn_873751" startactive="true">
+            <modifiers rebuild="true" commandeerable="true" />
+            <quotas>
+              <quota galaxy="3" />
+            </quotas>
+            <location class="galaxy" macro="xu_ep2_universe_macro" faction="sovsyn" relation="member" comparison="ge" />
+            <environment buildatshipyard="true" />
+            <ship>
+              <select faction="sovsyn" tags="[]" />
+              <loadout>
+                <level exact="1.0" />
+              </loadout>
+            </ship>
+          </job> -->
+    <!-- </add>
+</diff> -->
+</jobs>

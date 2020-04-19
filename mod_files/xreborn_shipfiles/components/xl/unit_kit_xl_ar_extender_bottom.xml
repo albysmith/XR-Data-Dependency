@@ -101,58 +101,6 @@
 				</offset>
 				<parts></parts>
 			</connection>
-			<connection name="connection_turret_small01" group="capship_top " tags="turret_small ">
-				<offset>
-					<position x="135.1276" y="76.0839" z="42.61994"></position>
-					<quaternion qx="0.7071067" qy="-3.905598E-07" qz="-0.7071068" qw="5.338509E-08"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small02" group="capship_top " tags="turret_small ">
-				<offset>
-					<position x="135.1276" y="76.08385" z="-42.19178"></position>
-					<quaternion qx="0.7071067" qy="-3.905598E-07" qz="-0.7071068" qw="5.338509E-08"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small03" group="capship_top " tags="turret_small ">
-				<offset>
-					<position x="-134.5021" y="76.08398" z="-42.1918"></position>
-					<quaternion qx="-0.7071066" qy="5.3385E-08" qz="-0.7071069" qw="3.905598E-07"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small04" group="capship_top " tags="turret_small ">
-				<offset>
-					<position x="-134.5021" y="76.08403" z="42.61993"></position>
-					<quaternion qx="-0.7071066" qy="5.3385E-08" qz="-0.7071069" qw="3.905598E-07"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small05" group="capship_bottom " tags="turret_small ">
-				<offset>
-					<position x="-106.3432" y="-90.83887" z="-0.1719698"></position>
-					<quaternion qx="-4.43945E-07" qy="-0.7071066" qz="-1.067702E-07" qw="-0.7071069"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_turret_small06" group="capship_bottom " tags="turret_small ">
-				<offset>
-					<position x="107.7097" y="-90.83897" z="-0.1719284"></position>
-					<quaternion qx="1.067702E-07" qy="0.7071068" qz="-4.439449E-07" qw="-0.7071067"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_shieldgen01" group="capship_top " tags="shieldgenerator ">
-				<offset>
-					<position x="0.65254" y="61.87109" z="0.2639021"></position>
-					<quaternion qx="-0.7071068" qy="5.338509E-08" qz="-0.7071067" qw="5.338508E-08"></quaternion>
-				</offset>
-			</connection>
-			<connection name="connection_shieldgen02" group="capship_bottom " tags="shieldgenerator ">
-				<offset>
-					<position x="0.65254" y="-82.8592" z="0.2639021"></position>
-					<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067"></quaternion>
-				</offset>
-			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection><connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="-200" z="0"/>
-     </offset>
-    </connection></connections>	</component>
+		</connections>
+	</component>
 </components>

@@ -1,12 +1,8 @@
 # XReborn
 ## A port of all the XR ships!
-## CHANGE LOG:
-   #### 1.01
-changed some content.xml issues (deleted the require line from each module since it crashed the ui)  
-fixed a shipgroup diff
 
-   #### 1.0 
-   release
+[Changelog](https://github.com/albysmith/XReborn-Ships/wiki/Changelog)
+
 ## Installation Instructions
     Egosoft will not let us distribute XR assets en mass for
     fear that someone will come along and remake XR. 
@@ -38,7 +34,7 @@ Set False When Updating The Mod to Avoid Extracting Again:
 ![X4  Foundations Screenshot 2020 04 12 - 20 34 45 26](https://user-images.githubusercontent.com/48844001/79088412-25773080-7d08-11ea-914c-055f2fe249b3.png)
 
     
-- You can find the source [here](https://github.com/albysmith/XReborn-Ships)
+<!-- - You can find the source [here](https://github.com/albysmith/XReborn-Ships) -->
 
 ## FAQ
 - is it save compatible?
@@ -50,37 +46,40 @@ Set False When Updating The Mod to Avoid Extracting Again:
 - Why isn't some ship at some faction?
   - we tried to spread them around but if you want them to be available somewhere make an issue on github or nexus to tell us about it
 - my ship sinks through the landing pad!
-  - because you haven't made an issue on github or nexus yet to tell us about it
+  - we haven't been able to test them all; make an issue on github to let us know!
 - why aren't the numbers exactly the way I want them?
   - because you haven't made an issue on github or nexus yet to tell us about it
-- where are the radars?
-  - a combination of we forgot and a nasty bug but we can add them if there is demand
+<!-- - where are the radars?
+  - a combination of we forgot and a nasty bug but we can add them if there is demand -->
 - why didn't ego do this? 
   - don't know, they did resuse some of it
 - will you do stations/weapons/engines/clusters etc?
-  - well we planned to but trying to port the clusters was a nightmare because something is  wrong with some of the shaders from xr [our attempt at the clusters](https://github.com/mewosmith/aa_xr_clusters)
+  - well we planned to but trying to port the clusters was a nightmare because something is wrong with some of the shaders from xr [our attempt at the clusters](https://github.com/mewosmith/aa_xr_clusters)
 - why doesn't the tool transfer all the XR assets? 
   - nobody has asked yet
 - x3 ships?
   - maybe? if you want to help let us know
+
 ## Bugs You Don't Even Have to Discover Yourself!
 #### Balance
     Balance and bug-fixes are an ongoing process. Please make an issue on github or nexusmods with proposed changes. 
 #### Teladi Docks
     Teladi XL have invisible placeholder docks. We have a cool plan for them but wanted to get the ships out faster.
 #### Some ships are Temporarily Disabled
-    Miners, Liquid Transports, Builders, Resuppliers, and a few unsuitable for player control ships are disabled. They will be enabled shortly. 
+    Miners, Builders, Resuppliers, and a few unsuitable for player control ships are disabled. They will be enabled shortly. 
 #### Some Cockpits/Bridges are Buried
-    Yeah, it is hard to check them all ourselves. Make an issue on github or nexusmods
+    Yeah, it is hard to check them all ourselves. Make an issue on github or nexusmods if you find one!
+
 ## Contribute to The Project
-#### Kit-bashing 
+If you want provide your own vision for balance, add a ship or ship variant, change some art assets to improve immersion, reallocate ships among the factions, or really anything else, we welcome it!  See the contribution guide [here](https://github.com/albysmith/XReborn-Ships/wiki/Contribution-Guide)
+<!-- #### Kit-bashing 
     Having the XR assets neatly packages for you and a large body of examples allows for some very easy ship creation. If you create a kit-bash we would love to include it! 
 #### Art Changes
     It is very easy to incorporate your art changes in our distribution. Just let us know and we will help.
 #### BalanceMods
     We would be happy to work with you to build and distribute your own balance overhaul or fixes. We have or can quickly make tools to do pretty much anything to these files. 
 #### Redistribute Ships Among the Factions
-    Happy to help with and distribute anyone's vision of how ships should be allocated to the factions
+    Happy to help with and distribute anyone's vision of how ships should be allocated to the factions -->
   
 |COMMON NAME|  MACROS |
 |---|---|

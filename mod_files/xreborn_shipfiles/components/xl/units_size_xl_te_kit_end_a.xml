@@ -1,114 +1,110 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="units_size_xl_te_kit_end_a" class="destructible">
 		<properties>
-			<hull max="0" integrated="1"/>
+			<hull max="0" integrated="1" />
 		</properties>
-		<source geometry="Extensions\xrt\assets\units\size_xl\construction_set\units_size_xl_te_kit_end_a_data"/>
+		<source geometry="Extensions\xrt\assets\units\size_xl\construction_set\units_size_xl_te_kit_end_a_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection01" tags="part ship_xr  ">
 				<offset>
-					<position x="-2.887899E-04" y="3.555001E-05" z="0"/>
+					<position x="-2.887899E-04" y="3.555001E-05" z="0" />
 				</offset>
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
-									<material id="2" ref="argon.ar_hulls_02"/>
-									<material id="3" ref="generic.generic_tech_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="generic.generic_tech_01" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
-									<material id="2" ref="argon.ar_hulls_02"/>
-									<material id="3" ref="generic.generic_tech_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="generic.generic_tech_01" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
-									<material id="2" ref="argon.ar_hulls_02"/>
-									<material id="3" ref="generic.generic_tech_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
+									<material id="2" ref="argon.ar_hulls_02" />
+									<material id="3" ref="generic.generic_tech_01" />
 								</materials>
 							</lod>
 							<lod index="3">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="74.83762" y="69.59454" z="415.4457"/>
-							<center x="-5.439871E-02" y="-0.3125279" z="-408.5817"/>
+							<max x="74.83762" y="69.59454" z="415.4457" />
+							<center x="-5.439871E-02" y="-0.3125279" z="-408.5817" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection02" tags="part ship_xr  ">
 				<offset>
-					<position x="0.4324139" y="5.00976E-05" z="-112.6002"/>
+					<position x="0.4324139" y="5.00976E-05" z="-112.6002" />
 				</offset>
 				<parts>
 					<part name="detail_s_main">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="1" ref="argon.ar_hulls_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="83.45775" y="77.4632" z="104.5159"/>
-							<center x="-2.938509E-05" y="2.619634E-05" z="-1.525879E-05"/>
+							<max x="83.45775" y="77.4632" z="104.5159" />
+							<center x="-2.938509E-05" y="2.619634E-05" z="-1.525879E-05" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection03" tags="part ship_xr nocollision  ">
 				<offset>
-					<position x="0.2512655" y="-13.46805" z="-457.4073"/>
+					<position x="0.2512655" y="-13.46805" z="-457.4073" />
 				</offset>
 				<parts>
 					<part name="detail_s_alpha">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="generic.generic_alphatrims_01"/>
-									<material id="2" ref="generic.generic_alphaantennas_01"/>
+									<material id="1" ref="generic.generic_alphatrims_01" />
+									<material id="2" ref="generic.generic_alphaantennas_01" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="47.61979" y="41.51858" z="345.3071"/>
-							<center x="-3.33786E-05" y="-2.479553E-05" z="0"/>
+							<max x="47.61979" y="41.51858" z="345.3071" />
+							<center x="-3.33786E-05" y="-2.479553E-05" z="0" />
 						</size>
 					</part>
 				</parts>
 			</connection>
 			<connection name="Connection04" tags="part ship_xr  ">
 				<offset>
-					<position x="-2.887899E-04" y="3.555001E-05" z="1208.685"/>
+					<position x="-2.887899E-04" y="3.555001E-05" z="1208.685" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection><connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="-200" z="0"/>
-     </offset>
-    </connection></connections>	</component>
+		</connections>
+	</component>
 </components>

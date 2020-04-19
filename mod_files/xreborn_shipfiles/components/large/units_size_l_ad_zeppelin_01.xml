@@ -1,4 +1,3 @@
-<?xml version="1.0" ?>
 <components>
 	<component name="units_size_l_ad_zeppelin_01" class="ship_l">
 		<source geometry="Extensions\xre\assets\units\size_l\units_size_l_ad_zeppelin_01_data" />
@@ -203,7 +202,7 @@
 					<quaternion qx="0.0000000754979" qy="0.0000000754979" qz="0.000000000000005699933" qw="-1" />
 				</offset>
 			</connection>
-			<connection name="engineconnection" tags="engine large">
+			<connection name="engineconnection" tags="engine large" group="group_l_engine">
 				<offset>
 					<position x="7.538531E-03" y="1.884738" z="-4.561863" />
 					<quaternion qx="1" qy="-0.0000000000000001406258" qz="0.0000000754979" qw="0.000000001862645" />
@@ -225,38 +224,39 @@
 					<position x="0" y="39.04218" z="85.46017" />
 				</offset>
 			</connection>
-			<connection name="conn_engine_01" group="group01 " tags="destructible">
+			<connection name="conn_engine_01" group="group_l_engine" tags="destructible">
 				<offset>
 					<position x="0" y="-5" z="-200" />
 				</offset>
 			</connection>
-			<connection name="conn_engine_01" group="group01 " tags="engine large">
+			<connection name="conn_engine_01" group="group_l_engine" tags="engine large">
 				<offset>
 					<position x="0" y="-5" z="-200" />
 				</offset>
 			</connection>
-			<connection name="connection_shieldgen01" group="group01 " tags="shield large">
+			<connection name="connection_shieldgen01" group="group_l_engine" tags="shield large">
 				<offset>
 					<position x="0" y="25.47622" z="-74.30804" />
 					<quaternion qx="0.00000008194134" qy="0.9848078" qz="-0.1736482" qw="0.00000002993724" />
 				</offset>
 			</connection>
-			<connection name="connection_shieldgen_external01" tags="shield large">
+			<connection name="connection_shieldgen_external01" tags="shield large" group="group_m_turret">
 				<offset>
 					<position x="-7.995239E-07" y="-46.9251" z="10.9879" />
 				</offset>
 			</connection>
-			<connection name="con_playercontrol" tags="playercontrol"></connection>
+			<connection name="con_playercontrol" tags="playercontrol" />
 			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
 				<offset>
 					<position x="0" y="41.8105" z="0" />
 				</offset>
 			</connection>
-			<connection name="con_shipstorage_xs_01" tags="dockingbay "></connection>
-		<connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="-150" z="0"/>
-     </offset>
-    </connection></connections>
+			<connection name="con_shipstorage_xs_01" tags="dockingbay " />
+			<connection name="con_countermeasures_01" tags="countermeasures ">
+				<offset>
+					<position x="0" y="150" z="0" />
+				</offset>
+			</connection>
+		</connections>
 	</component>
 </components>

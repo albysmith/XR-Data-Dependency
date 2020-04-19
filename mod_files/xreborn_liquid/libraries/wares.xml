@@ -1,153 +1,168 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <diff>
   <add sel="/wares">
-    <!-- LIQUID - UNUSED
+    <!-- LIQUID - UNUSED -->
     <ware id="units_size_l_dv_kit_new_liquid_01_ware" name="{78238230,16}" description="{78238230,17}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+      <price min="2605841" average="3065695" max="3525549" />
+      <production time="195" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="1080" />
+          <ware ware="hullparts" amount="2851" />
         </primary>
       </production>
       <component ref="units_size_l_dv_kit_new_liquid_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="split" />
+      <owner faction="alliance" />
+      <owner faction="scaleplate" />
     </ware>
-<ware id="units_size_l_liquid_freighter_ware" name="{78238230,168}" description="{78238230,169}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_kit_liquid_01_ware" name="{78238230,181}" description="{78238230,182}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="2605841" average="3065695" max="3525549" />
+      <production time="195" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
-        </primary>
-      </production>
-      <component ref="units_size_l_liquid_freighter_macro" amount="1" />
-      <restriction licence="generaluseship" />
-      <owner faction="argon" />
-    </ware>
-<ware id="units_size_l_kit_liquid_01_ware" name="{78238230,181}" description="{78238230,182}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
-        <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="1080" />
+          <ware ware="hullparts" amount="2851" />
         </primary>
       </production>
       <component ref="units_size_l_kit_liquid_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="holyorder" />
+      <owner faction="scaleplate" />
+      <owner faction="trinity" />
     </ware>
-<ware id="units_size_l_dv_kit_old_bulk_liquid_01_ware" name="{78238230,219}" description="{78238230,220}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_dv_kit_old_bulk_liquid_01_ware" name="{78238230,219}" description="{78238230,220}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="2605841" average="3065695" max="3525549" />
+      <production time="195" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="1080" />
+          <ware ware="hullparts" amount="2851" />
         </primary>
       </production>
       <component ref="units_size_l_dv_kit_old_bulk_liquid_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="alliance" />
+      <owner faction="paranid" />
+      <owner faction="scaleplate" />
+      <owner faction="trinity" />
     </ware>
-<ware id="units_size_l_dv_kit_old_liquid_01_ware" name="{78238230,235}" description="{78238230,236}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_dv_kit_old_liquid_01_ware" name="{78238230,235}" description="{78238230,236}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="2605841" average="3065695" max="3525549" />
+      <production time="195" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="1080" />
+          <ware ware="hullparts" amount="2851" />
         </primary>
       </production>
       <component ref="units_size_l_dv_kit_old_liquid_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="holyorder" />
+      <owner faction="scaleplate" />
+      <owner faction="trinity" />
     </ware>
-<ware id="units_size_m_liquid_transporter_ware" name="{78238230,251}" description="{78238230,252}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_m_liquid_transporter_ware" name="{78238230,251}" description="{78238230,252}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="177000" average="208235" max="239470" />
+      <production time="20" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="108" />
+          <ware ware="hullparts" amount="191" />
         </primary>
       </production>
       <component ref="units_size_m_liquid_transporter_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="split" />
     </ware>
-<ware id="units_size_l_dv_kit_new_bulk_liquid_01_ware" name="{78238230,281}" description="{78238230,282}" group="ships_argon" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_l_dv_kit_new_bulk_liquid_01_ware" name="{78238230,281}" description="{78238230,282}" group="ships_argon" transport="ship" volume="1" tags="ship">
+      <price min="1696396" average="1995760" max="2295124" />
+      <production time="127" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="703" />
+          <ware ware="hullparts" amount="1856" />
         </primary>
       </production>
       <component ref="units_size_l_dv_kit_new_bulk_liquid_01_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="split" />
     </ware>
-<ware id="units_size_xl_te_kit_liquid_01_ware" name="{78238230,325}" description="{78238230,326}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    <ware id="units_size_xl_te_kit_liquid_01_ware" name="{78238230,325}" description="{78238230,326}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="7755200" average="9123765" max="10492330" />
+      <production time="439" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="2428" />
+          <ware ware="hullparts" amount="8545" />
         </primary>
       </production>
       <component ref="units_size_xl_te_kit_liquid_01_macro" amount="1" />
       <restriction licence="capitalship" />
+      <owner faction="ministry" />
+      <owner faction="scaleplate" />
+      <owner faction="split" />
       <owner faction="teladi" />
-      <owne
-<ware id="units_size_m_te_liquid_01_ware" name="{78238230,347}" description="{78238230,348}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    </ware>
+    <ware id="units_size_m_te_liquid_01_ware" name="{78238230,347}" description="{78238230,348}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="226117" average="266020" max="305923" />
+      <production time="25" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="138" />
+          <ware ware="hullparts" amount="244" />
         </primary>
       </production>
       <component ref="units_size_m_te_liquid_01_macro" amount="1" />
       <restriction licence="generaluseship" />
+      <owner faction="ministry" />
+      <owner faction="scaleplate" />
+      <owner faction="split" />
       <owner faction="teladi" />
-      <owne
-<ware id="units_size_xl_te_kit_liquid_03_ware" name="{78238230,377}" description="{78238230,378}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    </ware>
+    <ware id="units_size_xl_te_kit_liquid_03_ware" name="{78238230,377}" description="{78238230,378}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="7755200" average="9123765" max="10492330" />
+      <production time="439" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="2428" />
+          <ware ware="hullparts" amount="8545" />
         </primary>
       </production>
       <component ref="units_size_xl_te_kit_liquid_03_macro" amount="1" />
       <restriction licence="capitalship" />
+      <owner faction="ministry" />
+      <owner faction="scaleplate" />
+      <owner faction="split" />
       <owner faction="teladi" />
-      <owne
-<ware id="units_size_l_te_kit_liquid_03_ware" name="{78238230,381}" description="{78238230,382}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    </ware>
+    <ware id="units_size_l_te_kit_liquid_03_ware" name="{78238230,381}" description="{78238230,382}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="2254893" average="2652815" max="3050737" />
+      <production time="169" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="935" />
+          <ware ware="hullparts" amount="2467" />
         </primary>
       </production>
       <component ref="units_size_l_te_kit_liquid_03_macro" amount="1" />
       <restriction licence="generaluseship" />
+      <owner faction="ministry" />
+      <owner faction="scaleplate" />
+      <owner faction="split" />
       <owner faction="teladi" />
-      <owne
-<ware id="units_size_xl_te_kit_liquid_02_ware" name="{78238230,385}" description="{78238230,386}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-      <price min="219" average="885" max="598" />
-      <production time="598" amount="1" method="default" name="{20206,101}">
+    </ware>
+    <ware id="units_size_xl_te_kit_liquid_02_ware" name="{78238230,385}" description="{78238230,386}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+      <price min="7755200" average="9123765" max="10492330" />
+      <production time="439" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="energycells" amount="257" />
-          <ware ware="hullparts" amount="467" />
+          <ware ware="energycells" amount="2428" />
+          <ware ware="hullparts" amount="8545" />
         </primary>
       </production>
       <component ref="units_size_xl_te_kit_liquid_02_macro" amount="1" />
       <restriction licence="capitalship" />
+      <owner faction="ministry" />
+      <owner faction="scaleplate" />
+      <owner faction="split" />
       <owner faction="teladi" />
-      <owne 
-
-     -->
- 
+    </ware>
   </add>
 </diff>

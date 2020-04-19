@@ -95,6 +95,11 @@
 					<position x="0" y="-21.30436" z="46.52599" />
 				</offset>
 			</connection>
+			<connection name="connection_weaponprim02" tags="weapon medium standard missile platformcollision">
+				<offset>
+					<position x="0" y="-21.30436" z="46.52599" />
+				</offset>
+			</connection>
 			<connection name="connection_shieldgen02" tags="shield medium unhittable">
 				<offset>
 					<position x="0.1109151" y="-16.25704" z="-5.13546" />

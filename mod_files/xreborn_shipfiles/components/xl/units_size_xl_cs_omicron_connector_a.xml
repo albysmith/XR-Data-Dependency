@@ -1,56 +1,56 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <components>
 	<component name="units_size_xl_cs_omicron_connector_a" class="destructible">
 		<properties>
-			<hull max="0" integrated="1"/>
+			<hull max="0" integrated="1" />
 		</properties>
-		<source geometry="Extensions\xre\assets\units\size_xl\construction_set\units_size_xl_cs_omicron_connector_a_data"/>
+		<source geometry="Extensions\xre\assets\units\size_xl\construction_set\units_size_xl_cs_omicron_connector_a_data" />
 		<layers>
 			<layer>
-				<waypoints/>
-				<lights/>
+				<waypoints />
+				<lights />
 			</layer>
 		</layers>
 		<connections>
-			<connection name="container" tags="contents" value="0" optional="0"/>
-			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="container" tags="contents" value="0" optional="0" />
+			<connection name="position" tags="position" value="1" optional="1" />
 			<connection name="space" tags="destructible">
-				<offset/>
+				<offset />
 			</connection>
 			<connection name="Connection01" tags="part ship_xr  ">
 				<offset>
-					<position x="5.459785E-05" y="-3.118068E-06" z="-7.629395E-06"/>
-					<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068"/>
+					<position x="5.459785E-05" y="-3.118068E-06" z="-7.629395E-06" />
+					<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068" />
 				</offset>
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01b"/>
-									<material id="2" ref="argon.ar_hullpattern_05b"/>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01b"/>
-									<material id="2" ref="argon.ar_hullpattern_05b"/>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="argon.ar_trims_01b"/>
-									<material id="2" ref="argon.ar_hullpattern_05b"/>
+									<material id="1" ref="argon.ar_trims_01b" />
+									<material id="2" ref="argon.ar_hullpattern_05b" />
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="88.02342" y="37.01441" z="32.21574"/>
-							<center x="2.622604E-06" y="1.210719E-06" z="-3.814698E-06"/>
+							<max x="88.02342" y="37.01441" z="32.21574" />
+							<center x="2.622604E-06" y="1.210719E-06" z="-3.814698E-06" />
 						</size>
 						<pivot>
 							<offset>
-								<position x="-4.716869" y="-87.55167" z="-5.522156E-02"/>
+								<position x="-4.716869" y="-87.55167" z="-5.522156E-02" />
 							</offset>
 						</pivot>
 					</part>
@@ -58,15 +58,11 @@
 			</connection>
 			<connection name="Connection02" tags="part ship_xr  ">
 				<offset>
-					<position x="5.459785E-05" y="-3.118068E-06" z="75.6925"/>
-					<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068"/>
+					<position x="5.459785E-05" y="-3.118068E-06" z="75.6925" />
+					<quaternion qx="0.7071068" qy="-0" qz="-0" qw="-0.7071068" />
 				</offset>
-				<parts/>
+				<parts />
 			</connection>
-					<connection name="con_shipstorage_xs_01" tags="dockingbay ">
-			</connection><connection name="con_countermeasures_01" tags="countermeasures ">
-     <offset>
-      <position x="0" y="-200" z="0"/>
-     </offset>
-    </connection></connections>	</component>
+		</connections>
+	</component>
 </components>
