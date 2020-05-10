@@ -1,446 +1,589 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language id="44">
     <page id="78238230" title="XRConversion" descr="TFiles from XR" voice="no">
-        <t id="1">Dwalin</t>
-        <t id="2">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
-        <t id="3">Lyranea</t>
-        <t id="4">The Lyranea freighter is built in Omicron Lyrae where it is commonly seen in use by all the trading factions. Bigger than the equivalent Albion Rahanas in terms of size and cargo-space, it is somewhat slower. It is armed for self-defence purposes with more and larger weapons turrets than its Albion equivalent. Currently configured to be able to carry all classes of wares in multipurpose storage, the Lyranea design could most probably be easily converted for more efficient carriage of single or dual classes of wares - if the commercial demand were to be there.</t>
-        <t id="9">Triath Vanguard</t>
-        <t id="10">This craft, upon introduction to the forces, was a relief to all pilots who had had to risk their lives in PMC-designed vessels. Unlike other PMC designed ships, the Triath Vanguard features a reasonably balanced acceleration, good weapon systems \(including guided missiles\), a robust design and a somewhat modern layout. With an appearance not unlike an upgraded Triath Raider, this ship is said by combat pilots who have flown it in and out of battle to 'fly like a charm and bring you home too'. Rumour has it that PMC is working on heavier craft based on the Triath Vanguard's design, the first of which being the 'Triath Sentinel' for imminent release to active duty as at the time of writing.</t>
-        <t id="11">Triath</t>
-        <t id="12">Vanguard</t>
-        <t id="13">Zepp</t>
-        <t id="14">The Zepp was designed and developed by Terracorp to carry useful information for Home of Light citizens quickly during the Dark caused by the Jump Gate shutdown. When the Gates re-awoke, individual stations also began using them for advertisements of their products, and these ships can now be found much further out in space in attempt to reach all citizens.</t>
-        <t id="15">Zepp</t>
-        <t id="16">Styrvok \(Liquid\)(used for size L)</t>
-        <t id="17">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="18">Styrvok</t>
-        <t id="19">\(Liquid\)(used for size L)</t>
-        <t id="22">Onil \(Gas\)</t>
-        <t id="23">One of the first ships to be created by Operation Cantera, the Onil could almost have been designed to withstand the natural dangers of working in a system such as DeVries. As such, and with configurations for the collection of both mineral and gaseous resources, it was the go-to vessel for mining in that area. However, it was only recently that the Republic of Cantera decided to release the ship's blueprints to the public market, in order to add a drastically-needed boost to their failing economy.</t>
-        <t id="24">Onil</t>
-        <t id="25">\(Gas\)</t>
-        <t id="26">Stromvok</t>
-        <t id="27">The Stromvok is an interesting variant of the Styrvok Freighter line designed by the Canterans and used in DeVries. It is essentially a combat variant of the freighter line with its cargo area is almost entirely replaced by an armoured fighting compartment with a mixture of different sized turrets and ordnance storage. Whilst in no way considered as a warship capable of taking on a military destroyer or even a large group of fighters all at once, it can pack a powerful defence against small raider groups. It is suitable as a convoy escort or to guard an important transport ship. A cunning captain might even rely on its similarity to a Styrvok freighter to lure a moderate raider into a close attack of what appears to be a 'helpless' target - and then show it the sharp teeth of the trap it has unwittingly entered.</t>
-        <t id="28">Rahanas \(Bulk\)(used for size L)</t>
-        <t id="29">The Rahanas Bulk Freighter is designed upon a 'Common Ground' layout and built by several contractors. It is easily recognisable due to its distinctive storage modules that can load bulk goods only; its technical specifications, however, are not so remarkable.</t>
-        <t id="30">Rahanas</t>
-        <t id="31">\(Bulk\)(used for size L)</t>
-        <t id="32">Dwalin</t>
-        <t id="33">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
-        <t id="34">Arawn</t>
-        <t id="35">One of the largest ships currently in service by any known faction, the Arawn is a highly advanced carrier, designed and first launched from Argon Prime. Its extensive weapons array - including plasma and particle weapons, as well as multi-purpose drones - gives it an edge in all tactical situations.</t>
-        <t id="36">Onil  \(Mineral\)</t>
-        <t id="37">One of the first ships to be created by Operation Cantera, the Onil could almost have been designed to withstand the natural dangers of working in a system such as DeVries. As such, and with configurations for the collection of both mineral and gaseous resources, it was the go-to vessel for mining in that area. However, it was only recently that the Republic of Cantera decided to release the ship's blueprints to the public market, in order to add a drastically-needed boost to their failing economy.</t>
-        <t id="38">Onil</t>
-        <t id="39">\(Mineral\)</t>
-        <t id="40">Gigurum  \(Liquid\)(used for size M)</t>
-        <t id="41">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Liquid Transporter is specifically designed to carry goods in their liquid state of aggregation. Freighters of this type need an official technical clearance if they are used to ship hazardous liquids and their pilots need a license. The Gigurum Liquid Transporter's distinctive storage modules make it easily discernible even from a distance. This ship is neither fast nor agile, and is completely unarmed.</t>
-        <t id="42">Gigurum</t>
-        <t id="43">\(Liquid\)(used for size M)</t>
-        <t id="44">M</t>
-        <t id="45">The M/BRANCH9, commonly referred to just as M, is a Xenon fighter patrolling the outskirts of machine territory. Although the intentions of the machines are generally unknowable, the M's sub-par engine and, for a fighter, weak weapon systems seem to suggest that this fighter is not meant to be thrown into full battle. There were, however, at least two separate incidents in which the Xenon sent large numbers of this craft into combat, probably because other options were unavailable to them at the time. Operating in large numbers, the M was able to turn the table in favour of the machines on both events despite its shortcomings.</t>
-        <t id="46">Betaver</t>
-        <t id="47">The Betaver is a basic mining vessel designed to launch mining drones for harvesting materials in their ionized and plasma-like states of aggregation. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Betaver is unarmed.</t>
-        <t id="48">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)  \(Energy\)(used for size M)</t>
-        <t id="49">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
-        <t id="50">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)</t>
-        <t id="51">\(Energy\)(used for size M)</t>
-        <t id="52">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)  \(Container\)(used for size M)</t>
-        <t id="53">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
-        <t id="54">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)</t>
-        <t id="55">\(Container\)(used for size M)</t>
-        <t id="56">Sanahar  \(Container\)(used for size M)</t>
-        <t id="57">The Sanahar was created in reaction to the explosion in popularity of the 'Common Ground' design, providing traders with a smaller, faster alternative when it comes to container transport.</t>
-        <t id="58">Sanahar</t>
-        <t id="59">\(Container\)(used for size L)</t>
-        <t id="60">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)  \(Bulk\)(used for size M)</t>
-        <t id="61">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
-        <t id="62">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)</t>
-        <t id="63">\(Bulk\)(used for size M)</t>
-        <t id="64">Katana</t>
-        <t id="65">The Katana is a fighter first deployed during the Terran Conflict. Once the cutting-edge of Terran engineering it is now technically average. About two decades ago the then newly launched Cantera Operation acquired a small fleet of used Katanas for security patrols after survey ships reported possible sightings of distant Argon ships in DeVries. The Republic of Cantera's Katana fleet is considered their greatest defensive asset and remains well maintained.</t>
-        <t id="66">Styrvok  \(Container\)(used for size L)</t>
-        <t id="67">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="68">Styrvok</t>
-        <t id="69">\(Container\)(used for size L)</t>
-        <t id="70">Drostan</t>
-        <t id="71">This ship is neither agile nor fast and needs to be protected at all times. However, it features sophisticated torpedo launchers and, for all intents and purposes, constitutes a bomber. It is mainly used against ground installations but can as well attack and swiftly destroy large orbital complexes. During the Fourth Xenon Uprising \(which later came to be known as the 'IRQ4 conflict'\), several Drostan class bombers laid waste to two off-ecliptic Xenon power stations. All of the Drostan returned, with not a single casualty. The Drostan is an important tactical asset.</t>
-        <t id="72">Lyramekron</t>
-        <t id="73">The Lyramekron is an interesting ship type designed and built in Omicron Lyrae. It is primarily an armed freighter but is largely constructed using the same parts and sections as the Olmekron destroyer type and so keeps that ship's distinctively large and angular 'Y' shape. The Lyramekron is employed by most major factions in Omicron Lyrae for delivery duties where hostilities are expected. Its relatively large size has allowed the fitting of technologically-advanced weaponry and defences almost on a par with those of a destroyer; it is even stated in its advertising that one fully-outfitted Lyramekron should shrug off an attack by a Xenon K with its typical fighter escort. Pirates looking for a victim, even if not deterred by something that looks very like an Olmekron destroyer, should find this freighter to be far more than they can cope with. However, its large size meanwhile hinders its speed and agility somewhat when compared to other large freighters. Paradoxically despite its overall size being much larger than the Lyranea freighter, its copious defence installations and the angular hull design restrict its potential freight storage to no more than that of the smaller Lyranea freighter.</t>
-        <t id="74">Dwalin</t>
-        <t id="75">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
-        <t id="76">Dwalin</t>
-        <t id="77">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
-        <t id="78">Construction Vessel</t>
-        <t id="79">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
-        <t id="80">Fedhelm</t>
-        <t id="81">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
-        <t id="82">Triath  Raider</t>
-        <t id="83">The Triath Raider, while not a bad ship per se, does lack tactical capabilities due to its somewhat weak weapon system. As such, it's clearly the kind of design one would expect from PMC. Experts have no doubt about this; it is quite unlike the Golem and Moebius which couldn't have been designed by PMC alone. The Triath Raider is mainly used for patrolling undisputed territory but also used for scout and reconnaissance missions.</t>
-        <t id="84">Triath</t>
-        <t id="85">Raider</t>
-        <t id="86">Scaldis</t>
-        <t id="87">The Scaldis is a freighter designed upon a so called 'Common Ground' layout \(a multi-species common property platform established by the Alliance of the Word\), and manufactured by several contractors across all known sectors. It has weak engines and no real combat-worthy weapon, but it still remains popular due to its great cost-benefit factor.</t>
-        <t id="88">Styrvok \(Bulk\)(used for size L)</t>
-        <t id="89">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="90">Styrvok</t>
-        <t id="91">\(Bulk\)(used for size L)</t>
+    <!-- SMALL SHIPS -->
+        <!-- units_size_s_canteran_fighter_01_macro -->
+        <t id="20">Hayabusa</t> 
+        <t id="21">The Hayabusa is the most commonly-observed fighter within the confines of the Republic of Cantera. Initially a small mining survey ship, the Hayabusa was retrofitted to a combat role to defend against the Reivers. The Hayabusa has good acceleration for a ship its size, while its manoeuvrability is only average. Its weapon systems are at best described as weak. Just like the Daito, the Hayabusa is a good choice for day-to-day patrolling duties but is only second-best when it comes to combat.</t>
+        <!-- units_size_s_pmc_xen_01_macro -->
+        <t id="175">Moebius</t> 
+        <t id="176">The Moebius, apparently, is a smaller version of the Golem and, as such, shares much of its splendid technology. Generally what can be said about its larger sibling is also true with regard to the Moebius. Its manoeuvrability and thrust-to-payload ratio are each one of a kind, leading this class of ship, and its handsome weapon array outshines similar ships with ease. It is, however, not clear how PMC - a company better known for crude mining operations than the design of elegant and powerful warships - was able to acquire the Moebius' design plans. One thing is clear to experts: PMC could not have it done it all by themselves.</t>
+        <!-- units_size_s_ship_01_macro -->
+        <t id="142">Orlam</t> 
+        <t id="143">Ledda Industrial, another spin-off of the now-disbanded Jonferson Space Dynamics Division, manufactures this fast ship to custom order. Powered by M-AM/AM-M conversion technology, this otherwise pretty unremarkable craft derives a small advantage in range from its engine system. The Orlam's tactical use is very limited. It is, however, 'nice to look at' as pilots across sectors mockingly note. It is mainly used for low-priority escort missions.</t>
+        <!-- units_size_s_ship_02_macro -->
+        <t id="225">Talorcan</t> 
+        <t id="226">With its basic layout unchanged for more than two decades, the Talorcan has seen only minor technical revisions since its introduction by JSDD. Originally intended as an escort vessel for diplomatic missions, the Albion Energy Subsidiary acquired the design plans for this type of vessel to serve on a number of different tasks. Though still used as an escort for larger ships, it's frequently sent on scouting and reconnaissance missions, used for scientific observations, and at times, as a means of fast transportation for high ranking officials of the firm.</t>
+        <!-- units_size_s_ship_03_macro -->
+        <t id="171">Ossian</t> 
+        <t id="172">Originally intended as a fast courier ship, the Ossian is mainly used these days as an escort on diplomatic missions of very low priority, or on scouting missions when the success of the task at hand may depend on manoeuvrability and speed. The tactical capabilities of the Ossian are severely limited by its for all intents and purposes nonexistent offensive weaponry. This fighter is sometimes called 'the tin can' or, more poignantly, 'the death trap'; the latter refers to the fact that during the last half decade more pilots have died in this ship alone than in all other similarly sized crafts of all factions put together. Most of those deaths occurred outside of combat.</t>
+        <!-- units_size_s_ship_04_macro -->
+        <t id="7">Artio</t> 
+        <t id="8">This unique ship undeniably looks like a pimped-up hovercraft - only that it's not. Designed by Beryll Astrotech - the successor organisation of the then illegal Beryll hi-tech syndicate - the Artio builds on technology gleaned from Terraformer artefacts, like much of the machinery and ships manufactured by Beryll Astrotech. The Artio has only a 'token weapon' which makes it basically unfit for combat. However, with its highly responsive main and attitude thrusters, this little craft is extremely well suited for covert operations near or between orbital installations.</t>
+        <!-- units_size_s_ship_05_macro -->
+        <t id="5">Vasio</t> 
+        <t id="6">As with most vessels employed by the Albion Energy Subsidiary, the Vasio is no exception in that its design had been acquired from Jonferson Space Dynamics Division \(JSDD\) shortly before the Fall of the Gates. Unlike other AES ships, however, it has since received a major technical overhaul, especially with regards to its weapon systems.  The Vasio's good manoeuvrability and potent weapons make it a natural choice for important escort missions.</t>
+        <!-- units_size_s_ship_07_macro -->
+        <t id="217">Nechtan</t> 
+        <t id="218">Although considerably larger than its sibling and just as agile, the Nechtan does not improve much on tactical capability when compared to the Artio. A saying amongst BA pilots states that, although it looks like a fighter, 'the Nechtan can run, but it can never fight'.  This is only partially true, as was proven in the 'Split Blitz' operation following the 'Split Downtime', where three Nechtans alone managed to incapacitate a Carrier \(but were, unfortunately, destroyed shortly after this remarkable and unexpected victory\).</t>
+        <!-- units_size_s_ship_19_macro -->
+        <t id="126">Hesus</t> 
+        <t id="127">This is a solid no-nonsense ship that is mainly used for missions of high importance, e.g. escorting the Head of State on interplanetary diplomatic journeys. Its high manoeuvrability and powerful engines give it an edge over many other vessels of its class. When one or more Hesus are observed within a sector, it is immediately known that an important political event must be taking place shortly somewhere nearby. Because of this, the Hesus is commonly known as a harbinger of peace - or of war.</t>
+        <!-- units_size_s_ship_23_macro -->
+        <t id="291">Birog</t> 
+        <t id="292">The Birog is, as some say, 'good for avoiding a fight'. Although capable of reasonable acceleration and with acceptable manoeuvrability, its standard weapon system is too weak to be of practical use in any serious combat situation. The Birog is therefore mainly used as an escort ship, or as a guard of honour at the arrival of foreign dignitaries.</t>
+        <!-- units_size_s_ship_ar_military_01_macro -->
+        <t id="136">Camulos Raider</t> 
+        <t id="137">The Camulos Raider is a fighter craft featuring better-than-average acceleration and manoeuvrability, as well as good or average weapon systems. As with all vessels manufactured by Jonferson Space Systems, this ship is based on two-way antimatter conversion technology \(M-AM/AM-M\). When Jonferson Space Dynamics Division \(JSDD\) disbanded right after the Fall of the Gates, several of the firm's subsidiaries located in different sectors continued operations on their own. Jonferson Space Systems is the largest of them. Common to all subsidiaries was JSDD's head start in M-AM/AM-M conversion. Despite many efforts of competitors to reverse-engineer or just steal it, this innovation \(called a 'tech miracle' by some\) has remained firmly with the JSDD subsidiaries.</t>
+        <t id="138">Camulos</t>
+        <t id="139">Raider</t>
+        <!-- units_size_s_ship_ar_military_02_macro -->
+        <t id="309">Camulos Vanguard</t> 
+        <t id="310">Based on advanced M-AM/AM-M conversion, as are most vessels manufactured by JSS, the Camulos Vanguard is similar to its sibling the Camulos Raider except that it trades-off better armament for acceleration capabilities. The Camulos Vanguard is one of the stronger escort ships and often used on missions it wasn't originally intended for. Its tactical capabilities are notoriously underestimated.</t>
+        <t id="311">Camulos</t>
+        <t id="312">Vanguard</t>
+        <!-- units_size_s_ship_ar_military_03_macro -->
+        <t id="247">Camulos Sentinel</t> 
+        <t id="248">Similar to both the Camulos Raider and the Camulos Vanguard, the Camulos Sentinel is easily one of the best-armed fighters of the JSS fleet. Surprisingly, trading off acceleration and manoeuvrability for the mass of a large dumbfire missile arsenal does not take the edge off this infamous ship; the opposite is the case. With its additional potent energy weapon array, the Camulos Sentinel has proven an invaluable asset during many a battle. Its role in the Fourth Xenon Uprising \(also known as 'IRQ4 conflict'\) cannot be overstated.</t>
+        <t id="249">Camulos</t>
+        <t id="250">Sentinel</t>
+        <!-- units_size_s_ship_ar_military_04_macro -->
+        <t id="243">Foltor Raider</t> 
+        <t id="244">Although similar in appearance to the Camulos Raider, the Foltor Raider's technological design philosophy follows a completely different path. While the Camulos Raider, like its cousins, is based on JSS's proprietary M-AM/AM-M conversion technology, the Foltor Raider achieves similar results by its exceedingly efficient use of more conventional technology. Equipped with only an average array of weapons, the Foltor Raider's heavy thrusters nevertheless generate enough thrust to compete with much smaller vessels.  Owing to the fast response of its attitude jets, the Foltor Raider is surprisingly agile for a ship of its size.</t>
+        <t id="245">Foltor</t>
+        <t id="246">Raider</t>
+        <!-- units_size_s_ship_ar_military_05_macro -->
+        <t id="148">Foltor Vanguard</t> 
+        <t id="149">The Foltor Vanguard is often regarded as the big brother of the Foltor Raider. Similar in design, the Foltor Vanguard features an impressive array of weapons for a ship its size but is slightly lacking in its manoeuvrability. It is mainly used as a sector patrol ship but has occasionally been deployed in heavy combat situations.</t>
+        <t id="150">Foltor</t>
+        <t id="151">Vanguard</t>
+        <!-- units_size_s_ship_ar_military_06_macro -->
+        <t id="128">Foltor Sentinel</t>
+        <t id="129">Another sibling of the Foltor family, the Foltor Sentinel has also been designed from ground up for the sole use by the Argon Military. As the newest addition to its class, the Foltor Sentinel features energy weapons only, but no missiles. Many regard this as a design flaw, while actually, the trade-off in total mass provides for better acceleration and attitude control than otherwise would have been possible.</t>
+        <t id="130">Foltor</t>
+        <t id="131">Sentinel</t>
+        <!-- units_size_s_ship_ar_military_07_macro -->
+        <t id="160">Eterscel Raider</t>
+        <t id="161">One of few craft in service with Heart of Albion that wasn't designed \(or stolen\) by Albionmetals. Instead it is manufactured by Theonray Defence Systems as that firm's only completely space-ready defence system product. Its armament is relatively weak but it is outfitted with a solid single-block Eterscel engine that has been praised as being an indestructible workhorse. This innovative engine is of a very unique design indeed; it can be lifted from one craft and mated with another \(even of a different type\) within less than two hours. Originally intended as a reconnaissance craft with limited tactical capabilities, the Eterscel Raider is nowadays mainly used a sector patrol craft.</t>
+        <t id="162">Eterscel</t>
+        <t id="163">Raider</t>
+        <!-- units_size_s_ship_ar_military_08_macro -->
         <t id="92">Eterscel Vanguard</t>
         <t id="93">Also manufactured by Theonray Defence Systems, the Eterscel Vanguard, unlike the Eterscel Raider, is not delivered as a space-ready system per se. It is BTO \(built to order\) and can be outfitted with a selection from two different hulls, one or two Eterscel single-block engines, and a range of weapons. As ordered by Heart of Albion, the Eterscel Vanguard is quite similar to the Eterscel Raider trading off lower acceleration parameters against the larger mass of its improved armament and different hull. Pilots across sectors are full of praise for the 'Eterscel' line of craft, particularly for its name-giving engines. It is very sought-after by privateers and achieves stellar prices on the used vehicle market.</t>
         <t id="94">Eterscel</t>
         <t id="95">Vanguard</t>
-        <t id="96">Construction Vessel</t>
-        <t id="97">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
-        <t id="98">Gigurum \(Container\)(used for size M)</t>
-        <t id="99">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Container Transporter is specifically designed to carry containers, as is easily discernible by its distinctive arrangement of storage modules. This freighter is neither fast nor agile, and it is completely unarmed. It has, however, become the standard mode of transportation for containers throughout all sectors.</t>
-        <t id="100">Gigurum</t>
-        <t id="101">\(Container\)(used for size M)</t>
-        <t id="102">Boann</t>
-        <t id="103">First designed and released by TerraCorp, this ship is now in production by a number of manufacturers across all sectors, most notably, Albionmetals. It is a hydrogen mining vessel that has seen many revisions since its initial introduction; its basic parameters, however, remain unchanged. Although capable of launching mining drones, the thrust-to-payload ratio of the Boann is low, and so is its manoeuvrability. Its weapon systems are not intended for tactical use - as can be expected from a commercial mining vessel.</t>
-        <t id="104">Titurel</t>
-        <t id="105">Not much is known about this powerful armed-Freighter, except that it appears to be beyond the manufacturing capabilities of the Reivers themselves. Experts assume that the Reivers have a limited number of these ships which they have maintained over the decades since the Fall of the Gates. To the present day, the Titurel's origin remains a mystery that many factions would like to see solved.</t>
-        <t id="106">Rahanas  \(Container\)(used for size L)</t>
-        <t id="107">The Rahanas Container Freighter is designed upon a 'Common Ground' layout and built by several contractors. It is easily recognisable due to its distinctive storage modules that can load containers only; its technical specifications are unremarkable at best but 'it gets the job done' as pilots note.</t>
-        <t id="108">Rahanas</t>
-        <t id="109">\(Container\)(used for size L)</t>
-        <t id="110">Bonescout</t>
-        <t id="111">Named after the vessel of late Cho t'Nnt, a folk hero amongst virtually all Split, this class of ship is small and fast but, due to its very weak weaponry, nearly useless in combat. Only the fierce determination of its Split pilots, many of whom have used the Bonescout in kamikaze attacks, can turn this small craft into a formidable weapon.</t>
-        <t id="112">Rahanas  \(Energy\)(used for size L)</t>
-        <t id="113">The Rahanas Energy Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither very agile nor capable of fast acceleration. Its intended \(and only\) use is the transport of energy cells and it is easily recognisable by its distinctive storage modules.</t>
-        <t id="114">Rahanas</t>
-        <t id="115">\(Energy\)(used for size L)</t>
-        <t id="116">K</t>
-        <t id="117">Descendant from the original Terraformers released by Earth about a millennium ago, the Xenon underwent many waves of machine evolution. Mechano-taxonometrists are fairly certain that the line of TF/Xenon present in the known sectors today belong to the ninth diversification branch \(of roughly 27\). The K/BRANCH9 - commonly referred to as just K - is a large destroyer with decent manoeuvrability and an above average weapons system.</t>
-        <t id="118">Daito</t>
-        <t id="119">Based on the Katana, the Daito is the first new ship design from the Republic of Cantera Shipwrights for a decade. Often running trials and undergoing revisions and updates, this vessel is not as durable as its older cousin by a far stretch and it usually looks that way too. With average acceleration and manoeuvrability, its weak weapon systems makes it second choice at best when it comes to tactical situations.</t>
-        <t id="120">Betaver</t>
-        <t id="121">The Betaver is a basic mining vessel designed to launch mining drones for harvesting materials in their ionized and plasma-like states of aggregation. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Betaver is unarmed.</t>
-        <t id="122">Styrvok  \(Bulk\)(used for size L)</t>
-        <t id="123">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="124">Styrvok</t>
-        <t id="125">\(Bulk\)(used for size L)</t>
-        <t id="128">Foltor  Sentinel</t>
-        <t id="129">Another sibling of the Foltor family, the Foltor Sentinel has also been designed from ground up for the sole use by the Argon Military. As the newest addition to its class, the Foltor Sentinel features energy weapons only, but no missiles. Many regard this as a design flaw, while actually, the trade-off in total mass provides for better acceleration and attitude control than otherwise would have been possible.</t>
-        <t id="130">Foltor</t>
-        <t id="131">Sentinel</t>
-        <t id="132">Lepton</t>
-        <t id="133">Like most vessels in service with the Republic of Cantera, the Lepton does not quite size up with other ships of its class. This freighter has somewhat outdated hydrogen-fusion main thrusters allowing only moderate acceleration and manoeuvrability. Its token weapon is not worth mentioning.</t>
-        <t id="134">I</t>
-        <t id="135">Descended from the original Terraformers released by Earth about a millennium ago, the Xenon underwent many waves of machine evolution. Mechano-taxonometrists are fairly certain that the line of TF/Xenon present in the known sectors today belong to the ninth diversification branch \(of roughly 27\). The I/BRANCH9 - commonly referred to as just I - is probably the largest warship in the known galaxy. So far, it has only been spotted from great distances as nobody has lived through any closer encounter with it. It is therefore anticipated to be a most fearsome machine that, even if alone, has little to fear from other single capital ships or even modest fleets. Nothing more is really known about it yet rumour about it and paranoid false-sighting reports are rife. So far, and most fortunately, it has not been reliably reported to be seen venturing outside of Xenon core sectors. Indeed, it is not known if more than one of these behemoth war machines actually exists.</t>
-        <t id="138">Camulos</t>
-        <t id="139">Raider</t>
-        <t id="140">Taranis</t>
-        <t id="141">When the Plutarch Mining Corporation \(PMC\) first released this type of destroyer into service, there weren't many other ships in its class that could compete with the Taranis' massive armoury and powerful turrets. Even though regarded as slightly clumsy by some with respect to manoeuvrability, this classic destroyer is a heavy-hitter - 'flies like a brick, kills like a blade' is a common saying among combat pilots that have flown the Taranis. Although mainly used for sector patrol along highly disputed borders or other such areas, this ship is no stranger to battle. It has great tactical value and has been copied by other manufacturers.</t>
-        <t id="144">Styrvok  \(Container &amp; Energy\)(used for size L)</t>
-        <t id="145">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="146">Styrvok</t>
-        <t id="147">\(Container &amp; Energy\)(used for size L)</t>
-        <t id="148">Foltor  Vanguard</t>
-        <t id="149">The Foltor Vanguard is often regarded as the big brother of the Foltor Raider. Similar in design, the Foltor Vanguard features an impressive array of weapons for a ship its size but is slightly lacking in its manoeuvrability. It is mainly used as a sector patrol ship but has occasionally been deployed in heavy combat situations.</t>
-        <t id="150">Foltor</t>
-        <t id="151">Vanguard</t>
-        <t id="152">Gigurum  \(Bulk\)(used for size M)</t>
-        <t id="153">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Bulk Transporter is designed to transport bulk goods cut and packaged into distinctive storage modules of specified dimensions. With its line of freighters, Gigurum have brought the concept of bulk ware to its logical extremes. At first, there was plenty of resistance against the very restricted formats of goods that could be transported. Over time, however, the concept proved extremely efficient and became the preferred method of transportation for all kinds of bulk goods across the sectors. The Gigurum Bulk Transporter is not fast, and not at all agile, and is completely unarmed. It has, however, become indispensible in today's world of effective and cheap bulk good transportation.</t>
-        <t id="154">Gigurum</t>
-        <t id="155">\(Bulk\)(used for size M)</t>
-        <t id="156">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)  \(Bulk\)(used for size M)</t>
-        <t id="157">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
-        <t id="158">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)</t>
-        <t id="159">\(Bulk\)(used for size M)</t>
-        <t id="160">Eterscel  Raider</t>
-        <t id="161">One of few craft in service with Heart of Albion that wasn't designed \(or stolen\) by Albionmetals. Instead it is manufactured by Theonray Defence Systems as that firm's only completely space-ready defence system product. Its armament is relatively weak but it is outfitted with a solid single-block Eterscel engine that has been praised as being an indestructible workhorse. This innovative engine is of a very unique design indeed; it can be lifted from one craft and mated with another \(even of a different type\) within less than two hours. Originally intended as a reconnaissance craft with limited tactical capabilities, the Eterscel Raider is nowadays mainly used a sector patrol craft.</t>
-        <t id="162">Eterscel</t>
-        <t id="163">Raider</t>
-        <t id="164">Gigurum  \(Energy\)(used for size M)</t>
-        <t id="165">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Energy Transporter is specifically designed to carry energy-loaded goods. Since chemical and/or nuclear energy cells can pose dangers to populations and ecosystems, this type of heavy freighter must be licensed for the transportation of hazardous materials; it also has to undergo regular technical inspection to keep the licence. Piloting this type of ship needs a special licence on the part of the pilot. The Gigurum Energy Transporter is neither fast nor agile, and is completely unarmed.</t>
-        <t id="166">Gigurum</t>
-        <t id="167">\(Energy\)(used for size M)</t>
-        <t id="168">Hermod</t>
-        <t id="169">The Hermod is a freighter employed by the Republic of Cantera. According to its construction design, its sole purpose is the transport of goods in their liquid state of aggregation. It is poor in both acceleration and deceleration and its manoeuvrability is equally poor. It has just a token weapon of no tactical value. Its only real means of defence, therefore, is the unimportance of the Republic of Cantera.</t>
-        <t id="170">\(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="173">Unidentified Flying Object</t>
-        <t id="174">No information available.</t>
-        <t id="177">Construction Vessel</t>
-        <t id="178">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
-        <t id="179">Olmekron</t>
-        <t id="180">The Olmekron destroyer was designed and is built in Omicron Lyrae where its large and angular 'Y' shape is a common and reassuring sight. It is commonly employed by the Argon government and Jonferson Space Systems for escort and peacekeeping duties. Its relatively large size for a destroyer means some loss of speed and acceleration in comparison with other destroyers, but it is certainly on a par with them in terms of firepower as its weapon systems are quite technologically advanced in comparison. If it has a weakness, it is that its angular hull design offers less room for drone storage than many other destroyers.</t>
-        <t id="181">Rahanas  \(Liquid\)(used for size L)</t>
-        <t id="182">The Rahanas Liquid Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither agile nor capable of fast acceleration. Its intended \(and only\) use is the transport of goods in a liquid state of aggregation. It is easily recognisable by its distinctive storage modules.</t>
-        <t id="183">Rahanas</t>
-        <t id="184">\(Liquid\)(used for size L)</t>
-        <t id="185">Skull Crusher</t>
-        <t id="186">As with many ships used today by Family Ryak, the Skull Crusher \(often referred to as 'Scorpion' by the Argon Military\), is an ancient piece of technology bolted together from scrap parts using spit and good faith. Due to its superiority back when first introduced before the Fall Of The Gates, this ship, when maintained properly, can be held up to even some modern fighters. It has reasonably responsive main thrusters giving it good acceleration but is somewhat lacking in manoeuvrability. Its armament is average at best but here, just as with the Bonescout, Split determination makes up for material shortcomings.</t>
-        <t id="187">Heavy Sul</t>
-        <t id="188">Significantly larger than the Light Sul, the Heavy Sul has also improved on armament over its older sibling. While manoeuvrability may not be essential for a carrier, good acceleration certainly is. Regrettably, the Heavy Sul does not deliver in this regard either; sometimes, it is thus mockingly called 'Lazy Sul' by friendly and enemy combatants alike. The PMC military advisory board actively prosecutes occurrences of this sort of slander, as it is perceived as eroding crew morale.</t>
-        <t id="189">Domelch</t>
-        <t id="190">This ship is frequently observed patrolling Reiver border sectors but it has also been used as a fast reconnaissance craft inside foreign sectors. Although not as agile as other craft of this class, the Domelch's high-acceleration engines make it hard to seek and destroy and thus, despite its below-average weapons systems, it is a natural choice for quick in-and-out missions to enemy territory.</t>
-        <t id="191">Rahanas  \(Container\)(used for size L)</t>
-        <t id="192">The Rahanas Container Freighter is designed upon a 'Common Ground' layout and built by several contractors. It is easily recognisable due to its distinctive storage modules that can load containers only; its technical specifications are unremarkable at best but 'it gets the job done' as pilots note.</t>
-        <t id="193">Rahanas</t>
-        <t id="194">\(Container\)(used for size L)</t>
-        <t id="195">Styrvok  \(Energy\)(used for size L)</t>
-        <t id="196">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="197">Styrvok</t>
-        <t id="198">\(Energy\)(used for size L)</t>
-        <t id="199">Construction Vessel</t>
-        <t id="200">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
-        <t id="201">Hymir</t>
-        <t id="202">The Hymir is a basic mining vessel designed to launch mining drones for harvesting liquids or gasses in their solid state of aggregation \(ice\), but it is also equipped with a mining/drilling laser. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Hymir is unarmed.</t>
-        <t id="203">Fedhelm</t>
-        <t id="204">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
-        <t id="205">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)  \(Energy\)(used for size M)</t>
-        <t id="206">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
-        <t id="207">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)</t>
-        <t id="208">\(Energy\)(used for size M)</t>
-        <t id="209">N</t>
-        <t id="210">The N/BRANCH9 is another patrol ship in service with the Xenon. Commonly known as N, this vessel can't be held up against most other fighters with its average agility and below average weapon systems. The Xenon, however, are quite capable and willing to throw hundreds or thousands of Ns into a battle, if necessary. Just as with the other ships employed by the machines, it is not known where its production facilities are located; this is a secret all non-machine factions would like to see exposed.</t>
-        <t id="211">Sucellus</t>
-        <t id="212">While the Sucellus rarely sees serious combat, it has come to be seen as a symbol of security for the Canteran people. One of the better maintained relics of the Terran era, this ship usually patrols close to stations to keep up a strong visual presence to both the Canterans and Reivers. The Sucellus' acceleration is average, and its agility is severely hindered by its sub-par attitude thrusters. Despite all of this, pilots who have flown this ship for some time usually come to love it for its reliability.</t>
-        <t id="213">Stromvok</t>
-        <t id="214">The Stromvok is an interesting variant of the Styrvok Freighter line designed by the Canterans and used in DeVries. It is essentially a combat variant of the freighter line with its cargo area is almost entirely replaced by an armoured fighting compartment with a mixture of different sized turrets and ordnance storage. Whilst in no way considered as a warship capable of taking on a military destroyer or even a large group of fighters all at once, it can pack a powerful defence against small raider groups. It is suitable as a convoy escort or to guard an important transport ship. A cunning captain might even rely on its similarity to a Styrvok freighter to lure a moderate raider into a close attack of what appears to be a 'helpless' target - and then show it the sharp teeth of the trap it has unwittingly entered.</t>
-        <t id="215">Fedhelm</t>
-        <t id="216">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
-        <t id="219">Styrvok  \(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="220">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="221">Styrvok</t>
-        <t id="222">\(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="223">Light Sul</t>
-        <t id="224">The Light Sul is, by all measures and standards, pretty average for a carrier. The reason for its obvious shortcomings can be found in the limited budget available to the PMC advisory board during the design phase of this ship. The reason for the then low budget was the uncertaintly on how the resources of Albion would support a stranded population and their infrastructure. With PMC now dominant, the Light Sul continues to play a major role in consolidating their position of power.</t>
-        <t id="227">Gangrene Chaser</t>
-        <t id="228">Formerly classified as Raptor by Argon forces, the actual name of this class of vessel, when translated back from the Split language, makes one wish not to have translated it in the first place - 'Gangrene Chaser' is about as unpicturesque as it gets with the Split. Technically, this craft has not been overhauled in more than a decade and thus is no match for modern destroyers.</t>
-        <t id="229">Fedhelm</t>
-        <t id="230">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
-        <t id="231">Styrvok  \(Energy\)(used for size L)</t>
-        <t id="232">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="233">Styrvok</t>
-        <t id="234">\(Energy\)(used for size L)</t>
-        <t id="235">Styrvok  \(Liquid\)(used for size L)</t>
-        <t id="236">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="237">Styrvok</t>
-        <t id="238">\(Liquid\)(used for size L)</t>
-        <t id="239">Gigurum  \(Bulk\)(used for size M)</t>
-        <t id="240">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Bulk Transporter is designed to transport bulk goods cut and packaged into distinctive storage modules of specified dimensions. With its line of freighters, Gigurum have brought the concept of bulk ware to its logical extremes. At first, there was plenty of resistance against the very restricted formats of goods that could be transported. Over time, however, the concept proved extremely efficient and became the preferred method of transportation for all kinds of bulk goods across the sectors. The Gigurum Bulk Transporter is not fast, and not at all agile, and is completely unarmed. It has, however, become indispensible in today's world of effective and cheap bulk good transportation.</t>
-        <t id="241">Gigurum</t>
-        <t id="242">\(Bulk\)(used for size M)</t>
-        <t id="243">Foltor  Raider</t>
-        <t id="244">Although similar in appearance to the Camulos Raider, the Foltor Raider's technological design philosophy follows a completely different path. While the Camulos Raider, like its cousins, is based on JSS's proprietary M-AM/AM-M conversion technology, the Foltor Raider achieves similar results by its exceedingly efficient use of more conventional technology. Equipped with only an average array of weapons, the Foltor Raider's heavy thrusters nevertheless generate enough thrust to compete with much smaller vessels.  Owing to the fast response of its attitude jets, the Foltor Raider is surprisingly agile for a ship of its size.</t>
-        <t id="245">Foltor</t>
-        <t id="246">Raider</t>
-        <t id="251">Gigurum  \(Liquid\)(used for size M)</t>
-        <t id="252">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Liquid Transporter is specifically designed to carry goods in their liquid state of aggregation. Freighters of this type need an official technical clearance if they are used to ship hazardous liquids and their pilots need a license. The Gigurum Liquid Transporter's distinctive storage modules make it easily discernible even from a distance. This ship is neither fast nor agile, and is completely unarmed.</t>
-        <t id="253">Gigurum</t>
-        <t id="254">\(Liquid\)(used for size M)</t>
-        <t id="255">Nudung</t>
-        <t id="256">The Nudung is a basic mining vessel designed to launch mining drones for harvesting matter in a gas-like state of aggregation; it is mostly used to harvest hydrogen or other light technical gases. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Nudung is unarmed.</t>
-        <t id="257">Eterscel  Sentinel</t>
+        <!-- units_size_s_ship_ar_military_09_macro -->
+        <t id="257">Eterscel Sentinel</t>
         <t id="258">Outfitted with two Eterscel solid-block low-maintenance engines, the Eterscel Sentinel is nearly as agile and fast as its little brother, the Eterscel Vanguard - but not quite, due to its more massive weapon array and larger hull. As with all ships of the 'Eterscel' line, the Eterscel Sentinel remains very popular outside military circles, even a decade after its original introduction.</t>
         <t id="259">Eterscel</t>
         <t id="260">Sentinel</t>
+        <!-- units_size_s_ship_pirate_01_macro -->
+        <t id="189">Domelch</t>
+        <t id="190">This ship is frequently observed patrolling Reiver border sectors but it has also been used as a fast reconnaissance craft inside foreign sectors. Although not as agile as other craft of this class, the Domelch's high-acceleration engines make it hard to seek and destroy and thus, despite its below-average weapons systems, it is a natural choice for quick in-and-out missions to enemy territory.</t>
+        <!-- units_size_s_ship_pirate_02_macro -->
         <t id="261">Cennelath</t>
         <t id="262">The Cennelath is a fighter employed by the Reivers. It's not the fastest ship of the fleet, but it is reasonably agile and well armed, including an array of dumbfire missiles. In the early days of conflict against the Canterans, the Cennelath excelled in stalking their ships in asteroid fields.</t>
+        <!-- units_size_s_ship_pirate_03_macro -->
         <t id="263">Maelchon</t>
         <t id="264">Bearing the distinctive red painting seen on most Reiver combat vessels, the Maelchon is an advanced fighter with its main engine apparently based on an as-of-now undisclosed antimatter conversion technology. Since it is carrying an array of guided missiles, its acceleration parameters are not as good as one might expect. However, its low-latency attitude thrusters easily counter this flaw by offering great manoeuvrability. The Maelchon is almost exclusively used on patrol missions.</t>
-        <t id="265">Balor</t>
-        <t id="266">The Balor is a relatively modern frigate built by the contractor Albionmetals. It is small and agile due to its responsive and powerful main engine and attitude thrusters. Although its weapons systems are regarded as average compared to other frigates, they are still quite formidable for a ship that small. The Balor has an elaborate ejection mechanism that can deliver torpedoes to within a meter's range of the projected target area from as far as a half light-second away. The vessel is capable of performing complex missions on its own, specialising in the delivery of torpedoes.</t>
-        <t id="267">Styrvok  \(Container\)(used for size L)</t>
-        <t id="268">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="269">Styrvok</t>
-        <t id="270">\(Container\)(used for size L)</t>
-        <t id="271">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)  \(Liquid\)(used for size M)</t>
-        <t id="272">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
-        <t id="273">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)</t>
-        <t id="274">\(Liquid\)(used for size M)</t>
-        <t id="275">Fulmekron</t>
-        <t id="276">The Fulmekron destroyer is a rarer and even larger sister to the already large Olmekron destroyer built and commonly used in Omicron Lyrae. It keeps the angular 'Y' shape of its sister ship but is even bigger and more formidable-looking; it is the largest non-Xenon destroyer known to be in production. It is employed, albeit rarely, by the Argon government and by Jonferson Space Systems as a prestige escort, as an ultimate defence and for punitive attack duties. Its size hinders its acceleration, speed and manoeuvrability, but its greater bulk allows it to house even more technologically advanced weapon systems than the Olmekron. If it has a weakness outside of its speed and agility, it is that, like its sister the Olmekron, its angular hull design and many fixed weapons systems leave surprisingly little residual space for drone storage.</t>
-        <t id="277">Styrvok  \(Container &amp; Energy\)(used for size L)</t>
-        <t id="278">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="279">Styrvok</t>
-        <t id="280">\(Container &amp; Energy\)(used for size L)</t>
-        <t id="281">Styrvok  \(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="282">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
-        <t id="283">Styrvok</t>
-        <t id="284">\(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="285">P</t>
-        <t id="286">Going through a similar evolution to the Xenon capital ships, the P - indentified as a corvette-class combat ship - is still a vessel to be feared in combat. It is probably the most versatile Xenon ship in the fleet, used in both offence and defence, and capable of taking on both smaller, more agile and larger, bulkier vessels.</t>
-        <t id="287">Rahanas  \(Container &amp; Energy\)(used for size L)</t>
-        <t id="288">The Rahanas Energy Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither very agile nor capable of fast acceleration.</t>
-        <t id="289">Rahanas</t>
-        <t id="290">\(Container &amp; Energy\)(used for size L)</t>
-        <t id="293">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)  \(Liquid\)(used for size M)</t>
-        <t id="294">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
-        <t id="295">Nyanae(@voice pronounced Nya-nee, emphasis on Nya, prounounced nya in one syllable, not nee-a in two)</t>
-        <t id="296">\(Liquid\)(used for size M)</t>
-        <t id="297">Midir</t>
-        <t id="298">First designed and released by TerraCorp, this ship is now in production by a number of manufacturers across all sectors, most notably, Albionmetals. It is a ions &amp; plasma mining vessel that has seen many revisions since its initial introduction; its basic parameters, however, remain unchanged. Although capable of launching mining drones, the thrust-to-payload ratio of the Midir is very low, and so is its manoeuvrability. Its weapon systems are not intended for tactical use - as can be expected from a commercial mining vessel.</t>
-        <t id="299">Midir</t>
-        <t id="300">First designed and released by TerraCorp, this ship is now in production by a number of manufacturers across all sectors, most notably, Albionmetals. It is a ions &amp; plasma mining vessel that has seen many revisions since its initial introduction; its basic parameters, however, remain unchanged. Although capable of launching mining drones, the thrust-to-payload ratio of the Midir is very low, and so is its manoeuvrability. Its weapon systems are not intended for tactical use - as can be expected from a commercial mining vessel.</t>
-        <t id="301">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)  \(Container\)(used for size M)</t>
-        <t id="302">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
-        <t id="303">Mercancias(Spanish for 'goods')(@voice pronounced mer-kan-thee-ass, stress on thee)</t>
-        <t id="304">\(Container\)(used for size M)</t>
-        <t id="305">Rahanas  \(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="306">The Rahanas Liquid Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither agile nor capable of fast acceleration.</t>
-        <t id="307">Rahanas</t>
-        <t id="308">\(Bulk &amp; Liquid\)(used for size L)</t>
-        <t id="311">Camulos</t>
-        <t id="312">Vanguard</t>
-        <t id="313">Gigurum  \(Container\)(used for size M)</t>
-        <t id="314">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Container Transporter is specifically designed to carry containers, as is easily discernible by its distinctive arrangement of storage modules. This freighter is neither fast nor agile, and it is completely unarmed. It has, however, become the standard mode of transportation for containers throughout all sectors.</t>
-        <t id="315">Gigurum</t>
-        <t id="316">\(Container\)(used for size M)</t>
-        <t id="317">Sequana</t>
-        <t id="318">The Sequana is an all-in-one mining solution for liquids in their solid state of aggregation \(ice\). It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
-        <t id="319">Golem</t>
-        <t id="320">Being under development for many years, the Golem has only recently been released into active duty. Built upon advanced technology obviously gleaned from as-yet unknown sources, it is speculated, and widely accepted, that this ship must have been a co-development between PMC and Beryll Astrotech. Featuring an impressive thrust-to-payload ratio for a vessel of this size, its manoeuvrability is equally astonishing considering the sheer mass involved. Just as notable is the handsome array of weapons; it can pick a fight anytime without hesitation. All round, the Golem does not repeat the design flaws seen in other PMC productions but is instead one of the finest ships bribery can obtain.</t>
-        <t id="321">Triath  Sentinel</t>
+        <!-- units_size_s_ship_pmc_01_macro -->
+        <t id="82">Triath Raider</t>
+        <t id="83">The Triath Raider, while not a bad ship per se, does lack tactical capabilities due to its somewhat weak weapon system. As such, it's clearly the kind of design one would expect from PMC. Experts have no doubt about this; it is quite unlike the Golem and Moebius which couldn't have been designed by PMC alone. The Triath Raider is mainly used for patrolling undisputed territory but also used for scout and reconnaissance missions.</t>
+        <t id="84">Triath</t>
+        <t id="85">Raider</t>
+        <!-- units_size_s_ship_pmc_02_macro -->
+        <t id="9">Triath Vanguard</t>
+        <t id="10">This craft, upon introduction to the forces, was a relief to all pilots who had had to risk their lives in PMC-designed vessels. Unlike other PMC designed ships, the Triath Vanguard features a reasonably balanced acceleration, good weapon systems \(including guided missiles\), a robust design and a somewhat modern layout. With an appearance not unlike an upgraded Triath Raider, this ship is said by combat pilots who have flown it in and out of battle to 'fly like a charm and bring you home too'. Rumour has it that PMC is working on heavier craft based on the Triath Vanguard's design, the first of which being the 'Triath Sentinel' for imminent release to active duty as at the time of writing.</t>
+        <t id="11">Triath</t>
+        <t id="12">Vanguard</t>
+        <!-- units_size_s_ship_pmc_03_macro -->
+        <t id="321">Triath Sentinel</t>
         <t id="322">Experts and pilots have nothing but respect for this latest fighter manufactured by PMC and its contractors. While certainly within the limits of what one could expect, the Triath Sentinel exceeds the design of any and all PMC ships so far with the exception, naturally, of the Golem and the Moebius. While not the fastest ship of its class, its manoeuvrability is better than average, as is its weapons array. Used mostly as reinforcements during imminent border incidents or similar conflicts, this brand-new vessel has yet to see serious combat. Experts, however, do not doubt that it will perform exceedingly well.</t>
         <t id="323">Triath</t>
         <t id="324">Sentinel</t>
-        <t id="325">Albatross  \(Liquid\)(used for size L)</t>
-        <t id="326">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="327">Albatross</t>
-        <t id="328">\(Liquid\)(used for size L)</t>
-        <t id="329">Crane  \(Bulk\)(used for size L)</t>
+        <!-- units_size_s_split_m3_macro -->
+        <t id="110">Bonescout</t>
+        <t id="111">Named after the vessel of late Cho t'Nnt, a folk hero amongst virtually all Split, this class of ship is small and fast but, due to its very weak weaponry, nearly useless in combat. Only the fierce determination of its Split pilots, many of whom have used the Bonescout in kamikaze attacks, can turn this small craft into a formidable weapon.</t>
+        <!-- units_size_s_split_m4_macro -->
+        <t id="185">Skull Crusher</t>
+        <t id="186">As with many ships used today by Family Ryak, the Skull Crusher \(often referred to as 'Scorpion' by the Argon Military\), is an ancient piece of technology bolted together from scrap parts using spit and good faith. Due to its superiority back when first introduced before the Fall Of The Gates, this ship, when maintained properly, can be held up to even some modern fighters. It has reasonably responsive main thrusters giving it good acceleration but is somewhat lacking in manoeuvrability. Its armament is average at best but here, just as with the Bonescout, Split determination makes up for material shortcomings.</t>
+        <!-- units_size_s_te_01_macro -->
+        <t id="399">Falcon Vanguard</t>
+        <t id="400">Many of the design changes made during the upheaval of the Teladi fleet resulted in functional changes to its ships, but designers quickly found that fewer improvements were needed to the Falcon. Better rolling speeds were provided by the narrower, more open design, and it remains the same agile dogfighter as the previous iterations, but in comparison to other ships in the fleet, most of the changes made to the vessel were entirely aesthetic.</t>
+        <!-- units_size_s_te_02_macro -->
+        <t id="397">Falcon Sentinel</t>
+        <t id="398">Many of the design changes made during the upheaval of the Teladi fleet resulted in functional changes to its ships, but designers quickly found that fewer improvements were needed to the Falcon. Better rolling speeds were provided by the narrower, more open design, and it remains the same agile dogfighter as the previous iterations, but in comparison to other ships in the fleet, most of the changes made to the vessel were entirely aesthetic.</t>
+        <!-- units_size_s_te_03_macro -->
+        <t id="351">Harrier Vanguard</t>
+        <t id="352">While the upheaval in the Teladi military saw the discontinuation of the Buzzard, certain aspects of the fighter were integrated into the new design of the Harrier to make it a more complete military vessel. As well as being an able scout, the new Harrier can additionally function as a dogfighter and is capable of harassing larger and better-shielded heavy fighters.</t>
+        <!-- units_size_s_te_04_macro -->
+        <t id="407">Harrier Sentinel</t>
+        <t id="408">While the upheaval in the Teladi military saw the discontinuation of the Buzzard, certain aspects of the fighter were integrated into the new design of the Harrier to make it a more complete military vessel. As well as being an able scout, the new Harrier can additionally function as a dogfighter and is capable of harassing larger and better-shielded heavy fighters.</t>
+        <t id="409">Harrier</t>
+        <!-- units_size_s_torpedo_bomber_macro -->
+        <t id="70">Drostan</t>
+        <t id="71">This ship is neither agile nor fast and needs to be protected at all times. However, it features sophisticated torpedo launchers and, for all intents and purposes, constitutes a bomber. It is mainly used against ground installations but can as well attack and swiftly destroy large orbital complexes. During the Fourth Xenon Uprising \(which later came to be known as the 'IRQ4 conflict'\), several Drostan class bombers laid waste to two off-ecliptic Xenon power stations. All of the Drostan returned, with not a single casualty. The Drostan is an important tactical asset.</t>
+        <!-- units_size_s_xenon_swarm_attack_drone_01_macro -->
+        <t id="44">M</t>
+        <t id="45">The M/BRANCH9, commonly referred to just as M, is a Xenon fighter patrolling the outskirts of machine territory. Although the intentions of the machines are generally unknowable, the M's sub-par engine and, for a fighter, weak weapon systems seem to suggest that this fighter is not meant to be thrown into full battle. There were, however, at least two separate incidents in which the Xenon sent large numbers of this craft into combat, probably because other options were unavailable to them at the time. Operating in large numbers, the M was able to turn the table in favour of the machines on both events despite its shortcomings.</t>
+        <!-- units_size_s_xenon_swarm_attack_drone_02_macro -->
+        <t id="209">N</t>
+        <t id="210">The N/BRANCH9 is another patrol ship in service with the Xenon. Commonly known as N, this vessel can't be held up against most other fighters with its average agility and below average weapon systems. The Xenon, however, are quite capable and willing to throw hundreds or thousands of Ns into a battle, if necessary. Just as with the other ships employed by the machines, it is not known where its production facilities are located; this is a secret all non-machine factions would like to see exposed.</t>
+    <!-- MEDIUM SHIPS -->
+        <!-- units_size_m_canteran_01_macro -->
+        <t id="64">Katana</t>
+        <t id="65">The Katana is a fighter first deployed during the Terran Conflict. Once the cutting-edge of Terran engineering it is now technically average. About two decades ago the then newly launched Cantera Operation acquired a small fleet of used Katanas for security patrols after survey ships reported possible sightings of distant Argon ships in DeVries. The Republic of Cantera's Katana fleet is considered their greatest defensive asset and remains well maintained.</t>
+        <!-- units_size_m_canteran_02_macro -->
+        <t id="118">Daito</t>
+        <t id="119">Based on the Katana, the Daito is the first new ship design from the Republic of Cantera Shipwrights for a decade. Often running trials and undergoing revisions and updates, this vessel is not as durable as its older cousin by a far stretch and it usually looks that way too. With average acceleration and manoeuvrability, its weak weapon systems makes it second choice at best when it comes to tactical situations.</t>
+        <!-- units_size_m_container_transporter_5_macro -->
+        <t id="98">Gigurum Vanguard</t>
+        <t id="99">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Container Transporter is specifically designed to carry containers, as is easily discernible by its distinctive arrangement of storage modules. This freighter is neither fast nor agile, and it is completely unarmed. It has, however, become the standard mode of transportation for containers throughout all sectors.</t>
+        <t id="100">Gigurum Vanguard</t>
+        <t id="101">\(Container\)(used for size M)</t>
+        <!-- units_size_m_crystal_collector_macro -->
+        <t id="76">Dwalin Prospector \(Mineral\)</t>
+        <t id="77">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
+        <!-- units_size_m_crystal_transporter_macro -->
+        <t id="152">Gigurum Hauler</t>
+        <t id="153">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Bulk Transporter is designed to transport bulk goods cut and packaged into distinctive storage modules of specified dimensions. With its line of freighters, Gigurum have brought the concept of bulk ware to its logical extremes. At first, there was plenty of resistance against the very restricted formats of goods that could be transported. Over time, however, the concept proved extremely efficient and became the preferred method of transportation for all kinds of bulk goods across the sectors. The Gigurum Bulk Transporter is not fast, and not at all agile, and is completely unarmed. It has, however, become indispensible in today's world of effective and cheap bulk good transportation.</t>
+        <t id="154">Gigurum Hauler</t>
+        <t id="155">\(Bulk\)(used for size M)</t>
+        <!-- units_size_m_energy_transporter_macro -->
+        <t id="164">Gigurum Sentinel</t>
+        <t id="165">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Energy Transporter is specifically designed to carry energy-loaded goods. Since chemical and/or nuclear energy cells can pose dangers to populations and ecosystems, this type of heavy freighter must be licensed for the transportation of hazardous materials; it also has to undergo regular technical inspection to keep the licence. Piloting this type of ship needs a special licence on the part of the pilot. The Gigurum Energy Transporter is neither fast nor agile, and is completely unarmed.</t>
+        <t id="166">Gigurum Sentinel</t>
+        <t id="167">\(Energy\)(used for size M)</t>
+        <!-- units_size_m_hydrogen_collector_macro -->
+        <t id="255">Nudung \(Gas\)</t>
+        <t id="256">The Nudung is a basic mining vessel designed to launch mining drones for harvesting matter in a gas-like state of aggregation; it is mostly used to harvest hydrogen or other light technical gases. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Nudung is unarmed.</t>
+        <!-- units_size_m_ice_collector_macro -->
+        <t id="201">Hymir \(Mineral\)</t>
+        <t id="202">The Hymir is a basic mining vessel designed to launch mining drones for harvesting liquids or gasses in their solid state of aggregation \(ice\), but it is also equipped with a mining/drilling laser. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Hymir is unarmed.</t>
+        <!-- units_size_m_ions_collector_macro -->
+        <t id="46">Betaver Vanguard \(Gas\)</t>
+        <t id="47">The Betaver is a basic mining vessel designed to launch mining drones for harvesting materials in their ionized and plasma-like states of aggregation. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Betaver is unarmed.</t>
+        <!-- units_size_m_liquid_transporter_macro -->
+        <t id="251">Gigurum Tanker \(Gas\)</t>
+        <t id="252">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Liquid Transporter is specifically designed to carry goods in their liquid state of aggregation. Freighters of this type need an official technical clearance if they are used to ship hazardous liquids and their pilots need a license. The Gigurum Liquid Transporter's distinctive storage modules make it easily discernible even from a distance. This ship is neither fast nor agile, and is completely unarmed.</t>
+        <t id="253">Gigurum Tanker</t>
+        <t id="254">\(Gas\)(used for size M)</t>
+        <!-- units_size_m_mercancias_01_macro -->
+        <t id="271">Mercancias Tanker \(Gas\)</t>
+        <t id="272">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
+        <t id="273">Mercancias Tanker</t>
+        <t id="274">\(Gas\)(used for size M)</t>
+        <!-- units_size_m_mercancias_02_macro -->
+        <t id="60">Mercancias Hauler</t>
+        <t id="61">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
+        <t id="62">Mercancias Hauler</t>
+        <t id="63">\(Bulk\)(used for size M)</t>
+        <!-- units_size_m_mercancias_03_macro -->
+        <t id="205">Mercancias Sentinel</t>
+        <t id="206">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
+        <t id="207">Mercancias Sentinel</t>
+        <t id="208">\(Energy\)(used for size M)</t>
+        <!-- units_size_m_mercancias_04_macro -->
+        <t id="301">Mercancias Vanguard</t>
+        <t id="302">Professor Josemaria Vasquez designed the Mercancias to transport products of Operation Cantera around and out of Devries. Like so many m-sized trading ships of the modern age, the Mercancias is designed to be able to carry cargo modules of any type, and the four Mercancias variants have now become the standard trader for the Republic of Cantera.</t>
+        <t id="303">Mercancias Vanguard</t>
+        <t id="304">\(Container\)(used for size M)</t>
+        <!-- units_size_m_nividium_collector_macro -->
+        <t id="74">Dwalin Sentinel \(Mineral\)</t>
+        <t id="75">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
+        <!-- units_size_m_nyanae_01_macro -->
+        <t id="293">Nyanae Tanker \(Gas\)</t>
+        <t id="294">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
+        <t id="295">Nyanae Tanker</t>
+        <t id="296">\(Gas\)(used for size M)</t>
+        <!-- units_size_m_nyanae_02_macro -->
+        <t id="156">Nyanae Hauler</t>
+        <t id="157">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
+        <t id="158">Nyanae Hauler</t>
+        <t id="159">\(Bulk\)(used for size M)</t>
+        <!-- units_size_m_nyanae_03_macro -->
+        <t id="48">Nyanae Sentinel</t>
+        <t id="49">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
+        <t id="50">Nyanae Sentinel</t>
+        <t id="51">\(Energy\)(used for size M)</t>
+        <!-- units_size_m_nyanae_04_macro -->
+        <t id="52">Nyanae Vanguard</t>
+        <t id="53">Named after the Argon heroine Nyana(@voice Nyana pronounced Nya-na in two syllables, not nee-a-na in three) Gunne, this trading ship was actually developed by the Hatikvah Free League shortly before the Jump Gate shutdown, but when several of the ships became stuck in Omicron Lyrae, shipyard technicians were able to reverse-engineer the design and start producing it en masse to serve as the main m-sized medium trader of the system.</t>
+        <t id="54">Nyanae Vanguard</t>
+        <t id="55">\(Container\)(used for size M)</t>
+        <!-- units_size_m_ore_collector_macro -->
+        <t id="1">Dwalin Vanguard \(Mineral\)</t>
+        <t id="2">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
+        <!-- units_size_m_ore_transporter_macro -->
+        <t id="239">Gigurum Freighter</t>
+        <t id="240">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Bulk Transporter is designed to transport bulk goods cut and packaged into distinctive storage modules of specified dimensions. With its line of freighters, Gigurum have brought the concept of bulk ware to its logical extremes. At first, there was plenty of resistance against the very restricted formats of goods that could be transported. Over time, however, the concept proved extremely efficient and became the preferred method of transportation for all kinds of bulk goods across the sectors. The Gigurum Bulk Transporter is not fast, and not at all agile, and is completely unarmed. It has, however, become indispensible in today's world of effective and cheap bulk good transportation.</t>
+        <t id="241">Gigurum Freighter</t>
+        <t id="242">\(Bulk\)(used for size M)</t>
+        <!-- units_size_m_plasma_collector_macro -->
+        <t id="120">Betaver Sentinel \(Gas\)</t>
+        <t id="121">The Betaver is a basic mining vessel designed to launch mining drones for harvesting materials in their ionized and plasma-like states of aggregation. Its thrust-to-payload ratio is low, as is its manoeuvrability. Like most commercial craft, the Betaver is unarmed.</t>
+        <!-- units_size_m_plasma_transporter_macro -->
+        <t id="40">Gigurum Bowser \(Gas\)</t>
+        <t id="41">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Liquid Transporter is specifically designed to carry goods in their liquid state of aggregation. Freighters of this type need an official technical clearance if they are used to ship hazardous liquids and their pilots need a license. The Gigurum Liquid Transporter's distinctive storage modules make it easily discernible even from a distance. This ship is neither fast nor agile, and is completely unarmed.</t>
+        <t id="42">Gigurum Bowser</t>
+        <t id="43">\(Gas\)(used for size M)</t>
+        <!-- units_size_m_pmc_xen_02_macro -->
+        <t id="319">Golem</t>
+        <t id="320">Being under development for many years, the Golem has only recently been released into active duty. Built upon advanced technology obviously gleaned from as-yet unknown sources, it is speculated, and widely accepted, that this ship must have been a co-development between PMC and Beryll Astrotech. Featuring an impressive thrust-to-payload ratio for a vessel of this size, its manoeuvrability is equally astonishing considering the sheer mass involved. Just as notable is the handsome array of weapons; it can pick a fight anytime without hesitation. All round, the Golem does not repeat the design flaws seen in other PMC productions but is instead one of the finest ships bribery can obtain.</t>
+        <!-- units_size_m_silicon_collector_macro -->
+        <t id="32">Dwalin Excavator \(Mineral\)</t>
+        <t id="33">The Dwalin is a basic mining vessel designed to launch mining drones harvesting metal ores but it is also equipped with a mining/drilling laser. It has no on-board ore processing facility. Its thrust-to-payload ratio is low as is its manoeuvrability. Like most commercial craft the Dwalin is unarmed.</t>
+        <!-- units_size_m_te_bulk_01_macro -->
+        <t id="373">Toucan Hauler</t>
+        <t id="374">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
+        <t id="375">Toucan Hauler</t>
+        <t id="376">\(Bulk\)(used for size L)</t>
+        <!-- units_size_m_te_container_01_macro -->
+        <t id="417">Toucan Vanguard</t>
+        <t id="418">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
+        <t id="419">Toucan Vanguard</t>
+        <t id="420">\(Container\)(used for size L)</t>
+        <!-- units_size_m_te_energy_01_macro -->
+        <t id="369">Toucan Sentinel</t>
+        <t id="370">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
+        <t id="371">Toucan Sentinel</t>
+        <t id="372">\(Energy\)(used for size L)</t>
+        <!-- units_size_m_te_hydrogen_collector_01_macro -->
+        <t id="340">Manorina \(Gas\)</t>
+        <t id="341">After the Teladi Company's shift in focus towards using small ships for collecting minerals from space, the Manorina was developed to perfectly fit this role. Its large storage bay and its capacity to equip powerful mining lasers means it is much more efficient than any older collection system. A variant of the Manorina was later developed to carry storage for gaseous and liquid wares, allowing the Company to completely replace their more expensive and less rewarding mineral and gas mines.</t>
+        <t id="342">Manorina \(Gas\)</t>
+        <!-- units_size_m_te_liquid_01_macro -->
+        <t id="347">Toucan Tanker \(Gas\)(used for size M)</t>
+        <t id="348">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
+        <t id="349">Toucan Tanker</t>
+        <t id="350">\(Gas\)(used for size L)</t>
+        <!-- units_size_m_te_mineral_collector_01_macro -->
+        <t id="401">Manorina \(Mineral\)</t>
+        <t id="402">After the Teladi Company's shift in focus towards using small ships for collecting minerals from space, the Manorina was developed to perfectly fit this role. Its large storage bay and its capacity to equip powerful mining lasers means it is much more efficient than any older collection system. A variant of the Manorina was later developed to carry storage for gaseous and liquid wares, allowing the Company to completely replace their more expensive and less rewarding mineral and gas mines.</t>
+        <t id="403">Manorina \(Mineral\)</t>
+        <!-- units_size_m_ufo_01_macro -->
+        <t id="173">Unidentified Flying Object</t>
+        <t id="174">No information available.</t>
+        <!-- units_size_m_weapontech_transporter_macro -->
+        <t id="313">Gigurum \(Container\)(used for size M)</t>
+        <t id="314">Designed and manufactured by Gigurum Heavy Launchers, the Gigurum Container Transporter is specifically designed to carry containers, as is easily discernible by its distinctive arrangement of storage modules. This freighter is neither fast nor agile, and it is completely unarmed. It has, however, become the standard mode of transportation for containers throughout all sectors.</t>
+        <t id="315">Gigurum</t>
+        <t id="316">\(Container\)(used for size M)</t>
+        <!-- units_size_m_xenon_fighter_01_macro -->
+        <t id="285">P</t>
+        <t id="286">Going through a similar evolution to the Xenon capital ships, the P - indentified as a corvette-class combat ship - is still a vessel to be feared in combat. It is probably the most versatile Xenon ship in the fleet, used in both offence and defence, and capable of taking on both smaller, more agile and larger, bulkier vessels.</t>
+        <!-- units_size_m_xenon_miner_01_macro -->
+        <t id="429">S</t>
+        <t id="430">Intelligence states that this vessel is a reasonably new addition to the Xenon fleet, and is believed to the a mining vessel. Much like the various Argon mining ships, the Xenon S uses a laser to cut through larger asteroids before releasing smaller drones to collect the yielded resources. This has recently led to fearful questions from some corners of the scientific community as to why the Xenon are so deeply mimicing Argon behaviour.</t>
+    <!-- LARGE SHIPS -->
+        <!-- units_size_l_ad_zeppelin_01_macro -->
+        <t id="13">Zepp</t>
+        <t id="14">The Zepp was designed and developed by Terracorp to carry useful information for Home of Light citizens quickly during the Dark caused by the Jump Gate shutdown. When the Gates re-awoke, individual stations also began using them for advertisements of their products, and these ships can now be found much further out in space in attempt to reach all citizens.</t>
+        <t id="15">Zepp</t>
+        <!-- units_size_l_canteran_miner_01_macro -->
+        <t id="36">Onil \(Mineral\)</t>
+        <t id="37">One of the first ships to be created by Operation Cantera, the Onil could almost have been designed to withstand the natural dangers of working in a system such as DeVries. As such, and with configurations for the collection of both mineral and gaseous resources, it was the go-to vessel for mining in that area. However, it was only recently that the Republic of Cantera decided to release the ship's blueprints to the public market, in order to add a drastically-needed boost to their failing economy.</t>
+        <t id="38">Onil</t>
+        <t id="39">\(Mineral\)</t>
+        <!-- units_size_l_canteran_miner_02_macro -->
+        <t id="22">Onil \(Gas\)</t>
+        <t id="23">One of the first ships to be created by Operation Cantera, the Onil could almost have been designed to withstand the natural dangers of working in a system such as DeVries. As such, and with configurations for the collection of both mineral and gaseous resources, it was the go-to vessel for mining in that area. However, it was only recently that the Republic of Cantera decided to release the ship's blueprints to the public market, in order to add a drastically-needed boost to their failing economy.</t>
+        <t id="24">Onil</t>
+        <t id="25">\(Gas\)</t>
+        <!-- units_size_l_canteran_transporter_macro -->
+        <t id="132">Lepton</t>
+        <t id="133">Like most vessels in service with the Republic of Cantera, the Lepton does not quite size up with other ships of its class. This freighter has somewhat outdated hydrogen-fusion main thrusters allowing only moderate acceleration and manoeuvrability. Its token weapon is not worth mentioning.</t>
+        <!-- units_size_l_carrier_01_macro -->
+        <!-- units_size_l_carrier_02_macro -->
+        <!-- units_size_l_crystal_collector_macro -->
+        <t id="203">Fedhelm Vanguard \(Mineral\)</t>
+        <t id="204">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
+        <!-- units_size_l_dv_kit_new_bulk_01_macro -->
+        <t id="88">Styrvok Hauler Mk2</t>
+        <t id="89">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="90">Styrvok Hauler Mk2</t>
+        <t id="91">\(Bulk\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_new_bulk_liquid_01_macro -->
+        <t id="281">Styrvok Freighter Mk2 \(Container &amp; Gas\)(used for size L)</t>
+        <t id="282">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="283">Styrvok Freighter Mk2</t>
+        <t id="284">\(Container &amp; Gas\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_new_container_01_macro -->
+        <t id="267">Styrvok Vanguard Mk2</t>
+        <t id="268">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="269">Styrvok Vanguard Mk2</t>
+        <t id="270">\(Container\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_new_defence_01_macro -->
+        <t id="26">Stromvok Sentinel</t>
+        <t id="27">The Stromvok is an interesting variant of the Styrvok Freighter line designed by the Canterans and used in DeVries. It is essentially a combat variant of the freighter line with its cargo area is almost entirely replaced by an armoured fighting compartment with a mixture of different sized turrets and ordnance storage. Whilst in no way considered as a warship capable of taking on a military destroyer or even a large group of fighters all at once, it can pack a powerful defence against small raider groups. It is suitable as a convoy escort or to guard an important transport ship. A cunning captain might even rely on its similarity to a Styrvok freighter to lure a moderate raider into a close attack of what appears to be a 'helpless' target - and then show it the sharp teeth of the trap it has unwittingly entered.</t>
+        <!-- units_size_l_dv_kit_new_energy_01_macro -->
+        <t id="231">Styrvok Sentinel Mk2</t>
+        <t id="232">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="233">Styrvok Sentinel Mk2</t>
+        <t id="234">\(Energy\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_new_energy_container_01_macro -->
+        <t id="277">Styrvok \(Container &amp; Energy\)(used for size L)</t>
+        <t id="278">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="279">Styrvok</t>
+        <t id="280">\(Container &amp; Energy\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_new_liquid_01_macro -->
+        <t id="16">Styrvok Tanker \(Gas\)(used for size L)</t>
+        <t id="17">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="18">Styrvok Tanker</t>
+        <t id="19">\(Gas\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_old_bulk_01_macro -->
+        <t id="122">Styrvok Hauler Mk1</t>
+        <t id="123">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="124">Styrvok Hauler Mk1</t>
+        <t id="125">\(Bulk\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_old_bulk_liquid_01_macro -->
+        <t id="219">Styrvok Freighter Mk1 \(Container &amp; Gas\)</t>
+        <t id="220">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="221">Styrvok Freighter Mk1</t>
+        <t id="222">\(Container &amp; Gas\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_old_container_01_macro -->
+        <t id="66">Styrvok Vanguard Mk1</t>
+        <t id="67">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="68">Styrvok Vanguard Mk1</t>
+        <t id="69">\(Container\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_old_defence_01_macro -->
+        <t id="213">Stromvok Vanguard</t>
+        <t id="214">The Stromvok is an interesting variant of the Styrvok Freighter line designed by the Canterans and used in DeVries. It is essentially a combat variant of the freighter line with its cargo area is almost entirely replaced by an armoured fighting compartment with a mixture of different sized turrets and ordnance storage. Whilst in no way considered as a warship capable of taking on a military destroyer or even a large group of fighters all at once, it can pack a powerful defence against small raider groups. It is suitable as a convoy escort or to guard an important transport ship. A cunning captain might even rely on its similarity to a Styrvok freighter to lure a moderate raider into a close attack of what appears to be a 'helpless' target - and then show it the sharp teeth of the trap it has unwittingly entered.</t>
+        <!-- units_size_l_dv_kit_old_energy_01_macro -->
+        <t id="195">Styrvok Sentinel Mk1</t>
+        <t id="196">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="197">Styrvok Sentinel Mk1</t>
+        <t id="198">\(Energy\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_old_energy_container_01_macro -->
+        <t id="144">Styrvok \(Container &amp; Energy\)(used for size L)</t>
+        <t id="145">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="146">Styrvok</t>
+        <t id="147">\(Container &amp; Energy\)(used for size L)</t>
+        <!-- units_size_l_dv_kit_old_liquid_01_macro -->
+        <t id="235">Styrvok Bowser \(Gas\)(used for size L)</t>
+        <t id="236">The Styrvok Freighter variants were designed by the Canterans and so have only been used in DeVries until now. Based on a relatively elderly and long-unaltered design, these ships often appear as beaten-up, well-patched work-horses that have seen much better days. They can still be built, for the right buyer, at a Canteran shipyard but the shiny newly-produced ones really stand out compared to the older much-used versions. Such new ones share the same specifications with the older models and so are not at all cutting-edge. Compared to other more modern freighter designs they are much smaller with less freight capacity, although that sometimes gives them an edge on pick-up and delivery speed. The roles of the single-ware and mixed-ware type models can be identified from the individually-distinctive cargo area designs.</t>
+        <t id="237">Styrvok Bowser</t>
+        <t id="238">\(Gas\)(used for size L)</t>
+        <!-- units_size_l_hydrogen_collector_macro -->
+        <t id="102">Boann \(Gas\)</t>
+        <t id="103">First designed and released by TerraCorp, this ship is now in production by a number of manufacturers across all sectors, most notably, Albionmetals. It is a hydrogen mining vessel that has seen many revisions since its initial introduction; its basic parameters, however, remain unchanged. Although capable of launching mining drones, the thrust-to-payload ratio of the Boann is low, and so is its manoeuvrability. Its weapon systems are not intended for tactical use - as can be expected from a commercial mining vessel.</t>
+        <!-- units_size_l_ice_collector_macro -->
+        <t id="317">Sequana \(Mineral\)</t>
+        <t id="318">The Sequana is an all-in-one mining solution for liquids in their solid state of aggregation \(ice\). It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
+        <!-- units_size_l_ions_collector_macro -->
+        <t id="297">Midir Sentinel \(Gas\)</t>
+        <t id="298">First designed and released by TerraCorp, this ship is now in production by a number of manufacturers across all sectors, most notably, Albionmetals. It is a ions &amp; plasma mining vessel that has seen many revisions since its initial introduction; its basic parameters, however, remain unchanged. Although capable of launching mining drones, the thrust-to-payload ratio of the Midir is very low, and so is its manoeuvrability. Its weapon systems are not intended for tactical use - as can be expected from a commercial mining vessel.</t>
+        <!-- units_size_l_kit_bulk_01_macro -->
+        <t id="28">Rahanas Hauler</t>
+        <t id="29">The Rahanas Bulk Freighter is designed upon a 'Common Ground' layout and built by several contractors. It is easily recognisable due to its distinctive storage modules that can load bulk goods only; its technical specifications, however, are not so remarkable.</t>
+        <t id="30">Rahanas Hauler</t>
+        <t id="31">\(Bulk\)(used for size L)</t>
+        <!-- units_size_l_kit_carrier_01_macro -->
+        <t id="223">Light Sul</t>
+        <t id="224">The Light Sul is, by all measures and standards, pretty average for a carrier. The reason for its obvious shortcomings can be found in the limited budget available to the PMC advisory board during the design phase of this ship. The reason for the then low budget was the uncertaintly on how the resources of Albion would support a stranded population and their infrastructure. With PMC now dominant, the Light Sul continues to play a major role in consolidating their position of power.</t>
+        <!-- units_size_l_kit_carrier_02_macro -->
+        <t id="187">Heavy Sul</t>
+        <t id="188">Significantly larger than the Light Sul, the Heavy Sul has also improved on armament over its older sibling. While manoeuvrability may not be essential for a carrier, good acceleration certainly is. Regrettably, the Heavy Sul does not deliver in this regard either; sometimes, it is thus mockingly called 'Lazy Sul' by friendly and enemy combatants alike. The PMC military advisory board actively prosecutes occurrences of this sort of slander, as it is perceived as eroding crew morale.</t>
+        <!-- units_size_l_kit_container_01_macro -->
+        <t id="191">Rahanas Vanguard Mk1</t>
+        <t id="192">The Rahanas Container Freighter is designed upon a 'Common Ground' layout and built by several contractors. It is easily recognisable due to its distinctive storage modules that can load containers only; its technical specifications are unremarkable at best but 'it gets the job done' as pilots note.</t>
+        <t id="193">Rahanas Vanguard Mk1</t>
+        <t id="194">\(Container\)(used for size L)</t>
+        <!-- units_size_l_kit_container_02_macro -->
+        <t id="106">Rahanas Vanguard Mk2</t>
+        <t id="107">The Rahanas Container Freighter is designed upon a 'Common Ground' layout and built by several contractors. It is easily recognisable due to its distinctive storage modules that can load containers only; its technical specifications are unremarkable at best but 'it gets the job done' as pilots note.</t>
+        <t id="108">Rahanas Vanguard Mk2</t>
+        <t id="109">\(Container\)(used for size L)</t>
+        <!-- units_size_l_kit_container_03_macro -->
+        <t id="56">Sanahar \(Container\)(used for size M)</t>
+        <t id="57">The Sanahar was created in reaction to the explosion in popularity of the 'Common Ground' design, providing traders with a smaller, faster alternative when it comes to container transport.</t>
+        <t id="58">Sanahar</t>
+        <t id="59">\(Container\)(used for size L)</t>
+        <!-- units_size_l_kit_energy_01_macro -->
+        <t id="112">Rahanas Sentinel</t>
+        <t id="113">The Rahanas Energy Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither very agile nor capable of fast acceleration. Its intended \(and only\) use is the transport of energy cells and it is easily recognisable by its distinctive storage modules.</t>
+        <t id="114">Rahanas Sentinel</t>
+        <t id="115">\(Energy\)(used for size L)</t>
+        <!-- units_size_l_kit_hybrid_01_macro -->
+        <t id="305">Rahanas Freighter</t>
+        <t id="306">The Rahanas Liquid Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither agile nor capable of fast acceleration.</t>
+        <t id="307">Rahanas Freighter</t>
+        <t id="308">\(Bulk &amp; Liquid\)(used for size L)</t>
+        <!-- units_size_l_kit_hybrid_02_macro -->
+        <t id="287">Rahanas \(Container &amp; Energy\)(used for size L)</t>
+        <t id="288">The Rahanas Energy Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither very agile nor capable of fast acceleration.</t>
+        <t id="289">Rahanas</t>
+        <t id="290">\(Container &amp; Energy\)(used for size L)</t>
+        <!-- units_size_l_kit_liquid_01_macro -->
+        <t id="181">Rahanas Tanker \(Gas\)</t>
+        <t id="182">The Rahanas Liquid Freighter is one of the capital ships of the Rahanas line of vessels. Based on a 'Common Ground' design just like its siblings, this large vessel has only basic weapons and is neither agile nor capable of fast acceleration. Its intended \(and only\) use is the transport of goods in a liquid state of aggregation. It is easily recognisable by its distinctive storage modules.</t>
+        <t id="183">Rahanas Tanker</t>
+        <t id="184">\(Gas\)(used for size L)</t>
+        <!-- units_size_l_liquid_freighter_macro -->
+        <t id="168">Hermod</t>
+        <t id="169">The Hermod is a freighter employed by the Republic of Cantera. According to its construction design, its sole purpose is the transport of goods in their liquid state of aggregation. It is poor in both acceleration and deceleration and its manoeuvrability is equally poor. It has just a token weapon of no tactical value. Its only real means of defence, therefore, is the unimportance of the Republic of Cantera.</t>
+        <t id="170"></t>
+        <!-- units_size_l_nividium_collector_macro -->
+        <t id="215">Fedhelm Sentinel \(Mineral\)</t>
+        <t id="216">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
+        <!-- units_size_l_ore_collector_macro -->
+        <t id="229">Fedhelm Excavator \(Mineral\)</t>
+        <t id="230">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
+        <!-- units_size_l_plasma_collector_macro -->
+        <t id="299">Midir Vanguard \(Gas\)</t>
+        <t id="300">First designed and released by TerraCorp, this ship is now in production by a number of manufacturers across all sectors, most notably, Albionmetals. It is a ions &amp; plasma mining vessel that has seen many revisions since its initial introduction; its basic parameters, however, remain unchanged. Although capable of launching mining drones, the thrust-to-payload ratio of the Midir is very low, and so is its manoeuvrability. Its weapon systems are not intended for tactical use - as can be expected from a commercial mining vessel.</t>
+        <!-- units_size_l_silicon_collector_macro -->
+        <t id="80">Fedhelm Prospector \(Mineral\)</t>
+        <t id="81">The Fedhelm is an all-in-one mining solution for ores of all kind. It is capable of launching mining drones, but has no on-board processing facility. It is not agile or fast, nor is it equipped with a tactical weapon system.</t>
+        <!-- units_size_l_single_attack_ship_macro -->
+        <t id="265">Balor</t>
+        <t id="266">The Balor is a relatively modern frigate built by the contractor Albionmetals. It is small and agile due to its responsive and powerful main engine and attitude thrusters. Although its weapons systems are regarded as average compared to other frigates, they are still quite formidable for a ship that small. The Balor has an elaborate ejection mechanism that can deliver torpedoes to within a meter's range of the projected target area from as far as a half light-second away. The vessel is capable of performing complex missions on its own, specialising in the delivery of torpedoes.</t>
+        <!-- units_size_l_te_kit_bulk_03_macro -->
+        <t id="389">Vulture Hauler</t>
+        <t id="390">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
+        <t id="391">Vulture Hauler</t>
+        <t id="392">\(Bulk\)(used for size L)</t>
+        <!-- units_size_l_te_kit_container_03_macro -->
+        <t id="421">Vulture Vanguard</t>
+        <t id="422">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
+        <t id="423">Vulture Vanguard</t>
+        <t id="424">\(Container\)(used for size L)</t>
+        <!-- units_size_l_te_kit_energy_03_macro -->
+        <t id="393">Vulture Sentinel</t>
+        <t id="394">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
+        <t id="395">Vulture Sentinel</t>
+        <t id="396">\(Energy\)(used for size L)</t>
+        <!-- units_size_l_te_kit_liquid_03_macro -->
+        <t id="381">Vulture Tanker \(Gas\)</t>
+        <t id="382">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
+        <t id="383">Vulture Tanker</t>
+        <t id="384">\(Gas\)(used for size L)</t>
+        <!-- units_size_l_xenon_01_macro -->
+        <t id="116">K</t>
+        <t id="117">Descendant from the original Terraformers released by Earth about a millennium ago, the Xenon underwent many waves of machine evolution. Mechano-taxonometrists are fairly certain that the line of TF/Xenon present in the known sectors today belong to the ninth diversification branch \(of roughly 27\). The K/BRANCH9 - commonly referred to as just K - is a large destroyer with decent manoeuvrability and an above average weapons system.</t>
+    <!-- XL SHIPS -->
+        <!-- units_size_xl_builder_ship_dv_macro -->
+        <t id="96">Construction Vessel</t>
+        <t id="97">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
+        <!-- units_size_xl_builder_ship_hol_macro -->
+        <t id="437">Construction Vessel</t>
+        <t id="438">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
+        <!-- units_size_xl_builder_ship_macro -->
+        <t id="78">Construction Vessel</t>
+        <t id="79">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
+        <!-- units_size_xl_builder_ship_ol_macro -->
+        <t id="177">Construction Vessel</t>
+        <t id="178">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
+        <!-- units_size_xl_builder_ship_plot_01_macro -->
+        <t id="199">Construction Vessel</t>
+        <t id="200">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
+        <!-- units_size_xl_capital_destroyer_1_macro -->
+        <t id="34">Arawn</t>
+        <t id="35">One of the largest ships currently in service by any known faction, the Arawn is a highly advanced carrier, designed and first launched from Argon Prime. Its extensive weapons array - including plasma and particle weapons, as well as multi-purpose drones - gives it an edge in all tactical situations.</t>
+        <!-- units_size_xl_capital_destroyer_2_macro -->
+        <t id="140">Taranis</t>
+        <t id="141">When the Plutarch Mining Corporation \(PMC\) first released this type of destroyer into service, there weren't many other ships in its class that could compete with the Taranis' massive armoury and powerful turrets. Even though regarded as slightly clumsy by some with respect to manoeuvrability, this classic destroyer is a heavy-hitter - 'flies like a brick, kills like a blade' is a common saying among combat pilots that have flown the Taranis. Although mainly used for sector patrol along highly disputed borders or other such areas, this ship is no stranger to battle. It has great tactical value and has been copied by other manufacturers.</t>
+        <!-- units_size_xl_cargo_hauler_2_macro -->
+        <t id="104">Titurel</t>
+        <t id="105">Not much is known about this powerful armed-Freighter, except that it appears to be beyond the manufacturing capabilities of the Reivers themselves. Experts assume that the Reivers have a limited number of these ships which they have maintained over the decades since the Fall of the Gates. To the present day, the Titurel's origin remains a mystery that many factions would like to see solved.</t>
+        <!-- units_size_xl_cargo_hauler_3_macro -->
+        <t id="86">Scaldis</t>
+        <t id="87">The Scaldis is a freighter designed upon a so called 'Common Ground' layout \(a multi-species common property platform established by the Alliance of the Word\), and manufactured by several contractors across all known sectors. It has weak engines and no real combat-worthy weapon, but it still remains popular due to its great cost-benefit factor.</t>
+        <!-- units_size_xl_cs_omicron_ship_01_macro -->
+        <t id="3">Lyranea</t>
+        <t id="4">The Lyranea freighter is built in Omicron Lyrae where it is commonly seen in use by all the trading factions. Bigger than the equivalent Albion Rahanas in terms of size and cargo-space, it is somewhat slower. It is armed for self-defence purposes with more and larger weapons turrets than its Albion equivalent. Currently configured to be able to carry all classes of wares in multipurpose storage, the Lyranea design could most probably be easily converted for more efficient carriage of single or dual classes of wares - if the commercial demand were to be there.</t>
+        <!-- units_size_xl_cs_omicron_ship_02_macro -->
+        <t id="275">Fulmekron</t>
+        <t id="276">The Fulmekron destroyer is a rarer and even larger sister to the already large Olmekron destroyer built and commonly used in Omicron Lyrae. It keeps the angular 'Y' shape of its sister ship but is even bigger and more formidable-looking; it is the largest non-Xenon destroyer known to be in production. It is employed, albeit rarely, by the Argon government and by Jonferson Space Systems as a prestige escort, as an ultimate defence and for punitive attack duties. Its size hinders its acceleration, speed and manoeuvrability, but its greater bulk allows it to house even more technologically advanced weapon systems than the Olmekron. If it has a weakness outside of its speed and agility, it is that, like its sister the Olmekron, its angular hull design and many fixed weapons systems leave surprisingly little residual space for drone storage.</t>
+        <!-- units_size_xl_cs_omicron_ship_03_macro -->
+        <t id="179">Olmekron</t>
+        <t id="180">The Olmekron destroyer was designed and is built in Omicron Lyrae where its large and angular 'Y' shape is a common and reassuring sight. It is commonly employed by the Argon government and Jonferson Space Systems for escort and peacekeeping duties. Its relatively large size for a destroyer means some loss of speed and acceleration in comparison with other destroyers, but it is certainly on a par with them in terms of firepower as its weapon systems are quite technologically advanced in comparison. If it has a weakness, it is that its angular hull design offers less room for drone storage than many other destroyers.</t>
+        <!-- units_size_xl_cs_omicron_ship_04_macro -->
+        <t id="72">Lyramekron</t>
+        <t id="73">The Lyramekron is an interesting ship type designed and built in Omicron Lyrae. It is primarily an armed freighter but is largely constructed using the same parts and sections as the Olmekron destroyer type and so keeps that ship's distinctively large and angular 'Y' shape. The Lyramekron is employed by most major factions in Omicron Lyrae for delivery duties where hostilities are expected. Its relatively large size has allowed the fitting of technologically-advanced weaponry and defences almost on a par with those of a destroyer; it is even stated in its advertising that one fully-outfitted Lyramekron should shrug off an attack by a Xenon K with its typical fighter escort. Pirates looking for a victim, even if not deterred by something that looks very like an Olmekron destroyer, should find this freighter to be far more than they can cope with. However, its large size meanwhile hinders its speed and agility somewhat when compared to other large freighters. Paradoxically despite its overall size being much larger than the Lyranea freighter, its copious defence installations and the angular hull design restrict its potential freight storage to no more than that of the smaller Lyranea freighter.</t>
+        <!-- units_size_xl_red_destroyer_macro -->
+        <t id="211">Sucellus</t>
+        <t id="212">While the Sucellus rarely sees serious combat, it has come to be seen as a symbol of security for the Canteran people. One of the better maintained relics of the Terran era, this ship usually patrols close to stations to keep up a strong visual presence to both the Canterans and Reivers. The Sucellus' acceleration is average, and its agility is severely hindered by its sub-par attitude thrusters. Despite all of this, pilots who have flown this ship for some time usually come to love it for its reliability.</t>
+        <!-- units_size_xl_split_m1_macro -->
+        <t id="227">Gangrene Chaser</t>
+        <t id="228">Formerly classified as Raptor by Argon forces, the actual name of this class of vessel, when translated back from the Split language, makes one wish not to have translated it in the first place - 'Gangrene Chaser' is about as unpicturesque as it gets with the Split. Technically, this craft has not been overhauled in more than a decade and thus is no match for modern destroyers.</t>
+        <!-- units_size_xl_te_kit_bulk_01_macro -->
+        <t id="343">Albatross Hauler</t>
+        <t id="344">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="345">Albatross Hauler</t>
+        <t id="346">\(Bulk\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_bulk_02_macro -->
+        <t id="425">Albatross Hauler \(XL\)</t>
+        <t id="426">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="427">Albatross Hauler \(XL\)</t>
+        <t id="428">\(Bulk\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_bulk_03_macro -->
+        <t id="329">Crane Hauler</t>
         <t id="330">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
-        <t id="331">Crane</t>
+        <t id="331">Crane Hauler</t>
         <t id="332">\(Bulk\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_container_01_macro -->
+        <t id="361">Albatross Vanguard</t>
+        <t id="362">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="363">Albatross Vanguard</t>
+        <t id="364">\(Container\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_container_02_macro -->
+        <t id="353">Albatross Vanguard \(XL\)</t>
+        <t id="354">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="355">Albatross Vanguard \(XL\)</t>
+        <t id="356">\(Container\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_container_03_macro -->
+        <t id="357">Crane Vanguard</t>
+        <t id="358">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
+        <t id="359">Crane Vanguard</t>
+        <t id="360">\(Container\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_energy_01_macro -->
+        <t id="365">Albatross Sentinel</t>
+        <t id="366">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="367">Albatross Sentinel</t>
+        <t id="368">\(Energy\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_energy_02_macro -->
+        <t id="336">Albatross Sentinel \(XL\)</t>
+        <t id="337">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="338">Albatross Sentinel \(XL\)</t>
+        <t id="339">\(Energy\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_energy_03_macro -->
+        <t id="410">Crane Sentinel</t>
+        <t id="411">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
+        <t id="412">Crane Sentinel</t>
+        <t id="413">\(Energy\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_liquid_01_macro -->
+        <t id="325">Albatross Tanker \(Gas\)</t>
+        <t id="326">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="327">Albatross Tanker</t>
+        <t id="328">\(Gas\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_liquid_02_macro -->
+        <t id="385">Albatross Tanker \(XL\) \(Gas\)</t>
+        <t id="386">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
+        <t id="387">Albatross Tanker \(XL\)</t>
+        <t id="388">\(Gas\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_liquid_03_macro -->
+        <t id="377">Crane Tanker \(Gas\)(used for size L)</t>
+        <t id="378">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
+        <t id="379">Crane Tanker</t>
+        <t id="380">\(Gas\)(used for size L)</t>
+        <!-- units_size_xl_te_kit_none_01_macro -->
         <t id="333">Phoenix</t>
         <t id="334">After more intense Xenon incursions into Teladi border systems such as Grand Exchange and Fields of Opportunity, the Teladi Company decided to redesign the Teladi fleet from the ground up with the focus on manoeuvrability and more effective shielding. The Phoenix was at the centre of this upheaval. After much experimentation, a domed design was chosen for the hull, which better protected the ship's vital systems as well as much improving turning and rolling speeds. After confirming that this design worked for the Phoenix, it was also applied to the rest of the fleet.</t>
         <t id="335">Phoenix</t>
-        <t id="336">Albatross XL \(Energy\)(used for size L)</t>
-        <t id="337">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="338">Albatross</t>
-        <t id="339">\(Energy\)(used for size L)</t>
-        <t id="340">Manorina  \(Gas\)</t>
-        <t id="341">After the Teladi Company's shift in focus towards using small ships for collecting minerals from space, the Manorina was developed to perfectly fit this role. Its large storage bay and its capacity to equip powerful mining lasers means it is much more efficient than any older collection system. A variant of the Manorina was later developed to carry storage for gaseous and liquid wares, allowing the Company to completely replace their more expensive and less rewarding mineral and gas mines.</t>
-        <t id="342">Manorina</t>
-        <t id="343">Albatross  \(Bulk\)(used for size L)</t>
-        <t id="344">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="345">Albatross</t>
-        <t id="346">\(Bulk\)(used for size L)</t>
-        <t id="347">Toucan  \(Liquid\)(used for size M)</t>
-        <t id="348">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
-        <t id="349">Toucan</t>
-        <t id="350">\(Liquid\)(used for size L)</t>
-        <t id="351">Harrier</t>
-        <t id="352">While the upheaval in the Teladi military saw the discontinuation of the Buzzard, certain aspects of the fighter were integrated into the new design of the Harrier to make it a more complete military vessel. As well as being an able scout, the new Harrier can additionally function as a dogfighter and is capable of harassing larger and better-shielded heavy fighters.</t>
-        <t id="353">Albatross XL \(Container\)(used for size L)</t>
-        <t id="354">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="355">Albatross</t>
-        <t id="356">\(Container\)(used for size L)</t>
-        <t id="357">Crane  \(Container\)(used for size L)</t>
-        <t id="358">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
-        <t id="359">Crane</t>
-        <t id="360">\(Container\)(used for size L)</t>
-        <t id="361">Albatross  \(Container\)(used for size L)</t>
-        <t id="362">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="363">Albatross</t>
-        <t id="364">\(Container\)(used for size L)</t>
-        <t id="365">Albatross  \(Energy\)(used for size L)</t>
-        <t id="366">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="367">Albatross</t>
-        <t id="368">\(Energy\)(used for size L)</t>
-        <t id="369">Toucan  \(Energy\)(used for size M)</t>
-        <t id="370">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
-        <t id="371">Toucan</t>
-        <t id="372">\(Energy\)(used for size L)</t>
-        <t id="373">Toucan  \(Bulk\)(used for size M)</t>
-        <t id="374">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
-        <t id="375">Toucan</t>
-        <t id="376">\(Bulk\)(used for size L)</t>
-        <t id="377">Crane  \(Liquid\)(used for size L)</t>
-        <t id="378">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
-        <t id="379">Crane</t>
-        <t id="380">\(Liquid\)(used for size L)</t>
-        <t id="381">Vulture  \(Liquid\)(used for size L)</t>
-        <t id="382">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
-        <t id="383">Vulture</t>
-        <t id="384">\(Liquid\)(used for size L)</t>
-        <t id="385">Albatross XL \(Liquid\)(used for size L)</t>
-        <t id="386">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="387">Albatross</t>
-        <t id="388">\(Liquid\)(used for size L)</t>
-        <t id="389">Vulture  \(Bulk\)(used for size L)</t>
-        <t id="390">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
-        <t id="391">Vulture</t>
-        <t id="392">\(Bulk\)(used for size L)</t>
-        <t id="393">Vulture  \(Energy\)(used for size L)</t>
-        <t id="394">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
-        <t id="395">Vulture</t>
-        <t id="396">\(Energy\)(used for size L)</t>
-        <t id="397">Falcon</t>
-        <t id="398">Many of the design changes made during the upheaval of the Teladi fleet resulted in functional changes to its ships, but designers quickly found that fewer improvements were needed to the Falcon. Better rolling speeds were provided by the narrower, more open design, and it remains the same agile dogfighter as the previous iterations, but in comparison to other ships in the fleet, most of the changes made to the vessel were entirely aesthetic.</t>
-        <t id="399">Falcon</t>
-        <t id="400">Many of the design changes made during the upheaval of the Teladi fleet resulted in functional changes to its ships, but designers quickly found that fewer improvements were needed to the Falcon. Better rolling speeds were provided by the narrower, more open design, and it remains the same agile dogfighter as the previous iterations, but in comparison to other ships in the fleet, most of the changes made to the vessel were entirely aesthetic.</t>
-        <t id="401">Manorina  \(Mineral\)</t>
-        <t id="402">After the Teladi Company's shift in focus towards using small ships for collecting minerals from space, the Manorina was developed to perfectly fit this role. Its large storage bay and its capacity to equip powerful mining lasers means it is much more efficient than any older collection system. A variant of the Manorina was later developed to carry storage for gaseous and liquid wares, allowing the Company to completely replace their more expensive and less rewarding mineral and gas mines.</t>
-        <t id="403">Manorina</t>
+        <!-- units_size_xl_te_kit_none_02_macro -->
         <t id="404">Condor</t>
         <t id="405">In order to provide the Teladi with a larger amount of fire power against the Xenon, it was decided during the redesign of the Condor that it should be turned into an all-out destroyer. A slightly smaller ship than the Phoenix, the new Condor shares the domed design of its sibling but focuses more on defence, with the hull providing wider shielding to its internal systems for better durability.</t>
         <t id="406">Condor</t>
-        <t id="407">Harrier</t>
-        <t id="408">While the upheaval in the Teladi military saw the discontinuation of the Buzzard, certain aspects of the fighter were integrated into the new design of the Harrier to make it a more complete military vessel. As well as being an able scout, the new Harrier can additionally function as a dogfighter and is capable of harassing larger and better-shielded heavy fighters.</t>
-        <t id="409">Harrier</t>
-        <t id="410">Crane  \(Energy\)(used for size L)</t>
-        <t id="411">A smaller but quicker variant of the Albatross, the Crane balances the Teladi production process by making smaller trade runs at a faster rate than its sibling. Cranes are usually entrusted with low- to mid-level ware trading, in order to ensure the Teladi ship technology stations are well-stocked for when the Albatross arrives to take their wares to a shipyard.</t>
-        <t id="412">Crane</t>
-        <t id="413">\(Energy\)(used for size L)</t>
-        <t id="414">Phoenix</t>
+        <!-- units_size_xl_te_kit_none_03_macro -->
+        <t id="414">Phoenix Marauder</t>
         <t id="415">After more intense Xenon incursions into Teladi border systems such as Grand Exchange and Fields of Opportunity, the Teladi Company decided to redesign the Teladi fleet from the ground up with the focus on manoeuvrability and more effective shielding. The Phoenix was at the centre of this upheaval. After much experimentation, a domed design was chosen for the hull, which better protected the ship's vital systems as well as much improving turning and rolling speeds. After confirming that this design worked for the Phoenix, it was also applied to the rest of the fleet.</t>
-        <t id="416">Phoenix</t>
-        <t id="417">Toucan  \(Container\)(used for size M)</t>
-        <t id="418">The Toucan's passenger lounge was replaced with a medium-sized cargo bay after the creation of the Teladi Mass Transporter, which quickly became the popular method of local transport. This allowed the Company to focus even more on trade, and the Toucan is now used in support of the Vulture in station to station trading.</t>
-        <t id="419">Toucan</t>
-        <t id="420">\(Container\)(used for size L)</t>
-        <t id="421">Vulture  \(Container\)(used for size L)</t>
-        <t id="422">Ever the trusted ship for general trading, the Vulture was redesigned during the upheaval of the Teladi fleet to balance the shielding, not just around the vital systems but also around the cargo bay. Its domed design meant that it was a smaller target for enemy ships, and also greatly improved its manoeuvrability. Naturally, the improvements made to the cargo loading process and cargo bay of the Albatross were also made to the vulture, increasing an already impressive cargo capacity.</t>
-        <t id="423">Vulture</t>
-        <t id="424">\(Container\)(used for size L)</t>
-        <t id="425">Albatross XL \(Bulk\)(used for size L)</t>
-        <t id="426">When it came to the redesign of the Teladi Company's trading ships, attention naturally turned to improving cargo capacity. As well as giving the Albatross the newly designed domed hull to better balance the ship when escaping attack, its cargo loading process was redesigned to pack wares more efficiently thereby increasing the room left for more cargo. The cargo bay was also lengthened and made narrower so that the Albatross' shields wrapped completely around it.</t>
-        <t id="427">Albatross</t>
-        <t id="428">\(Bulk\)(used for size L)</t>
-        <t id="429">S</t>
-        <t id="430">Intelligence states that this vessel is a reasonably new addition to the Xenon fleet, and is believed to the a mining vessel. Much like the various Argon mining ships, the Xenon S uses a laser to cut through larger asteroids before releasing smaller drones to collect the yielded resources. This has recently led to fearful questions from some corners of the scientific community as to why the Xenon are so deeply mimicing Argon behaviour.</t>
-        <t id="431">Unidentifiable Vessel</t>
-        <t id="432">No information available.</t>
-        <t id="433">Unidentifiable Vessel</t>
-        <t id="434">No information available.</t>
-        <t id="435">Unidentifiable Vessel</t>
-        <t id="436">No information available.</t>
-        <t id="437">Construction Vessel</t>
-        <t id="438">The Construction Vessel \(CV\) carries all the parts necessary to build a single station. Once it has arrived at its location, it will build parts of that station out of its own components, meaning it is good for only a single use. Any wares bought by the CV before the build order has been given will be placed in locked storage containers that will not open again until construction begins. This means that the CV cannot be used to sell wares.</t>
-        <t id="439">No information available.</t>
-    <!-- SMALL SHIPS -->
-        <t id="20">Hayabusa</t> <!-- units_size_s_canteran_fighter_01_macro -->
-        <t id="21">The Hayabusa is the most commonly-observed fighter within the confines of the Republic of Cantera. Initially a small mining survey ship, the Hayabusa was retrofitted to a combat role to defend against the Reivers. The Hayabusa has good acceleration for a ship its size, while its manoeuvrability is only average. Its weapon systems are at best described as weak. Just like the Daito, the Hayabusa is a good choice for day-to-day patrolling duties but is only second-best when it comes to combat.</t>
-        <t id="175">Moebius</t> <!-- units_size_s_pmc_xen_01_macro -->
-        <t id="176">The Moebius, apparently, is a smaller version of the Golem and, as such, shares much of its splendid technology. Generally what can be said about its larger sibling is also true with regard to the Moebius. Its manoeuvrability and thrust-to-payload ratio are each one of a kind, leading this class of ship, and its handsome weapon array outshines similar ships with ease. It is, however, not clear how PMC - a company better known for crude mining operations than the design of elegant and powerful warships - was able to acquire the Moebius' design plans. One thing is clear to experts: PMC could not have it done it all by themselves.</t>
-        <t id="142">Orlam</t> <!-- units_size_s_ship_01_macro -->
-        <t id="143">Ledda Industrial, another spin-off of the now-disbanded Jonferson Space Dynamics Division, manufactures this fast ship to custom order. Powered by M-AM/AM-M conversion technology, this otherwise pretty unremarkable craft derives a small advantage in range from its engine system. The Orlam's tactical use is very limited. It is, however, 'nice to look at' as pilots across sectors mockingly note. It is mainly used for low-priority escort missions.</t>
-        <t id="225">Talorcan</t> <!-- units_size_s_ship_02_macro -->
-        <t id="226">With its basic layout unchanged for more than two decades, the Talorcan has seen only minor technical revisions since its introduction by JSDD. Originally intended as an escort vessel for diplomatic missions, the Albion Energy Subsidiary acquired the design plans for this type of vessel to serve on a number of different tasks. Though still used as an escort for larger ships, it's frequently sent on scouting and reconnaissance missions, used for scientific observations, and at times, as a means of fast transportation for high ranking officials of the firm.</t>
-        <t id="171">Ossian</t> <!-- units_size_s_ship_03_macro -->
-        <t id="172">Originally intended as a fast courier ship, the Ossian is mainly used these days as an escort on diplomatic missions of very low priority, or on scouting missions when the success of the task at hand may depend on manoeuvrability and speed. The tactical capabilities of the Ossian are severely limited by its for all intents and purposes nonexistent offensive weaponry. This fighter is sometimes called 'the tin can' or, more poignantly, 'the death trap'; the latter refers to the fact that during the last half decade more pilots have died in this ship alone than in all other similarly sized crafts of all factions put together. Most of those deaths occurred outside of combat.</t>
-        <t id="7">Artio</t> <!-- units_size_s_ship_04_macro -->
-        <t id="8">This unique ship undeniably looks like a pimped-up hovercraft - only that it's not. Designed by Beryll Astrotech - the successor organisation of the then illegal Beryll hi-tech syndicate - the Artio builds on technology gleaned from Terraformer artefacts, like much of the machinery and ships manufactured by Beryll Astrotech. The Artio has only a 'token weapon' which makes it basically unfit for combat. However, with its highly responsive main and attitude thrusters, this little craft is extremely well suited for covert operations near or between orbital installations.</t>
-        <t id="5">Vasio</t> <!-- units_size_s_ship_05_macro -->
-        <t id="6">As with most vessels employed by the Albion Energy Subsidiary, the Vasio is no exception in that its design had been acquired from Jonferson Space Dynamics Division \(JSDD\) shortly before the Fall of the Gates. Unlike other AES ships, however, it has since received a major technical overhaul, especially with regards to its weapon systems.  The Vasio's good manoeuvrability and potent weapons make it a natural choice for important escort missions.</t>
-        <t id="217">Nechtan</t> <!-- units_size_s_ship_07_macro -->
-        <t id="218">Although considerably larger than its sibling and just as agile, the Nechtan does not improve much on tactical capability when compared to the Artio. A saying amongst BA pilots states that, although it looks like a fighter, 'the Nechtan can run, but it can never fight'.  This is only partially true, as was proven in the 'Split Blitz' operation following the 'Split Downtime', where three Nechtans alone managed to incapacitate a Carrier \(but were, unfortunately, destroyed shortly after this remarkable and unexpected victory\).</t>
-        <t id="126">Hesus</t> <!-- units_size_s_ship_19_macro -->
-        <t id="127">This is a solid no-nonsense ship that is mainly used for missions of high importance, e.g. escorting the Head of State on interplanetary diplomatic journeys. Its high manoeuvrability and powerful engines give it an edge over many other vessels of its class. When one or more Hesus are observed within a sector, it is immediately known that an important political event must be taking place shortly somewhere nearby. Because of this, the Hesus is commonly known as a harbinger of peace - or of war.</t>
-        <t id="291">Birog</t> <!-- units_size_s_ship_23_macro -->
-        <t id="292">The Birog is, as some say, 'good for avoiding a fight'. Although capable of reasonable acceleration and with acceptable manoeuvrability, its standard weapon system is too weak to be of practical use in any serious combat situation. The Birog is therefore mainly used as an escort ship, or as a guard of honour at the arrival of foreign dignitaries.</t>
-        <t id="136">Camulos Raider</t> <!-- units_size_s_ship_ar_military_01_macro -->
-        <t id="137">The Camulos Raider is a fighter craft featuring better-than-average acceleration and manoeuvrability, as well as good or average weapon systems. As with all vessels manufactured by Jonferson Space Systems, this ship is based on two-way antimatter conversion technology \(M-AM/AM-M\). When Jonferson Space Dynamics Division \(JSDD\) disbanded right after the Fall of the Gates, several of the firm's subsidiaries located in different sectors continued operations on their own. Jonferson Space Systems is the largest of them. Common to all subsidiaries was JSDD's head start in M-AM/AM-M conversion. Despite many efforts of competitors to reverse-engineer or just steal it, this innovation \(called a 'tech miracle' by some\) has remained firmly with the JSDD subsidiaries.</t>
-        <t id="309">Camulos Vanguard</t> <!-- units_size_s_ship_ar_military_02_macro -->
-        <t id="310">Based on advanced M-AM/AM-M conversion, as are most vessels manufactured by JSS, the Camulos Vanguard is similar to its sibling the Camulos Raider except that it trades-off better armament for acceleration capabilities. The Camulos Vanguard is one of the stronger escort ships and often used on missions it wasn't originally intended for. Its tactical capabilities are notoriously underestimated.</t>
-        <t id="247">Camulos Sentinel</t> <!-- units_size_s_ship_ar_military_03_macro -->
-        <t id="248">Similar to both the Camulos Raider and the Camulos Vanguard, the Camulos Sentinel is easily one of the best-armed fighters of the JSS fleet. Surprisingly, trading off acceleration and manoeuvrability for the mass of a large dumbfire missile arsenal does not take the edge off this infamous ship; the opposite is the case. With its additional potent energy weapon array, the Camulos Sentinel has proven an invaluable asset during many a battle. Its role in the Fourth Xenon Uprising \(also known as 'IRQ4 conflict'\) cannot be overstated.</t>
-        <t id="249">Camulos</t>
-        <t id="250">Sentinel</t>
-
+        <t id="416">Phoenix Marauder</t>
+        <!-- units_size_xl_transporter_1_macro -->
+        <!-- units_size_xl_transporter_2_macro -->
+        <!-- units_size_xl_transporter_3_macro -->
+        <!-- units_size_xl_xenon_01_macro -->
+        <t id="134">I</t>
+        <t id="135">Descended from the original Terraformers released by Earth about a millennium ago, the Xenon underwent many waves of machine evolution. Mechano-taxonometrists are fairly certain that the line of TF/Xenon present in the known sectors today belong to the ninth diversification branch \(of roughly 27\). The I/BRANCH9 - commonly referred to as just I - is probably the largest warship in the known galaxy. So far, it has only been spotted from great distances as nobody has lived through any closer encounter with it. It is therefore anticipated to be a most fearsome machine that, even if alone, has little to fear from other single capital ships or even modest fleets. Nothing more is really known about it yet rumour about it and paranoid false-sighting reports are rife. So far, and most fortunately, it has not been reliably reported to be seen venturing outside of Xenon core sectors. Indeed, it is not known if more than one of these behemoth war machines actually exists.</t>
     </page>
 </language>
