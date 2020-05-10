@@ -929,7 +929,7 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
 					<position x="0" y="148.714" z="0" />
 				</offset>
@@ -952,6 +952,13 @@
 			</connection>
 			<connection name="con_shipstorage_s01" tags="dockingbay " />
 			<connection name="con_shipstorage_m01" tags="dockingbay " />
+			<connection name="con_launchtube_arg_s_01_a" tags=" ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+					<quaternion qx="-0" qy="1" qz="-0" qw="0"/>
+				</offset>
+			</connection>
+
 		</connections>
 	</component>
 </components>

@@ -142,11 +142,6 @@
 				</offset>
 			</connection>
 
-			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
-				<offset>
-					<position x="4.768372E-07" y="14.0094" z="-19.64283" />
-				</offset>
-			</connection>
 			<connection name="con_storage01" tags="storage"></connection>
 			<connection name="connection_radar01" tags="destructible">
 				<offset>
@@ -169,9 +164,9 @@
 				</offset>
 			</connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="14.7393" z="0" />
+					<position x="0" y="12.4" z="33.6" />
 				</offset>
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">

@@ -179,11 +179,6 @@
 			<connection name="connection_shieldgen01" tags="shield medium unhittable">
 				<offset />
 			</connection>
-			<connection name="connection_cockpit01" tags="cockpit ">
-				<offset>
-					<position x="-2.425313E-02" y="18.37514" z="58.87402" />
-				</offset>
-			</connection>
 			<connection name="connection_weaponprim01" tags="weapon medium standard missile mining">
 				<offset>
 					<position x="0" y="3.38575" z="70.72794" />
@@ -199,9 +194,9 @@
 			</connection>
 			<connection name="con_storage01" tags="storage"></connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="29.2347" z="0" />
+					<position x="0" y="27.17" z="10.53" />
 				</offset>
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">

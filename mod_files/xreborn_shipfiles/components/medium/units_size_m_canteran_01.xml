@@ -185,9 +185,9 @@
 					<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
 				</offset>
 			</connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="8" z="10" />
+					<position x="0" y="6.7" z="20" />
 				</offset>
 			</connection>
 			<connection name="con_dockpos" tags="dockpos ">

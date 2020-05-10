@@ -237,11 +237,6 @@
 					<position x="0" y="0" z="0" />
 				</offset>
 			</connection>
-			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
-				<offset>
-					<position x="-6.824224E-02" y="9.319966" z="52.14833" />
-				</offset>
-			</connection>
 			<connection name="connection_shieldgen01" tags="shield medium unhittable">
 				<offset>
 					<position x="4.267175E-02" y="-1.149866" z="-59.46403" />
@@ -271,9 +266,9 @@
 				<offset />
 			</connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="14.3026" z="0" />
+					<position x="0" y="13" z="60" />
 				</offset>
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <diff>
 	<add sel="/index">
+		<entry name="invisible_airlock" value="Extensions/xreborn_shipfiles/invisible_cockpit/invisible_airlock" />
 		<entry name="invisible_cockpit" value="Extensions/xreborn_shipfiles/invisible_cockpit/invisible_cockpit" />
 		<entry name="invisible_xs_dock" value="Extensions/xreborn_shipfiles/invisible_cockpit/invisible_xs_dock" />
 		<entry name="units_size_xl_cs_omicron_center_b" value="Extensions/xreborn_shipfiles/components/xl/units_size_xl_cs_omicron_center_b" />

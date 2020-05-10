@@ -57,11 +57,6 @@
                 </offset>
                 <parts />
             </connection>
-            <connection name="connection_cockpit01" tags="cockpit ">
-                <offset>
-                    <position x="-1.860444" y="2.159861" z="25.71654" />
-                </offset>
-            </connection>
             <connection name="connection_shieldgen01" tags="shield small unhittable">
                 <offset>
                     <position x="2.377479" y="-4.870436" z="19.67161" />
@@ -129,9 +124,9 @@
                     <rotation pitch="180" />
                 </offset>
             </connection>
-            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+            <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
-                    <position x="0" y="8.30702" z="0" />
+                    <position x="-1.67" y="4.9" z="9.8" />
                 </offset>
             </connection>
             <connection name="con_dock_xs" tags="dock_xs ">

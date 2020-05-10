@@ -11,7 +11,7 @@
 		<connections>
 			<connection name="container" tags="contents" value="0" />
 			<connection name="position" tags="position" value="1" />
-			<connection name="Connection01" tags="part nocollision detail_xl geometryinvisible ">
+			<!-- <connection name="Connection01" tags="part nocollision detail_xl geometryinvisible ">
 				<offset />
 				<parts>
 					<part name="part_main" wreck="part_main_wreck">
@@ -28,7 +28,7 @@
 						</size>
 					</part>
 				</parts>
-			</connection>
+			</connection> -->
 			<connection name="Connection_component" tags="component dock_xs ">
 				<offset />
 			</connection>

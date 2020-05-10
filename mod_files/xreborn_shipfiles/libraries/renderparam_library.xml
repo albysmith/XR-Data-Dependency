@@ -8,5 +8,10 @@
         <tag name="ship_xr" />
       </connections>
     </rule>
+    <rule name="dbglodrule_cockpit_xr" range="10.0" sizecontrib="0" speed="1.0">
+      <connections>
+        <tag name="cockpit_xr" />
+      </connections>
+    </rule>
   </add>
 </diff><!-- priority="0" lodradius0="0" lodradius1="0" lodradius2="0" lodradius3="0" -->

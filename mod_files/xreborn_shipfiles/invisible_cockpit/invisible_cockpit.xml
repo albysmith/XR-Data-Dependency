@@ -2,345 +2,77 @@
 <components>
 	<component name="invisible_cockpit" class="cockpit">
 		<source geometry="Extensions\xreborn_shipfiles\invisible_cockpit\invisible_cockpit_data" />
-		<layers>
-			<layer>
-				<waypoints />
-				<lights>
-					<omni name="XU Omni039" shadow="0" r="255" g="206" b="153" range="5" shadowrange="5" lighteffect="1" trigger="1" intensity="1.799999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.58272" y="1.136597" z="-10.39679" />
-							<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067" />
-						</offset>
-					</omni>
-					<spot name="XU Spot008" angle="89.3" gradientindex="6" range="4" r="255" g="209" b="189" lighteffect="1" trigger="1" intensity="8" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.525763" y="2.942101" z="-10.67162" />
-						</offset>
-					</spot>
-					<omni name="XU Omni044" shadow="0" r="255" g="206" b="153" range="8" shadowrange="8" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="0" y="2.550576" z="2.158565" />
-						</offset>
-					</omni>
-					<arealight name="XU AreaLight004" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-5.412677" y="5.787227E-02" z="-4.266685" />
-							<quaternion qx="0.5000002" qy="0.4999999" qz="-0.4999998" qw="-0.5000001" />
-						</offset>
-					</arealight>
-					<omni name="XU Omni048" shadow="0" r="153" g="211" b="255" range="3.7" shadowrange="3.7" lighteffect="1" trigger="1" intensity="1.399999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="5.705942" y="1.166524" z="-1.563228" />
-							<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
-						</offset>
-					</omni>
-					<arealight name="XU AreaLight007" areax="0" areay="2.1" radius="0.02" r="198" g="225" b="255" lighteffect="1" range="1" spotattenuation="0.5977778" specularintensity="1" trigger="1" intensity="1.4">
-						<lightanimations />
-						<offset>
-							<position x="4.818336" y="3.309166" z="1.727108" />
-							<quaternion qx="-0.707107" qy="-0.7071065" qz="3.231163E-08" qw="3.231168E-08" />
-						</offset>
-					</arealight>
-					<spot name="XU Spot009" angle="89.3" gradientindex="6" range="4" r="255" g="209" b="189" lighteffect="1" trigger="1" intensity="8" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.481393" y="2.942101" z="-10.67162" />
-						</offset>
-					</spot>
-					<omni name="XU Omni049" shadow="0" r="255" g="206" b="153" range="5" shadowrange="5" lighteffect="1" trigger="1" intensity="1.799999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.424435" y="1.136597" z="-10.39679" />
-							<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067" />
-						</offset>
-					</omni>
-					<omni name="XU Omni050" shadow="0" r="153" g="211" b="255" range="3.7" shadowrange="3.7" lighteffect="1" trigger="1" intensity="1.399999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="4.81811" y="1.789733" z="1.671963" />
-							<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
-						</offset>
-					</omni>
-					<omni name="XU Omni051" shadow="0" r="153" g="211" b="255" range="3.7" shadowrange="3.7" lighteffect="1" trigger="1" intensity="1.399999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-4.78081" y="1.789733" z="1.671963" />
-							<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
-						</offset>
-					</omni>
-					<omni name="XU Omni052" shadow="0" r="153" g="211" b="255" range="3.7" shadowrange="3.7" lighteffect="1" trigger="1" intensity="1.399999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-5.344322" y="1.166524" z="-1.563228" />
-							<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
-						</offset>
-					</omni>
-					<omni name="XU Omni053" shadow="0" r="255" g="206" b="153" range="8" shadowrange="8" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="0" y="2.550576" z="-1.912045" />
-						</offset>
-					</omni>
-					<arealight name="XU AreaLight012" areax="2.4" areay="5.270001" radius="0" r="255" g="228" b="198" lighteffect="1" range="4" spotattenuation="0.4377778" specularintensity="1" trigger="1" intensity="0.8">
-						<lightanimations />
-						<offset>
-							<position x="0" y="3.059042" z="0.6031387" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight013" areax="0" areay="2.1" radius="0.02" r="198" g="225" b="255" lighteffect="1" range="1" spotattenuation="0.5977778" specularintensity="1" trigger="1" intensity="1.4">
-						<lightanimations />
-						<offset>
-							<position x="-4.791059" y="3.309166" z="1.727108" />
-							<quaternion qx="-1.4031E-09" qy="-1.402969E-09" qz="-0.7071065" qw="-0.707107" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight014" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="5.43732" y="5.787227E-02" z="-4.266685" />
-							<quaternion qx="0.5000002" qy="0.4999999" qz="-0.4999998" qw="-0.5000001" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight015" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="4.653483" y="0.3343831" z="-7.911177" />
-							<quaternion qx="-0.707107" qy="-0.7071065" qz="-9.41289E-08" qw="-9.412889E-08" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight016" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="4.653483" y="0.3343831" z="-9.88497" />
-							<quaternion qx="-0.707107" qy="-0.7071065" qz="-9.41289E-08" qw="-9.412889E-08" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight017" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-4.529102" y="0.3343831" z="-7.911177" />
-							<quaternion qx="-1.4031E-09" qy="-1.402969E-09" qz="-0.7071065" qw="-0.707107" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight018" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-4.529103" y="0.3343831" z="-9.88497" />
-							<quaternion qx="-1.4031E-09" qy="-1.402969E-09" qz="-0.7071065" qw="-0.707107" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight019" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.545589" y="-0.2086929" z="-1.384132" />
-							<quaternion qx="-1.4031E-09" qy="-1.402969E-09" qz="-0.7071065" qw="-0.707107" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight020" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.545588" y="6.775945E-03" z="-4.343105" />
-							<quaternion qx="-1.4031E-09" qy="-1.402969E-09" qz="-0.7071065" qw="-0.707107" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight021" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.545589" y="-0.2086929" z="1.663837" />
-							<quaternion qx="-1.4031E-09" qy="-1.402969E-09" qz="-0.7071065" qw="-0.707107" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight022" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.531915" y="-0.2086929" z="1.663837" />
-							<quaternion qx="-0.707107" qy="-0.7071065" qz="-1.137993E-07" qw="-1.137993E-07" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight023" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.531915" y="-0.2086929" z="-1.384132" />
-							<quaternion qx="-0.707107" qy="-0.7071065" qz="-1.137993E-07" qw="-1.137993E-07" />
-						</offset>
-					</arealight>
-					<arealight name="XU AreaLight024" areax="0" areay="0" radius="0.1" r="198" g="232" b="255" lighteffect="1" range="1.5" spotattenuation="0.5555556" specularintensity="1" trigger="1" intensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.531915" y="6.775945E-03" z="-4.343105" />
-							<quaternion qx="-0.707107" qy="-0.7071065" qz="-1.137993E-07" qw="-1.137993E-07" />
-						</offset>
-					</arealight>
-					<spot name="XU Spot010" angle="89.3" gradientindex="7" range="2" r="189" g="220" b="255" lighteffect="1" trigger="1" intensity="4" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.427722" y="0.2830255" z="-6.052195" />
-							<quaternion qx="-0.7071068" qy="4.214685E-08" qz="-4.214685E-08" qw="-0.7071067" />
-						</offset>
-					</spot>
-					<spot name="XU Spot011" angle="89.3" gradientindex="7" range="2" r="189" g="220" b="255" lighteffect="1" trigger="1" intensity="4" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.44997" y="0.2830255" z="-6.052195" />
-							<quaternion qx="-0.7071068" qy="4.214685E-08" qz="-4.214685E-08" qw="-0.7071067" />
-						</offset>
-					</spot>
-					<omni name="XU Omni054" shadow="0" r="153" g="211" b="255" range="3.7" shadowrange="3.7" lighteffect="1" trigger="1" intensity="1.399999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="2.541337" y="1.166524" z="-6.87329" />
-							<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
-						</offset>
-					</omni>
-					<omni name="XU Omni055" shadow="0" r="153" g="211" b="255" range="3.7" shadowrange="3.7" lighteffect="1" trigger="1" intensity="1.399999" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="-2.420202" y="1.166524" z="-6.87329" />
-							<quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
-						</offset>
-					</omni>
-					<omni name="XU Omni056" shadow="0" r="255" g="206" b="153" range="3" shadowrange="3" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations />
-						<offset>
-							<position x="0" y="2.24106" z="3.54107" />
-						</offset>
-					</omni>
-				</lights>
-			</layer>
-		</layers>
+		<layers></layers>
 		<connections>
 			<connection name="container" tags="contents" value="0" />
 			<connection name="position" tags="position" value="1" />
-			<connection name="Connection01" group="transporter_01 " tags="location_cockpit geometryinvisible ">
+			<connection name="Connection01" group="transporter_01 " tags="location_cockpit part transporter platformcollision forceoutline">
 				<offset>
-					<position x="-7.766749E-03" y="1.86028" z="-3.25231" />
+					<position x="-7.766749E-03" y="2.86028" z="-0.25231" />
 				</offset>
+				<!-- <parts>
+					<part ref="invisible_airlock.part_main" name="part_main " />
+				</parts> -->
 				<parts>
-					<part ref="interiors_arg_airlock_01_body.part_main" name="part_main " />
-				</parts>
-				<waypoints />
-			</connection>
-			<connection name="Connection02" tags="part iklink geometryinvisible " parent="part_main">
-				<offset>
-					<position x="5.761385E-04" y="5.153775E-02" z="3.353691E-02" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.detail_m_decals" name="detail_m_decals " />
-				</parts>
-			</connection>
-			<connection name="Connection03" group="transporter_01 " tags="part animation geometryinvisible ">
-				<offset>
-					<!-- <position x="0.544054" y="1.191346" z="-11.80234"/> -->
-					<position x="0.544054" y="1.86028" z="-2.10713" />
-				</offset>
-				<animations />
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.anim_door_left" name="anim_door_left " />
-				</parts>
-				<waypoints />
-			</connection>
-			<connection name="Connection04" tags="part iklink geometryinvisible " parent="anim_door_left ">
-				<offset>
-					<position x="-0.4329364" y="3.16143E-03" z="-8.512306E-02" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.detail_m_decals_left" name="detail_m_decals_left " />
-				</parts>
-			</connection>
-			<connection name="Connection05" tags="part nocollision iklink geometryinvisible " parent="anim_door_left">
-				<offset>
-					<position x="6.043839E-02" y="9.536743E-07" z="-2.498627E-04" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.detail_m_light_left" name="detail_m_light_left " />
-				</parts>
-			</connection>
-			<connection name="Connection06" group="transporter_01 " tags="part animation geometryinvisible ">
-				<offset>
-					<!-- <position x="-0.5500031" y="1.190954" z="-11.80234"/> -->
-					<position x="-0.5500031" y="1.86028" z="-2.10713" />
-				</offset>
-				<animations />
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.anim_door_right" name="anim_door_right " />
-				</parts>
-				<waypoints />
-			</connection>
-			<connection name="Connection07" tags="part iklink geometryinvisible " parent="anim_door_right ">
-				<offset>
-					<position x="0.4321223" y="3.553271E-03" z="-8.512306E-02" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.detail_m_decals_right" name="detail_m_decals_right " />
-				</parts>
-			</connection>
-			<connection name="Connection08" tags="part nocollision iklink geometryinvisible " parent="anim_door_right">
-				<offset>
-					<position x="-6.110048E-02" y="3.925562E-04" z="-2.498627E-04" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.detail_m_light_right" name="detail_m_light_right " />
-				</parts>
-			</connection>
-			<connection name="Connection09" group="transporter_01 " tags="part detail_l  ">
-				<offset>
-					<!-- <position x="1.205526" y="1.224601" z="-13.03856"/> -->
-					<position x="1.205526" y="1.893531" z="-3.34339" />
-					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.detail_l_button" name="detail_l_button" />
-				</parts>
-			</connection>
-			<connection name="Connection10" hidden="true" group="transporter_01 " tags="part  ">
-				<offset>
-					<!-- <position x="-1.493479E-03" y="2.33374" z="-12.05736"/> -->
-					<position x="-1.493479E-03" y="3.00267" z="0.36219" />
-					<quaternion qx="0.7057381" qy="-0" qz="-0" qw="-0.7084727" />
-				</offset>
-				<parts>
-					<part ref="interiors_arg_airlock_01_body.dummy_sound_animation" name="dummy_sound_animation " />
-				</parts>
-			</connection>
-			<connection name="Connection16" group="pilotcontrol" tags="part ui platformcollision ">
-				<offset>
-					<position x="2.002716E-07" y="1.369059" z="2.334183" />
-				</offset>
-				<parts>
-					<part name="part_console_pilot">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.multimat" />
-									<material id="2" ref="generic.generic_p1_int_lights_02" />
-									<material id="3" ref="generic.generic_p1_hulltexture" />
-									<material id="4" ref="p1paint.paint_p1_decal_01" />
-								</materials>
-							</lod>
-						</lods>
+					<part name="part_main">
 						<size>
-							<max x="1.246668" y="0.6170719" z="1.051432" />
-							<center x="3.814698E-08" y="0" z="0" />
+							<max x="1.402065" y="1.360957" z="1.411432" />
+							<center x="0" y="0.0070467" z="-7.050276E-03" />
 						</size>
-						<sounds>
-							<sound name="bridge_arg_l_pilot" ref="bridge_arg_l_pilot">
-								<offset>
-									<position x="-2.002716E-07" y="0.6309407" z="-1.831055E-04" />
-								</offset>
-							</sound>
-						</sounds>
 					</part>
 				</parts>
 				<waypoints />
 			</connection>
-			<connection name="Connection72" tags="part detail_l noshadowcaster nocollision  ">
+			<connection name="Connection09" group="transporter_01 " tags="part platformcollision detail_l forceoutline trigger_interact ui interiorprops">
 				<offset>
-					<position x="-9.019441E-07" y="1.613337" z="4.828274" />
+					<!-- <position x="1.205526" y="1.224601" z="-13.03856"/> -->
+					<position x="1.15526" y="3" z="-0.44339" />
+					<!-- <position x="1.205526" y="1.893531" z="-1.34339" /> -->
+					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067" />
+				</offset>
+				<!-- <parts>
+					<part ref="invisible_airlock.detail_l_button" name="detail_l_button" />
+				</parts> -->
+				<parts>
+					<part name="detail_l_button">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_int_lights_01" />
+									<material id="2" ref="generic.generic_p1_hulltexture" />
+									<material id="3" ref="p1effects.p1_terminal_displays_01" />
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.1155996" y="0.2735191" z="4.358802E-02" />
+							<center x="0" y="1.192093E-07" z="0" />
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection16" group="pilotcontrol" tags="part ui platformcollision interiorprops">
+				<offset>
+					<!-- console position -->
+					<!-- <position x="-7.766749E-03" y="2.369059" z="0.5" /> -->
+					<!-- keyboard only position -->
+					<position x="-7.766749E-03" y="3.1" z="0.55" />
+				</offset>
+				<parts>
+					<!-- <part name="part_console_pilot"> -->
+						<!-- keyboard..... -->
+						<part name="part_monitors">
+						<size>
+							<max x="1.246668" y="0.6170719" z="1.051432" />
+							<center x="3.814698E-08" y="0" z="0" />
+						</size>
+					</part>
+				</parts>
+				<waypoints />
+			</connection>
+			<connection name="Connection72" tags="part detail_l noshadowcaster nocollision interiorprops ">
+				<offset>
+					<position x="-9.019441E-07" y="3.613337" z="2.828274" />
 				</offset>
 				<parts>
 					<part name="part_window_modes">
@@ -365,70 +97,29 @@
 			</connection>
 			<connection name="con_player01" value="-1" tags="player">
 				<offset>
-					<position x="0" y="5.543109" z="-8.455263" />
+					<!-- <position x="0" y="5.543109" z="-8.455263" /> -->
+					<position x="-1.613642E-03" y="1.7081292" z="-0.25181" />
 					<quaternion qx="0.5" qy="0.5" qz="0.5" qw="-0.5000001" />
 				</offset>
 			</connection>
 			<connection name="con_npc_stand_05" group="transporter_01 " tags="npc_waypoint stand npctransport ">
 				<offset>
 					<!-- <position x="5.584945E-03" y="0.0391952" z="-13.94702"/> -->
-					<position x="-1.613642E-03" y="0.7081292" z="-3.25181" />
+					<position x="-1.613642E-03" y="1.7081292" z="-0.25181" />
 				</offset>
 			</connection>
-			<!-- <connection name="con_npc_stand_006" value="-1" tags="npc stand marine">
+			<connection name="con_commander" value="-1" group="pilotcontrol" tags="npc pilot stand_commander stand_terminal_forward interiorprops">
 				<offset>
-					<position x="1.583431" y="0.7409222" z="-2.691285"/>
-					<quaternion qx="-0" qy="0.7071069" qz="-0" qw="-0.7071066"/>
-				</offset>
-			</connection> -->
-			<!-- <connection name="con_npc_stand_007" value="-1" tags="npc stand marine">
-				<offset>
-					<position x="-1.668314" y="0.7409222" z="-2.676902"/>
-					<quaternion qx="-0" qy="-0.7071065" qz="-0" qw="-0.707107"/>
-				</offset>
-			</connection> -->
-			<!-- <connection name="con_commander002" value="-1" group="gunnercontrol" tags="npc service stand_terminal_forward">
-				<offset>
-					<position x="5.487668" y="-0.3290165" z="-1.55818"/>
-					<quaternion qx="-0" qy="-0.7071068" qz="-0" qw="-0.7071067"/>
-				</offset>
-			</connection>
-			<connection name="con_commander004" value="-1" group="engineeringcontrol" tags="npc service stand_terminal_forward ">
-				<offset>
-					<position x="-5.441233" y="-0.328401" z="-1.567937"/>
-					<quaternion qx="-0" qy="0.7071066" qz="-0" qw="-0.7071069"/>
-				</offset>
-			</connection> -->
-			<connection name="con_commander" value="-1" group="pilotcontrol" tags="npc pilot stand_commander stand_terminal_forward">
-				<offset>
-					<position x="-1.158798E-02" y="0.7504768" z="2.026275" />
+					<!-- <position x="-1.158798E-02" y="0.7504768" z="2.026275" /> -->
+					<position x="-1.613642E-03" y="1.7504768" z="0.25" />
 				</offset>
 			</connection>
 			<connection name="con_UI" group="pilotcontrol" tags="uianchor ">
 				<offset>
-					<position x="-1.190842E-02" y="2.460253" z="2.024672" />
+					<!-- <position x="-1.190842E-02" y="2.460253" z="2.024672" /> -->
+					<position x="-1.613642E-03" y="3.460253" z="0.25" />
 				</offset>
 			</connection>
-			<!-- <connection name="con_tochair" value="-1" group="flightcontrol" tags="npc service stand_terminal_forward ">
-				<offset>
-					<position x="4.312135" y="-0.3158529" z="2.252595"/>
-				</offset>
-			</connection>
-			<connection name="con_uianchor" group="flightcontrol" tags="uianchor ">
-				<offset>
-					<position x="4.317842" y="1.253247" z="2.273021"/>
-				</offset>
-			</connection> -->
-			<!-- <connection name="con_UI003" group="navigationcontrol" tags="uianchor ">
-				<offset>
-					<position x="-4.317212" y="1.257314" z="2.273559"/>
-				</offset>
-			</connection>
-			<connection name="con_commander003" value="-1" group="navigationcontrol" tags="npc service stand_terminal_forward ">
-				<offset>
-					<position x="-4.316891" y="-0.3116398" z="2.089006"/>
-				</offset>
-			</connection> -->
 		</connections>
 	</component>
 </components>

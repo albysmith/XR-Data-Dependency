@@ -55,11 +55,6 @@
                 </offset>
                 <parts />
             </connection>
-            <connection name="Connection01" tags="cockpit ">
-                <offset>
-                    <position x="0.3254054" y="-2.941896" z="21.02887" />
-                </offset>
-            </connection>
             <connection name="weapon_primary_l" tags="weapon small standard missile platformcollision ">
                 <offset>
                     <position x="-1.671678" y="2.006379" z="21.61905" />
@@ -107,9 +102,9 @@
                     <rotation pitch="180" />
                 </offset>
             </connection>
-            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+            <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
-                    <position x="0" y="13.8061" z="0" />
+                    <position x="0" y="14.25" z="15" />
                 </offset>
             </connection>
             <connection name="con_dock_xs" tags="dock_xs ">

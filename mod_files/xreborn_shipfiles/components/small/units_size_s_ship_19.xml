@@ -187,11 +187,6 @@
                     <position x="-7.43207" y="0.887775" z="-5.44179" />
                 </offset>
             </connection>
-            <connection name="connection_cockpit01" tags="cockpit ">
-                <offset>
-                    <position x="0" y="0.1425118" z="14.55826" />
-                </offset>
-            </connection>
             <connection name="connection_radar01" tags="destructible">
                 <offset />
             </connection>
@@ -208,9 +203,9 @@
                     <rotation pitch="180" />
                 </offset>
             </connection>
-            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+            <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
-                    <position x="0" y="4.26398" z="0" />
+                    <position x="0" y="2.65" z="8" />
                 </offset>
             </connection>
             <connection name="con_dock_xs" tags="dock_xs ">

@@ -88,11 +88,6 @@
                 </offset>
                 <parts />
             </connection>
-            <connection name="connection_cockpit01" tags="cockpit ">
-                <offset>
-                    <position x="1.313228E-06" y="-1.288832" z="17.71536" />
-                </offset>
-            </connection>
             <connection name="connection_engine01" tags="engine small">
                 <offset>
                     <position x="-0.0565237" y="0.0503957" z="-11.9521" />
@@ -173,9 +168,9 @@
                     <rotation pitch="180" />
                 </offset>
             </connection>
-            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+            <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
-                    <position x="0" y="6.69662" z="0" />
+                    <position x="0" y="4.39" z="1.3" />
                 </offset>
             </connection>
             <connection name="con_dock_xs" tags="dock_xs ">

@@ -109,11 +109,6 @@
 					<quaternion qx="0.0000001509958" qy="1" qz="-0.0000000754979" qw="-0.00000000000001139987" />
 				</offset>
 			</connection>
-			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
-				<offset>
-					<position x="4.768372E-07" y="8.37889" z="67.46348" />
-				</offset>
-			</connection>
 			<connection name="con_storage01" tags="storage"></connection>
 			<connection name="connection_radar01" tags="destructible">
 				<offset>
@@ -136,14 +131,9 @@
 				</offset>
 			</connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
-			<connection name="con_cockpit" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="5.67312" z="100" />
-				</offset>
-			</connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
-				<offset>
-					<position x="0" y="18.7301" z="0" />
+					<position x="0" y="11.2" z="64" />
 				</offset>
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">

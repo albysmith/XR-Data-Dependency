@@ -54,11 +54,6 @@
                 </offset>
                 <parts />
             </connection>
-            <connection name="connection_cockpit01" tags="cockpit ">
-                <offset>
-                    <position x="0" y="-0.1746435" z="13.97848" />
-                </offset>
-            </connection>
             <connection name="connection_engine01" tags="engine small">
                 <offset>
                     <position x="2" y="0.487685" z="-4.80253" />
@@ -95,9 +90,9 @@
                     <quaternion qx="-0" qy="-1" qz="-0" qw="7.54979E-08" />
                 </offset>
             </connection>
-            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+            <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
-                    <position x="0" y="5.21147" z="0" />
+                    <position x="0" y="2.3" z="4" />
                 </offset>
             </connection>
             <connection name="con_dockpos" tags="dockpos ">

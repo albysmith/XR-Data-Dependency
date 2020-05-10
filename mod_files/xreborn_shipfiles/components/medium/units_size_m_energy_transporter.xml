@@ -240,11 +240,6 @@
 				<parts />
 			</connection>
 			<connection name="con_storage01" tags="storage"></connection>
-			<connection name="connection_cockpit01" tags="cockpit cockpit_visible">
-				<offset>
-					<position x="0" y="2.468227" z="55.98128" />
-				</offset>
-			</connection>
 			<connection name="connection_shieldgen01" tags="shield medium unhittable">
 				<offset>
 					<position x="0.1109139" y="-7.98641" z="-55.50878" />
@@ -274,9 +269,9 @@
 				<offset />
 			</connection>
 			<connection name="con_playercontrol" tags="playercontrol"></connection>
-			<connection name="cockpit_connection" tags="cockpit cockpit_visible">
+			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="7.45105" z="0" />
+					<position x="0" y="5.45105" z="60" />
 				</offset>
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">

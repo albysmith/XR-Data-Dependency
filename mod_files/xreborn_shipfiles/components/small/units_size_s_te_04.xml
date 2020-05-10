@@ -84,9 +84,6 @@
                     <quaternion qx="0" qy="0.7071068" qz="-0.7071067" qw="0" />
                 </offset>
             </connection>
-            <connection name="connection_cockpit01" tags="cockpit ">
-                <offset />
-            </connection>
             <connection name="connection_engine01" tags="engine small">
                 <offset>
                     <position x="-9.640187" y="0" z="-5.278688" />
@@ -116,9 +113,9 @@
                     <rotation pitch="180" />
                 </offset>
             </connection>
-            <connection name="cockpit_connection" tags="cockpit cockpit_visible">
+            <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
-                    <position x="0" y="8.48494" z="0" />
+                    <position x="0" y="11.85" z="2.06" />
                 </offset>
             </connection>
             <connection name="con_dock_xs" tags="dock_xs ">
