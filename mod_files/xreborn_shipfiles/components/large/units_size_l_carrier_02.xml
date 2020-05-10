@@ -242,7 +242,7 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="40.1831" z="0" />
+					<position x="0" y="100" z="0" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

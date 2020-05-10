@@ -111,11 +111,6 @@
 					<quaternion qx="-0.0000002177564" qy="-0.000000004216078" qz="-0.7071068" qw="0.7071068" />
 				</offset>
 			</connection>
-			<connection name="connection_cockpit01" tags="destructible">
-				<offset>
-					<position x="0" y="-50.04341" z="275.1924" />
-				</offset>
-			</connection>
 			<connection name="connection_shieldgen_01" group="group_l_engine" tags="shield large">
 				<offset>
 					<position x="0" y="67.06709" z="285.2124" />
@@ -467,7 +462,8 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="107.348" z="0" />
+					<position x="0" y="0" z="275.1924" />
+					<!-- <position x="0" y="107.348" z="0" /> -->
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

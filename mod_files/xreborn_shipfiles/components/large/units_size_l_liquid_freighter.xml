@@ -380,7 +380,7 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="102.4551" z="-40" />
+					<position x="0" y="102.4551" z="-140" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

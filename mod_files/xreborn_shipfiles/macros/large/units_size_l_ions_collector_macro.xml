@@ -29,7 +29,7 @@
     </properties>
     <connections>
       <connection ref="cockpit_connection">
-        <macro ref="bridge_arg_l_01_macro" connection="con_cockpit" />
+        <macro ref="bridge_par_l_01_macro" connection="con_cockpit" />
       </connection>
       <connection ref="con_storage01">
         <macro ref="units_size_l_ions_collector_storage_macro" connection="ShipConnection" />

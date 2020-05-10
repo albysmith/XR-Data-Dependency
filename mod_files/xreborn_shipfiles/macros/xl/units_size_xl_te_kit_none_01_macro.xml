@@ -29,7 +29,7 @@
     </properties>
     <connections>
       <connection ref="cockpit_connection">
-        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+        <macro ref="bridge_tel_xl_01_macro" connection="con_cockpit" />
       </connection>
       <connection ref="ConnectionFor_units_size_xl_te_kit_front_d">
         <macro>

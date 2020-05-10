@@ -51,7 +51,8 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="Connection16" group="pilotcontrol" tags="part ui platformcollision interiorprops">
+			<!-- <connection name="Connection16" group="pilotcontrol" tags="part ui platformcollision interiorprops"> -->
+			<connection name="Connection16" group="pilotcontrol" tags="part platformcollision detail_l forceoutline trigger_interact ui interiorprops">
 				<offset>
 					<!-- console position -->
 					<!-- <position x="-7.766749E-03" y="2.369059" z="0.5" /> -->
@@ -59,9 +60,10 @@
 					<position x="-7.766749E-03" y="3.1" z="0.55" />
 				</offset>
 				<parts>
+					<!-- full console -->
 					<!-- <part name="part_console_pilot"> -->
-						<!-- keyboard..... -->
-						<part name="part_monitors">
+					<!-- keyboard -->
+					<part name="part_monitors">
 						<size>
 							<max x="1.246668" y="0.6170719" z="1.051432" />
 							<center x="3.814698E-08" y="0" z="0" />

@@ -26,10 +26,6 @@ struct Folder {
     error: String,
 }
 
-// TODO
-// error handling for path length (get path length and make sure it's not too long)
-// 
-
 fn main() {
     const MODS_DIR: Dir = include_dir!("mod_files");
 
@@ -141,7 +137,7 @@ fn extract_cats(folder: Folder) {
                 let path = line.replace(pattern.as_str(), "");
                 // only copying ship data folders and ANI files
 
-                // for ship mod extraction only
+                // extract only what we want
                 if (path.contains("assets/units/")
                     && (path.contains("data") || path.contains("DATA")))
                     || (path.contains("EngineSystems")
@@ -169,7 +165,7 @@ fn extract_cats(folder: Folder) {
                     let mut outputfile = File::create(out_file_path).expect("something");
                     outputfile.write_all(&writer).expect("else");
 
-                // for ship mod extraction only
+                // skip everything else
                 } else {
                     let bytes_to_read = size.parse::<u64>().expect("parsing buffer");
                     datfile

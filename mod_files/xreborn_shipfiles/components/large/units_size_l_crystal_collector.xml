@@ -526,7 +526,7 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="128.1606" z="0" />
+					<position x="0" y="128.1606" z="-50" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

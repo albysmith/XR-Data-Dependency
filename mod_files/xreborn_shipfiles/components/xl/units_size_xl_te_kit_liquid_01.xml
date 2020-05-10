@@ -95,11 +95,6 @@
 				</offset>
 				<parts />
 			</connection>
-			<connection name="connection_cockpit01" tags="destructible">
-				<offset>
-					<position x="0" y="-167.271" z="283.7145" />
-				</offset>
-			</connection>
 			<connection name="connection_radar_fallback01" tags="destructible">
 				<offset>
 					<position x="0" y="0" z="193.7142" />
@@ -359,7 +354,8 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="203.122" z="0" />
+					<position x="0" y="0" z="283.7145" />
+					<!-- <position x="0" y="203.122" z="0" /> -->
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

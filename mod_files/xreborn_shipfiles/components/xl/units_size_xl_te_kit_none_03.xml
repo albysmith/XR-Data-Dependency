@@ -91,11 +91,6 @@
 				<offset />
 				<parts />
 			</connection>
-			<connection name="connection_cockpit01" tags="destructible">
-				<offset>
-					<position x="0" y="-167.271" z="103.2122" />
-				</offset>
-			</connection>
 			<connection name="con_storage01" tags="storage">
 				<offset />
 			</connection>
@@ -261,7 +256,7 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="286.992" z="0" />
+					<position x="0" y="300" z="0" />
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">

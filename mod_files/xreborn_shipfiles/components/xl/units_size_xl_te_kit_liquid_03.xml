@@ -108,7 +108,6 @@
 			</connection>
 			<connection name="connection_cockpit01" tags="destructible">
 				<offset>
-					<position x="0" y="-50.04341" z="253.1125" />
 				</offset>
 			</connection>
 			<connection name="connection_shieldgen_01" group="group_l_engine" tags="shield large">
@@ -354,7 +353,8 @@
 			</connection>
 			<connection name="cockpit_connection" tags="cockpit_xr">
 				<offset>
-					<position x="0" y="123.552" z="0" />
+					<position x="0" y="0" z="253.1125" />
+					<!-- <position x="0" y="123.552" z="0" /> -->
 				</offset>
 			</connection>
 			<connection name="con_dock_02" tags="dockarea">
