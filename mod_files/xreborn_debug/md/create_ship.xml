@@ -1,0 +1,532 @@
+<!-- <?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Create_Ship" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4_extract_split\libraries\md.xsd">
+    <cues>
+        <cue name="Init" instantiate="true">
+            <conditions>
+                <event_player_activated_weapongroup weapongroup="2" />
+            </conditions>
+            <actions> -->
+				<transfer_money from="faction.argon" to="faction.player" amount="200000000Cr"  />
+                <debug_to_file text="'start'" name="'pos.log'" directory="'fuckedup'" append="false" />
+                <set_value name="$Small" exact="[
+                macro.units_size_s_pmc_xen_01_macro,
+                macro.units_size_s_canteran_fighter_01_macro,
+                macro.units_size_s_ship_01_macro,
+                macro.units_size_s_ship_02_macro,
+                macro.units_size_s_ship_03_macro,
+                macro.units_size_s_ship_04_macro,
+                macro.units_size_s_ship_05_macro,
+                macro.units_size_s_ship_07_macro,
+                macro.units_size_s_ship_19_macro,
+                macro.units_size_s_ship_23_macro,
+                macro.units_size_s_ship_ar_military_01_macro,
+                macro.units_size_s_ship_ar_military_02_macro,
+                macro.units_size_s_ship_ar_military_03_macro,
+                macro.units_size_s_ship_ar_military_04_macro,
+                macro.units_size_s_ship_ar_military_05_macro,
+                macro.units_size_s_ship_ar_military_06_macro,
+                macro.units_size_s_ship_ar_military_07_macro,
+                macro.units_size_s_ship_ar_military_08_macro,
+                macro.units_size_s_ship_ar_military_09_macro,
+                macro.units_size_s_ship_pirate_01_macro,
+                macro.units_size_s_ship_pirate_02_macro,
+                macro.units_size_s_ship_pirate_03_macro,
+                macro.units_size_s_ship_pmc_01_macro,
+                macro.units_size_s_ship_pmc_02_macro,
+                macro.units_size_s_ship_pmc_03_macro,
+                macro.units_size_s_split_m3_macro,
+                macro.units_size_s_split_m4_macro,
+                macro.units_size_s_te_01_macro,
+                macro.units_size_s_te_02_macro,
+                macro.units_size_s_te_03_macro,
+                macro.units_size_s_te_04_macro,
+                macro.units_size_s_torpedo_bomber_macro,
+                macro.units_size_s_xenon_swarm_attack_drone_01_macro,
+                macro.units_size_s_xenon_swarm_attack_drone_02_macro,
+                ]" />
+                <set_value name="$Medium" exact="[
+                macro.units_size_m_canteran_01_macro,
+                macro.units_size_m_canteran_02_macro,
+                macro.units_size_m_container_transporter_5_macro,
+                macro.units_size_m_crystal_collector_macro,
+                macro.units_size_m_crystal_transporter_macro,
+                macro.units_size_m_energy_transporter_macro,
+                macro.units_size_m_hydrogen_collector_macro,
+                macro.units_size_m_ice_collector_macro,
+                macro.units_size_m_ions_collector_macro,
+                macro.units_size_m_liquid_transporter_macro,
+                macro.units_size_m_mercancias_01_macro,
+                macro.units_size_m_mercancias_02_macro,
+                macro.units_size_m_mercancias_03_macro,
+                macro.units_size_m_mercancias_04_macro,
+                macro.units_size_m_nividium_collector_macro,
+                macro.units_size_m_nyanae_01_macro,
+                macro.units_size_m_nyanae_02_macro,
+                macro.units_size_m_nyanae_03_macro,
+                macro.units_size_m_nyanae_04_macro,
+                macro.units_size_m_ore_collector_macro,
+                macro.units_size_m_ore_transporter_macro,
+                macro.units_size_m_plasma_collector_macro,
+                macro.units_size_m_plasma_transporter_macro,
+                macro.units_size_m_pmc_xen_02_macro,
+                macro.units_size_m_silicon_collector_macro,
+                macro.units_size_m_te_bulk_01_macro,
+                macro.units_size_m_te_container_01_macro,
+                macro.units_size_m_te_energy_01_macro,
+                macro.units_size_m_te_hydrogen_collector_01_macro,
+                macro.units_size_m_te_liquid_01_macro,
+                macro.units_size_m_te_mineral_collector_01_macro,
+                macro.units_size_m_ufo_01_macro,
+                macro.units_size_m_weapontech_transporter_macro,
+                macro.units_size_m_xenon_fighter_01_macro,
+                macro.units_size_m_xenon_miner_01_macro,
+                ]" />
+                <set_value name="$Large" exact="[  
+                macro.units_size_l_canteran_miner_01_macro,
+                macro.units_size_l_canteran_miner_02_macro,
+                macro.units_size_l_canteran_transporter_macro,
+                macro.units_size_l_carrier_01_macro,
+                macro.units_size_l_crystal_collector_macro,
+                macro.units_size_l_dv_kit_new_energy_01_macro,
+                macro.units_size_l_dv_kit_new_energy_container_01_macro,
+                macro.units_size_l_dv_kit_old_energy_container_01_macro,
+                macro.units_size_l_dv_kit_old_liquid_01_macro,
+                macro.units_size_l_hydrogen_collector_macro,
+                macro.units_size_l_ice_collector_macro,
+                macro.units_size_l_ions_collector_macro,
+                macro.units_size_l_kit_bulk_01_macro,
+                macro.units_size_l_kit_carrier_01_macro,
+                macro.units_size_l_kit_container_01_macro,
+                macro.units_size_l_kit_container_02_macro,
+                macro.units_size_l_kit_container_03_macro,
+                macro.units_size_l_kit_energy_01_macro,
+                macro.units_size_l_kit_hybrid_01_macro,
+                macro.units_size_l_kit_hybrid_02_macro,
+                macro.units_size_l_kit_liquid_01_macro,
+                macro.units_size_l_liquid_freighter_macro,
+                macro.units_size_l_nividium_collector_macro,
+                macro.units_size_l_ore_collector_macro,
+                macro.units_size_l_plasma_collector_macro,
+                macro.units_size_l_silicon_collector_macro,
+                macro.units_size_l_single_attack_ship_macro,
+                macro.units_size_l_te_kit_bulk_03_macro,
+                macro.units_size_l_te_kit_container_03_macro,
+                macro.units_size_l_te_kit_energy_03_macro,
+                macro.units_size_l_te_kit_liquid_03_macro,
+                macro.units_size_l_xenon_01_macro,
+                ]" />
+                <set_value name="$XL" exact="[
+                macro.units_size_xl_builder_ship_dv_macro,
+                macro.units_size_xl_builder_ship_hol_macro,
+                macro.units_size_xl_builder_ship_macro,
+                macro.units_size_xl_builder_ship_ol_macro,
+                macro.units_size_xl_builder_ship_plot_01_macro,
+                macro.units_size_xl_capital_destroyer_1_macro,
+                macro.units_size_xl_capital_destroyer_2_macro,
+                macro.units_size_xl_cargo_hauler_2_macro,
+                macro.units_size_xl_cargo_hauler_3_macro,
+                macro.units_size_xl_cs_omicron_ship_01_macro,
+                macro.units_size_xl_cs_omicron_ship_02_macro,
+                macro.units_size_xl_cs_omicron_ship_03_macro,
+                macro.units_size_xl_cs_omicron_ship_04_macro,
+                macro.units_size_xl_red_destroyer_macro,
+                macro.units_size_xl_split_m1_macro,
+                macro.units_size_xl_te_kit_bulk_01_macro,
+                macro.units_size_xl_te_kit_bulk_02_macro,
+                macro.units_size_xl_te_kit_bulk_03_macro,
+                macro.units_size_xl_te_kit_container_01_macro,
+                macro.units_size_xl_te_kit_container_02_macro,
+                macro.units_size_xl_te_kit_container_03_macro,
+                macro.units_size_xl_te_kit_energy_01_macro,
+                macro.units_size_xl_te_kit_energy_02_macro,
+                macro.units_size_xl_te_kit_energy_03_macro,
+                macro.units_size_xl_te_kit_liquid_01_macro,
+                macro.units_size_xl_te_kit_liquid_02_macro,
+                macro.units_size_xl_te_kit_liquid_03_macro,
+                macro.units_size_xl_te_kit_none_01_macro,
+                macro.units_size_xl_te_kit_none_02_macro,
+                macro.units_size_xl_te_kit_none_03_macro,
+                macro.units_size_xl_transporter_1_macro,
+                macro.units_size_xl_transporter_2_macro,
+                macro.units_size_xl_transporter_3_macro,
+                macro.units_size_xl_xenon_01_macro, 
+                ]" />
+
+                <set_value name="$Liquid" exact="[
+                macro.units_size_m_liquid_transporter_macro,
+                macro.units_size_m_te_liquid_01_macro,
+                macro.units_size_l_dv_kit_old_liquid_01_macro,
+                macro.units_size_l_kit_liquid_01_macro,
+                macro.units_size_l_liquid_freighter_macro,
+                macro.units_size_l_te_kit_liquid_03_macro,
+                macro.units_size_xl_te_kit_liquid_01_macro,
+                macro.units_size_xl_te_kit_liquid_02_macro,
+                macro.units_size_xl_te_kit_liquid_03_macro,
+                ]" />
+                <create_list name="$Mega" />
+
+                <set_value name="$Macros" exact="$Liquid" />
+                <include_actions ref="Create" />
+                <!-- <append_list_elements name="$Mega" other="$Small" />
+                <append_list_elements name="$Mega" other="$Medium" />
+                <append_list_elements name="$Mega" other="$Large" />
+                <append_list_elements name="$Mega" other="$XL" /> -->
+                <!-- <set_value name="$X_Off" exact="100m" />
+                <set_value name="$Y_Off" exact="11000m" />
+                <set_value name="$Macros" exact="$Small" />
+                <include_actions ref="Create" /> -->
+                <!-- <set_value name="$Y_Off" exact="2000m" />
+                <set_value name="$X_Off" exact="200m" />
+                <set_value name="$Macros" exact="$Medium" />
+                <include_actions ref="Create" /> -->
+                <!-- <set_value name="$Y_Off" exact="3000m" />
+                <set_value name="$X_Off" exact="600m" />
+                <set_value name="$Macros" exact="$Large" /> -->
+                <!-- <include_actions ref="Create" /> -->
+                <!-- <set_value name="$Y_Off" exact="4000m" />
+                <set_value name="$X_Off" exact="2000m" />
+                <set_value name="$Macros" exact="$XL" /> -->
+                <!-- <include_actions ref="Create" /> -->
+                <!-- <set_value name="$NumberSector" exact="0" />
+                <set_value name="$NumberShip" exact="0" />
+                <find_sector name="$Sectors" multiple="true" space="player.galaxy"></find_sector> -->
+                <!-- <set_value name="$ShipMacros" exact="lookup.macro.list" />
+                <do_all exact="$ShipMacros.count" counter="$i" reverse="true">
+                    <do_if value="@$ShipMacros.{$i}.isclass.ship == false">
+                        <remove_from_list name="$ShipMacros" exact="@$ShipMacros.{$i}" />
+                    </do_if>
+                </do_all>
+                <find_station name="$Station" space="player.galaxy" multiple="false"/>
+                <do_all exact="$ShipMacros.count" counter="$i">
+                    <create_ship groupname="md.$ThisBlows" name="$Ship" sector="$Station.sector" macro="$ShipMacros.{$i}">
+                        <select faction="faction.argon" />
+                        <pilot macro="character_boron_generic_01_macro">
+                            <skills>
+                                <skill type="boarding" exact="15" />
+                                <skill type="engineering" exact="15" />
+                                <skill type="management" exact="15" />
+                                <skill type="morale" exact="15" />
+                            </skills>
+                        </pilot>
+                        <loadout>
+                            <level exact="1.0" />
+                            <variation exact="0.0" />
+                        </loadout>
+                        <owner exact="faction.argon"></owner>
+                        <position x="$ShipMacros.{$i}.width + ($i * 2km) + 10km" />
+                    </create_ship>
+                    <create_order object="$Ship" id="'Wait'" default="true" immediate="true" />
+                    <set_owner object="$Ship" faction="faction.player" overridenpc="true" /> -->
+                <!-- <debug_to_file text="'(%s, %s, %s, %s),'.[$Ship.macro, $Ship.maxshield]" name="'shield.log'" directory="'shoot_to_log'" /> -->
+                <!-- </do_all> -->
+            </actions>
+            <cues>
+                <!-- <cue name="Penis" instantiate="true">
+                    <conditions>
+                        <event_player_activated_weapongroup />
+                    </conditions>
+                    <actions>
+                        <set_value name="$NumberSector" exact="1" operation="add" />
+                        <set_value name="$NumberShip" exact="1" operation="add" />
+                        <do_if value="$NumberSector gt $Sectors.count">
+                            <set_value name="$NumberSector" exact="1" />
+                        </do_if>
+                        <do_if value="$NumberShip gt $Mega.count">
+                            <set_value name="$NumberShip" exact="1" />
+                        </do_if>
+                        <warp object="player.ship" sector="$Sectors.random">
+                        </warp>
+              
+                        <signal_cue_instantly cue="A1sfabfkabh" />
+                   
+                    </actions>
+                </cue> -->
+                <!-- <cue name="A1sfabfkabh" instantiate="true">
+                    <conditions>
+                        <event_cue_signalled />
+                    </conditions>
+                    <delay exact="1s" />
+                    <actions>
+                        <create_ship groupname="md.$ThisBlows" name="$Ship" zone="player.zone" macro="$Mega.random">
+                            <select faction="faction.argon" />
+                            <pilot macro="character_boron_generic_01_macro">
+                                <skills>
+                                    <skill type="boarding" exact="15" />
+                                    <skill type="engineering" exact="15" />
+                                    <skill type="management" exact="15" />
+                                    <skill type="morale" exact="15" />
+                                </skills>
+                            </pilot>
+                            <loadout>
+                                <level exact="1.0" />
+                                <variation exact="0.0" />
+                            </loadout>
+                            <owner exact="faction.argon"></owner>
+                            <safepos object="player.ship" min="300m" max="2000m" />
+                        </create_ship>
+                        <create_order object="$Ship" id="'Wait'" default="true" immediate="true" />
+                        <set_owner object="$Ship" faction="faction.player" overridenpc="true" />
+                    </actions>
+                </cue> -->
+            </cues>
+        </cue>
+        <library name="Create">
+            <actions>
+                <do_all exact="$Macros.count" counter="$i">
+                    <create_ship groupname="md.$ThisBlows" name="$Ship" zone="player.zone" macro="$Macros.{$i}">
+                        <select faction="faction.argon" />
+                        <pilot macro="character_boron_generic_01_macro">
+                            <skills>
+                                <skill type="piloting" exact="15" />
+                                <skill type="boarding" exact="15" />
+                                <skill type="engineering" exact="15" />
+                                <skill type="management" exact="15" />
+                                <skill type="morale" exact="15" />
+                            </skills>
+                        </pilot>
+                        <loadout>
+                            <level exact="1.0" />
+                            <variation exact="0.0" />
+                        </loadout>
+                        <owner exact="faction.argon"></owner>
+                        <!-- <position x="$Macros.{$i}.width + ($i * 2km) + 10km" /> -->
+                        <!-- <position x="($i * $X_Off) + 10km" y="$Y_Off" /> -->
+                        <safepos object="player.ship" z="10000m" />
+                    </create_ship>
+                    <create_order object="$Ship" id="'Wait'" default="true" immediate="true" />
+                    <set_owner object="$Ship" faction="faction.player" overridenpc="true" />
+                    <signal_cue_instantly cue="YouMustWait" param="$Ship" />
+                </do_all>
+            </actions>
+        </library>
+        <!-- <cue name="YouMustWait" instantiate="true" namespace="this">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <delay exact="40s" />
+            <actions>
+                <set_value name="$Ship" exact="event.param" />
+                <find_object_surface object="$Ship" posname="$PositionResult">
+                    <position object="$Ship" y="-100m" z="450" />
+                </find_object_surface>
+                <debug_to_file text="' dock %s'.[$PositionResult]" name="'pos.log'" directory="'fuckedup'" />
+                <debug_to_file text="'&lt;connection name=&quot;con_dockpos&quot; tags=&quot;dockpos &quot;&gt;\n
+				&lt;offset&gt;\n
+					&lt;position x=&quot;%s&quot; y=&quot;%s&quot; z=&quot;%s&quot;/&gt;\n
+				&lt;/offset&gt;\n
+			&lt;/connection&gt;\n'.[$PositionResult.x, $PositionResult.y, $PositionResult.z]" name="'%s.xml'.[$Ship.macro]" directory="'connections_log'" append="false" />
+                <find_object_surface object="$Ship" posname="$PositionResult">
+                    <position object="$Ship" z="1000m" y="1m" />
+                </find_object_surface>
+                <debug_to_file text="' counter %s'.[$PositionResult]" name="'pos.log'" directory="'fuckedup'" />
+                <debug_to_file text="'&lt;connection name=&quot;con_countermeasures_01&quot; tags=&quot;countermeasures &quot;&gt;\n
+				&lt;offset&gt;\n
+					&lt;position x=&quot;%s&quot; y=&quot;%s&quot; z=&quot;%s&quot;/&gt;\n
+				&lt;/offset&gt;\n
+			&lt;/connection&gt;\n'.[$PositionResult.x, $PositionResult.y, $PositionResult.z]" name="'%s.xml'.[$Ship.macro]" directory="'connections_log'" />
+            </actions>
+        </cue> -->
+        <!-- <cue name="Tool_PlayerAttacks" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <debug_to_file text="'start'" name="'attack.log'" directory="'playertools'" append="false" />
+                <debug_to_file text="'start'" name="'luawhispers.log'" directory="'playertools'" append="false" />
+            </actions>
+            <cues>
+                <cue name="PlayerAttackReport" instantiate="true">
+                    <conditions>
+                        <event_player_attacked_object />
+                    </conditions>
+                    <actions>
+                        <find_object_component name="$Weapons" object="event.param" multiple="true" weapontype="combat"></find_object_component>
+                        <do_all exact="$Weapons.count" counter="$i">
+                            <set_value name="$InvRotation" exact="$Weapons.{$i}.rotation.inverse" />
+                            <debug_to_file text="'$Weapons.{$i}.position:  ' + $Weapons.{$i}.position" name="'attack.log'" directory="'playertools'" />
+                            <debug_to_file text="'$Weapons.{$i}.rotation:  ' + $InvRotation" name="'attack.log'" directory="'playertools'" />
+                        </do_all>
+                    </actions>
+                </cue>
+            </cues>
+        </cue> -->
+        <!-- <library name="X_Surface">
+            <actions>
+                <set_value name="$Loops" exact="10" />
+                <set_value name="$PositionsOut" exact="100" />
+                <do_for_each in="$Loops" name="$Loop">
+                    <do_for_each in="$Positions" name="$PositionOut">
+                        <transform_position refposition="$Ship.position" refrotation="$Ship.rotation" name="$TransPos">
+                                <position  z="$Ship.length / $loop"/>
+                        </transform_position>
+                        <find_object_surface object="$Ship"  posname="$PositonSurface">
+                            <position x="" y="" z="$Ship.length / $loop"/>
+                        </find_object_surface>
+                    </do_for_each>
+                </do_for_each>
+            </actions>
+        </library> -->
+    </cues>
+</mdscript> <!-- 
+macro.units_size_l_ad_zeppelin_01_macro,
+macro.units_size_l_canteran_miner_01_macro,
+macro.units_size_l_canteran_miner_02_macro,
+macro.units_size_l_canteran_transporter_macro,
+macro.units_size_l_carrier_01_macro,
+macro.units_size_l_carrier_02_macro,
+macro.units_size_l_crystal_collector_macro,
+macro.units_size_l_dv_kit_new_bulk_01_macro,
+macro.units_size_l_dv_kit_new_bulk_liquid_01_macro,
+macro.units_size_l_dv_kit_new_container_01_macro,
+macro.units_size_l_dv_kit_new_defence_01_macro,
+macro.units_size_l_dv_kit_new_energy_01_macro,
+macro.units_size_l_dv_kit_new_energy_container_01_macro,
+macro.units_size_l_dv_kit_new_liquid_01_macro,
+macro.units_size_l_dv_kit_old_bulk_01_macro,
+macro.units_size_l_dv_kit_old_bulk_liquid_01_macro,
+macro.units_size_l_dv_kit_old_container_01_macro,
+macro.units_size_l_dv_kit_old_defence_01_macro,
+macro.units_size_l_dv_kit_old_energy_01_macro,
+macro.units_size_l_dv_kit_old_energy_container_01_macro,
+macro.units_size_l_dv_kit_old_liquid_01_macro,
+macro.units_size_l_hydrogen_collector_macro,
+macro.units_size_l_ice_collector_macro,
+macro.units_size_l_ions_collector_macro,
+macro.units_size_l_kit_bulk_01_macro,
+macro.units_size_l_kit_carrier_01_macro,
+macro.units_size_l_kit_carrier_02_macro,
+macro.units_size_l_kit_container_01_macro,
+macro.units_size_l_kit_container_02_macro,
+macro.units_size_l_kit_container_03_macro,
+macro.units_size_l_kit_energy_01_macro,
+macro.units_size_l_kit_hybrid_01_macro,
+macro.units_size_l_kit_hybrid_02_macro,
+macro.units_size_l_kit_liquid_01_macro,
+macro.units_size_l_liquid_freighter_macro,
+macro.units_size_l_nividium_collector_macro,
+macro.units_size_l_ore_collector_macro,
+macro.units_size_l_plasma_collector_macro,
+macro.units_size_l_silicon_collector_macro,
+macro.units_size_l_single_attack_ship_macro,
+macro.units_size_l_te_kit_bulk_03_macro,
+macro.units_size_l_te_kit_container_03_macro,
+macro.units_size_l_te_kit_energy_03_macro,
+macro.units_size_l_te_kit_liquid_03_macro,
+macro.units_size_l_xenon_01_macro,
+
+MEDIUM
+
+macro.units_size_m_canteran_01_macro
+macro.units_size_m_canteran_02_macro
+macro.units_size_m_container_transporter_5_macro
+macro.units_size_m_crystal_collector_macro
+macro.units_size_m_crystal_transporter_macro
+macro.units_size_m_energy_transporter_macro
+macro.units_size_m_hydrogen_collector_macro
+macro.units_size_m_ice_collector_macro
+macro.units_size_m_ions_collector_macro
+macro.units_size_m_liquid_transporter_macro
+macro.units_size_m_mercancias_01_macro
+macro.units_size_m_mercancias_02_macro
+macro.units_size_m_mercancias_03_macro
+macro.units_size_m_mercancias_04_macro
+macro.units_size_m_nividium_collector_macro
+macro.units_size_m_nyanae_01_macro
+macro.units_size_m_nyanae_02_macro
+macro.units_size_m_nyanae_03_macro
+macro.units_size_m_nyanae_04_macro
+macro.units_size_m_ore_collector_macro
+macro.units_size_m_ore_transporter_macro
+macro.units_size_m_plasma_collector_macro
+macro.units_size_m_plasma_transporter_macro
+macro.units_size_m_pmc_xen_02_macro
+macro.units_size_m_silicon_collector_macro
+macro.units_size_m_te_bulk_01_macro
+macro.units_size_m_te_container_01_macro
+macro.units_size_m_te_energy_01_macro
+macro.units_size_m_te_hydrogen_collector_01_macro
+macro.units_size_m_te_liquid_01_macro
+macro.units_size_m_te_mineral_collector_01_macro
+macro.units_size_m_ufo_01_macro
+macro.units_size_m_weapontech_transporter_macro
+macro.units_size_m_xenon_fighter_01_macro
+macro.units_size_m_xenon_miner_01_macro
+
+SMALL
+
+units_size_s_canteran_fighter_01_macro
+units_size_s_khaak_01_macro
+units_size_s_khaak_02_macro
+units_size_s_khaak_03_macro
+units_size_s_khaak_04_macro
+units_size_s_pmc_xen_01_macro
+units_size_s_ship_01_macro
+units_size_s_ship_02_macro
+units_size_s_ship_03_macro
+units_size_s_ship_04_macro
+units_size_s_ship_05_macro
+units_size_s_ship_07_macro
+units_size_s_ship_19_macro
+units_size_s_ship_23_macro
+units_size_s_ship_ar_military_01_macro
+units_size_s_ship_ar_military_02_macro
+units_size_s_ship_ar_military_03_macro
+units_size_s_ship_ar_military_04_macro
+units_size_s_ship_ar_military_05_macro
+units_size_s_ship_ar_military_06_macro
+units_size_s_ship_ar_military_07_macro
+units_size_s_ship_ar_military_08_macro
+units_size_s_ship_ar_military_09_macro
+units_size_s_ship_pirate_01_macro
+units_size_s_ship_pirate_02_macro
+units_size_s_ship_pirate_03_macro
+units_size_s_ship_pmc_01_macro
+units_size_s_ship_pmc_02_macro
+units_size_s_ship_pmc_03_macro
+units_size_s_split_m3_macro
+units_size_s_split_m4_macro
+units_size_s_te_01_macro
+units_size_s_te_02_macro
+units_size_s_te_03_macro
+units_size_s_te_04_macro
+units_size_s_torpedo_bomber_macro
+units_size_s_xenon_swarm_attack_drone_01_macro
+units_size_s_xenon_swarm_attack_drone_02_macro
+
+XL
+
+macro.units_size_xl_builder_ship_dv_macro,
+macro.units_size_xl_builder_ship_hol_macro,
+macro.units_size_xl_builder_ship_macro,
+macro.units_size_xl_builder_ship_ol_macro,
+macro.units_size_xl_builder_ship_plot_01_macro,
+macro.units_size_xl_capital_destroyer_1_macro,
+macro.units_size_xl_capital_destroyer_2_macro,
+macro.units_size_xl_cargo_hauler_2_macro,
+macro.units_size_xl_cargo_hauler_3_macro,
+macro.units_size_xl_cs_omicron_ship_01_macro,
+macro.units_size_xl_cs_omicron_ship_02_macro,
+macro.units_size_xl_cs_omicron_ship_03_macro,
+macro.units_size_xl_cs_omicron_ship_04_macro,
+macro.units_size_xl_red_destroyer_macro,
+macro.units_size_xl_split_m1_macro,
+macro.units_size_xl_te_kit_bulk_01_macro,
+macro.units_size_xl_te_kit_bulk_02_macro,
+macro.units_size_xl_te_kit_bulk_03_macro,
+macro.units_size_xl_te_kit_container_01_macro,
+macro.units_size_xl_te_kit_container_02_macro,
+macro.units_size_xl_te_kit_container_03_macro,
+macro.units_size_xl_te_kit_energy_01_macro,
+macro.units_size_xl_te_kit_energy_02_macro,
+macro.units_size_xl_te_kit_energy_03_macro,
+macro.units_size_xl_te_kit_liquid_01_macro,
+macro.units_size_xl_te_kit_liquid_02_macro,
+macro.units_size_xl_te_kit_liquid_03_macro,
+macro.units_size_xl_te_kit_none_01_macro,
+macro.units_size_xl_te_kit_none_02_macro,
+macro.units_size_xl_te_kit_none_03_macro,
+macro.units_size_xl_transporter_1_macro,
+macro.units_size_xl_transporter_2_macro,
+macro.units_size_xl_transporter_3_macro,
+macro.units_size_xl_xenon_01_macro, 
+-->

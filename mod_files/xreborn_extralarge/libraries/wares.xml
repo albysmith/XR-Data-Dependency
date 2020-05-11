@@ -13,8 +13,6 @@
       <restriction licence="capitalship" />
       <owner faction="argon" />
       <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_xl_capital_destroyer_1_ware" name="{78238230,34}" description="{78238230,35}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="8576543" average="10090050" max="11603558" />
@@ -27,9 +25,6 @@
       <component ref="units_size_xl_capital_destroyer_1_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_xl_cs_omicron_ship_04_ware" name="{78238230,72}" description="{78238230,73}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="7755200" average="9123765" max="10492330" />
@@ -42,9 +37,6 @@
       <component ref="units_size_xl_cs_omicron_ship_04_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_xl_cargo_hauler_3_ware" name="{78238230,86}" description="{78238230,87}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="7755200" average="9123765" max="10492330" />
@@ -57,9 +49,8 @@
       <component ref="units_size_xl_cargo_hauler_3_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
+      <owner faction="paranid" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_xl_cargo_hauler_2_ware" name="{78238230,104}" description="{78238230,105}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="7755200" average="9123765" max="10492330" />
@@ -72,9 +63,8 @@
       <component ref="units_size_xl_cargo_hauler_2_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
+      <owner faction="paranid" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_xl_capital_destroyer_2_ware" name="{78238230,140}" description="{78238230,141}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="8576543" average="10090050" max="11603558" />
@@ -87,9 +77,7 @@
       <component ref="units_size_xl_capital_destroyer_2_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
       <owner faction="antigone" />
-      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_xl_cs_omicron_ship_03_ware" name="{78238230,179}" description="{78238230,180}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="8576543" average="10090050" max="11603558" />
@@ -102,9 +90,6 @@
       <component ref="units_size_xl_cs_omicron_ship_03_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_xl_red_destroyer_ware" name="{78238230,211}" description="{78238230,212}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="8576543" average="10090050" max="11603558" />
@@ -116,10 +101,7 @@
       </production>
       <component ref="units_size_xl_red_destroyer_macro" amount="1" />
       <restriction licence="capitalship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_xl_split_m1_ware" name="{78238230,227}" description="{78238230,228}" group="ships_split" transport="ship" volume="1" tags="ship">
       <price min="8576543" average="10090050" max="11603558" />
@@ -144,9 +126,6 @@
       <component ref="units_size_xl_cs_omicron_ship_02_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="antigone" />
-      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_xl_te_kit_bulk_03_ware" name="{78238230,329}" description="{78238230,330}" group="ships_teladi" transport="ship" volume="1" tags="ship">
       <price min="7755200" average="9123765" max="10492330" />
@@ -296,7 +275,6 @@
       <component ref="units_size_xl_te_kit_none_03_macro" amount="1" />
       <restriction licence="capitalship" />
       <owner faction="teladi" />
-      <owner faction="scaleplate" />
       <owner faction="ministry" />
     </ware>
     <ware id="units_size_xl_te_kit_bulk_02_ware" name="{78238230,425}" description="{78238230,426}" group="ships_argon" transport="ship" volume="1" tags="ship">

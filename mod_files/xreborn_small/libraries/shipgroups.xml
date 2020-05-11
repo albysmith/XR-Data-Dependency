@@ -5,155 +5,214 @@
         <select macro="units_size_s_xenon_swarm_attack_drone_01_macro" />
         <select macro="units_size_s_xenon_swarm_attack_drone_02_macro" />
     </add>
-    <!-- ALLish -->
-    <add sel="/groups/group[@name='hol_fighter_s']">
-        <select macro="units_size_s_pmc_xen_01_macro" />
-        <select macro="units_size_s_canteran_fighter_01_macro" />
-        <select macro="units_size_s_ship_01_macro" />
+    <add sel="/groups/group[@name='arg_fighter_heavy_s'">
+        <select macro="units_size_s_ship_07_macro" />
+        <select macro="units_size_s_ship_ar_military_02_macro" />
+        <select macro="units_size_s_ship_ar_military_05_macro" />
+        <select macro="units_size_s_ship_ar_military_08_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_fighter_light_s'">
         <select macro="units_size_s_ship_02_macro" />
+        <select macro="units_size_s_ship_19_macro" />
+        <select macro="units_size_s_ship_ar_military_02_macro" />
+        <select macro="units_size_s_ship_ar_military_05_macro" />
+        <select macro="units_size_s_ship_ar_military_08_macro" />
+    </add>
+    <add sel="/groups/group[@name='arg_scout_s'">
         <select macro="units_size_s_ship_03_macro" />
+        <select macro="units_size_s_ship_ar_military_02_macro" />
+        <select macro="units_size_s_ship_ar_military_05_macro" />
+        <select macro="units_size_s_ship_ar_military_08_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_fighter_s'">
+        <select macro="units_size_s_ship_19_macro" />
+        <select macro="units_size_s_ship_ar_military_03_macro" />
+        <select macro="units_size_s_ship_ar_military_06_macro" />
+        <select macro="units_size_s_ship_ar_military_09_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_fighter_heavy_s'">
+        <select macro="units_size_s_canteran_fighter_01_macro" />
+        <select macro="units_size_s_pmc_xen_01_macro" />
+        <select macro="units_size_s_ship_ar_military_03_macro" />
+        <select macro="units_size_s_ship_ar_military_06_macro" />
+        <select macro="units_size_s_ship_ar_military_09_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_fighter_light_s'">
+        <select macro="units_size_s_ship_02_macro" />
+        <select macro="units_size_s_ship_ar_military_03_macro" />
+        <select macro="units_size_s_ship_ar_military_06_macro" />
+        <select macro="units_size_s_ship_ar_military_09_macro" />
+    </add>
+    <add sel="/groups/group[@name='ant_scout_s'">
+        <select macro="units_size_s_ship_ar_military_03_macro" />
+        <select macro="units_size_s_ship_ar_military_06_macro" />
+        <select macro="units_size_s_ship_ar_military_09_macro" />
+    </add>
+    <add sel="/groups/group[@name='par_fighter_s'">
+        <select macro="units_size_s_ship_01_macro" />
         <select macro="units_size_s_ship_04_macro" />
         <select macro="units_size_s_ship_05_macro" />
-        <select macro="units_size_s_ship_07_macro" />
-        <select macro="units_size_s_ship_19_macro" />
-        <select macro="units_size_s_ship_23_macro" />
-        <select macro="units_size_s_ship_ar_military_01_macro" />
-        <select macro="units_size_s_ship_ar_military_02_macro" />
-        <select macro="units_size_s_ship_ar_military_03_macro" />
-        <select macro="units_size_s_ship_ar_military_04_macro" />
-        <select macro="units_size_s_ship_ar_military_05_macro" />
-        <select macro="units_size_s_ship_ar_military_06_macro" />
-        <select macro="units_size_s_ship_ar_military_07_macro" />
-        <select macro="units_size_s_ship_ar_military_08_macro" />
-        <select macro="units_size_s_ship_ar_military_09_macro" />
-        <select macro="units_size_s_ship_pirate_01_macro" />
-        <select macro="units_size_s_ship_pirate_02_macro" />
-        <select macro="units_size_s_ship_pirate_03_macro" />
-        <select macro="units_size_s_ship_pmc_01_macro" />
-        <select macro="units_size_s_ship_pmc_02_macro" />
-        <select macro="units_size_s_ship_pmc_03_macro" />
-        <select macro="units_size_s_split_m3_macro" />
-        <select macro="units_size_s_split_m4_macro" />
-        <select macro="units_size_s_torpedo_bomber_macro" />
     </add>
-    <add sel="/groups/group[@name='par_fighter_s']">
-        <select macro="units_size_s_pmc_xen_01_macro" />
-        <select macro="units_size_s_canteran_fighter_01_macro" />
-        <select macro="units_size_s_ship_01_macro" />
-        <select macro="units_size_s_ship_02_macro" />
+    <add sel="/groups/group[@name='par_scout_s'">
         <select macro="units_size_s_ship_03_macro" />
+        <select macro="units_size_s_ship_23_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_fighter_s'">
+        <select macro="units_size_s_ship_01_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_fighter_heavy_s'">
         <select macro="units_size_s_ship_04_macro" />
         <select macro="units_size_s_ship_05_macro" />
-        <select macro="units_size_s_ship_07_macro" />
-        <select macro="units_size_s_ship_19_macro" />
-        <select macro="units_size_s_ship_23_macro" />
-        <select macro="units_size_s_ship_ar_military_01_macro" />
-        <select macro="units_size_s_ship_ar_military_02_macro" />
-        <select macro="units_size_s_ship_ar_military_03_macro" />
-        <select macro="units_size_s_ship_ar_military_04_macro" />
-        <select macro="units_size_s_ship_ar_military_05_macro" />
-        <select macro="units_size_s_ship_ar_military_06_macro" />
-        <select macro="units_size_s_ship_ar_military_07_macro" />
-        <select macro="units_size_s_ship_ar_military_08_macro" />
-        <select macro="units_size_s_ship_ar_military_09_macro" />
-        <select macro="units_size_s_ship_pirate_01_macro" />
-        <select macro="units_size_s_ship_pirate_02_macro" />
-        <select macro="units_size_s_ship_pirate_03_macro" />
-        <select macro="units_size_s_ship_pmc_01_macro" />
-        <select macro="units_size_s_ship_pmc_02_macro" />
-        <select macro="units_size_s_ship_pmc_03_macro" />
-        <select macro="units_size_s_split_m3_macro" />
-        <select macro="units_size_s_split_m4_macro" />
-        <select macro="units_size_s_torpedo_bomber_macro" />
     </add>
-    <add sel="/groups/group[@name='ant_fighter_s']">
-        <select macro="units_size_s_pmc_xen_01_macro" />
-        <select macro="units_size_s_canteran_fighter_01_macro" />
+    <add sel="/groups/group[@name='hol_fighter_light_s'">
         <select macro="units_size_s_ship_01_macro" />
-        <select macro="units_size_s_ship_02_macro" />
+    </add>
+    <add sel="/groups/group[@name='hol_scout_s'">
         <select macro="units_size_s_ship_03_macro" />
+        <select macro="units_size_s_ship_23_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_fighter_s'">
+        <select macro="units_size_s_ship_01_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_fighter_heavy_s'">
         <select macro="units_size_s_ship_04_macro" />
         <select macro="units_size_s_ship_05_macro" />
-        <select macro="units_size_s_ship_07_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_fighter_light_s'">
+        <select macro="units_size_s_ship_02_macro" />
         <select macro="units_size_s_ship_19_macro" />
-        <select macro="units_size_s_ship_23_macro" />
-        <select macro="units_size_s_ship_ar_military_01_macro" />
-        <select macro="units_size_s_ship_ar_military_02_macro" />
-        <select macro="units_size_s_ship_ar_military_03_macro" />
-        <select macro="units_size_s_ship_ar_military_04_macro" />
-        <select macro="units_size_s_ship_ar_military_05_macro" />
-        <select macro="units_size_s_ship_ar_military_06_macro" />
-        <select macro="units_size_s_ship_ar_military_07_macro" />
-        <select macro="units_size_s_ship_ar_military_08_macro" />
-        <select macro="units_size_s_ship_ar_military_09_macro" />
+    </add>
+    <add sel="/groups/group[@name='tri_scout_s'">
         <select macro="units_size_s_ship_pirate_01_macro" />
         <select macro="units_size_s_ship_pirate_02_macro" />
         <select macro="units_size_s_ship_pirate_03_macro" />
-        <select macro="units_size_s_ship_pmc_01_macro" />
-        <select macro="units_size_s_ship_pmc_02_macro" />
-        <select macro="units_size_s_ship_pmc_03_macro" />
-        <select macro="units_size_s_split_m3_macro" />
-        <select macro="units_size_s_split_m4_macro" />
-        <select macro="units_size_s_torpedo_bomber_macro" />
     </add>
-    <add sel="/groups/group[@name='tel_fighter_s']">
-        <select macro="units_size_s_pmc_xen_01_macro" />
-        <select macro="units_size_s_canteran_fighter_01_macro" />
-        <select macro="units_size_s_ship_01_macro" />
-        <select macro="units_size_s_ship_02_macro" />
-        <select macro="units_size_s_ship_03_macro" />
-        <select macro="units_size_s_te_01_macro" weight="15" />
-        <select macro="units_size_s_te_02_macro" weight="15" />
-        <select macro="units_size_s_te_03_macro" weight="15" />
-        <select macro="units_size_s_te_04_macro" weight="15" />
-        <select macro="units_size_s_ship_23_macro" />
-        <select macro="units_size_s_ship_ar_military_01_macro" />
-        <select macro="units_size_s_ship_ar_military_02_macro" />
-        <select macro="units_size_s_ship_ar_military_03_macro" />
-        <select macro="units_size_s_ship_ar_military_04_macro" />
-        <select macro="units_size_s_ship_ar_military_05_macro" />
-        <select macro="units_size_s_ship_ar_military_06_macro" />
-        <select macro="units_size_s_ship_ar_military_07_macro" />
-        <select macro="units_size_s_ship_ar_military_08_macro" />
-        <select macro="units_size_s_ship_ar_military_09_macro" />
+    <add sel="/groups/group[@name='tel_fighter_s'">
         <select macro="units_size_s_ship_pirate_01_macro" />
         <select macro="units_size_s_ship_pirate_02_macro" />
         <select macro="units_size_s_ship_pirate_03_macro" />
-        <select macro="units_size_s_ship_pmc_01_macro" />
-        <select macro="units_size_s_ship_pmc_02_macro" />
-        <select macro="units_size_s_ship_pmc_03_macro" />
-        <select macro="units_size_s_split_m3_macro" />
-        <select macro="units_size_s_split_m4_macro" />
-        <select macro="units_size_s_torpedo_bomber_macro" />
     </add>
-    <add sel="/groups/group[@name='arg_fighter_s']">
-        <select macro="units_size_s_pmc_xen_01_macro" />
+    <add sel="/groups/group[@name='tel_scout_s'">
+        <select macro="units_size_s_ship_pirate_01_macro" />
+        <select macro="units_size_s_ship_pirate_02_macro" />
+        <select macro="units_size_s_ship_pirate_03_macro" />
+    </add>
+    <add sel="/groups/group[@name='sca_pirate_sm'">
+        <select macro="units_size_s_ship_07_macro" />
+        <select macro="units_size_s_ship_23_macro" />
+        <select macro="units_size_s_ship_ar_military_01_macro" />
+        <select macro="units_size_s_ship_ar_military_04_macro" />
+        <select macro="units_size_s_ship_ar_military_07_macro" />
+    </add>
+    <add sel="/groups/group[@name='sca_pirate_s'">
         <select macro="units_size_s_canteran_fighter_01_macro" />
-        <select macro="units_size_s_ship_01_macro" />
+        <select macro="units_size_s_pmc_xen_01_macro" />
+        <select macro="units_size_s_ship_07_macro" />
+        <select macro="units_size_s_ship_ar_military_01_macro" />
+        <select macro="units_size_s_ship_ar_military_04_macro" />
+        <select macro="units_size_s_ship_ar_military_07_macro" />
+    </add>
+    <add sel="/groups/group[@name='buc_guerilla_s'">
+        <select macro="units_size_s_canteran_fighter_01_macro" />
+        <select macro="units_size_s_pmc_xen_01_macro" />
+        <select macro="units_size_s_ship_04_macro" />
+        <select macro="units_size_s_ship_ar_military_01_macro" />
+        <select macro="units_size_s_ship_ar_military_04_macro" />
+        <select macro="units_size_s_ship_ar_military_07_macro" />
+    </add>
+    <add sel="/groups/group[@name='buc_military_fighter_s'">
+        <select macro="units_size_s_canteran_fighter_01_macro" />
+        <select macro="units_size_s_pmc_xen_01_macro" />
+        <select macro="units_size_s_ship_07_macro" />
+    </add>
+    <add sel="/groups/group[@name='buc_military_fighter_heavy_s'">
         <select macro="units_size_s_ship_02_macro" />
-        <select macro="units_size_s_ship_03_macro" />
         <select macro="units_size_s_ship_04_macro" />
         <select macro="units_size_s_ship_05_macro" />
-        <select macro="units_size_s_ship_07_macro" />
-        <select macro="units_size_s_ship_19_macro" />
-        <select macro="units_size_s_ship_23_macro" />
+    </add>
+    <add sel="/groups/group[@name='buc_military_fighter_light_s'">
+        <select macro="units_size_s_ship_01_macro" />
         <select macro="units_size_s_ship_ar_military_01_macro" />
-        <select macro="units_size_s_ship_ar_military_02_macro" />
-        <select macro="units_size_s_ship_ar_military_03_macro" />
         <select macro="units_size_s_ship_ar_military_04_macro" />
-        <select macro="units_size_s_ship_ar_military_05_macro" />
-        <select macro="units_size_s_ship_ar_military_06_macro" />
         <select macro="units_size_s_ship_ar_military_07_macro" />
-        <select macro="units_size_s_ship_ar_military_08_macro" />
-        <select macro="units_size_s_ship_ar_military_09_macro" />
+    </add>
+    <add sel="/groups/group[@name='buc_military_scout_s'">
+        <select macro="units_size_s_ship_23_macro" />
         <select macro="units_size_s_ship_pirate_01_macro" />
         <select macro="units_size_s_ship_pirate_02_macro" />
         <select macro="units_size_s_ship_pirate_03_macro" />
-        <select macro="units_size_s_ship_pmc_01_macro" />
-        <select macro="units_size_s_ship_pmc_02_macro" />
-        <select macro="units_size_s_ship_pmc_03_macro" />
+    </add>
+    <add sel="/groups/group[@name='spl_fighter_s'">
         <select macro="units_size_s_split_m3_macro" />
         <select macro="units_size_s_split_m4_macro" />
-        <select macro="units_size_s_torpedo_bomber_macro" />
+    </add>
+    <add sel="/groups/group[@name='spl_fighter_heavy_s'">
+        <select macro="units_size_s_ship_05_macro" />
+        <select macro="units_size_s_ship_07_macro" />
+    </add>
+    <add sel="/groups/group[@name='spl_fighter_light_s'">
+        <select macro="units_size_s_split_m3_macro" />
+        <select macro="units_size_s_split_m4_macro" />
+    </add>
+    <add sel="/groups/group[@name='spl_scout_s'">
+        <select macro="units_size_s_split_m3_macro" />
+        <select macro="units_size_s_split_m4_macro" />
+    </add>
+    <add sel="/groups/group[@name='frf_fighter_s'">
+        <select macro="units_size_s_split_m3_macro" />
+        <select macro="units_size_s_split_m4_macro" />
+    </add>
+    <add sel="/groups/group[@name='frf_fighter_heavy_s'">
+        <select macro="units_size_s_ship_07_macro" />
+        <select macro="units_size_s_ship_pmc_03_macro" />
+    </add>
+    <add sel="/groups/group[@name='frf_fighter_light_s'">
+        <select macro="units_size_s_split_m3_macro" />
+        <select macro="units_size_s_split_m4_macro" />
+    </add>
+    <add sel="/groups/group[@name='cub_fighter_s'">
+        <select macro="units_size_s_split_m3_macro" />
+        <select macro="units_size_s_split_m4_macro" />
+        <select macro="units_size_s_ship_pmc_02_macro" />
+    </add>
+    <add sel="/groups/group[@name='cub_fighter_heavy_s'">
+        <select macro="units_size_s_ship_ar_military_02_macro" />
+        <select macro="units_size_s_ship_ar_military_05_macro" />
+        <select macro="units_size_s_ship_ar_military_08_macro" />
+    </add>
+    <add sel="/groups/group[@name='cub_fighter_light_s'">
+        <select macro="units_size_s_split_m3_macro" />
+        <select macro="units_size_s_split_m4_macro" />
+        <select macro="units_size_s_ship_pmc_01_macro" />
     </add>
 </diff>
+
+<!-- 
+<select macro="units_size_s_canteran_fighter_01_macro" />
+<select macro="units_size_s_pmc_xen_01_macro" />
+<select macro="units_size_s_ship_01_macro" />
+<select macro="units_size_s_ship_02_macro" />
+<select macro="units_size_s_ship_03_macro" />
+<select macro="units_size_s_ship_04_macro" />
+<select macro="units_size_s_ship_05_macro" />
+<select macro="units_size_s_ship_07_macro" />
+<select macro="units_size_s_ship_19_macro" />
+<select macro="units_size_s_ship_23_macro" />
+<select macro="units_size_s_ship_ar_military_01_macro" />
+<select macro="units_size_s_ship_ar_military_04_macro" />
+<select macro="units_size_s_ship_ar_military_07_macro" />
+<select macro="units_size_s_ship_ar_military_02_macro" />
+<select macro="units_size_s_ship_ar_military_05_macro" />
+<select macro="units_size_s_ship_ar_military_08_macro" />
+<select macro="units_size_s_ship_ar_military_03_macro" />
+<select macro="units_size_s_ship_ar_military_06_macro" />
+<select macro="units_size_s_ship_ar_military_09_macro" />
+<select macro="units_size_s_ship_pirate_01_macro" />
+<select macro="units_size_s_ship_pirate_02_macro" />
+<select macro="units_size_s_ship_pirate_03_macro" />
+<select macro="units_size_s_ship_pmc_01_macro" />
+<select macro="units_size_s_ship_pmc_02_macro" />
+<select macro="units_size_s_ship_pmc_03_macro" />
+<select macro="units_size_s_split_m3_macro" />
+<select macro="units_size_s_split_m4_macro" /> 
+-->

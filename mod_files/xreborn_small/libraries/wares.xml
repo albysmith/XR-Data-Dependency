@@ -11,13 +11,10 @@
       </production>
       <component ref="units_size_s_ship_05_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
       <owner faction="paranid" />
       <owner faction="trinity" />
-      <owner faction="alliance" />
+      <owner faction="holyorder" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_s_ship_04_ware" name="{78238230,7}" description="{78238230,8}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="65986" average="77630" max="89275" />
@@ -29,10 +26,7 @@
       </production>
       <component ref="units_size_s_ship_04_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
       <owner faction="paranid" />
       <owner faction="trinity" />
     </ware>
@@ -46,12 +40,8 @@
       </production>
       <component ref="units_size_s_ship_pmc_02_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
       <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_s_canteran_fighter_01_ware" name="{78238230,20}" description="{78238230,21}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="65986" average="77630" max="89275" />
@@ -63,12 +53,7 @@
       </production>
       <component ref="units_size_s_canteran_fighter_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="antigone" />
     </ware>
     <ware id="units_size_s_torpedo_bomber_ware" name="{78238230,70}" description="{78238230,71}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="219" average="885" max="598" />
@@ -97,12 +82,7 @@
       </production>
       <component ref="units_size_s_ship_pmc_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
       <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_08_ware" name="{78238230,92}" description="{78238230,93}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="159039" average="187105" max="215171" />
@@ -115,11 +95,7 @@
       <component ref="units_size_s_ship_ar_military_08_macro" amount="1" />
       <restriction licence="militaryship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
       <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_split_m3_ware" name="{78238230,110}" description="{78238230,111}" group="ships_split" transport="ship" volume="1" tags="ship">
       <price min="144283" average="169745" max="195207" />
@@ -144,10 +120,8 @@
       <component ref="units_size_s_ship_19_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
+      <owner faction="antigone" />
       <owner faction="hatikvah" />
-      <owner faction="paranid" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_06_ware" name="{78238230,128}" description="{78238230,129}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -160,11 +134,7 @@
       </production>
       <component ref="units_size_s_ship_ar_military_06_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="antigone" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_01_ware" name="{78238230,136}" description="{78238230,137}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -177,12 +147,8 @@
       </production>
       <component ref="units_size_s_ship_ar_military_01_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
       <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="alliance" />
     </ware>
     <ware id="units_size_s_ship_01_ware" name="{78238230,142}" description="{78238230,143}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="70775" average="83265" max="95755" />
@@ -194,11 +160,8 @@
       </production>
       <component ref="units_size_s_ship_01_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
       <owner faction="paranid" />
+      <owner faction="holyorder" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_05_ware" name="{78238230,148}" description="{78238230,149}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -212,11 +175,7 @@
       <component ref="units_size_s_ship_ar_military_05_macro" amount="1" />
       <restriction licence="militaryship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
       <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_07_ware" name="{78238230,160}" description="{78238230,161}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="159039" average="187105" max="215171" />
@@ -228,12 +187,8 @@
       </production>
       <component ref="units_size_s_ship_ar_military_07_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
       <owner faction="scaleplate" />
       <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_03_ware" name="{78238230,171}" description="{78238230,172}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="70775" average="83265" max="95755" />
@@ -247,10 +202,8 @@
       <restriction licence="generaluseship" />
       <owner faction="argon" />
       <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
       <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="holyorder" />
     </ware>
     <ware id="units_size_s_pmc_xen_01_ware" name="{78238230,175}" description="{78238230,176}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="144283" average="169745" max="195207" />
@@ -262,12 +215,9 @@
       </production>
       <component ref="units_size_s_pmc_xen_01_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
+      <owner faction="antigone" />
       <owner faction="alliance" />
       <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_split_m4_ware" name="{78238230,185}" description="{78238230,186}" group="ships_split" transport="ship" volume="1" tags="ship">
       <price min="219" average="885" max="598" />
@@ -291,11 +241,7 @@
       </production>
       <component ref="units_size_s_ship_pirate_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="teladi" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_07_ware" name="{78238230,217}" description="{78238230,218}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -311,9 +257,7 @@
       <owner faction="argon" />
       <owner faction="alliance" />
       <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_s_ship_02_ware" name="{78238230,225}" description="{78238230,226}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="158083" average="185980" max="213877" />
@@ -326,10 +270,7 @@
       <component ref="units_size_s_ship_02_macro" amount="1" />
       <restriction licence="militaryship" />
       <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="antigone" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_04_ware" name="{78238230,243}" description="{78238230,244}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -342,12 +283,8 @@
       </production>
       <component ref="units_size_s_ship_ar_military_04_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
       <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
       <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_03_ware" name="{78238230,247}" description="{78238230,248}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="159039" average="187105" max="215171" />
@@ -359,11 +296,7 @@
       </production>
       <component ref="units_size_s_ship_ar_military_03_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="antigone" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_ar_military_09_ware" name="{78238230,257}" description="{78238230,258}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -376,11 +309,7 @@
       </production>
       <component ref="units_size_s_ship_ar_military_09_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="antigone" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_pirate_02_ware" name="{78238230,261}" description="{78238230,262}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -393,11 +322,7 @@
       </production>
       <component ref="units_size_s_ship_pirate_02_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="teladi" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_pirate_03_ware" name="{78238230,263}" description="{78238230,264}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -410,11 +335,7 @@
       </production>
       <component ref="units_size_s_ship_pirate_03_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
+      <owner faction="teladi" />
       <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_ship_23_ware" name="{78238230,291}" description="{78238230,292}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -427,12 +348,9 @@
       </production>
       <component ref="units_size_s_ship_23_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
-      <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
+      <owner faction="holyorder" />
       <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="scaleplate" />
     </ware>
     <ware id="units_size_s_ship_ar_military_02_ware" name="{78238230,309}" description="{78238230,310}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="83687" average="98455" max="113223" />
@@ -446,10 +364,7 @@
       <restriction licence="generaluseship" />
       <owner faction="argon" />
       <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
+      <owner faction="court" />
     </ware>
     <ware id="units_size_s_ship_pmc_03_ware" name="{78238230,321}" description="{78238230,322}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="96530" average="113565" max="130600" />
@@ -461,12 +376,7 @@
       </production>
       <component ref="units_size_s_ship_pmc_03_macro" amount="1" />
       <restriction licence="militaryship" />
-      <owner faction="argon" />
       <owner faction="alliance" />
-      <owner faction="scaleplate" />
-      <owner faction="hatikvah" />
-      <owner faction="paranid" />
-      <owner faction="trinity" />
     </ware>
     <ware id="units_size_s_te_03_ware" name="{78238230,351}" description="{78238230,352}" group="ships_teladi" transport="ship" volume="1" tags="ship">
       <price min="112175" average="131970" max="151766" />

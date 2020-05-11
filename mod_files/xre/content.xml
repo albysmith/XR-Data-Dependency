@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="xr_data_dependency" name="XR Data Dependency" description="This mod will provide no in-game content without the use of other mods" author="albysmith" version="1.01" date="2019-10-31" save="0" enabled="1">
+<content id="xr_data_dependency" name="XR Data Dependency" description="This mod will provide no in-game content without the use of other mods" author="albysmith" version="1.04" date="2020-05-10" save="0" enabled="1">
  <text language="7" name="XR Data Dependency" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
  <text language="33" name="XR Data Dependency" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />
  <text language="34" name="XR Data Dependency" description="This mod will provide no in-game content without the use of other mods" author="albysmith" />

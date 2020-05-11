@@ -11,11 +11,19 @@ units_size_m_te_liquid_01_macro
 units_size_l_te_kit_liquid_03_macro
 units_size_xl_te_kit_liquid_01_macro
 units_size_xl_te_kit_liquid_02_macro
-units_size_xl_te_kit_liquid_03_macro -->
+units_size_xl_te_kit_liquid_03_macro
 
+     <select macro="units_size_m_nyanae_01_macro" />
+     <select macro="units_size_m_mercancias_01_macro" />
+     <select macro="units_size_m_plasma_transporter_macro"/>
+
+-->
     <add sel="/groups">
         <group name="liquid_transporter_medium">
-            <select macro="units_size_m_liquid_transporter_macro" weight="10" />
+            <select macro="units_size_m_liquid_transporter_macro" />
+            <select macro="units_size_m_nyanae_01_macro" />
+            <select macro="units_size_m_mercancias_01_macro" />
+            <select macro="units_size_m_plasma_transporter_macro" />
         </group>
         <group name="liquid_transporter_large">
             <select macro="units_size_l_kit_liquid_01_macro" weight="10" />
@@ -27,6 +35,9 @@ units_size_xl_te_kit_liquid_03_macro -->
         </group>
         <group name="liquid_transporter_all">
             <select macro="units_size_m_liquid_transporter_macro" weight="20" />
+            <select macro="units_size_m_nyanae_01_macro" />
+            <select macro="units_size_m_mercancias_01_macro" />
+            <select macro="units_size_m_plasma_transporter_macro" />
             <select macro="units_size_l_dv_kit_new_bulk_liquid_01_macro" weight="10" />
             <select macro="units_size_l_dv_kit_new_liquid_01_macro" weight="10" />
             <select macro="units_size_l_dv_kit_old_bulk_liquid_01_macro" weight="10" />

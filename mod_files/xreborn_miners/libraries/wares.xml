@@ -49,7 +49,9 @@
       </production>
       <component ref="units_size_m_ore_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="paranid" />
+      <owner faction="trinity" />
+      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_m_silicon_collector_ware" name="{78238230,32}" description="{78238230,33}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="112170" average="131965" max="151760" />
@@ -61,7 +63,8 @@
       </production>
       <component ref="units_size_m_silicon_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="teladi" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_m_ions_collector_ware" name="{78238230,46}" description="{78238230,47}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="108413" average="127545" max="146677" />
@@ -74,6 +77,7 @@
       <component ref="units_size_m_ions_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
       <owner faction="argon" />
+      <owner faction="paranid" />
     </ware>
     <ware id="units_size_m_nividium_collector_ware" name="{78238230,74}" description="{78238230,75}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="132528" average="155915" max="179302" />
@@ -85,7 +89,9 @@
       </production>
       <component ref="units_size_m_nividium_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="holyorder" />
+      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_m_crystal_collector_ware" name="{78238230,76}" description="{78238230,77}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="132528" average="155915" max="179302" />
@@ -133,7 +139,9 @@
       </production>
       <component ref="units_size_m_plasma_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_m_ice_collector_ware" name="{78238230,201}" description="{78238230,202}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="113059" average="133010" max="152962" />
@@ -145,7 +153,9 @@
       </production>
       <component ref="units_size_m_ice_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="paranid" />
+      <owner faction="trinity" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_l_crystal_collector_ware" name="{78238230,203}" description="{78238230,204}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="1186405" average="1395770" max="1605136" />
@@ -193,7 +203,7 @@
       </production>
       <component ref="units_size_m_hydrogen_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="antigone" />
     </ware>
     <ware id="units_size_l_ions_collector_ware" name="{78238230,297}" description="{78238230,298}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="219" average="885" max="598" />
@@ -243,6 +253,7 @@
       <restriction licence="generaluseship" />
       <owner faction="teladi" />
       <owner faction="ministry" />
+      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_m_te_mineral_collector_01_ware" name="{78238230,401}" description="{78238230,402}" group="ships_teladi" transport="ship" volume="1" tags="ship">
       <price min="101035" average="118865" max="136695" />
