@@ -95,12 +95,12 @@
                 </offset>
             </connection>
             <connection name="con_playercontrol" tags="playercontrol"></connection>
-            <connection name="con_dock_xs" tags="dock_xs ">
+            <!-- <connection name="con_dock_xs" tags="dock_xs ">
                 <offset>
                     <position x="0" y="4" z="-15" />
                     <rotation pitch="180" />
                 </offset>
-            </connection>
+            </connection> -->
             <connection name="cockpit_connection" tags="cockpit_xr">
                 <offset>
                     <position x="0" y="2.41" z="2.32" />

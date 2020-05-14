@@ -2,11 +2,33 @@
 <components>
 	<component name="invisible_cockpit" class="cockpit">
 		<source geometry="Extensions\xreborn_shipfiles\invisible_cockpit\invisible_cockpit_data" />
-		<layers></layers>
+		<layers>
+			<layer><waypoints>
+				<!-- <waypoint name="XU_Waypoint05" tags="sizeLevel1 typedock start dynamicmasstraffic " x="0" y="0" z="13.0" qx="-0" qy="-0" qz="-0.7071068" qw="-0.7071067">
+					<links>
+						<link ref="XU_Waypoint010"/>
+					</links>
+				</waypoint>
+				<waypoint name="XU_Waypoint02" tags="sizeLevel1 typedock end dynamicmasstraffic " x="0" y="0" z="13.0" qx="-0" qy="-0" qz="-0.7071068" qw="-0.7071067">
+					<links/>
+				</waypoint>
+				<waypoint name="XU_Waypoint009" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0.0" y="0.0" z="17.1321" qx="-0" qy="-0" qz="-0.7071068" qw="-0.7071067">
+					<links>
+						<link ref="XU_Waypoint02"/>
+					</links>
+				</waypoint>
+				<waypoint name="XU_Waypoint010" tags="typenormal sizeLevel1 dynamicmasstraffic closelink" x="0.0" y="0.0" z="17.132" qx="-0" qy="-0" qz="-0.7071068" qw="-0.7071067">
+					<links>
+					</links>
+				</waypoint> -->
+			</waypoints>
+            </layer>
+
+		</layers>
 		<connections>
 			<connection name="container" tags="contents" value="0" />
 			<connection name="position" tags="position" value="1" />
-			<connection name="Connection01" group="transporter_01 " tags="location_cockpit part transporter platformcollision forceoutline">
+			<connection name="Connection01" group="transporter_01 " tags="location_cockpit part transporter platformcollision forceoutline ">
 				<offset>
 					<position x="-7.766749E-03" y="2.86028" z="-0.25231" />
 				</offset>
@@ -23,7 +45,7 @@
 				</parts>
 				<waypoints />
 			</connection>
-			<connection name="Connection09" group="transporter_01 " tags="part platformcollision detail_l forceoutline trigger_interact ui interiorprops">
+			<connection name="Connection02" group="transporter_01 " tags="part platformcollision detail_l forceoutline trigger_interact ui interiorprops ">
 				<offset>
 					<!-- <position x="1.205526" y="1.224601" z="-13.03856"/> -->
 					<position x="1.15526" y="3" z="-0.44339" />
@@ -52,7 +74,7 @@
 				</parts>
 			</connection>
 			<!-- <connection name="Connection16" group="pilotcontrol" tags="part ui platformcollision interiorprops"> -->
-			<connection name="Connection16" group="pilotcontrol" tags="part platformcollision detail_l forceoutline trigger_interact ui interiorprops">
+			<connection name="Connection03" group="pilotcontrol" tags="part platformcollision detail_l forceoutline trigger_interact ui interiorprops ">
 				<offset>
 					<!-- console position -->
 					<!-- <position x="-7.766749E-03" y="2.369059" z="0.5" /> -->
@@ -63,7 +85,7 @@
 					<!-- full console -->
 					<!-- <part name="part_console_pilot"> -->
 					<!-- keyboard -->
-					<part name="part_monitors">
+					<part name="part_console_displays">
 						<size>
 							<max x="1.246668" y="0.6170719" z="1.051432" />
 							<center x="3.814698E-08" y="0" z="0" />
@@ -72,7 +94,35 @@
 				</parts>
 				<waypoints />
 			</connection>
-			<connection name="Connection72" tags="part detail_l noshadowcaster nocollision interiorprops ">
+			<connection name="Connection13" group="pilotcontrol" tags="part platformcollision interiorprops ">
+				<offset>
+					<position x="0.5" y="3.1" z="0.55" />
+				</offset>
+				<parts>
+					<part name="part_console_displays_inv">
+						<size>
+							<max x="1.246668" y="0.6170719" z="1.051432" />
+							<center x="3.814698E-08" y="0" z="0" />
+						</size>
+					</part>
+				</parts>
+				<waypoints />
+			</connection>
+			<connection name="Connection23" group="pilotcontrol" tags="part platformcollision interiorprops ">
+				<offset>
+					<position x="-0.5" y="3.1" z="0.55" />
+				</offset>
+				<parts>
+					<part name="part_console_displays_inv">
+						<size>
+							<max x="1.246668" y="0.6170719" z="1.051432" />
+							<center x="3.814698E-08" y="0" z="0" />
+						</size>
+					</part>
+				</parts>
+				<waypoints />
+			</connection>
+			<connection name="Connection04" tags="part detail_l noshadowcaster nocollision interiorprops ">
 				<offset>
 					<position x="-9.019441E-07" y="3.613337" z="2.828274" />
 				</offset>

@@ -2,7 +2,7 @@
   <macro name="units_size_l_nividium_collector_macro" class="ship_l" alias="units_size_l_ore_collector_macro">
     <component ref="units_size_l_nividium_collector" />
     <properties>
-      <identification name="{78238230,215}" description="{78238230,216}" icon="ship_l_mine_01" />
+      <identification name="{78238230,215}" description="{78238230,216}" basename="{78238230,80}" variation="{78238230,396}" icon="ship_l_mine_01" />
       <software>
         <software ware="software_dockmk2" compatible="1" />
         <software ware="software_flightassistmk1" default="1" />

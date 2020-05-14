@@ -12,7 +12,7 @@
         <software ware="software_targetmk1" compatible="1" />
         <software ware="software_trademk1" compatible="1" />
       </software>
-      <identification name="{78238230,203}" description="{78238230,204}" icon="ship_l_mine_01" />
+      <identification name="{78238230,203}" description="{78238230,204}" basename="{78238230,80}" variation="{78238230,424}" icon="ship_l_mine_01" />
       <secrecy level="1" />
       <explosiondamage value="8786" />
       <storage missile="26" unit="9" />

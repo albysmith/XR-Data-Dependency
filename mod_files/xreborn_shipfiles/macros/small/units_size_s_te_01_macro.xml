@@ -2,7 +2,7 @@
   <macro name="units_size_s_te_01_macro" class="ship_s">
     <component ref="units_size_s_te_01" />
     <properties>
-      <identification name="{78238230,399}" description="{78238230,400}" unique="0" icon="ship_s_fight_01" />
+      <identification name="{78238230,399}" description="{78238230,398}" basename="{78238230,400}" variation="{78238230,12}" unique="0" icon="ship_s_fight_01" />
       <purpose primary="fight" />
       <software>
         <software ware="software_dockmk2" compatible="1" />
@@ -37,6 +37,9 @@
       <connection ref="cockpit_connection">
         <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
       </connection>
-    </connections>
+          <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection></connections>
+
   </macro>
 </macros>

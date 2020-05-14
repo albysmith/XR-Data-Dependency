@@ -37,6 +37,9 @@
       <connection ref="cockpit_connection">
         <macro ref="invisible_cockpit_macro" connection="con_cockpit" />
       </connection>
-    </connections>
+          <connection ref="con_dock_xs">
+        <macro ref="invisible_xs_dock_macro" connection="Connection_component" />
+      </connection></connections>
+
   </macro>
 </macros>

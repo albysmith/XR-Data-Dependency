@@ -12,7 +12,8 @@
       </production>
       <component ref="units_size_l_canteran_miner_02_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="teladi" />
     </ware>
     <ware id="units_size_l_canteran_miner_01_ware" name="{78238230,36}" description="{78238230,37}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="1111460" average="1307600" max="1503740" />
@@ -24,7 +25,8 @@
       </production>
       <component ref="units_size_l_canteran_miner_01_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="teladi" />
     </ware>
     <ware id="units_size_m_xenon_miner_01_ware" name="{78238230,429}" description="{78238230,430}" group="ships_xenon" transport="ship" volume="1" tags="ship">
       <price min="60648" average="71350" max="82053" />
@@ -115,7 +117,8 @@
       </production>
       <component ref="units_size_l_silicon_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="trinity" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_l_hydrogen_collector_ware" name="{78238230,102}" description="{78238230,103}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="1186405" average="1395770" max="1605136" />
@@ -179,7 +182,8 @@
       </production>
       <component ref="units_size_l_nividium_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="antigone" />
+      <owner faction="paranid" />
     </ware>
     <ware id="units_size_l_ore_collector_ware" name="{78238230,229}" description="{78238230,230}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="219" average="885" max="598" />
@@ -191,7 +195,7 @@
       </production>
       <component ref="units_size_l_ore_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="hatikvah" />
     </ware>
     <ware id="units_size_m_hydrogen_collector_ware" name="{78238230,255}" description="{78238230,256}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="122349" average="143940" max="165531" />
@@ -215,7 +219,8 @@
       </production>
       <component ref="units_size_l_ions_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="hatikvah" />
+      <owner faction="split" />
     </ware>
     <ware id="units_size_l_plasma_collector_ware" name="{78238230,299}" description="{78238230,300}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="1533732" average="1804390" max="2075049" />
@@ -227,7 +232,9 @@
       </production>
       <component ref="units_size_l_plasma_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="paranid" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
     </ware>
     <ware id="units_size_l_ice_collector_ware" name="{78238230,317}" description="{78238230,318}" group="ships_argon" transport="ship" volume="1" tags="ship">
       <price min="1277814" average="1503310" max="1728807" />
@@ -239,7 +246,9 @@
       </production>
       <component ref="units_size_l_ice_collector_macro" amount="1" />
       <restriction licence="generaluseship" />
-      <owner faction="argon" />
+      <owner faction="paranid" />
+      <owner faction="holyorder" />
+      <owner faction="trinity" />
     </ware>
     <ware id="units_size_m_te_hydrogen_collector_01_ware" name="{78238230,340}" description="{78238230,341}" group="ships_teladi" transport="ship" volume="1" tags="ship">
       <price min="122349" average="143940" max="165531" />
@@ -267,6 +276,7 @@
       <restriction licence="generaluseship" />
       <owner faction="teladi" />
       <owner faction="ministry" />
+      <owner faction="hatikvah" />
     </ware>
   </add>
 </diff>

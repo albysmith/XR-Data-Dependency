@@ -2,7 +2,7 @@
   <macro name="units_size_m_plasma_collector_macro" class="ship_m" alias="units_size_m_ions_collector_macro">
     <component ref="units_size_m_plasma_collector" />
     <properties>
-      <identification name="{78238230,120}" description="{78238230,121}" icon="ship_m_mine_01" />
+      <identification name="{78238230,120}" description="{78238230,121}" basename="{78238230,46}" variation="{78238230,324}" icon="ship_m_mine_01" />
       <software>
         <software ware="software_dockmk2" compatible="1" />
         <software ware="software_flightassistmk1" default="1" />

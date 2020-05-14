@@ -37,11 +37,13 @@ fn main() {
             let config: Config = j;
             let extract_flag = &config.extract;
 
-            if &config.output_path.chars().count() > &75 {
-                println!("Error: X4 Extensions path too long; must be less than 75 characters.  Path: {}", &config.output_path);
-                pause();
-                panic!();
-            }
+            // make sure path length won't brick us on Windows
+            check_length(&config);
+            // if &config.output_path.chars().count() > &75 {
+            //     println!("Error: X4 Extensions path too long; must be less than 75 characters.  Path: {}", &config.output_path);
+            //     pause();
+            //     panic!();
+            // }
 
             if Path::new(&config.output_path).exists() {
                 for folder in MODS_DIR.dirs() {
@@ -204,3 +206,10 @@ fn xr_data_values(config: &Config) -> Vec<Folder> {
     folder_vec
 }
 
+fn check_length(config: &Config) {
+    if &config.output_path.chars().count() > &75 {
+        println!("Error: X4 Extensions path too long; must be less than 75 characters.  Path: {}", &config.output_path);
+        pause();
+        panic!();
+    }
+}
